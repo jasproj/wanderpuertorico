@@ -54,12 +54,12 @@
             --shadow-xl: 0 20px 40px rgba(0,0,0,0.15);
         }
         
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 30px; }
         html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
         body { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: var(--gray-800); background: var(--white); overflow-x: hidden; }
         img { max-width: 100%; height: auto; display: block; }
         a { color: inherit; text-decoration: none; }
-        button { font-family: inherit; cursor: pointer; border: none; background: none; }
+        button { font-family: inherit; cursor: pointer; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.25); }
         ul, ol { list-style: none; }
         
         /* ========== HEADER ========== */
@@ -70,7 +70,7 @@
             right: 0;
             z-index: 1000;
             background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: none;
+            backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--gray-200);
         }
         
@@ -236,15 +236,15 @@
             opacity: 0.9;
         }
         
-        .hero-logo-pill { background: none; backdrop-filter: none; border: none; box-shadow: none; padding: 0;
+        .hero-logo-pill {
             display: inline-block;
-            background: none;
-            backdrop-filter: none;
-            border-radius: 0;
-            padding: 0;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border-radius: 50%;
+            padding: 30px;
             margin-bottom: 1.5rem;
-            box-shadow: none;
-            border: none;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
         .hero-logo-img {
@@ -292,7 +292,7 @@
         
         .hero-search input {
             flex: 1;
-            border: none;
+            border: 1px solid rgba(255, 255, 255, 0.2);
             outline: none;
             font-size: 1.1rem;
             color: var(--gray-800);
@@ -356,7 +356,7 @@
         
         .quick-tags button {
             background: rgba(255,255,255,0.15);
-            backdrop-filter: none;
+            backdrop-filter: blur(10px);
             color: var(--white);
             padding: 0.5rem 1rem;
             border-radius: var(--radius-full);
@@ -385,7 +385,7 @@
             gap: 3rem;
             padding: 1.5rem;
             background: rgba(255,255,255,0.1);
-            backdrop-filter: none;
+            backdrop-filter: blur(10px);
             border-top: 1px solid rgba(255,255,255,0.1);
         }
         
@@ -686,7 +686,7 @@
         .load-more-btn {
             background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: white;
-            border: none;
+            border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 1rem 2.5rem;
             border-radius: 30px;
             font-size: 1rem;
@@ -912,7 +912,7 @@
             height: 40px;
             border: 3px solid var(--gray-200);
             border-top-color: var(--primary);
-            border-radius: 0;
+            border-radius: 50%;
             margin: 0 auto 16px;
             animation: spin 1s linear infinite;
         }
@@ -1140,7 +1140,7 @@
     }
   ]
 };
-    const HERO_IMAGES = ["https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1580237072617-771fc2c51f21?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1551918120-9739cb430c6d?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2400&q=90"];
+    const HERO_IMAGES = ["https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1551918120-9739cb430c6d?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2400&q=90"];
     const FAQS = [{"q":"What's the best time to visit Puerto Rico?","a":"Puerto Rico is great year-round with temperatures of 75-85°F. Peak season (December-April) has the best weather but higher prices. Hurricane season runs June-November, with September being the riskiest month."},{"q":"Do I need a passport to visit Puerto Rico?","a":"No! Puerto Rico is a U.S. territory, so U.S. citizens only need a valid ID. No passport, no customs, same cell phone plan."},{"q":"What's a bioluminescent bay tour like?","a":"You kayak or take a boat into bays filled with microscopic organisms that glow blue when disturbed. It's like swimming through stars. Mosquito Bay in Vieques is the brightest bio bay in the world."},{"q":"How do I get to Vieques and Culebra?","a":"Take a ferry from Fajardo (cheapest, ~1.5 hours) or a short puddle-jumper flight from San Juan or Ceiba (~15 minutes). Book ferries in advance—they sell out."},{"q":"Is Puerto Rico safe for tourists?","a":"Yes, tourist areas are generally safe. Use common sense—don't flash valuables, stick to well-lit areas at night, and be aware of your surroundings like you would in any city."},{"q":"What should I pack for Puerto Rico?","a":"Sunscreen, bug spray (especially for rainforest and bio bay tours), comfortable walking shoes, swimsuit, and a light rain jacket. Pack layers for air-conditioned restaurants."},{"q":"Can I drink the tap water?","a":"Yes! Puerto Rico has safe, treated tap water that meets U.S. standards."},{"q":"What's the best way to get around?","a":"Rent a car for maximum flexibility, especially to reach beaches and El Yunque. Rideshares work well in San Juan. Tours often include transportation from major hotels."}];
     const QUICK_TAGS = [{"emoji":"✨","label":"Bio Bay","term":"bioluminescent"},{"emoji":"🌴","label":"El Yunque","term":"yunque"},{"emoji":"🤿","label":"Snorkeling","term":"snorkel"},{"emoji":"🚤","label":"Boat Tours","term":"boat"},{"emoji":"🏝️","label":"Island Hop","term":"island"},{"emoji":"🌅","label":"Sunset","term":"sunset"},{"emoji":"🏄","label":"Surfing","term":"surf"},{"emoji":"🍹","label":"Food Tours","term":"food"},{"emoji":"🏰","label":"Old San Juan","term":"old san juan"},{"emoji":"🐢","label":"Sea Turtles","term":"turtle"},{"emoji":"🎣","label":"Fishing","term":"fishing"},{"emoji":"🚁","label":"Helicopter","term":"helicopter"}];
     const FOMO_NAMES = ["Maria from New York","Carlos from Miami","Jennifer from Chicago","Luis from Houston","Ashley from Boston","Miguel from Orlando","Stephanie from LA","Roberto from Dallas"];
