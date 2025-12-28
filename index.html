@@ -961,6 +961,7 @@
                 <a href="#tours-section">Tours</a>
                 <a href="#locations">Locations</a>
                 <a href="#faq">FAQs</a>
+            <a href="puerto-rico-itinerary.html">Guides</a>
             </nav>
             <button class="mobile-menu-btn" aria-label="Menu">
                 <span></span><span></span><span></span>
@@ -970,6 +971,7 @@
             <a href="#tours-section">Tours</a>
             <a href="#locations">Locations</a>
             <a href="#faq">FAQs</a>
+            <a href="puerto-rico-itinerary.html">Guides</a>
         </nav>
     </header>
 
@@ -1099,10 +1101,14 @@
                 </div>
                 
                 <div class="footer-links">
-                    <h4>Company</h4>
+                    <h4>Guides</h4>
                     <ul>
-                        <li><a href="#faq">FAQs</a></li>
-                        <li><a href="mailto:hello@wanderpuertorico.com">Contact</a></li>
+                        <li><a href="bio-bay-tours-puerto-rico.html">Bio Bay Tours</a></li>
+                        <li><a href="el-yunque-tours.html">El Yunque Tours</a></li>
+                        <li><a href="culebra-snorkeling-tours.html">Culebra Snorkeling</a></li>
+                        <li><a href="vieques-day-trip.html">Vieques Day Trip</a></li>
+                        <li><a href="fajardo-water-tours.html">Fajardo Tours</a></li>
+                        <li><a href="puerto-rico-itinerary.html">5-Day Itinerary</a></li>
                     </ul>
                 </div>
             </div>
@@ -1262,7 +1268,7 @@
         });
         
         const footerActs = document.getElementById('footer-activities');
-        activities.slice(0, 6).forEach(act => {
+        shuffleArray(activities).slice(0, 6).forEach(act => {
             footerActs.innerHTML += `<li><a href="#" onclick="quickFilter('${act}'); return false;">${act}</a></li>`;
         });
     }
