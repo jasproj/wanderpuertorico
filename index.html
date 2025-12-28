@@ -1,1 +1,1473 @@
-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wander Puerto Rico | Bio Bay Tours, El Yunque & Island Adventures</title>
+    <meta name="description" content="Book the best Puerto Rico tours. Bioluminescent bays, El Yunque rainforest, snorkeling, Vieques & Culebra day trips. Local guides, instant booking.">
+    <meta name="keywords" content="puerto rico tours, bio bay kayak, el yunque tours, vieques bioluminescent, culebra snorkeling, san juan tours">
+    <link rel="canonical" href="https://wanderpuertorico.com/">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderpuertorico.com/">
+    <meta property="og:title" content="Wander Puerto Rico | Bio Bay Tours, El Yunque & Island Adventures">
+    <meta property="og:description" content="Book the best Puerto Rico tours. Bioluminescent bays, El Yunque rainforest, snorkeling, Vieques & Culebra day trips. Local guides, instant booking.">
+    
+    <link rel="icon" type="image/png" href="assets/puertorico-favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #5b21b6;
+            --primary-dark: #4c1d95;
+            --primary-light: #a78bfa;
+            --accent: #f59e0b;
+            --hero-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.4) 100%);
+            
+            --white: #FFFFFF;
+            --off-white: #FAFAFA;
+            --gray-100: #F5F5F5;
+            --gray-200: #E5E5E5;
+            --gray-300: #D4D4D4;
+            --gray-400: #A3A3A3;
+            --gray-500: #737373;
+            --gray-600: #525252;
+            --gray-700: #404040;
+            --gray-800: #262626;
+            --gray-900: #171717;
+            
+            --font-display: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 20px;
+            --radius-full: 9999px;
+            
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
+            --shadow-xl: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: var(--gray-800); background: var(--white); overflow-x: hidden; }
+        img { max-width: 100%; height: auto; display: block; }
+        a { color: inherit; text-decoration: none; }
+        button { font-family: inherit; cursor: pointer; border: none; background: none; }
+        ul, ol { list-style: none; }
+        
+        /* ========== HEADER ========== */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1.5rem;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        
+        .logo-group { display: flex; flex-direction: column; gap: 2px; }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+        
+        .logo-img { height: 36px; width: auto; }
+        
+        .logo-tagline {
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--gray-500);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .nav-desktop {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .nav-desktop a {
+            font-weight: 500;
+            color: var(--gray-700);
+            padding: 0.5rem 0;
+            position: relative;
+        }
+        
+        .nav-desktop a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.25s ease;
+        }
+        
+        .nav-desktop a:hover { color: var(--primary-dark); }
+        .nav-desktop a:hover::after { width: 100%; }
+        
+        .mobile-menu-btn {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            padding: 0.5rem;
+        }
+        
+        .mobile-menu-btn span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--gray-700);
+            transition: all 0.15s ease;
+        }
+        
+        .nav-mobile {
+            display: none;
+            flex-direction: column;
+            background: var(--white);
+            border-top: 1px solid var(--gray-200);
+            padding: 1rem 1.5rem;
+        }
+        
+        .nav-mobile.active { display: flex; }
+        
+        .nav-mobile a {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-100);
+            font-weight: 500;
+            color: var(--gray-700);
+        }
+        
+        @media (max-width: 768px) {
+            .nav-desktop { display: none; }
+            .mobile-menu-btn { display: flex; }
+            .logo-img { height: 32px; }
+        }
+        
+        /* ========== HERO ========== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 120px 1.5rem 80px;
+            overflow: hidden;
+        }
+        
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+        }
+        
+        .hero-slide {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            animation: heroFade 24s infinite;
+            transform: scale(1.05);
+        }
+        
+        .hero-slide:nth-child(1) { animation-delay: 0s; opacity: 1; }
+        .hero-slide:nth-child(2) { animation-delay: 6s; }
+        .hero-slide:nth-child(3) { animation-delay: 12s; }
+        .hero-slide:nth-child(4) { animation-delay: 18s; }
+        
+        @keyframes heroFade {
+            0% { opacity: 0; transform: scale(1.05); }
+            4% { opacity: 1; transform: scale(1.05); }
+            25% { opacity: 1; transform: scale(1); }
+            29% { opacity: 0; transform: scale(1); }
+            100% { opacity: 0; transform: scale(1.05); }
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: var(--hero-overlay);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 800px;
+            color: var(--white);
+            padding: 0 1.5rem;
+            padding-bottom: 100px;
+        }
+        
+        .hero-tagline {
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+        
+        .hero-logo-pill {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            border-radius: 50%;
+            padding: 15px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .hero-logo-img {
+            height: 280px;
+            width: auto;
+            max-width: 90%;
+            filter: drop-shadow(0 4px 30px rgba(0,0,0,0.4));
+        }
+        
+        .hero-subtitle {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+        }
+        
+        /* Search Bar */
+        .hero-search {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 580px;
+            margin: 0 auto 2rem;
+            background: var(--white);
+            padding: 1rem;
+            border-radius: var(--radius-full);
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+            animation: searchPulse 3s ease-in-out infinite;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+        
+        @keyframes searchPulse {
+            0%, 100% { box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3), 0 0 0 4px rgba(255, 255, 255, 0.3); }
+            50% { box-shadow: 0 8px 50px var(--primary), 0 0 0 6px rgba(255, 255, 255, 0.5); }
+        }
+        
+        .search-input-wrap {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding-left: 1rem;
+        }
+        
+        .search-icon { font-size: 1.5rem; opacity: 0.6; }
+        
+        .hero-search input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 1.1rem;
+            color: var(--gray-800);
+            background: transparent;
+        }
+        
+        .hero-search input::placeholder { color: var(--gray-400); font-weight: 500; }
+        
+        .search-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 1rem 2rem;
+            border-radius: var(--radius-full);
+            transition: all 0.15s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .search-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        @media (max-width: 560px) {
+            .hero-search {
+                flex-direction: column;
+                border-radius: var(--radius-lg);
+                padding: 1rem;
+            }
+            .search-input-wrap { padding: 0.5rem; }
+            .search-btn { width: 100%; }
+            .hero-logo-img { height: 180px; }
+        }
+        
+        /* Quick Tags Marquee */
+        .quick-tags-wrapper {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+            mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+        }
+        
+        .quick-tags {
+            display: flex;
+            gap: 0.5rem;
+            animation: scrollTags 35s linear infinite;
+            width: max-content;
+        }
+        
+        .quick-tags:hover { animation-play-state: paused; }
+        
+        @keyframes scrollTags {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        .quick-tags button {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid rgba(255,255,255,0.25);
+            transition: all 0.15s ease;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        
+        .quick-tags button:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+        
+        /* Trust Bar */
+        .trust-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .trust-item { text-align: center; color: var(--white); }
+        .trust-number { display: block; font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; }
+        .trust-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.8; }
+        .trust-divider { width: 1px; height: 40px; background: rgba(255,255,255,0.2); }
+        
+        @media (max-width: 640px) {
+            .trust-bar { gap: 1.5rem; padding: 1rem; }
+            .trust-number { font-size: 1.25rem; }
+            .trust-label { font-size: 0.625rem; }
+        }
+        
+        /* ========== TOURS SECTION ========== */
+        .tours-section {
+            padding: 3rem 0;
+            background: var(--white);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* Filters Bar */
+        .filters-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: flex-end;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            border-radius: var(--radius-xl);
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        
+        .filter-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .filter-group select {
+            padding: 0.75rem 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.95);
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-700);
+            min-width: 160px;
+            cursor: pointer;
+        }
+        
+        .search-inline {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .search-inline input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: var(--radius-md);
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.95);
+        }
+        
+        .search-inline input::placeholder { color: var(--gray-400); }
+        
+        .clear-filters {
+            padding: 0.75rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: var(--radius-md);
+            background: transparent;
+            transition: all 0.15s ease;
+        }
+        
+        .clear-filters:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .filters-bar { flex-direction: column; }
+            .filter-group { width: 100%; }
+            .filter-group select { width: 100%; }
+            .search-inline { width: 100%; }
+        }
+        
+        /* Results Info */
+        .results-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        #results-count {
+            color: var(--primary-dark);
+            font-weight: 500;
+        }
+        
+        .shuffle-btn {
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        
+        .shuffle-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Tours Grid */
+        .tours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .tours-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+        
+        /* Tour Card */
+        .tour-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .tour-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        
+        .tour-image {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .tour-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        
+        .tour-card:hover .tour-image img {
+            transform: scale(1.05);
+        }
+        
+        .quality-badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            color: #1a1a1a;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .tour-content {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .tour-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tour-location {
+            font-size: 0.8rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        .tour-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin: 0 0 0.5rem 0;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .tour-description {
+            font-size: 0.875rem;
+            color: #5a6c7d;
+            line-height: 1.5;
+            margin: 0 0 0.75rem 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+        
+        .tour-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 0.75rem;
+        }
+        
+        .tour-tag {
+            background: var(--gray-100);
+            color: var(--primary);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+        
+        .tour-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--gray-200);
+            margin-top: auto;
+        }
+        
+        .tour-company {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            max-width: 50%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .tour-book-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        
+        .tour-book-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        /* Load More */
+        .load-more-wrap {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .load-more-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .load-more-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        
+        /* ========== FAQ ========== */
+        .faq-section {
+            padding: 4rem 0;
+            background: var(--off-white);
+        }
+        
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 700;
+            color: var(--gray-900);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .faq-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--radius-md);
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+        }
+        
+        .faq-item summary {
+            padding: 1.25rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+        
+        .faq-item summary::-webkit-details-marker { display: none; }
+        
+        .faq-item summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: var(--gray-400);
+            transition: transform 0.2s ease;
+        }
+        
+        .faq-item[open] summary::after {
+            transform: rotate(45deg);
+        }
+        
+        .faq-item summary:hover { background: var(--gray-100); }
+        
+        .faq-answer {
+            padding: 0 1.25rem 1.25rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+        
+        /* ========== FOOTER ========== */
+        .footer {
+            background: var(--gray-900);
+            color: var(--gray-300);
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-brand .logo { margin-bottom: 0.5rem; color: var(--white); }
+        
+        .footer-platform-tagline {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gray-500);
+            margin-bottom: 1rem;
+        }
+        
+        .footer-brand p {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-tagline { color: var(--accent); }
+        
+        .footer-links h4 {
+            color: var(--white);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links ul li { margin-bottom: 0.5rem; }
+        
+        .footer-links a {
+            font-size: 0.9375rem;
+            transition: color 0.15s ease;
+        }
+        
+        .footer-links a:hover { color: var(--primary-light); }
+        
+        .footer-bottom {
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-700);
+            text-align: center;
+        }
+        
+        .footer-bottom p {
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+            .footer-brand { grid-column: 1 / -1; text-align: center; }
+            .footer-brand .logo { justify-content: center; }
+        }
+        
+        @media (max-width: 480px) {
+            .footer-grid { grid-template-columns: 1fr; text-align: center; }
+        }
+        
+        /* ========== MOBILE CTA ========== */
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 900;
+            padding: 1rem;
+            background: var(--white);
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .mobile-cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--white);
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-cta.visible { display: block; }
+            .footer { padding-bottom: 100px; }
+        }
+        
+        /* ========== FOMO NOTIFICATION ========== */
+        .notification {
+            position: fixed;
+            bottom: 100px;
+            left: 1.5rem;
+            z-index: 800;
+            background: var(--white);
+            padding: 1rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-xl);
+            transform: translateX(-120%);
+            transition: transform 0.4s ease;
+            max-width: 320px;
+        }
+        
+        .notification.show { transform: translateX(0); }
+        
+        .notification-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .notification-icon { font-size: 1.5rem; }
+        .notification-text { font-size: 0.875rem; line-height: 1.4; }
+        .notification-text strong { display: block; color: var(--gray-900); }
+        .notification-text span { color: var(--gray-500); }
+        
+        @media (max-width: 768px) {
+            .notification {
+                bottom: 120px;
+                left: 1rem;
+                right: 1rem;
+                max-width: unset;
+            }
+        }
+        
+        /* ========== LOADING STATE ========== */
+        .loading-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--gray-500);
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--gray-200);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="assets/puertorico-logo-icon.png" alt="Wander Puerto Rico" class="logo-img">
+                    <span>Wander Puerto Rico</span>
+                </a>
+                <span class="logo-tagline">Tours Discovery Platform</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="#tours-section">Tours</a>
+                <a href="#locations">Locations</a>
+                <a href="#faq">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="#tours-section">Tours</a>
+            <a href="#locations">Locations</a>
+            <a href="#faq">FAQs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tagline">Book Local. Live Boricua.</p>
+            <div class="hero-logo-pill">
+                <img src="assets/puertorico-logo-full.png" alt="Wander Puerto Rico" class="hero-logo-img">
+            </div>
+            <p class="hero-subtitle">Handpicked tours across San Juan, Fajardo, Rincón & Vieques. Book direct with local guides.</p>
+            
+            <div class="hero-search">
+                <div class="search-input-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="hero-search" placeholder="Search bioluminescent bays, El Yunque, snorkeling..." autocomplete="off">
+                </div>
+                <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
+            </div>
+            
+            <div class="quick-tags-wrapper">
+                <div class="quick-tags" id="quickTags"></div>
+            </div>
+        </div>
+        
+        <div class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-number" id="trustTourCount">--</span>
+                <span class="trust-label">Verified Tours</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number" id="trustLocationCount">--</span>
+                <span class="trust-label">Locations</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number" id="trustOperatorCount">--</span>
+                <span class="trust-label">Local Operators</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOURS SECTION -->
+    <section class="tours-section" id="tours-section">
+        <div class="container">
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label>Location</label>
+                    <select id="island-filter" onchange="filterTours()">
+                        <option value="">All Locations</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Activity</label>
+                    <select id="activity-filter" onchange="filterTours()">
+                        <option value="">All Activities</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Sort By</label>
+                    <select id="sort-filter" onchange="filterTours()">
+                        <option value="quality">Top Rated</option>
+                        <option value="random">Random</option>
+                        <option value="name">Name A-Z</option>
+                    </select>
+                </div>
+                <div class="filter-group search-inline">
+                    <label>Search</label>
+                    <input type="text" id="search-input" placeholder="Search tours..." oninput="debounceFilter()">
+                </div>
+                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
+            </div>
+            
+            <div class="results-info">
+                <span id="results-count">Loading tours...</span>
+                <button class="shuffle-btn" onclick="shuffleTours()">🔀 Shuffle</button>
+            </div>
+            
+            <div class="tours-grid" id="tours-grid">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading amazing tours...</p>
+                </div>
+            </div>
+            
+            <div class="load-more-wrap">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()" style="display:none;">
+                    Load More Tours ↓
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid" id="faq-container"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="assets/puertorico-logo-icon.png" alt="Wander Puerto Rico" class="logo-img">
+                        <span>Wander Puerto Rico</span>
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to the best Puerto Rico adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">¡Gracias por apoyar lo local! 🇵🇷</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Locations</h4>
+                    <ul id="footer-locations"></ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul id="footer-activities"></ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="mailto:hello@wanderpuertorico.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Wander Puerto Rico. All rights reserved.</p>
+                <p>We earn a commission when you book through our links at no extra cost to you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE CTA -->
+    <div class="mobile-cta" id="mobile-cta">
+        <a href="#tours-section" class="mobile-cta-btn">
+            <span>🌊</span> Find Your Adventure
+        </a>
+    </div>
+
+    <!-- FOMO NOTIFICATION -->
+    <div class="notification" id="notification">
+        <div class="notification-content">
+            <span class="notification-icon">🎉</span>
+            <div class="notification-text">
+                <strong id="notification-name">Someone</strong>
+                <span id="notification-action">just booked a tour!</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // ========== CONFIG ==========
+    const CONFIG = {
+  "region": "puertorico",
+  "siteName": "Wander Puerto Rico",
+  "dataFile": "data/puertorico-tours.json",
+  "affiliateCode": "walktheplankadventures",
+  "locations": [
+    {
+      "id": "san juan",
+      "label": "San Juan"
+    },
+    {
+      "id": "fajardo",
+      "label": "Fajardo"
+    },
+    {
+      "id": "rincon",
+      "label": "Rincón"
+    },
+    {
+      "id": "vieques",
+      "label": "Vieques"
+    },
+    {
+      "id": "culebra",
+      "label": "Culebra"
+    },
+    {
+      "id": "ponce",
+      "label": "Ponce"
+    }
+  ]
+};
+    const HERO_IMAGES = ["https://images.unsplash.com/photo-1579687196544-08ae57ab5722?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1570737543098-0983d88f796d?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1548678747-3a857a4a2ef5?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1580237072617-771fc2c51f21?auto=format&fit=crop&w=2400&q=90"];
+    const FAQS = [{"q":"What's the best time to visit Puerto Rico?","a":"Puerto Rico is great year-round with temperatures of 75-85°F. Peak season (December-April) has the best weather but higher prices. Hurricane season runs June-November, with September being the riskiest month."},{"q":"Do I need a passport to visit Puerto Rico?","a":"No! Puerto Rico is a U.S. territory, so U.S. citizens only need a valid ID. No passport, no customs, same cell phone plan."},{"q":"What's a bioluminescent bay tour like?","a":"You kayak or take a boat into bays filled with microscopic organisms that glow blue when disturbed. It's like swimming through stars. Mosquito Bay in Vieques is the brightest bio bay in the world."},{"q":"How do I get to Vieques and Culebra?","a":"Take a ferry from Fajardo (cheapest, ~1.5 hours) or a short puddle-jumper flight from San Juan or Ceiba (~15 minutes). Book ferries in advance—they sell out."},{"q":"Is Puerto Rico safe for tourists?","a":"Yes, tourist areas are generally safe. Use common sense—don't flash valuables, stick to well-lit areas at night, and be aware of your surroundings like you would in any city."},{"q":"What should I pack for Puerto Rico?","a":"Sunscreen, bug spray (especially for rainforest and bio bay tours), comfortable walking shoes, swimsuit, and a light rain jacket. Pack layers for air-conditioned restaurants."},{"q":"Can I drink the tap water?","a":"Yes! Puerto Rico has safe, treated tap water that meets U.S. standards."},{"q":"What's the best way to get around?","a":"Rent a car for maximum flexibility, especially to reach beaches and El Yunque. Rideshares work well in San Juan. Tours often include transportation from major hotels."}];
+    const QUICK_TAGS = [{"emoji":"✨","label":"Bio Bay","term":"bioluminescent"},{"emoji":"🌴","label":"El Yunque","term":"yunque"},{"emoji":"🤿","label":"Snorkeling","term":"snorkel"},{"emoji":"🚤","label":"Boat Tours","term":"boat"},{"emoji":"🏝️","label":"Island Hop","term":"island"},{"emoji":"🌅","label":"Sunset","term":"sunset"},{"emoji":"🏄","label":"Surfing","term":"surf"},{"emoji":"🍹","label":"Food Tours","term":"food"},{"emoji":"🏰","label":"Old San Juan","term":"old san juan"},{"emoji":"🐢","label":"Sea Turtles","term":"turtle"},{"emoji":"🎣","label":"Fishing","term":"fishing"},{"emoji":"🚁","label":"Helicopter","term":"helicopter"}];
+    const FOMO_NAMES = ["Maria from New York","Carlos from Miami","Jennifer from Chicago","Luis from Houston","Ashley from Boston","Miguel from Orlando","Stephanie from LA","Roberto from Dallas"];
+    const FOMO_ACTIONS = ["just booked a bio bay tour!","reserved an El Yunque hike!","booked a snorkel trip to Culebra!","signed up for Old San Juan walking tour!","booked a sunset catamaran cruise!","reserved a rainforest adventure!"];
+    
+    // ========== STATE ==========
+    let toursData = [];
+    let filteredTours = [];
+    let displayedCount = 0;
+    const TOURS_PER_PAGE = 24;
+    
+    // ========== HERO BACKGROUNDS ==========
+    function initHeroBackgrounds() {
+        const heroBg = document.getElementById('heroBg');
+        HERO_IMAGES.forEach((img, i) => {
+            const slide = document.createElement('div');
+            slide.className = 'hero-slide';
+            slide.style.backgroundImage = `url('${img}')`;
+            heroBg.appendChild(slide);
+        });
+    }
+    initHeroBackgrounds();
+    
+    // ========== QUICK TAGS ==========
+    function initQuickTags() {
+        const container = document.getElementById('quickTags');
+        const tags = [...QUICK_TAGS, ...QUICK_TAGS]; // Duplicate for seamless loop
+        container.innerHTML = tags.map(tag => 
+            `<button onclick="quickFilter('${tag.term}')">${tag.emoji} ${tag.label}</button>`
+        ).join('');
+    }
+    initQuickTags();
+    
+    // ========== LOAD TOURS ==========
+    async function loadTours() {
+        try {
+            const response = await fetch(CONFIG.dataFile);
+            toursData = await response.json();
+            
+            shuffleArray(toursData);
+            filteredTours = [...toursData];
+            
+            // Populate filters
+            populateFilters();
+            
+            // Update trust bar
+            updateTrustBar();
+            
+            // Render
+            displayedCount = 0;
+            renderTours();
+            updateResultsCount();
+        } catch (error) {
+            console.error('Error loading tours:', error);
+            document.getElementById('tours-grid').innerHTML = `
+                <div class="loading-state">
+                    <p>Unable to load tours. Please refresh.</p>
+                </div>
+            `;
+        }
+    }
+    
+    // ========== FISHER-YATES SHUFFLE ==========
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+    
+    // ========== POPULATE FILTERS ==========
+    function populateFilters() {
+        // Locations
+        const locations = [...new Set(toursData.map(t => t.location).filter(Boolean))].sort();
+        const islandFilter = document.getElementById('island-filter');
+        locations.forEach(loc => {
+            islandFilter.innerHTML += `<option value="${loc}">${loc}</option>`;
+        });
+        
+        // Activities
+        const allTags = toursData.flatMap(t => t.tags || []);
+        const activities = [...new Set(allTags)].sort();
+        const activityFilter = document.getElementById('activity-filter');
+        activities.slice(0, 20).forEach(act => {
+            activityFilter.innerHTML += `<option value="${act}">${act}</option>`;
+        });
+        
+        // Footer links
+        const footerLocs = document.getElementById('footer-locations');
+        locations.slice(0, 6).forEach(loc => {
+            footerLocs.innerHTML += `<li><a href="#" onclick="quickFilter('${loc}'); return false;">${loc}</a></li>`;
+        });
+        
+        const footerActs = document.getElementById('footer-activities');
+        activities.slice(0, 6).forEach(act => {
+            footerActs.innerHTML += `<li><a href="#" onclick="quickFilter('${act}'); return false;">${act}</a></li>`;
+        });
+    }
+    
+    // ========== UPDATE TRUST BAR ==========
+    function updateTrustBar() {
+        document.getElementById('trustTourCount').textContent = toursData.length;
+        const locations = [...new Set(toursData.map(t => t.location).filter(Boolean))];
+        document.getElementById('trustLocationCount').textContent = locations.length;
+        const operators = [...new Set(toursData.map(t => t.company).filter(Boolean))];
+        document.getElementById('trustOperatorCount').textContent = operators.length;
+    }
+    
+    // ========== CREATE TOUR CARD ==========
+    function createTourCard(tour) {
+        const tags = tour.tags || [];
+        const tagDisplay = tags.slice(0, 3).map(tag => 
+            `<span class="tour-tag">${tag}</span>`
+        ).join('');
+        
+        const description = tour.description || '';
+        const truncatedDesc = description.length > 120 
+            ? description.substring(0, 117) + '...' 
+            : description;
+        
+        const isHighQuality = tour.qualityScore >= 90;
+        const qualityBadge = isHighQuality 
+            ? '<span class="quality-badge">⭐ Top Rated</span>' 
+            : '';
+        
+        const locationDisplay = tour.island 
+            ? `${tour.location}, ${capitalizeWords(tour.island)}`
+            : tour.location;
+        
+        return `
+            <article class="tour-card">
+                <div class="tour-image">
+                    <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                    ${qualityBadge}
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 ${locationDisplay}</span>
+                    </div>
+                    <h3 class="tour-title">${tour.name}</h3>
+                    <p class="tour-description">${truncatedDesc}</p>
+                    <div class="tour-tags">${tagDisplay}</div>
+                    <div class="tour-footer">
+                        <span class="tour-company">${tour.company}</span>
+                        <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn">
+                            Book Now →
+                        </a>
+                    </div>
+                </div>
+            </article>
+        `;
+    }
+    
+    function capitalizeWords(str) {
+        if (!str) return '';
+        return str.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    }
+    
+    // ========== RENDER TOURS ==========
+    function renderTours(append = false) {
+        const grid = document.getElementById('tours-grid');
+        const toursToShow = filteredTours.slice(
+            append ? displayedCount : 0, 
+            displayedCount + TOURS_PER_PAGE
+        );
+        
+        const html = toursToShow.map(createTourCard).join('');
+        
+        if (append) {
+            grid.insertAdjacentHTML('beforeend', html);
+        } else {
+            grid.innerHTML = html;
+        }
+        
+        displayedCount = append 
+            ? displayedCount + toursToShow.length 
+            : toursToShow.length;
+        
+        const loadMoreBtn = document.getElementById('load-more');
+        loadMoreBtn.style.display = displayedCount >= filteredTours.length ? 'none' : 'block';
+    }
+    
+    function loadMoreTours() {
+        renderTours(true);
+        updateResultsCount();
+    }
+    
+    // ========== UPDATE RESULTS COUNT ==========
+    function updateResultsCount() {
+        const countEl = document.getElementById('results-count');
+        countEl.textContent = `Showing ${Math.min(displayedCount, filteredTours.length)} of ${filteredTours.length} adventures`;
+    }
+    
+    // ========== FILTER TOURS ==========
+    function filterTours() {
+        const islandFilter = document.getElementById('island-filter').value;
+        const activityFilter = document.getElementById('activity-filter').value;
+        const sortFilter = document.getElementById('sort-filter').value;
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        
+        filteredTours = toursData.filter(tour => {
+            if (islandFilter && tour.location !== islandFilter) return false;
+            if (activityFilter && !tour.tags?.includes(activityFilter)) return false;
+            
+            if (searchInput) {
+                const searchFields = [
+                    tour.name,
+                    tour.company,
+                    tour.location,
+                    tour.description,
+                    ...(tour.tags || [])
+                ].join(' ').toLowerCase();
+                
+                if (!searchFields.includes(searchInput)) return false;
+            }
+            
+            return true;
+        });
+        
+        // Sort
+        if (sortFilter === 'quality') {
+            filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+        } else if (sortFilter === 'name') {
+            filteredTours.sort((a, b) => a.name.localeCompare(b.name));
+        } else if (sortFilter === 'random') {
+            shuffleArray(filteredTours);
+        }
+        
+        displayedCount = 0;
+        renderTours();
+        updateResultsCount();
+    }
+    
+    let filterTimeout;
+    function debounceFilter() {
+        clearTimeout(filterTimeout);
+        filterTimeout = setTimeout(filterTours, 300);
+    }
+    
+    function shuffleTours() {
+        shuffleArray(filteredTours);
+        displayedCount = 0;
+        renderTours();
+    }
+    
+    function clearAllFilters() {
+        document.getElementById('island-filter').value = '';
+        document.getElementById('activity-filter').value = '';
+        document.getElementById('sort-filter').value = 'quality';
+        document.getElementById('search-input').value = '';
+        filterTours();
+    }
+    
+    function quickFilter(term) {
+        document.getElementById('search-input').value = term;
+        filterTours();
+        document.getElementById('tours-section').scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    function executeHeroSearch() {
+        const heroSearch = document.getElementById('hero-search');
+        if (heroSearch.value) {
+            quickFilter(heroSearch.value);
+        }
+    }
+    
+    // ========== FAQ ==========
+    function renderFAQs() {
+        const container = document.getElementById('faq-container');
+        const shuffled = shuffleArray([...FAQS]);
+        const selected = shuffled.slice(0, 5);
+        
+        container.innerHTML = selected.map(faq => `
+            <details class="faq-item">
+                <summary>${faq.q}</summary>
+                <div class="faq-answer">
+                    <p>${faq.a}</p>
+                </div>
+            </details>
+        `).join('');
+    }
+    
+    // ========== MOBILE MENU ==========
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+        document.querySelector('.nav-mobile').classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    
+    // ========== MOBILE CTA VISIBILITY ==========
+    window.addEventListener('scroll', function() {
+        const mobileCta = document.getElementById('mobile-cta');
+        const heroHeight = document.querySelector('.hero').offsetHeight;
+        if (window.scrollY > heroHeight * 0.5) {
+            mobileCta.classList.add('visible');
+        } else {
+            mobileCta.classList.remove('visible');
+        }
+    });
+    
+    // ========== FOMO NOTIFICATIONS ==========
+    function showNotification() {
+        const notification = document.getElementById('notification');
+        const nameEl = document.getElementById('notification-name');
+        const actionEl = document.getElementById('notification-action');
+        
+        nameEl.textContent = FOMO_NAMES[Math.floor(Math.random() * FOMO_NAMES.length)];
+        actionEl.textContent = FOMO_ACTIONS[Math.floor(Math.random() * FOMO_ACTIONS.length)];
+        
+        notification.classList.add('show');
+        setTimeout(() => notification.classList.remove('show'), 4000);
+    }
+    
+    setTimeout(() => {
+        showNotification();
+        setInterval(showNotification, 45000);
+    }, 15000);
+    
+    // ========== HERO SEARCH ENTER KEY ==========
+    document.getElementById('hero-search').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') executeHeroSearch();
+    });
+    
+    // ========== INIT ==========
+    document.addEventListener('DOMContentLoaded', function() {
+        loadTours();
+        renderFAQs();
+    });
+    </script>
+</body>
+</html>
