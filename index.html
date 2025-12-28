@@ -70,7 +70,7 @@
             right: 0;
             z-index: 1000;
             background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
+            backdrop-filter: none;
             border-bottom: 1px solid var(--gray-200);
         }
         
@@ -237,13 +237,13 @@
         
         .hero-logo-pill { background: none; backdrop-filter: none; border: none; box-shadow: none; padding: 0;
             display: inline-block;
-            background: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-            border-radius: 50%;
-            padding: 15px;
+            background: none;
+            backdrop-filter: none;
+            border-radius: 0;
+            padding: 0;
             margin-bottom: 1.5rem;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: none;
+            border: none;
         }
         
         .hero-logo-img {
@@ -355,7 +355,7 @@
         
         .quick-tags button {
             background: rgba(255,255,255,0.15);
-            backdrop-filter: blur(10px);
+            backdrop-filter: none;
             color: var(--white);
             padding: 0.5rem 1rem;
             border-radius: var(--radius-full);
@@ -384,7 +384,7 @@
             gap: 3rem;
             padding: 1.5rem;
             background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(10px);
+            backdrop-filter: none;
             border-top: 1px solid rgba(255,255,255,0.1);
         }
         
@@ -911,7 +911,7 @@
             height: 40px;
             border: 3px solid var(--gray-200);
             border-top-color: var(--primary);
-            border-radius: 50%;
+            border-radius: 0;
             margin: 0 auto 16px;
             animation: spin 1s linear infinite;
         }
