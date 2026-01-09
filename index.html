@@ -208,6 +208,14 @@
             overflow: hidden;
         }
         
+        /* MOBILE: Compact hero so tours visible in 1 scroll */
+        @media (max-width: 768px) {
+            .hero {
+                min-height: auto;
+                padding: 100px 1rem 60px;
+            }
+        }
+        
         .hero-bg {
             position: absolute;
             inset: 0;
@@ -426,6 +434,251 @@
             .trust-label { font-size: 0.625rem; }
         }
         
+        /* ========== AREA CARDS SECTION ========== */
+        .areas-section {
+            padding: 4rem 0;
+            background: linear-gradient(180deg, var(--gray-100) 0%, var(--white) 100%);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 0.5rem;
+        }
+        
+        .section-header p {
+            color: var(--gray-500);
+            font-size: 1.1rem;
+        }
+        
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .area-card {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            aspect-ratio: 16/10;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .area-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .area-card-bg {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.4s ease;
+        }
+        
+        .area-card:hover .area-card-bg {
+            transform: scale(1.08);
+        }
+        
+        .area-card-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.7) 100%);
+        }
+        
+        .area-card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5rem;
+            color: white;
+        }
+        
+        .area-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        
+        .area-card-subtitle {
+            font-size: 0.875rem;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+        
+        .area-card-count {
+            display: inline-block;
+            background: var(--primary);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        /* ========== EMAIL CAPTURE SECTION ========== */
+        .guide-section {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .guide-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 60%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .guide-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .guide-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1.5rem;
+        }
+        
+        .guide-section h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .guide-section p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .guide-form {
+            display: flex;
+            gap: 0.75rem;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        
+        .guide-form input {
+            flex: 1;
+            padding: 1rem 1.25rem;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: var(--radius-lg);
+            background: rgba(255,255,255,0.95);
+            font-size: 1rem;
+            color: var(--gray-800);
+        }
+        
+        .guide-form input::placeholder {
+            color: var(--gray-400);
+        }
+        
+        .guide-form button {
+            padding: 1rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius-lg);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        
+        .guide-form button:hover {
+            background: #d97706;
+            transform: translateY(-2px);
+        }
+        
+        .guide-disclaimer {
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        @media (max-width: 640px) {
+            .guide-section h2 { font-size: 1.75rem; }
+            .guide-form {
+                flex-direction: column;
+            }
+            .guide-form button { width: 100%; }
+        }
+        
+        /* ========== WHY BOOK SECTION ========== */
+        .why-section {
+            padding: 4rem 0;
+            background: var(--white);
+        }
+        
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .why-card {
+            text-align: center;
+            padding: 2rem 1.5rem;
+        }
+        
+        .why-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .why-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 0.5rem;
+        }
+        
+        .why-card p {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+        }
+        
         /* ========== TOURS SECTION ========== */
         .tours-section {
             padding: 3rem 0;
@@ -608,6 +861,21 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
         
+        /* Price Ribbon */
+        .price-ribbon {
+            position: absolute;
+            top: 12px;
+            right: -35px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 6px 40px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            transform: rotate(45deg);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            z-index: 1;
+        }
+        
         .tour-content {
             padding: 1rem;
             display: flex;
@@ -689,13 +957,17 @@
         .tour-book-btn {
             background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: white;
-            padding: 8px 16px;
+            padding: 12px 20px;
             border-radius: 8px;
             font-size: 0.85rem;
             font-weight: 600;
             text-decoration: none;
             transition: all 0.2s ease;
             white-space: nowrap;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .tour-book-btn:hover {
@@ -878,10 +1150,11 @@
             padding: 1rem;
             font-size: 1rem;
             font-weight: 600;
-            color: #4c1d95;
+            color: white;
             background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             border-radius: var(--radius-lg);
             box-shadow: var(--shadow-md);
+            min-height: 52px;
         }
         
         @media (max-width: 768px) {
@@ -890,42 +1163,7 @@
  padding-bottom: 100px; }
         }
         
-        /* ========== FOMO NOTIFICATION ========== */
-        .notification {
-            position: fixed;
-            bottom: 100px;
-            left: 1.5rem;
-            z-index: 800;
-            background: var(--white);
-            padding: 1rem;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-xl);
-            transform: translateX(-120%);
-            transition: transform 0.4s ease;
-            max-width: 320px;
-        }
-        
-        .notification.show { transform: translateX(0); }
-        
-        .notification-content {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-        
-        .notification-icon { font-size: 1.5rem; }
-        .notification-text { font-size: 0.875rem; line-height: 1.4; }
-        .notification-text strong { display: block; color: var(--gray-900); }
-        .notification-text span { color: var(--gray-500); }
-        
-        @media (max-width: 768px) {
-            .notification {
-                bottom: 120px;
-                left: 1rem;
-                right: 1rem;
-                max-width: unset;
-            }
-        }
+        /* FOMO REMOVED - Fake notifications destroy trust */
         
         /* ========== LOADING STATE ========== */
         .loading-state {
@@ -946,6 +1184,88 @@
         }
         
         @keyframes spin { to { transform: rotate(360deg); } }
+        
+        /* ========== MOBILE OPTIMIZATION (83% of traffic) ========== */
+        @media (max-width: 768px) {
+            /* Compact section spacing */
+            .areas-section { padding: 2.5rem 0; }
+            .why-section { padding: 2.5rem 0; }
+            .guide-section { padding: 3rem 0; }
+            .faq-section { padding: 2.5rem 0; }
+            
+            /* Section headers smaller */
+            .section-header { margin-bottom: 1.5rem; }
+            .section-header h2 { font-size: 1.5rem; }
+            .section-header p { font-size: 0.95rem; }
+            
+            /* Area cards - 2 columns on tablet, 1 on phone */
+            .areas-grid { 
+                grid-template-columns: repeat(2, 1fr); 
+                gap: 1rem;
+                padding: 0 1rem;
+            }
+            .area-card { aspect-ratio: 4/3; }
+            .area-card h3 { font-size: 1.2rem; }
+            .area-card-subtitle { font-size: 0.75rem; }
+            
+            /* Trust bar compact */
+            .trust-bar {
+                gap: 1rem;
+                padding: 1rem 0.5rem;
+            }
+            
+            /* Why cards - 2 columns */
+            .why-grid { 
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            .why-card { padding: 1rem; }
+            .why-icon { font-size: 2rem; }
+            .why-card h3 { font-size: 0.95rem; }
+            .why-card p { font-size: 0.8rem; }
+            
+            /* Tour cards - smaller padding */
+            .tours-section { padding: 2rem 0; }
+            .tour-content { padding: 0.875rem; }
+            .tour-title { font-size: 1rem; }
+            .tour-description { font-size: 0.8rem; }
+        }
+        
+        @media (max-width: 480px) {
+            /* Single column on small phones */
+            .areas-grid { grid-template-columns: 1fr; }
+            .why-grid { grid-template-columns: 1fr; }
+            
+            /* Even more compact hero */
+            .hero { padding: 90px 1rem 50px; }
+            .hero-logo-img { height: 180px; }
+            .hero-tagline { font-size: 1rem; }
+            
+            /* Tour grid single column */
+            .tours-grid { 
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+        
+        /* Disable hover effects on touch devices */
+        @media (hover: none) {
+            .area-card:hover { transform: none; }
+            .area-card:hover .area-card-bg { transform: none; }
+            .tour-card:hover { transform: none; }
+            .tour-card:hover .tour-image img { transform: none; }
+            .tour-book-btn:hover { transform: none; }
+        }
+        
+        /* Safe area for notched phones */
+        @supports (padding-bottom: env(safe-area-inset-bottom)) {
+            .mobile-cta {
+                padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+            }
+            .footer {
+                padding-bottom: calc(100px + env(safe-area-inset-bottom));
+            }
+        }
     </style>
 </head>
 <body>
@@ -1019,6 +1339,52 @@
         </div>
     </section>
 
+    <!-- AREA CARDS SECTION -->
+    <section class="areas-section" id="locations">
+        <div class="section-header">
+            <h2>Explore by Region</h2>
+            <p>Each corner of Puerto Rico has its own magic. Find your adventure.</p>
+        </div>
+        <div class="areas-grid">
+            <a href="fajardo.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>Fajardo</h3>
+                    <div class="area-card-subtitle">Bio Bays • Culebra Ferries • Snorkeling</div>
+                    <span class="area-card-count" id="fajardo-count">Loading...</span>
+                </div>
+            </a>
+            <a href="san-juan.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1568402102990-bc541580b59f?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>San Juan</h3>
+                    <div class="area-card-subtitle">Old San Juan • Food Tours • History</div>
+                    <span class="area-card-count" id="sanjuan-count">Loading...</span>
+                </div>
+            </a>
+            <a href="vieques.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1551918120-9739cb430c6d?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>Vieques</h3>
+                    <div class="area-card-subtitle">Mosquito Bay • Wild Horses • Beaches</div>
+                    <span class="area-card-count" id="vieques-count">Loading...</span>
+                </div>
+            </a>
+            <a href="rincon.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>Rincón</h3>
+                    <div class="area-card-subtitle">Surfing • Sunsets • Whale Watching</div>
+                    <span class="area-card-count" id="rincon-count">Loading...</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
     <!-- TOURS SECTION -->
     <section class="tours-section" id="tours-section">
         <div class="container">
@@ -1067,6 +1433,50 @@
                     Load More Tours ↓
                 </button>
             </div>
+        </div>
+    </section>
+
+    <!-- WHY BOOK SECTION -->
+    <section class="why-section">
+        <div class="section-header">
+            <h2>Why Book With Wander Puerto Rico?</h2>
+            <p>We connect you directly with the island's best local tour operators.</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card">
+                <div class="why-icon">🏝️</div>
+                <h3>Verified Local Tours</h3>
+                <p>Every tour is from a verified local operator. Real businesses, real experiences, real Puerto Rican hospitality.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">💰</div>
+                <h3>Book Direct</h3>
+                <p>No middleman markup. Book directly with the tour operator at their best prices.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🤙</div>
+                <h3>Support Local</h3>
+                <p>Your booking supports Puerto Rican families and small businesses across the island.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">📱</div>
+                <h3>Instant Confirmation</h3>
+                <p>Real-time availability. Book now, get confirmed instantly. No waiting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMAIL CAPTURE SECTION -->
+    <section class="guide-section">
+        <div class="guide-content">
+            <span class="guide-badge">Free PDF Guide</span>
+            <h2>Get the Ultimate Puerto Rico Trip Planner</h2>
+            <p>5-day itinerary, hidden gems, bio bay tips, packing list, and local secrets—delivered straight to your inbox.</p>
+            <form class="guide-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Send Me the Guide</button>
+            </form>
+            <p class="guide-disclaimer">🔒 No spam, ever. Unsubscribe anytime.</p>
         </div>
     </section>
 
@@ -1129,16 +1539,7 @@
         </a>
     </div>
 
-    <!-- FOMO NOTIFICATION -->
-    <div class="notification" id="notification">
-        <div class="notification-content">
-            <span class="notification-icon">🎉</span>
-            <div class="notification-text">
-                <strong id="notification-name">Someone</strong>
-                <span id="notification-action">just booked a tour!</span>
-            </div>
-        </div>
-    </div>
+    <!-- FOMO REMOVED - Fake notifications destroy trust -->
 
     <script>
     // ========== CONFIG ==========
@@ -1177,8 +1578,6 @@
     const HERO_IMAGES = ["https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1568402102990-bc541580b59f?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1551918120-9739cb430c6d?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2400&q=90"];
     const FAQS = [{"q":"What's the best time to visit Puerto Rico?","a":"Puerto Rico is great year-round with temperatures of 75-85°F. Peak season (December-April) has the best weather but higher prices. Hurricane season runs June-November, with September being the riskiest month."},{"q":"Do I need a passport to visit Puerto Rico?","a":"No! Puerto Rico is a U.S. territory, so U.S. citizens only need a valid ID. No passport, no customs, same cell phone plan."},{"q":"What's a bioluminescent bay tour like?","a":"You kayak or take a boat into bays filled with microscopic organisms that glow blue when disturbed. It's like swimming through stars. Mosquito Bay in Vieques is the brightest bio bay in the world."},{"q":"How do I get to Vieques and Culebra?","a":"Take a ferry from Fajardo (cheapest, ~1.5 hours) or a short puddle-jumper flight from San Juan or Ceiba (~15 minutes). Book ferries in advance—they sell out."},{"q":"Is Puerto Rico safe for tourists?","a":"Yes, tourist areas are generally safe. Use common sense—don't flash valuables, stick to well-lit areas at night, and be aware of your surroundings like you would in any city."},{"q":"What should I pack for Puerto Rico?","a":"Sunscreen, bug spray (especially for rainforest and bio bay tours), comfortable walking shoes, swimsuit, and a light rain jacket. Pack layers for air-conditioned restaurants."},{"q":"Can I drink the tap water?","a":"Yes! Puerto Rico has safe, treated tap water that meets U.S. standards."},{"q":"What's the best way to get around?","a":"Rent a car for maximum flexibility, especially to reach beaches and El Yunque. Rideshares work well in San Juan. Tours often include transportation from major hotels."}];
     const QUICK_TAGS = [{"emoji":"✨","label":"Bio Bay","term":"bioluminescent"},{"emoji":"🌴","label":"El Yunque","term":"yunque"},{"emoji":"🤿","label":"Snorkeling","term":"snorkel"},{"emoji":"🚤","label":"Boat Tours","term":"boat"},{"emoji":"🏝️","label":"Island Hop","term":"island"},{"emoji":"🌅","label":"Sunset","term":"sunset"},{"emoji":"🏄","label":"Surfing","term":"surf"},{"emoji":"🍹","label":"Food Tours","term":"food"},{"emoji":"🏰","label":"Old San Juan","term":"old san juan"},{"emoji":"🐢","label":"Sea Turtles","term":"turtle"},{"emoji":"🎣","label":"Fishing","term":"fishing"},{"emoji":"🚁","label":"Helicopter","term":"helicopter"}];
-    const FOMO_NAMES = ["Maria from New York","Carlos from Miami","Jennifer from Chicago","Luis from Houston","Ashley from Boston","Miguel from Orlando","Stephanie from LA","Roberto from Dallas"];
-    const FOMO_ACTIONS = ["just booked a bio bay tour!","reserved an El Yunque hike!","booked a snorkel trip to Culebra!","signed up for Old San Juan walking tour!","booked a sunset catamaran cruise!","reserved a rainforest adventure!"];
     
     // ========== STATE ==========
     let toursData = [];
@@ -1282,6 +1681,30 @@
         document.getElementById('trustLocationCount').textContent = locations.length;
         const operators = [...new Set(toursData.map(t => t.company).filter(Boolean))];
         document.getElementById('trustOperatorCount').textContent = operators.length;
+        
+        // Update area card counts
+        updateAreaCounts();
+    }
+    
+    // ========== UPDATE AREA COUNTS ==========
+    function updateAreaCounts() {
+        const areaMappings = {
+            'fajardo-count': ['fajardo', 'luquillo', 'ceiba'],
+            'sanjuan-count': ['san juan', 'condado', 'isla verde', 'old san juan', 'carolina'],
+            'vieques-count': ['vieques'],
+            'rincon-count': ['rincon', 'rincón', 'aguadilla', 'isabela']
+        };
+        
+        for (const [elementId, keywords] of Object.entries(areaMappings)) {
+            const el = document.getElementById(elementId);
+            if (el) {
+                const count = toursData.filter(tour => {
+                    const loc = (tour.location || '').toLowerCase();
+                    return keywords.some(kw => loc.includes(kw));
+                }).length;
+                el.textContent = count > 0 ? `${count} Adventures` : 'Coming Soon';
+            }
+        }
     }
     
     // ========== CREATE TOUR CARD ==========
@@ -1301,6 +1724,11 @@
             ? '<span class="quality-badge">⭐ Top Rated</span>' 
             : '';
         
+        // Price ribbon
+        const priceRibbon = tour.price 
+            ? `<div class="price-ribbon">From $${Math.round(tour.price)}</div>`
+            : '';
+        
         const locationDisplay = tour.island 
             ? `${tour.location}, ${capitalizeWords(tour.island)}`
             : tour.location;
@@ -1310,6 +1738,7 @@
                 <div class="tour-image">
                     <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
                     ${qualityBadge}
+                    ${priceRibbon}
                 </div>
                 <div class="tour-content">
                     <div class="tour-meta">
@@ -1320,13 +1749,24 @@
                     <div class="tour-tags">${tagDisplay}</div>
                     <div class="tour-footer">
                         <span class="tour-company">${tour.company}</span>
-                        <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn">
-                            Book Now →
+                        <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.id}', '${tour.name.replace(/'/g, "\\'")}')">
+                            Check Availability →
                         </a>
                     </div>
                 </div>
             </article>
         `;
+    }
+    
+    // ========== GA4 TRACKING ==========
+    function trackBookingClick(tourId, tourName) {
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'booking_click', {
+                'tour_id': tourId,
+                'tour_name': tourName,
+                'event_category': 'conversion'
+            });
+        }
     }
     
     function capitalizeWords(str) {
@@ -1475,23 +1915,7 @@
         }
     });
     
-    // ========== FOMO NOTIFICATIONS ==========
-    function showNotification() {
-        const notification = document.getElementById('notification');
-        const nameEl = document.getElementById('notification-name');
-        const actionEl = document.getElementById('notification-action');
-        
-        nameEl.textContent = FOMO_NAMES[Math.floor(Math.random() * FOMO_NAMES.length)];
-        actionEl.textContent = FOMO_ACTIONS[Math.floor(Math.random() * FOMO_ACTIONS.length)];
-        
-        notification.classList.add('show');
-        setTimeout(() => notification.classList.remove('show'), 4000);
-    }
-    
-    setTimeout(() => {
-        showNotification();
-        setInterval(showNotification, 45000);
-    }, 15000);
+    // FOMO REMOVED - Fake notifications destroy trust
     
     // ========== HERO SEARCH ENTER KEY ==========
     document.getElementById('hero-search').addEventListener('keypress', function(e) {
