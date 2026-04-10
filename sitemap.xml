@@ -2,45 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wanderpuertorico.com/</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/bio-bay-tours-puerto-rico.html</loc>
-    <lastmod>2025-12-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/culebra-snorkeling-tours.html</loc>
-    <lastmod>2025-12-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/fajardo-water-tours.html</loc>
-    <lastmod>2025-12-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/el-yunque-tours.html</loc>
-    <lastmod>2025-12-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/puerto-rico-itinerary.html</loc>
-    <lastmod>2025-12-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/vieques-day-trip.html</loc>
-    <lastmod>2025-12-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wanderpuertorico.com/culebra/snorkeling.html</loc>
@@ -68,97 +32,187 @@
   </url>
   <url>
     <loc>https://wanderpuertorico.com/blog/</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/best-puerto-rico-tours-first-time-visitors.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderpuertorico.com/blog/san-juan-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://wanderpuertorico.com/blog/bioluminescent-bay-science-magic.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderpuertorico.com/blog/old-san-juan-walking-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://wanderpuertorico.com/blog/el-yunque-waterfall-hikes-guide.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderpuertorico.com/blog/el-yunque-rainforest-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://wanderpuertorico.com/blog/puerto-rico-family-tours-kids.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderpuertorico.com/blog/vieques-island-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/culebra-island-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/rincon-surf-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/fajardo-boat-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/ponce-day-trips.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/puerto-rico-bioluminescent-bay-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/puerto-rico-snorkeling-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/puerto-rico-kayak-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderpuertorico.com/blog/puerto-rico-sunset-cruises.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://wanderpuertorico.com/blog/sunset-cruise-puerto-rico-romantic.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://wanderpuertorico.com/blog/puerto-rico-fishing-charters.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/culebra-vs-vieques-comparison.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/puerto-rico-snorkeling-guide.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/old-san-juan-walking-tours-guide.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/best-time-visit-puerto-rico-weather.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/puerto-rico-kayaking-mangrove-tours.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/puerto-rico-cave-exploring-tours.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/best-local-food-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/rincon-surf-tours-lessons-beginners.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://wanderpuertorico.com/blog/puerto-rico-catamaran-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderpuertorico.com/blog/puerto-rico-cave-tours.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://wanderpuertorico.com/blog/wildlife-tours-puerto-rico-animals.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/puerto-rico-budget-tours-affordable.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/private-vs-group-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/fajardo-day-trips-beach-hopping.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/puerto-rico-whale-watching-tours.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/culebra-vs-vieques-island-comparison.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/morning-vs-afternoon-snorkeling-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/guided-vs-self-guided-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/boat-tour-vs-kayak-tour-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/budget-vs-luxury-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/spring-vs-fall-puerto-rico-seasons.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/water-vs-land-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/short-vs-fullday-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/group-vs-private-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/solo-vs-family-tours-puerto-rico.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
