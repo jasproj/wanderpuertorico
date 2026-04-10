@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wander Puerto Rico | Bio Bay Tours, El Yunque & Island Adventures</title>
+    <meta name="description" content="Book the best Puerto Rico tours. Bioluminescent bays, El Yunque rainforest, snorkeling, Vieques & Culebra day trips. Local guides, instant booking.">
+    <meta name="keywords" content="puerto rico tours, bio bay kayak, el yunque tours, vieques bioluminescent, culebra snorkeling, san juan tours">
+    <link rel="canonical" href="https://wanderpuertorico.com/">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderpuertorico.com/">
+    <meta property="og:title" content="Wander Puerto Rico | Bio Bay Tours, El Yunque & Island Adventures">
+    <meta property="og:description" content="Book the best Puerto Rico tours. Bioluminescent bays, El Yunque rainforest, snorkeling, Vieques & Culebra day trips. Local guides, instant booking.">
+    <meta property="og:image" content="https://wanderpuertorico.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://wanderpuertorico.com/og-image.png">
+    
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Wander Puerto Rico",
+      "description": "Book the best Puerto Rico tours. Bioluminescent bays, El Yunque rainforest, snorkeling, Vieques and Culebra day trips.",
+      "url": "https://wanderpuertorico.com",
+      "logo": "https://wanderpuertorico.com/puertorico-logo-full.png",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Puerto Rico"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "391"
+      }
+    }
+    </script>
+    <link rel="icon" type="image/png" href="puertorico-favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MBNZZ0D7VD');
+        
+        function trackBookingClick(tourName, tourId, region) {
+            gtag('event', 'booking_click', {
+                'event_category': 'conversion',
+                'event_label': tourName,
+                'tour_id': tourId,
+                'region': region || 'puerto-rico'
+            });
+        }
+    </script>
+    
+    <style>
+        :root {
+            --primary: #5b21b6;
+            --primary-dark: #4c1d95;
+            --primary-light: #a78bfa;
+            --accent: #f59e0b;
+            --hero-overlay: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.4) 100%);
+            
+            --white: #FFFFFF;
+            --off-white: #FAFAFA;
+            --gray-100: #F5F5F5;
+            --gray-200: #E5E5E5;
+            --gray-300: #D4D4D4;
+            --gray-400: #A3A3A3;
+            --gray-500: #737373;
+            --gray-600: #525252;
+            --gray-700: #404040;
+            --gray-800: #262626;
+            --gray-900: #171717;
+            
+            --font-display: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 20px;
+            --radius-full: 9999px;
+            
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
+            --shadow-xl: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: var(--gray-800); background: var(--white); overflow-x: hidden; }
+        img { max-width: 100%; height: auto; display: block; }
+        a { color: inherit; text-decoration: none; }
+        button { font-family: inherit; cursor: pointer; border: none; background: none; }
+        ul, ol { list-style: none; }
+        
+        /* ========== HEADER ========== */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: none;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1.5rem;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        
+        .logo-group { display: flex; flex-direction: column; gap: 2px; }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+        
+        .logo-img { height: 50px; width: auto; }
+        
+        .logo-tagline {
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--gray-500);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .nav-desktop {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .nav-desktop a {
+            font-weight: 500;
+            color: var(--gray-700);
+            padding: 0.5rem 0;
+            position: relative;
+        }
+        
+        .nav-desktop a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.25s ease;
+        }
+        
+        .nav-desktop a:hover { color: var(--primary-dark); }
+        .nav-desktop a:hover::after { width: 100%; }
+        
+        .mobile-menu-btn {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            padding: 0.5rem;
+        }
+        
+        .mobile-menu-btn span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--gray-700);
+            transition: all 0.15s ease;
+        }
+        
+        .nav-mobile {
+            display: none;
+            flex-direction: column;
+            background: var(--white);
+            border-top: 1px solid var(--gray-200);
+            padding: 1rem 1.5rem;
+        }
+        
+        .nav-mobile.active { display: flex; }
+        
+        .nav-mobile a {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-100);
+            font-weight: 500;
+            color: var(--gray-700);
+        }
+        
+        @media (max-width: 768px) {
+            .nav-desktop { display: none; }
+            .mobile-menu-btn { display: flex; }
+            .logo-img { height: 40px; }
+        }
+        
+        /* ========== HERO ========== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 120px 1.5rem 80px;
+            overflow: hidden;
+        }
+        
+        /* MOBILE: Compact hero so tours visible in 1 scroll */
+        @media (max-width: 768px) {
+            .hero {
+                min-height: auto;
+                padding: 100px 1rem 60px;
+            }
+        }
+        
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+        }
+        
+        .hero-slide {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            animation: heroFade 30s infinite;
+            transform: scale(1.05);
+        }
+        
+        .hero-slide:nth-child(1) { animation-delay: 0s; opacity: 1; }
+        .hero-slide:nth-child(2) { animation-delay: 6s; }
+        .hero-slide:nth-child(3) { animation-delay: 12s; }
+        .hero-slide:nth-child(4) { animation-delay: 18s; }
+        .hero-slide:nth-child(5) { animation-delay: 24s; }
+        
+        @keyframes heroFade {
+            0% { opacity: 0; transform: scale(1.05); }
+            3% { opacity: 1; transform: scale(1.05); }
+            20% { opacity: 1; transform: scale(1); }
+            23% { opacity: 0; transform: scale(1); }
+            100% { opacity: 0; transform: scale(1.05); }
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: var(--hero-overlay);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 800px;
+            color: #4c1d95;
+            padding: 0 1.5rem;
+            padding-bottom: 100px;
+        }
+        
+        .hero-tagline {
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+        
+        .hero-logo-pill {
+            display: inline-block;
+            background: none;
+            backdrop-filter: none;
+            border-radius: 0;
+            padding: 0;
+            margin-bottom: 1.5rem;
+            box-shadow: none;
+            border: none;
+        }
+        
+        .hero-logo-img {
+            height: 336px;
+            width: auto;
+            max-width: 90%;
+            filter: drop-shadow(0 4px 30px rgba(0,0,0,0.4));
+        }
+        
+        .hero-subtitle {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+        }
+        
+        /* Search Bar */
+        .hero-search {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 580px;
+            margin: 0 auto 2rem;
+            background: var(--white);
+            padding: 1rem;
+            border-radius: var(--radius-full);
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+            animation: searchPulse 3s ease-in-out infinite;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+        
+        @keyframes searchPulse {
+            0%, 100% { box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3), 0 0 0 4px rgba(255, 255, 255, 0.3); }
+            50% { box-shadow: 0 8px 50px var(--primary), 0 0 0 6px rgba(255, 255, 255, 0.5); }
+        }
+        
+        .search-input-wrap {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding-left: 1rem;
+        }
+        
+        .search-icon { font-size: 1.5rem; opacity: 0.6; }
+        
+        .hero-search input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 1.1rem;
+            color: var(--gray-800);
+            background: transparent;
+        }
+        
+        .hero-search input::placeholder { color: var(--gray-400); font-weight: 500; }
+        
+        .search-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 1rem 2rem;
+            border-radius: var(--radius-full);
+            transition: all 0.15s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .search-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        @media (max-width: 560px) {
+            .hero-search {
+                flex-direction: column;
+                border-radius: var(--radius-lg);
+                padding: 1rem;
+            }
+            .search-input-wrap { padding: 0.5rem; }
+            .search-btn { width: 100%; }
+            .hero-logo-img { height: 216px; }
+        }
+        
+        /* Quick Tags Marquee */
+        .quick-tags-wrapper {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+            mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+        }
+        
+        .quick-tags {
+            display: flex;
+            gap: 0.5rem;
+            animation: scrollTags 35s linear infinite;
+            width: max-content;
+        }
+        
+        .quick-tags:hover { animation-play-state: paused; }
+        
+        @keyframes scrollTags {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        .quick-tags button {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: none;
+            color: #4c1d95;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid rgba(255,255,255,0.25);
+            transition: all 0.15s ease;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        
+        .quick-tags button:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+        
+        /* Trust Bar */
+        .trust-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: none;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .trust-item { text-align: center; color: #4c1d95; }
+        .trust-number { display: block; font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; }
+        .trust-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.8; }
+        .trust-divider { width: 1px; height: 40px; background: rgba(255,255,255,0.2); }
+        
+        @media (max-width: 640px) {
+            .trust-bar { gap: 1.5rem; padding: 1rem; }
+            .trust-number { font-size: 1.25rem; }
+            .trust-label { font-size: 0.625rem; }
+        }
+        
+        /* ========== AREA CARDS SECTION ========== */
+        .areas-section {
+            padding: 4rem 0;
+            background: linear-gradient(180deg, var(--gray-100) 0%, var(--white) 100%);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 0.5rem;
+        }
+        
+        .section-header p {
+            color: var(--gray-500);
+            font-size: 1.1rem;
+        }
+        
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .area-card {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            aspect-ratio: 16/10;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .area-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .area-card-bg {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.4s ease;
+        }
+        
+        .area-card:hover .area-card-bg {
+            transform: scale(1.08);
+        }
+        
+        .area-card-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.7) 100%);
+        }
+        
+        .area-card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5rem;
+            color: white;
+        }
+        
+        .area-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        
+        .area-card-subtitle {
+            font-size: 0.875rem;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+        
+        .area-card-count {
+            display: inline-block;
+            background: var(--primary);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        /* ========== EMAIL CAPTURE SECTION ========== */
+        .guide-section {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .guide-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 60%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .guide-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .guide-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1.5rem;
+        }
+        
+        .guide-section h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .guide-section p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .guide-form {
+            display: flex;
+            gap: 0.75rem;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        
+        .guide-form input {
+            flex: 1;
+            padding: 1rem 1.25rem;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: var(--radius-lg);
+            background: rgba(255,255,255,0.95);
+            font-size: 1rem;
+            color: var(--gray-800);
+        }
+        
+        .guide-form input::placeholder {
+            color: var(--gray-400);
+        }
+        
+        .guide-form button {
+            padding: 1rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius-lg);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        
+        .guide-form button:hover {
+            background: #d97706;
+            transform: translateY(-2px);
+        }
+        
+        .guide-disclaimer {
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        @media (max-width: 640px) {
+            .guide-section h2 { font-size: 1.75rem; }
+            .guide-form {
+                flex-direction: column;
+            }
+            .guide-form button { width: 100%; }
+        }
+        
+        /* ========== WHY BOOK SECTION ========== */
+        .why-section {
+            padding: 4rem 0;
+            background: var(--white);
+        }
+        
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .why-card {
+            text-align: center;
+            padding: 2rem 1.5rem;
+        }
+        
+        .why-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .why-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 0.5rem;
+        }
+        
+        .why-card p {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+        }
+        
+        /* ========== TOURS SECTION ========== */
+        .tours-section {
+            padding: 3rem 0;
+            background: var(--white);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* Filters Bar */
+        .filters-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: flex-end;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            border-radius: var(--radius-xl);
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        
+        .filter-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .filter-group select {
+            padding: 0.75rem 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.95);
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--gray-700);
+            min-width: 160px;
+            cursor: pointer;
+        }
+        
+        .search-inline {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .search-inline input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: var(--radius-md);
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.95);
+        }
+        
+        .search-inline input::placeholder { color: var(--gray-400); }
+        
+        .clear-filters {
+            padding: 0.75rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #4c1d95;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: var(--radius-md);
+            background: transparent;
+            transition: all 0.15s ease;
+        }
+        
+        .clear-filters:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .filters-bar { flex-direction: column; }
+            .filter-group { width: 100%; }
+            .filter-group select { width: 100%; }
+            .search-inline { width: 100%; }
+        }
+        
+        /* Results Info */
+        .results-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        
+        #results-count {
+            color: var(--primary-dark);
+            font-weight: 500;
+        }
+        
+        .shuffle-btn {
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        
+        .shuffle-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Tours Grid */
+        .tours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .tours-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+        
+        /* Tour Card */
+        .tour-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08); border: 1px solid #a78bfa;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .tour-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        
+        .tour-image {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .tour-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        
+        .tour-card:hover .tour-image img {
+            transform: scale(1.05);
+        }
+        
+        .quality-badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            color: #1a1a1a;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        /* Price Ribbon */
+        .price-ribbon {
+            position: absolute;
+            top: 12px;
+            right: -35px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 6px 40px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            transform: rotate(45deg);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            z-index: 1;
+        }
+        
+        .tour-content {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .tour-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tour-location {
+            font-size: 0.8rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        .tour-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin: 0 0 0.5rem 0;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .tour-description {
+            font-size: 0.875rem;
+            color: #5a6c7d;
+            line-height: 1.5;
+            margin: 0 0 0.75rem 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+        
+        .tour-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 0.75rem;
+        }
+        
+        .tour-tag {
+            background: var(--gray-100);
+            color: var(--primary);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+        
+        .tour-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--gray-200);
+            margin-top: auto;
+        }
+        
+        .tour-company {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            max-width: 50%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .tour-book-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tour-book-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        /* Load More */
+        .load-more-wrap {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .load-more-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .load-more-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        
+        /* ========== FAQ ========== */
+        .faq-section {
+            padding: 4rem 0;
+            background: var(--off-white);
+        }
+        
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 700;
+            color: var(--gray-900);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .faq-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--radius-md);
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+        }
+        
+        .faq-item summary {
+            padding: 1.25rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+        
+        .faq-item summary::-webkit-details-marker { display: none; }
+        
+        .faq-item summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: var(--gray-400);
+            transition: transform 0.2s ease;
+        }
+        
+        .faq-item[open] summary::after {
+            transform: rotate(45deg);
+        }
+        
+        .faq-item summary:hover { background: var(--gray-100); }
+        
+        .faq-answer {
+            padding: 0 1.25rem 1.25rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+        
+        /* ========== FOOTER ========== */
+        .footer { 
+
+            background: #ede9fe;
+            color: #4c1d95;
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-brand .logo { margin-bottom: 0.5rem; color: #4c1d95; }
+        
+        .footer-platform-tagline {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gray-500);
+            margin-bottom: 1rem;
+        }
+        
+        .footer-brand p {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-tagline { color: #7c3aed; }
+        
+        .footer-links h4 {
+            color: #4c1d95;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links ul li { margin-bottom: 0.5rem; }
+        
+        .footer-links a {
+            font-size: 0.9375rem;
+            transition: color 0.15s ease;
+        }
+        
+        .footer-links a:hover { color: var(--primary-light); }
+        
+        .footer-bottom {
+            padding-top: 2rem;
+            border-top: 1px solid #c4b5fd;
+            text-align: center;
+        }
+        
+        .footer-bottom p {
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+            .footer-brand { grid-column: 1 / -1; text-align: center; }
+            .footer-brand .logo { justify-content: center; }
+        }
+        
+        @media (max-width: 480px) {
+            .footer-grid { grid-template-columns: 1fr; text-align: center; }
+        }
+        
+        /* ========== MOBILE CTA ========== */
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 900;
+            padding: 1rem;
+            background: var(--white);
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .mobile-cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            min-height: 52px;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-cta.visible { display: block; }
+            .footer { 
+ padding-bottom: 100px; }
+        }
+        
+        /* FOMO REMOVED - Fake notifications destroy trust */
+        
+        /* ========== LOADING STATE ========== */
+        .loading-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--gray-500);
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--gray-200);
+            border-top-color: var(--primary);
+            border-radius: 0;
+            margin: 0 auto 16px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        /* ========== MOBILE OPTIMIZATION (83% of traffic) ========== */
+        @media (max-width: 768px) {
+            /* Compact section spacing */
+            .areas-section { padding: 2.5rem 0; }
+            .why-section { padding: 2.5rem 0; }
+            .guide-section { padding: 3rem 0; }
+            .faq-section { padding: 2.5rem 0; }
+            
+            /* Section headers smaller */
+            .section-header { margin-bottom: 1.5rem; }
+            .section-header h2 { font-size: 1.5rem; }
+            .section-header p { font-size: 0.95rem; }
+            
+            /* Area cards - 2 columns on tablet, 1 on phone */
+            .areas-grid { 
+                grid-template-columns: repeat(2, 1fr); 
+                gap: 1rem;
+                padding: 0 1rem;
+            }
+            .area-card { aspect-ratio: 4/3; }
+            .area-card h3 { font-size: 1.2rem; }
+            .area-card-subtitle { font-size: 0.75rem; }
+            
+            /* Trust bar compact */
+            .trust-bar {
+                gap: 1rem;
+                padding: 1rem 0.5rem;
+            }
+            
+            /* Why cards - 2 columns */
+            .why-grid { 
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            .why-card { padding: 1rem; }
+            .why-icon { font-size: 2rem; }
+            .why-card h3 { font-size: 0.95rem; }
+            .why-card p { font-size: 0.8rem; }
+            
+            /* Tour cards - smaller padding */
+            .tours-section { padding: 2rem 0; }
+            .tour-content { padding: 0.875rem; }
+            .tour-title { font-size: 1rem; }
+            .tour-description { font-size: 0.8rem; }
+        }
+        
+        @media (max-width: 480px) {
+            /* Single column on small phones */
+            .areas-grid { grid-template-columns: 1fr; }
+            .why-grid { grid-template-columns: 1fr; }
+            
+            /* Even more compact hero */
+            .hero { padding: 90px 1rem 50px; }
+            .hero-logo-img { height: 180px; }
+            .hero-tagline { font-size: 1rem; }
+            
+            /* Tour grid single column */
+            .tours-grid { 
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+        
+        /* Disable hover effects on touch devices */
+        @media (hover: none) {
+            .area-card:hover { transform: none; }
+            .area-card:hover .area-card-bg { transform: none; }
+            .tour-card:hover { transform: none; }
+            .tour-card:hover .tour-image img { transform: none; }
+            .tour-book-btn:hover { transform: none; }
+        }
+        
+        /* Safe area for notched phones */
+        @supports (padding-bottom: env(safe-area-inset-bottom)) {
+            .mobile-cta {
+                padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+            }
+            .footer {
+                padding-bottom: calc(100px + env(safe-area-inset-bottom));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="puertorico-logo-full.png" alt="Wander Puerto Rico" class="logo-img">
+                    <span>Wander Puerto Rico</span>
+                </a>
+                
+            </div>
+            <nav class="nav-desktop">
+                <a href="#tours-section">Tours</a>
+                <a href="#locations">Locations</a>
+                <a href="#faq">FAQs</a>
+            <a href="puerto-rico-itinerary.html">Guides</a>
+            <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="#tours-section">Tours</a>
+            <a href="#locations">Locations</a>
+            <a href="#faq">FAQs</a>
+            <a href="puerto-rico-itinerary.html">Guides</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tagline">Book Local. Live Boricua.</p>
+            <div class="hero-logo-pill">
+                <img src="puertorico-logo-full.png" alt="Wander Puerto Rico" class="hero-logo-img">
+            </div>
+            <p class="hero-subtitle">Handpicked San Juan, Fajardo, Rincón & Vieques tours. Book direct with local guides.</p>
+            
+            <div class="hero-search">
+                <div class="search-input-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="hero-search" placeholder="Search bioluminescent bays, El Yunque, snorkeling..." autocomplete="off">
+                </div>
+                <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
+            </div>
+            
+            <div class="quick-tags-wrapper">
+                <div class="quick-tags" id="quickTags"></div>
+            </div>
+        </div>
+        
+        <div class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-number" id="trustTourCount">--</span>
+                <span class="trust-label">Verified Tours</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number" id="trustLocationCount">--</span>
+                <span class="trust-label">Locations</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number" id="trustOperatorCount">--</span>
+                <span class="trust-label">Local Operators</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- AREA CARDS SECTION -->
+    <section class="areas-section" id="locations">
+        <div class="section-header">
+            <h2>Explore by Region</h2>
+            <p>Each corner of Puerto Rico has its own magic. Find your adventure.</p>
+        </div>
+        <div class="areas-grid">
+            <a href="fajardo.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>Fajardo</h3>
+                    <div class="area-card-subtitle">Bio Bays • Culebra Ferries • Snorkeling</div>
+                    <span class="area-card-count" id="fajardo-count">Loading...</span>
+                </div>
+            </a>
+            <a href="san-juan.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1568402102990-bc541580b59f?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>San Juan</h3>
+                    <div class="area-card-subtitle">Old San Juan • Food Tours • History</div>
+                    <span class="area-card-count" id="sanjuan-count">Loading...</span>
+                </div>
+            </a>
+            <a href="vieques.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1551918120-9739cb430c6d?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>Vieques</h3>
+                    <div class="area-card-subtitle">Mosquito Bay • Wild Horses • Beaches</div>
+                    <span class="area-card-count" id="vieques-count">Loading...</span>
+                </div>
+            </a>
+            <a href="rincon.html" class="area-card">
+                <div class="area-card-bg" style="background-image: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80')"></div>
+                <div class="area-card-overlay"></div>
+                <div class="area-card-content">
+                    <h3>Rincón</h3>
+                    <div class="area-card-subtitle">Surfing • Sunsets • Whale Watching</div>
+                    <span class="area-card-count" id="rincon-count">Loading...</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- TOURS SECTION -->
+    <section class="tours-section" id="tours-section">
+        <div class="container">
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label>Location</label>
+                    <select id="island-filter" onchange="filterTours()">
+                        <option value="">All Locations</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Activity</label>
+                    <select id="activity-filter" onchange="filterTours()">
+                        <option value="">All Activities</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Sort By</label>
+                    <select id="sort-filter" onchange="filterTours()">
+                        <option value="quality">Top Rated</option>
+                        <option value="random">Random</option>
+                        <option value="name">Name A-Z</option>
+                    </select>
+                </div>
+                <div class="filter-group search-inline">
+                    <label>Search</label>
+                    <input type="text" id="search-input" placeholder="Search tours..." oninput="debounceFilter()">
+                </div>
+                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
+            </div>
+            
+            <div class="results-info">
+                <span id="results-count">Loading tours...</span>
+                <button class="shuffle-btn" onclick="shuffleTours()">🔀 Shuffle</button>
+            </div>
+            
+            <div class="tours-grid" id="tours-grid">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading amazing tours...</p>
+                </div>
+            </div>
+            
+            <div class="load-more-wrap">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()" style="display:none;">
+                    Load More Tours ↓
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY BOOK SECTION -->
+    <section class="why-section">
+        <div class="section-header">
+            <h2>Why Book With Wander Puerto Rico?</h2>
+            <p>We connect you directly with the island's best local tour operators.</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card">
+                <div class="why-icon">🏝️</div>
+                <h3>Verified Local Tours</h3>
+                <p>Every tour is from a verified local operator. Real businesses, real experiences, real Puerto Rican hospitality.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">💰</div>
+                <h3>Book Direct</h3>
+                <p>No middleman markup. Book directly with the tour operator at their best prices.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🤙</div>
+                <h3>Support Local</h3>
+                <p>Your booking supports Puerto Rican families and small businesses across the island.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">📱</div>
+                <h3>Instant Confirmation</h3>
+                <p>Real-time availability. Book now, get confirmed instantly. No waiting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMAIL CAPTURE SECTION -->
+    <section class="guide-section">
+        <div class="guide-content">
+            <span class="guide-badge">Free PDF Guide</span>
+            <h2>Get the Ultimate Puerto Rico Trip Planner</h2>
+            <p>5-day itinerary, hidden gems, bio bay tips, packing list, and local secrets—delivered straight to your inbox.</p>
+            <form class="guide-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Send Me the Guide</button>
+            </form>
+            <p class="guide-disclaimer">🔒 No spam, ever. Unsubscribe anytime.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid" id="faq-container"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <img src="puertorico-logo-full.png" alt="Wander Puerto Rico" class="logo-img">
+                        <span>Wander Puerto Rico</span>
+                    </a>
+                    <p class="footer-platform-tagline">Tours Discovery Platform</p>
+                    <p>Your guide to the best Puerto Rico adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">¡Gracias por apoyar lo local! 🇵🇷</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Locations</h4>
+                    <ul id="footer-locations"></ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul id="footer-activities"></ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Guides</h4>
+                    <ul>
+                        <li><a href="bio-bay-tours-puerto-rico.html">Bio Bay Tours</a></li>
+                        <li><a href="el-yunque-tours.html">El Yunque Tours</a></li>
+                        <li><a href="culebra-snorkeling-tours.html">Culebra Snorkeling</a></li>
+                        <li><a href="vieques-day-trip.html">Vieques Day Trip</a></li>
+                        <li><a href="fajardo-water-tours.html">Fajardo Tours</a></li>
+                        <li><a href="puerto-rico-itinerary.html">5-Day Itinerary</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Wander Puerto Rico. All rights reserved.</p>
+                <p>We earn a commission when you book through our links at no extra cost to you.</p>
+            </div>
+        </div>
+      <div class="footer-network-link">
+    <a href="https://wanderhawaii.com" target="_blank">Hawaii Tours</a>
+  </div>
+</footer>
+
+    <!-- MOBILE CTA -->
+    <div class="mobile-cta" id="mobile-cta">
+        <a href="#tours-section" class="mobile-cta-btn">
+            <span>🌊</span> Find Your Adventure
+        </a>
+    </div>
+
+    <!-- FOMO REMOVED - Fake notifications destroy trust -->
+
+    <script>
+    // ========== CONFIG ==========
+    const CONFIG = {
+  "region": "puertorico",
+  "siteName": "Wander Puerto Rico",
+  "dataFile": "puertorico-tours.json",
+  "affiliateCode": "walktheplankadventures",
+  "locations": [
+    {
+      "id": "san juan",
+      "label": "San Juan"
+    },
+    {
+      "id": "fajardo",
+      "label": "Fajardo"
+    },
+    {
+      "id": "rincon",
+      "label": "Rincón"
+    },
+    {
+      "id": "vieques",
+      "label": "Vieques"
+    },
+    {
+      "id": "culebra",
+      "label": "Culebra"
+    },
+    {
+      "id": "ponce",
+      "label": "Ponce"
+    }
+  ]
+};
+    const HERO_IMAGES = ["https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1568402102990-bc541580b59f?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1551918120-9739cb430c6d?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1559494007-9f5847c49d94?auto=format&fit=crop&w=2400&q=90","https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2400&q=90"];
+    const FAQS = [{"q":"What's the best time to visit Puerto Rico?","a":"Puerto Rico is great year-round with temperatures of 75-85°F. Peak season (December-April) has the best weather but higher prices. Hurricane season runs June-November, with September being the riskiest month."},{"q":"Do I need a passport to visit Puerto Rico?","a":"No! Puerto Rico is a U.S. territory, so U.S. citizens only need a valid ID. No passport, no customs, same cell phone plan."},{"q":"What's a bioluminescent bay tour like?","a":"You kayak or take a boat into bays filled with microscopic organisms that glow blue when disturbed. It's like swimming through stars. Mosquito Bay in Vieques is the brightest bio bay in the world."},{"q":"How do I get to Vieques and Culebra?","a":"Take a ferry from Fajardo (cheapest, ~1.5 hours) or a short puddle-jumper flight from San Juan or Ceiba (~15 minutes). Book ferries in advance—they sell out."},{"q":"Is Puerto Rico safe for tourists?","a":"Yes, tourist areas are generally safe. Use common sense—don't flash valuables, stick to well-lit areas at night, and be aware of your surroundings like you would in any city."},{"q":"What should I pack for Puerto Rico?","a":"Sunscreen, bug spray (especially for rainforest and bio bay tours), comfortable walking shoes, swimsuit, and a light rain jacket. Pack layers for air-conditioned restaurants."},{"q":"Can I drink the tap water?","a":"Yes! Puerto Rico has safe, treated tap water that meets U.S. standards."},{"q":"What's the best way to get around?","a":"Rent a car for maximum flexibility, especially to reach beaches and El Yunque. Rideshares work well in San Juan. Tours often include transportation from major hotels."}];
+    const QUICK_TAGS = [{"emoji":"✨","label":"Bio Bay","term":"bioluminescent"},{"emoji":"🌴","label":"El Yunque","term":"yunque"},{"emoji":"🤿","label":"Snorkeling","term":"snorkel"},{"emoji":"🚤","label":"Boat Tours","term":"boat"},{"emoji":"🏝️","label":"Island Hop","term":"island"},{"emoji":"🌅","label":"Sunset","term":"sunset"},{"emoji":"🏄","label":"Surfing","term":"surf"},{"emoji":"🍹","label":"Food Tours","term":"food"},{"emoji":"🏰","label":"Old San Juan","term":"old san juan"},{"emoji":"🐢","label":"Sea Turtles","term":"turtle"},{"emoji":"🎣","label":"Fishing","term":"fishing"},{"emoji":"🚁","label":"Helicopter","term":"helicopter"}];
+    
+    // ========== STATE ==========
+    let toursData = [];
+    let filteredTours = [];
+    let displayedCount = 0;
+    const TOURS_PER_PAGE = 24;
+    
+    // ========== HERO BACKGROUNDS ==========
+    function initHeroBackgrounds() {
+        const heroBg = document.getElementById('heroBg');
+        HERO_IMAGES.forEach((img, i) => {
+            const slide = document.createElement('div');
+            slide.className = 'hero-slide';
+            slide.style.backgroundImage = `url('${img}')`;
+            heroBg.appendChild(slide);
+        });
+    }
+    initHeroBackgrounds();
+    
+    // ========== QUICK TAGS ==========
+    function initQuickTags() {
+        const container = document.getElementById('quickTags');
+        const tags = [...QUICK_TAGS, ...QUICK_TAGS]; // Duplicate for seamless loop
+        container.innerHTML = tags.map(tag => 
+            `<button onclick="quickFilter('${tag.term}')">${tag.emoji} ${tag.label}</button>`
+        ).join('');
+    }
+    initQuickTags();
+    
+    // ========== LOAD TOURS ==========
+    async function loadTours() {
+        try {
+            const response = await fetch(CONFIG.dataFile);
+            toursData = await response.json();
+            
+            shuffleArray(toursData);
+            filteredTours = [...toursData];
+            
+            // Populate filters
+            populateFilters();
+            
+            // Update trust bar
+            updateTrustBar();
+            
+            // Render
+            displayedCount = 0;
+            renderTours();
+            updateResultsCount();
+        } catch (error) {
+            console.error('Error loading tours:', error);
+            document.getElementById('tours-grid').innerHTML = `
+                <div class="loading-state">
+                    <p>Unable to load tours. Please refresh.</p>
+                </div>
+            `;
+        }
+    }
+    
+    // ========== FISHER-YATES SHUFFLE ==========
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+    
+    // ========== POPULATE FILTERS ==========
+    function populateFilters() {
+        // Locations
+        const locations = [...new Set(toursData.map(t => t.location).filter(Boolean))].sort();
+        const islandFilter = document.getElementById('island-filter');
+        locations.forEach(loc => {
+            islandFilter.innerHTML += `<option value="${loc}">${loc}</option>`;
+        });
+        
+        // Activities
+        const allTags = toursData.flatMap(t => t.tags || []);
+        const activities = [...new Set(allTags)].sort();
+        const activityFilter = document.getElementById('activity-filter');
+        activities.slice(0, 20).forEach(act => {
+            activityFilter.innerHTML += `<option value="${act}">${act}</option>`;
+        });
+        
+        // Footer links
+        const footerLocs = document.getElementById('footer-locations');
+        locations.slice(0, 6).forEach(loc => {
+            footerLocs.innerHTML += `<li><a href="#" onclick="quickFilter('${loc}'); return false;">${loc}</a></li>`;
+        });
+        
+        const footerActs = document.getElementById('footer-activities');
+        shuffleArray(activities).slice(0, 6).forEach(act => {
+            footerActs.innerHTML += `<li><a href="#" onclick="quickFilter('${act}'); return false;">${act}</a></li>`;
+        });
+    }
+    
+    // ========== UPDATE TRUST BAR ==========
+    function updateTrustBar() {
+        document.getElementById('trustTourCount').textContent = toursData.length;
+        const locations = [...new Set(toursData.map(t => t.location).filter(Boolean))];
+        document.getElementById('trustLocationCount').textContent = locations.length;
+        const operators = [...new Set(toursData.map(t => t.company).filter(Boolean))];
+        document.getElementById('trustOperatorCount').textContent = operators.length;
+        
+        // Update area card counts
+        updateAreaCounts();
+    }
+    
+    // ========== UPDATE AREA COUNTS ==========
+    function updateAreaCounts() {
+        const areaMappings = {
+            'fajardo-count': ['fajardo', 'luquillo', 'ceiba'],
+            'sanjuan-count': ['san juan', 'condado', 'isla verde', 'old san juan', 'carolina'],
+            'vieques-count': ['vieques'],
+            'rincon-count': ['rincon', 'rincón', 'aguadilla', 'isabela']
+        };
+        
+        for (const [elementId, keywords] of Object.entries(areaMappings)) {
+            const el = document.getElementById(elementId);
+            if (el) {
+                const count = toursData.filter(tour => {
+                    const loc = (tour.location || '').toLowerCase();
+                    return keywords.some(kw => loc.includes(kw));
+                }).length;
+                el.textContent = count > 0 ? `${count} Adventures` : 'Coming Soon';
+            }
+        }
+    }
+    
+    // ========== CREATE TOUR CARD ==========
+    function createTourCard(tour) {
+        const tags = tour.tags || [];
+        const tagDisplay = tags.slice(0, 3).map(tag => 
+            `<span class="tour-tag">${tag}</span>`
+        ).join('');
+        
+        const description = tour.description || '';
+        const truncatedDesc = description.length > 120 
+            ? description.substring(0, 117) + '...' 
+            : description;
+        
+        const isHighQuality = tour.qualityScore >= 90;
+        const qualityBadge = isHighQuality 
+            ? '<span class="quality-badge">⭐ Top Rated</span>' 
+            : '';
+        
+        // Price ribbon
+        const priceRibbon = tour.price 
+            ? `<div class="price-ribbon">From $${Math.round(tour.price)}</div>`
+            : '';
+        
+        const locationDisplay = tour.island 
+            ? `${tour.location}, ${capitalizeWords(tour.island)}`
+            : tour.location;
+        
+        return `
+            <article class="tour-card">
+                <div class="tour-image">
+                    <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                    ${qualityBadge}
+                    ${priceRibbon}
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 ${locationDisplay}</span>
+                    </div>
+                    <h3 class="tour-title">${tour.name}</h3>
+                    <p class="tour-description">${truncatedDesc}</p>
+                    <div class="tour-tags">${tagDisplay}</div>
+                    <div class="tour-footer">
+                        <span class="tour-company">${tour.company}</span>
+                        <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.id}', '${tour.name.replace(/'/g, "\\'")}')">
+                            Check Availability →
+                        </a>
+                    </div>
+                </div>
+            </article>
+        `;
+    }
+    
+    // ========== GA4 TRACKING ==========
+    function trackBookingClick(tourId, tourName) {
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'booking_click', {
+                'tour_id': tourId,
+                'tour_name': tourName,
+                'event_category': 'conversion'
+            });
+        }
+    }
+    
+    function capitalizeWords(str) {
+        if (!str) return '';
+        return str.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    }
+    
+    // ========== RENDER TOURS ==========
+    function renderTours(append = false) {
+        const grid = document.getElementById('tours-grid');
+        const toursToShow = filteredTours.slice(
+            append ? displayedCount : 0, 
+            displayedCount + TOURS_PER_PAGE
+        );
+        
+        const html = toursToShow.map(createTourCard).join('');
+        
+        if (append) {
+            grid.insertAdjacentHTML('beforeend', html);
+        } else {
+            grid.innerHTML = html;
+        }
+        
+        displayedCount = append 
+            ? displayedCount + toursToShow.length 
+            : toursToShow.length;
+        
+        const loadMoreBtn = document.getElementById('load-more');
+        loadMoreBtn.style.display = displayedCount >= filteredTours.length ? 'none' : 'block';
+    }
+    
+    function loadMoreTours() {
+        renderTours(true);
+        updateResultsCount();
+    }
+    
+    // ========== UPDATE RESULTS COUNT ==========
+    function updateResultsCount() {
+        const countEl = document.getElementById('results-count');
+        countEl.textContent = `Showing ${Math.min(displayedCount, filteredTours.length)} of ${filteredTours.length} adventures`;
+    }
+    
+    // ========== FILTER TOURS ==========
+    function filterTours() {
+        const islandFilter = document.getElementById('island-filter').value;
+        const activityFilter = document.getElementById('activity-filter').value;
+        const sortFilter = document.getElementById('sort-filter').value;
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        
+        filteredTours = toursData.filter(tour => {
+            if (islandFilter && tour.location !== islandFilter) return false;
+            if (activityFilter && !tour.tags?.includes(activityFilter)) return false;
+            
+            if (searchInput) {
+                const searchFields = [
+                    tour.name,
+                    tour.company,
+                    tour.location,
+                    tour.description,
+                    ...(tour.tags || [])
+                ].join(' ').toLowerCase();
+                
+                if (!searchFields.includes(searchInput)) return false;
+            }
+            
+            return true;
+        });
+        
+        // Sort
+        if (sortFilter === 'quality') {
+            filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+        } else if (sortFilter === 'name') {
+            filteredTours.sort((a, b) => a.name.localeCompare(b.name));
+        } else if (sortFilter === 'random') {
+            shuffleArray(filteredTours);
+        }
+        
+        displayedCount = 0;
+        renderTours();
+        updateResultsCount();
+    }
+    
+    let filterTimeout;
+    function debounceFilter() {
+        clearTimeout(filterTimeout);
+        filterTimeout = setTimeout(filterTours, 300);
+    }
+    
+    function shuffleTours() {
+        shuffleArray(filteredTours);
+        displayedCount = 0;
+        renderTours();
+    }
+    
+    function clearAllFilters() {
+        document.getElementById('island-filter').value = '';
+        document.getElementById('activity-filter').value = '';
+        document.getElementById('sort-filter').value = 'quality';
+        document.getElementById('search-input').value = '';
+        filterTours();
+    }
+    
+    function quickFilter(term) {
+        document.getElementById('search-input').value = term;
+        filterTours();
+        document.getElementById('tours-section').scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    function executeHeroSearch() {
+        const heroSearch = document.getElementById('hero-search');
+        if (heroSearch.value) {
+            quickFilter(heroSearch.value);
+        }
+    }
+    
+    // ========== FAQ ==========
+    function renderFAQs() {
+        const container = document.getElementById('faq-container');
+        const shuffled = shuffleArray([...FAQS]);
+        const selected = shuffled.slice(0, 5);
+        
+        container.innerHTML = selected.map(faq => `
+            <details class="faq-item">
+                <summary>${faq.q}</summary>
+                <div class="faq-answer">
+                    <p>${faq.a}</p>
+                </div>
+            </details>
+        `).join('');
+    }
+    
+    // ========== MOBILE MENU ==========
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+        document.querySelector('.nav-mobile').classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    
+    // ========== MOBILE CTA VISIBILITY ==========
+    window.addEventListener('scroll', function() {
+        const mobileCta = document.getElementById('mobile-cta');
+        const heroHeight = document.querySelector('.hero').offsetHeight;
+        if (window.scrollY > heroHeight * 0.5) {
+            mobileCta.classList.add('visible');
+        } else {
+            mobileCta.classList.remove('visible');
+        }
+    });
+    
+    // FOMO REMOVED - Fake notifications destroy trust
+    
+    // ========== HERO SEARCH ENTER KEY ==========
+    document.getElementById('hero-search').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') executeHeroSearch();
+    });
+    
+    // ========== INIT ==========
+    document.addEventListener('DOMContentLoaded', function() {
+        loadTours();
+        renderFAQs();
+    });
+    </script>
+</body>
+</html>
