@@ -36,9 +36,47 @@ function preCacheBookingUrls(tours) {
     });
 }
 
-// 2. Loading indicator with optimization
-function openBookingWithLoader(url) {
+// 2. GA4 Tracking Functions
+function trackBookingClick(tour) {
+    gtag('event', 'booking_click', {
+        tour_id: tour.id,
+        tour_name: tour.name,
+        region: tour.region,
+        price: tour.price || 'unknown',
+        company: tour.company,
+        event_category: 'conversion'
+    });
+}
+
+function trackFilterChange(filterType, value) {
+    gtag('event', 'filter_used', {
+        filter_type: filterType,
+        value: value,
+        event_category: 'engagement'
+    });
+}
+
+function trackSearchUsed(searchTerm) {
+    gtag('event', 'search_used', {
+        query: searchTerm,
+        event_category: 'engagement'
+    });
+}
+
+function trackLoadMoreClick() {
+    gtag('event', 'load_more_clicked', {
+        event_category: 'engagement'
+    });
+}
+
+// 3. Loading indicator with optimization
+function openBookingWithLoader(url, tour) {
     event && event.preventDefault && event.preventDefault();
+    
+    // Track the booking click
+    if (tour) {
+        trackBookingClick(tour);
+    }
     
     const loader = document.createElement('div');
     loader.id = 'booking-loader';
@@ -153,7 +191,7 @@ function createTourCard(tour) {
                 ${badgesHtml}
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button onclick="openBookingWithLoader('${tour.bookingLink}')" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
+                    <button onclick="openBookingWithLoader('${tour.bookingLink}', ${JSON.stringify(tour)})" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
                         Book Now →
                     </button>
                 </div>
@@ -185,6 +223,11 @@ function filterTours() {
     const searchTerm = document.getElementById('search-input')?.value.toLowerCase() || '';
     const activityFilter = document.getElementById('activity-filter')?.value || 'all';
     const sortBy = document.getElementById('sort-filter')?.value || 'featured';
+    
+    // Track filter usage
+    if (searchTerm) trackSearchUsed(searchTerm);
+    if (activityFilter !== 'all') trackFilterChange('activity', activityFilter);
+    if (sortBy !== 'featured') trackFilterChange('sort', sortBy);
     
     let filtered = toursData;
     
