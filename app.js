@@ -170,15 +170,13 @@ function createTourCard(tour) {
     if (tour.freeCancellation) {
         badgesHtml += '<span class="trust-badge free-cancel">Free Cancellation</span>';
     }
-    badgesHtml += '<span class="trust-badge instant">Instant Confirmation</span>';
-    badgesHtml += '<span class="trust-badge local">Local Operator</span>';
     badgesHtml += '</div>';
     
     return `
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400'">
+                <img src="${tour.image}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
