@@ -1323,3 +1323,5 @@
         display: none !important;
     }
 }
+
+.blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
