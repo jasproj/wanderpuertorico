@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puerto Rico Bioluminescent Bay Tours | Kayak Bio Bay</title>
+    <meta name="description" content="Explore Puerto Rico's magical bioluminescent bays with expert kayak tours. Witness glowing waters at night on guided bio bay kayaking adventures. Book now!">
+    <meta name="keywords" content="bioluminescent bay puerto rico, bio bay tours, bio bay kayaking, vieques bioluminescent, bio luminescent bay">
+    <link rel="canonical" href="https://wanderpuertorico.com/bio-bay.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderpuertorico.com/bio-bay.html">
+    <meta property="og:title" content="Puerto Rico Bioluminescent Bay Tours | Kayak Bio Bay">
+    <meta property="og:description" content="Explore Puerto Rico's magical bioluminescent bays with expert kayak tours. Book glowing water kayaking adventures.">
+    <meta property="og:image" content="https://wanderpuertorico.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://wanderpuertorico.com/og-image.png">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://wanderpuertorico.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Activities",
+          "item": "https://wanderpuertorico.com/#activities"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bioluminescent Bay Tours",
+          "item": "https://wanderpuertorico.com/bio-bay.html"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="icon" type="image/png" href="puertorico-favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MBNZZ0D7VD');
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .activity-hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 120px 20px 60px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .activity-hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: 'DM Sans', sans-serif;
+        }
+        .activity-hero p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        .activity-intro {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+            line-height: 1.8;
+            color: #333;
+        }
+        .activity-intro h2 {
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+            color: #5b21b6;
+        }
+        .tours-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .tours-section h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #333;
+        }
+        .tours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+        .tour-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .tour-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .tour-image {
+            position: relative;
+            overflow: hidden;
+            height: 200px;
+        }
+        .tour-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .tour-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tour-card:hover .tour-overlay {
+            opacity: 1;
+        }
+        .tour-book-btn {
+            background: #f59e0b;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .tour-book-btn:hover {
+            background: #d97706;
+        }
+        .tour-content {
+            padding: 20px;
+        }
+        .tour-content h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .tour-company {
+            font-size: 0.9rem;
+            color: #5b21b6;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        .tour-location {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 12px;
+        }
+        .tour-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: #666;
+        }
+        .faq-section {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+        .faq-section h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #333;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 20px;
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            color: #5b21b6;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+        .faq-item p {
+            color: #666;
+            line-height: 1.8;
+        }
+        .cta-section {
+            background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .cta-section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        .cta-button {
+            background: #f59e0b;
+            color: #333;
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .cta-button:hover {
+            background: #d97706;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .activity-hero h1 {
+                font-size: 2rem;
+            }
+            .activity-hero p {
+                font-size: 1rem;
+            }
+            .tours-grid {
+                grid-template-columns: 1fr;
+            }
+            .activity-intro h2,
+            .tours-section h2,
+            .faq-section h2,
+            .cta-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="puertorico-logo-full.png" alt="Wander Puerto Rico" class="logo-img">
+                    <span>Wander Puerto Rico</span>
+                </a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#locations">Locations</a>
+                <a href="/#faq">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#locations">Locations</a>
+            <a href="/#faq">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="activity-hero">
+        <h1>Bioluminescent Bay Tours</h1>
+        <p>Paddle through glowing waters under the stars</p>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section class="activity-intro">
+        <h2>Experience Nature's Magic: Puerto Rico Bio Bay Tours</h2>
+        <p>Puerto Rico's bioluminescent bays are among the most spectacular natural wonders in the Caribbean. These enchanted waters contain millions of dinoflagellates—tiny organisms that emit light when disturbed—creating a breathtaking glow that turns your kayak into a boat of light.</p>
+        
+        <p>Our expert guides lead you on unforgettable bio bay kayak tours through pristine waters where every paddle stroke illuminates the night sky. Whether you choose a calm evening paddle or a more adventurous eco-tour experience, you'll witness one of nature's most magical phenomena. The best time to visit is during moonless nights when the bioluminescence is most vivid and visible.</p>
+        
+        <p>These tours are perfect for families, couples, and adventure seekers. Our bio bay kayaking experiences combine stunning natural beauty with educational insights about the unique ecosystem. We offer flexible scheduling, professional guides, and all necessary equipment to ensure your visit to Puerto Rico's bioluminescent bays is safe, comfortable, and absolutely unforgettable.</p>
+    </section>
+
+    <!-- TOURS SECTION -->
+    <section class="tours-section">
+        <h2>Available Bio Bay Kayak Tours</h2>
+        <div id="tours-grid" class="tours-grid"></div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <h3>What causes the bioluminescence in Puerto Rico's bays?</h3>
+            <p>The glow comes from dinoflagellates, microscopic organisms that produce light through a chemical reaction called bioluminescence. When the water is disturbed—by paddling, swimming, or even fish movement—these organisms emit light, creating the magical glowing effect you see in the bio bay.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>When is the best time to see bioluminescence?</h3>
+            <p>Bioluminescence is visible year-round, but it's brightest during moonless nights when there's minimal natural light. The glow can be seen any month, though conditions are generally clearest during calmer summer months (May-August) and again in fall.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is bio bay kayaking safe for beginners?</h3>
+            <p>Absolutely! Bio bay kayak tours are designed for all skill levels. Our experienced guides provide full instruction and safety gear. Most tours take place in calm, protected waters. Families with children and first-time kayakers are welcome on all our tours.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What should I wear for a bio bay tour?</h3>
+            <p>Wear quick-drying clothing you don't mind getting wet. Bring a light jacket or dry bag for afterwards. Water shoes or sandals with straps are recommended. Most tours provide a dry bag for personal items, and our guides advise on what to bring based on the specific tour you choose.</p>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <h2>Ready to Book?</h2>
+        <p>Join our bio bay kayak tours and experience Puerto Rico's most magical natural wonder</p>
+        <a href="#tours-grid" class="cta-button">Explore Tours Now</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="/about">About Wander PR</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Activities</h4>
+                <ul>
+                    <li><a href="/bio-bay.html">Bioluminescent Bays</a></li>
+                    <li><a href="/snorkeling.html">Snorkeling</a></li>
+                    <li><a href="/el-yunque.html">El Yunque</a></li>
+                    <li><a href="/kayaking.html">Kayaking</a></li>
+                    <li><a href="/sailing.html">Sailing</a></li>
+                    <li><a href="/old-san-juan.html">Old San Juan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wander Puerto Rico. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Hidden data for tour filtering -->
+    <div id="activity-filter-tags" style="display:none;">["Kayak", "Eco Tour"]</div>
+    
+    <script src="activity-loader.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-mobile').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

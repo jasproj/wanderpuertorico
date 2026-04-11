@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Yunque Rainforest Tours | Waterfall Hikes Puerto Rico</title>
+    <meta name="description" content="Experience El Yunque rainforest tours with waterfall hikes, zip-lining, and guided nature adventures. Professional guides, all skill levels welcome. Book your El Yunque tour today!">
+    <meta name="keywords" content="el yunque tours, el yunque hiking, puerto rico rainforest, el yunque waterfall, el yunque national forest">
+    <link rel="canonical" href="https://wanderpuertorico.com/el-yunque.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderpuertorico.com/el-yunque.html">
+    <meta property="og:title" content="El Yunque Rainforest Tours | Waterfall Hikes Puerto Rico">
+    <meta property="og:description" content="Explore Puerto Rico's El Yunque National Rainforest with guided waterfall hikes. All skill levels. Professional guides. Book today!">
+    <meta property="og:image" content="https://wanderpuertorico.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://wanderpuertorico.com/og-image.png">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://wanderpuertorico.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Activities",
+          "item": "https://wanderpuertorico.com/#activities"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "El Yunque Tours",
+          "item": "https://wanderpuertorico.com/el-yunque.html"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="icon" type="image/png" href="puertorico-favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MBNZZ0D7VD');
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .activity-hero {
+            background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+            color: white;
+            padding: 120px 20px 60px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .activity-hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: 'DM Sans', sans-serif;
+        }
+        .activity-hero p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        .activity-intro {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+            line-height: 1.8;
+            color: #333;
+        }
+        .activity-intro h2 {
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+            color: #5b21b6;
+        }
+        .tours-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .tours-section h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #333;
+        }
+        .tours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+        .tour-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .tour-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .tour-image {
+            position: relative;
+            overflow: hidden;
+            height: 200px;
+        }
+        .tour-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .tour-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tour-card:hover .tour-overlay {
+            opacity: 1;
+        }
+        .tour-book-btn {
+            background: #f59e0b;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .tour-book-btn:hover {
+            background: #d97706;
+        }
+        .tour-content {
+            padding: 20px;
+        }
+        .tour-content h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .tour-company {
+            font-size: 0.9rem;
+            color: #5b21b6;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        .tour-location {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 12px;
+        }
+        .tour-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: #666;
+        }
+        .faq-section {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+        .faq-section h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #333;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 20px;
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            color: #5b21b6;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+        .faq-item p {
+            color: #666;
+            line-height: 1.8;
+        }
+        .cta-section {
+            background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .cta-section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        .cta-button {
+            background: #f59e0b;
+            color: #333;
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .cta-button:hover {
+            background: #d97706;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .activity-hero h1 {
+                font-size: 2rem;
+            }
+            .activity-hero p {
+                font-size: 1rem;
+            }
+            .tours-grid {
+                grid-template-columns: 1fr;
+            }
+            .activity-intro h2,
+            .tours-section h2,
+            .faq-section h2,
+            .cta-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="puertorico-logo-full.png" alt="Wander Puerto Rico" class="logo-img">
+                    <span>Wander Puerto Rico</span>
+                </a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#locations">Locations</a>
+                <a href="/#faq">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#locations">Locations</a>
+            <a href="/#faq">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="activity-hero">
+        <h1>El Yunque Rainforest Tours</h1>
+        <p>Explore Puerto Rico's lush national rainforest</p>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section class="activity-intro">
+        <h2>Discover El Yunque National Rainforest</h2>
+        <p>El Yunque, officially the El Yunque National Rainforest, is America's only tropical rainforest national forest. Spanning nearly 30,000 acres of pristine wilderness, this lush landscape is home to hundreds of plant and animal species, stunning waterfalls, and breathtaking scenic views that make it one of Puerto Rico's most visited attractions.</p>
+        
+        <p>Our El Yunque tours offer expertly guided experiences through the rainforest's most spectacular areas. Whether you're interested in leisurely nature walks to hidden waterfalls, challenging hikes to mountain peaks, or adventurous zip-lining through the canopy, we have tours suited to every fitness level. Professional guides lead you safely through dense jungle trails, identifying tropical plants and wildlife while sharing fascinating insights into the rainforest ecosystem.</p>
+        
+        <p>Popular highlights include the El Yunque waterfall hikes to natural pools perfect for swimming, scenic overlook trails with panoramic views, and encounters with native wildlife including coquí frogs and tropical birds. Tours typically include transportation from San Juan, all necessary equipment, and guides knowledgeable about both the natural history and practical details of your adventure. The rainforest is at its most magical after rainfall when waterfalls are at peak flow.</p>
+    </section>
+
+    <!-- TOURS SECTION -->
+    <section class="tours-section">
+        <h2>Available El Yunque Tours</h2>
+        <div id="tours-grid" class="tours-grid"></div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <h3>What should I wear for El Yunque hiking?</h3>
+            <p>Wear moisture-wicking, lightweight clothing suited for tropical heat. Hiking boots or sturdy trail shoes with good traction are essential—trails can be muddy and slippery. Bring a light rain jacket, hat, and sunscreen. Quick-dry clothes are ideal since you may get wet from rain or waterfall swimming.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What fitness level is required?</h3>
+            <p>We offer tours for all fitness levels, from gentle rainforest walks to challenging summit hikes. Easy tours are 2-3 hours with minimal elevation gain, moderate tours involve more terrain, and advanced tours require good fitness. Our guides can recommend the right tour for your ability.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I swim in the El Yunque waterfalls?</h3>
+            <p>Yes! Many El Yunque trails lead to natural pools at waterfall bases where swimming is permitted and highly encouraged. Bring a swimsuit and water shoes. The water is cool and refreshing—a perfect reward after hiking through the rainforest.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What wildlife might I encounter?</h3>
+            <p>El Yunque is home to the famous coquí frog, colorful birds, iguanas, and various tropical insects. The rainforest has no dangerous predators. Your guide will help you spot and identify local wildlife and explain their role in the rainforest ecosystem.</p>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <h2>Ready to Book?</h2>
+        <p>Adventure through Puerto Rico's pristine El Yunque rainforest with experienced guides</p>
+        <a href="#tours-grid" class="cta-button">Explore Tours Now</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="/about">About Wander PR</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Activities</h4>
+                <ul>
+                    <li><a href="/bio-bay.html">Bioluminescent Bays</a></li>
+                    <li><a href="/snorkeling.html">Snorkeling</a></li>
+                    <li><a href="/el-yunque.html">El Yunque</a></li>
+                    <li><a href="/kayaking.html">Kayaking</a></li>
+                    <li><a href="/sailing.html">Sailing</a></li>
+                    <li><a href="/old-san-juan.html">Old San Juan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wander Puerto Rico. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Hidden data for tour filtering -->
+    <div id="activity-filter-tags" style="display:none;">["Hiking"]</div>
+    
+    <script src="activity-loader.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-mobile').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
