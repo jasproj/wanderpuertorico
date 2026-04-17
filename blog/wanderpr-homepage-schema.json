@@ -1,0 +1,77 @@
+{
+  "// NOTE": "Replace TODO_ placeholders before deploying.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://wanderpuertorico.com/#business",
+      "name": "WanderPuertoRico",
+      "description": "Puerto Rico snorkeling tours, catamaran day trips, bio bay kayak tours, and water activities across Fajardo, San Juan, Culebra, and Vieques.",
+      "url": "https://wanderpuertorico.com",
+      "telephone": "+1-727-623-2652",
+      "email": "jason@floridateleprompter.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "TODO_LOGO_URL"
+      },
+      "priceRange": "$50\u2013$300",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fajardo",
+        "addressRegion": "PR",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Fajardo, Puerto Rico"
+        },
+        {
+          "@type": "Place",
+          "name": "San Juan, Puerto Rico"
+        },
+        {
+          "@type": "Place",
+          "name": "Culebra, Puerto Rico"
+        },
+        {
+          "@type": "Place",
+          "name": "Vieques, Puerto Rico"
+        }
+      ],
+      "serviceType": [
+        "Snorkeling Tour",
+        "Catamaran Charter",
+        "Bio Bay Tour",
+        "Kayak Tour",
+        "Scuba Diving",
+        "Boat Tour"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "TODO_RATING",
+        "reviewCount": "TODO_REVIEW_COUNT",
+        "bestRating": "5"
+      },
+      "sameAs": [
+        "TODO_SOCIAL_FACEBOOK",
+        "TODO_SOCIAL_INSTAGRAM",
+        "TODO_SOCIAL_TRIPADVISOR"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wanderpuertorico.com/#website",
+      "url": "https://wanderpuertorico.com",
+      "name": "WanderPuertoRico",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wanderpuertorico.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
