@@ -50,6 +50,14 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
 .spec b{color:#F5B84C}
 .winner{color:#4caf7d;font-weight:700}
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MBNZZ0D7VD');
+</script>
 </head>
 <body><article class="wrap">
 <p class="meta">WanderPuertoRico &nbsp;·&nbsp; Booking Guide</p>
@@ -113,5 +121,17 @@ document.querySelectorAll('details').forEach(function(d){
 var i=d.querySelector('summary span');
 d.addEventListener('toggle',function(){if(i)i.textContent=d.open?'−':'＋';});
 });
-</script></body>
+</script><script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="fareharbor.com"]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      gtag('event', 'booking_click', {
+        'tour_name': this.dataset.tourName || this.textContent.trim(),
+        'outbound_url': this.href
+      });
+    });
+  });
+});
+</script>
+</body>
 </html>

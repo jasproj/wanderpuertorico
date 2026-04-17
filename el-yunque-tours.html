@@ -34,6 +34,14 @@
         @media (max-width: 600px) { h1 { font-size: 1.75rem; } article { padding: 2rem 1rem; } }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MBNZZ0D7VD');
+</script>
 </head>
 <body>
     <header class="header">
@@ -93,5 +101,17 @@
         <p>© 2025 Wander Puerto Rico. All rights reserved.</p>
         <p><a href="/">Back to Home</a></p>
     </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="fareharbor.com"]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      gtag('event', 'booking_click', {
+        'tour_name': this.dataset.tourName || this.textContent.trim(),
+        'outbound_url': this.href
+      });
+    });
+  });
+});
+</script>
 </body>
 </html>

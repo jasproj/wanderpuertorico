@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="../styles.css">
     <style>.blog-article{max-width:800px;margin:0 auto;padding:40px 20px}.blog-article h1{font-size:2.2rem;margin-bottom:20px}.blog-article p{font-size:1.1rem;line-height:1.8;margin-bottom:20px}.blog-hero-image{width:100%;max-height:450px;object-fit:cover;border-radius:12px;margin-bottom:30px}.season-box{background:#f0f8ff;border-left:4px solid #0066cc;padding:20px;margin:25px 0;border-radius:0 8px 8px 0}.warning-box{background:#ffe6e6;border-left:4px solid #cc0000;padding:20px;margin:25px 0}.cta-box{background:linear-gradient(135deg,#0066cc,#004499);color:white;padding:35px;border-radius:12px;text-align:center;margin:40px 0}.cta-box a{background:white;color:#0066cc;padding:14px 30px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;margin-top:15px}</style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MBNZZ0D7VD');
+</script>
 </head>
 <body>
     <header class="site-header"><div class="header-container"><a href="/" class="logo-link"><img src="../logo-icon.png"><span>WanderPuertoRico</span></a><nav class="main-nav"><a href="/#tours">Tours</a><a href="/blog/">Blog</a></nav></div></header>
@@ -141,5 +149,17 @@
     </article>
 
     <footer class="site-footer"><p>&copy; 2026 WanderPuertoRico.</p></footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="fareharbor.com"]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      gtag('event', 'booking_click', {
+        'tour_name': this.dataset.tourName || this.textContent.trim(),
+        'outbound_url': this.href
+      });
+    });
+  });
+});
+</script>
 </body>
 </html>

@@ -50,6 +50,14 @@
   ]
 }
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MBNZZ0D7VD');
+</script>
 </head>
 <body>
     <header class="header"><div class="header-inner"><a href="/" class="logo"><img src="/puertorico-logo-full.png" alt="Wander Puerto Rico"></a><a href="/blog/" class="back-link">← All Articles</a></div></header>
@@ -88,5 +96,17 @@
         <div class="cta-box"><p style="margin-bottom:1rem;font-weight:500;">Book a Flamenco Beach tour today</p><a href="/">Browse Tours →</a></div>
     </article>
     <footer class="footer"><p>© 2026 Wander Puerto Rico. All rights reserved.</p><p><a href="/">Browse All Tours</a> · <a href="/blog/">Travel Blog</a></p></footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="fareharbor.com"]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      gtag('event', 'booking_click', {
+        'tour_name': this.dataset.tourName || this.textContent.trim(),
+        'outbound_url': this.href
+      });
+    });
+  });
+});
+</script>
 </body>
 </html>
