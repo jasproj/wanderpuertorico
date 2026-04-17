@@ -54,8 +54,8 @@ function showExitPopup() {
             <button onclick="document.getElementById('tours-grid')?.scrollIntoView({behavior:'smooth'}); this.closest('.exit-popup-overlay').remove();"
                     style="flex: 1; padding: 12px; background: #0a4d68; color: white; 
                            border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
-                Book Now →
-            </button>
+                Check Availability →
+</button>
         </div>
         <p style="margin: 0; color: #999; font-size: 12px;">🔒 Secure booking, No spam</p>
     `;

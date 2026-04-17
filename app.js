@@ -190,8 +190,8 @@ function createTourCard(tour) {
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
                     <button onclick="openBookingWithLoader('${tour.bookingLink}', ${JSON.stringify(tour)})" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
-                        Book Now →
-                    </button>
+                        Check Availability →
+</button>
                 </div>
             </div>
         </article>
