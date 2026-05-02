@@ -115,17 +115,12 @@ function formatPrice(price, confidence) {
     return `From $${price}`;
 }
 
-function attachBookingHandler(grid) {
-    if (!grid || grid.dataset.bookingHandlerAttached) return;
-    grid.addEventListener('click', (e) => {
-        const btn = e.target.closest('.book-now-btn');
-        if (!btn) return;
-        const tourId = btn.dataset.tourId;
-        const tour = toursData.find(t => String(t.id) === tourId);
-        if (tour) openBookingWithLoader(tour.bookingLink, tour);
-    });
-    grid.dataset.bookingHandlerAttached = 'true';
-}
+// attachBookingHandler used to wire a delegated click handler that
+// called openBookingWithLoader. That was a workaround for the previous
+// <button> markup, which couldn't navigate natively. Tour cards now
+// render as <a href target="_blank"> and navigate on their own. Kept
+// as a no-op so any old call sites don't throw.
+function attachBookingHandler(grid) { /* no-op (anchor navigates natively) */ }
 
 function cleanLocation(location = '') {
     return location
@@ -220,7 +215,7 @@ function createTourCard(tour) {
                 ${badgesHtml}
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" style="cursor: pointer; border: none; background: none; padding: 0;">Check Availability →</button>
+                    <a href="${tour.bookingLink}" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="cursor: pointer; border: none; background: none; padding: 0; text-decoration: none; display: inline-block;">Check Availability →</a>
                 </div>
             </div>
         </article>
