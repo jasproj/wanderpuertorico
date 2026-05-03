@@ -1,0 +1,111 @@
+=== description-polish-v2 dry-run report ===
+generated: 2026-05-03T02:06:53.291Z
+mode: DRY-RUN (no writes)
+
+--- STATS ---
+{
+  "total": 303,
+  "pattern_a_cleaned": 118,
+  "pattern_a_no_match": 185,
+  "pattern_b_cleaned": 8,
+  "pattern_b_no_match": 295,
+  "pattern_b_aborted_too_short": 0,
+  "unchanged": 178,
+  "changed_total": 125
+}
+
+--- PATTERN A SAMPLES (5) ---
+[
+  {
+    "id": "pr-118202",
+    "name": "Guided Clear Bottom Kayak Bio Bay Tour",
+    "matched_header": "Additional information",
+    "before_len": 571,
+    "after_len": 534,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "nza\\n\\nWhat's not included\\n\\nFood and drinks\\n\\nHighlights\\nWitness the brightest bioluminescent bay in the world\\nKayak in clear bottom kayaks with a local guide\\n45 minutes - 1 hour kayaking in Mos…"
+  },
+  {
+    "id": "pr-11821",
+    "name": "Fajardo Bio Bay Kayak Tour",
+    "matched_header": "Additional information",
+    "before_len": 896,
+    "after_len": 854,
+    "stripped_tail": "Additional information\\nFAQs\\nCancellations",
+    "new_tail_first_200": "st\\nKayak through the mangrove canals under the stars\\nExperience a unique natural phenomenon exclusive to a few locations on Earth\\nIdeal for all skill levels with safety equipment and training provi…"
+  },
+  {
+    "id": "pr-290742",
+    "name": "Reservaciones Cumpleaños 1:00pm a 5:00pm",
+    "matched_header": "Cancellations",
+    "before_len": 820,
+    "after_len": 806,
+    "stripped_tail": "Cancellations",
+    "new_tail_first_200": "e de cumpleaños seleccionado tienen un costo de $50.\\n\\nIMPORTANTE: Al realizar esta reservación usted acepta todos los términos, condiciones, reglas y políticas del contrato de Cumpleaños VIP.\\n\\nPri…"
+  },
+  {
+    "id": "pr-8754",
+    "name": "Bioluminescent Bay",
+    "matched_header": "Additional information",
+    "before_len": 841,
+    "after_len": 804,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "ghts\\nAn Eco-Adventure – For outdoor enthusiast and nature lovers only.\\nNight Kayaking – Through the mangrove forest of Laguna Grande Reserve.\\nChance to paddle through the glow of bioluminescent wat…"
+  },
+  {
+    "id": "pr-442479",
+    "name": "Vieques Snorkeling & Beach tour",
+    "matched_header": "Additional information",
+    "before_len": 1274,
+    "after_len": 1236,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "included\\n\\nDeli style lunch buffet\\n\\nBeverages, including rum drinks, Medalla beer, and piña colada\\n\\nSnorkeling Equipment\\n\\nFloating devices\\n\\nSwim platforms where our guest have easy access to …"
+  }
+]
+
+--- PATTERN B SAMPLES (5) ---
+[
+  {
+    "id": "pr-101024",
+    "name": "Private Group Tour",
+    "before_len": 1146,
+    "after_len": 935,
+    "stripped_head_first_300": "Puerto Rico\\n\\nCall to Book • 1 Hour • Create unforgettable memories!\\n\\n\t772 Reviewers\\n#1 of 15 Boat Tours & Water Sports in Luquillo\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Looking for something a little more personalized for your family, corporate group, school trip, or perhaps your special party? We have the solution!\\nAbout\\n\\nOur Private Group Tours provide the perfe…"
+  },
+  {
+    "id": "pr-334369",
+    "name": "Mystic Waters Under the Sun & Stars: Private Roadtrip to La Parguera and Snorkeling, Sunset & Bioluminicent Swim Boat Tour",
+    "before_len": 1500,
+    "after_len": 1276,
+    "stripped_head_first_300": "From $1299.99 • For all ages! • 7 Hours\\n\\nFree cancellation\\nInstant confirmation\\n\t90 Reviewers\\n#35 of 151 Boat Tours & Water Sports in San Juan\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026\\n",
+    "after_first_200": "Unveil Puerto Rico's Hidden Treasures: Caracoles Cay Snorkeling, Caribbean Sunset, and Bioluminescent Swim in One Unforgettable Experience\\nExperience Puerto Rico's finest offerings in this all-in-one…"
+  },
+  {
+    "id": "pr-2977",
+    "name": "Surf Lessons",
+    "before_len": 1500,
+    "after_len": 1220,
+    "stripped_head_first_300": "Puerto Rico\\n\\n2 Hours of Fun! • Ages 8+ • The Best Surfing Lessons Program in Puerto Rico! • 3-5 day Packages\\n\\n\t772 Reviewers\\n#1 of 15 Boat Tours & Water Sports in Luquillo\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026\\n$70\\n\tPeople\\nAges 8+\\n\\n\\n$160",
+    "after_first_200": "3 Lesson Package Specials PER PERSON\\nGroup Lessons • Non-transferrable\\n\\n\\n$250\\n\t5 Lesson Package Specials PER PERSON\\nGroup Lessons • Non-transferrable\\n\\nPrices for Friday, May 1, 2026 at 9:30 AM…"
+  },
+  {
+    "id": "pr-334320",
+    "name": "Ocean's Edge to Jungle's Heart: Private 5-Hour Adventure with Beach Bliss, Rock Formation Hike, and Rainforest Waterfalls",
+    "before_len": 1500,
+    "after_len": 1288,
+    "stripped_head_first_300": "From $899.99 • For all ages!\\n\\nFree cancellation\\nInstant confirmation\\n\t90 Reviewers\\n#35 of 151 Boat Tours & Water Sports in San Juan\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Including waterfalls and Mar Chiquita Beach with rock formation hiking\\nOur best beach tour, hiking tour and Tropical Forest tour package, one of our top 10 things to do in San Juan and top 5 things t…"
+  },
+  {
+    "id": "pr-334203",
+    "name": "Private VIP Boat Tour of La Parguera: Snorkeling, Sunset and Bioluminiscent Bay swimming experience",
+    "before_len": 1500,
+    "after_len": 1315,
+    "stripped_head_first_300": "From $1,299.99 • For all ages! • 8 Hours\\n\\n\t90 Reviewers\\n#35 of 151 Boat Tours & Water Sports in San Juan\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Puerto Rico has many natural wonders, but Papayo Cove ranks at the top of them all. Get ready to dive in and swim in the warm glowing waters of La Parguera.\\nDuration\\n\\n8 hrs\\n\\nAbout\\n\\nSave preciou…"
+  }
+]
+
+--- PATTERN B ABORTED (would have left <100 chars) ---
+[]
