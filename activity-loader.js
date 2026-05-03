@@ -1,13 +1,24 @@
+// Fisher-Yates shuffle (non-mutating)
+function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
 // Shared tour loading and filtering for activity pages
 async function loadActivityTours(filterTags, containerId = 'tours-grid', limit = 12) {
     try {
         const response = await fetch('/puertorico-tours.json');
         const allTours = await response.json();
-        
-        // Filter tours by tags
-        const filteredTours = allTours.filter(tour => {
+
+        // Filter tours by tags, then shuffle per-page-load before slicing
+        const filtered = allTours.filter(tour => {
             return filterTags.some(tag => tour.tags.includes(tag));
-        }).slice(0, limit);
+        });
+        const filteredTours = shuffleArray(filtered).slice(0, limit);
         
         const container = document.getElementById(containerId);
         if (!container) return;

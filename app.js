@@ -158,13 +158,14 @@ function generateTourSchema(tour) {
     };
 }
 
-// Fisher-Yates shuffle
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
+// Fisher-Yates shuffle (non-mutating)
+function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+        [a[i], a[j]] = [a[j], a[i]];
     }
-    return array;
+    return a;
 }
 
 // Create tour card HTML
@@ -228,7 +229,7 @@ async function loadTours() {
         const response = await fetch('puertorico-tours.json');
         toursData = await response.json();
         
-        const shuffled = shuffleArray([...toursData]).slice(0, 50);
+        const shuffled = shuffleArray(toursData).slice(0, 50);
         preCacheBookingUrls(shuffled);
         
         const grid = document.getElementById('tours-grid');
@@ -269,13 +270,16 @@ function filterTours() {
     }
     
     if (sortBy === 'price-low') {
-        filtered.sort((a, b) => (a.price || 0) - (b.price || 0));
+        filtered = [...filtered].sort((a, b) => (a.price || 0) - (b.price || 0));
     } else if (sortBy === 'price-high') {
-        filtered.sort((a, b) => (b.price || 0) - (a.price || 0));
+        filtered = [...filtered].sort((a, b) => (b.price || 0) - (a.price || 0));
     } else if (sortBy === 'rating') {
-        filtered.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+        filtered = [...filtered].sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+    } else {
+        // 'featured' — randomize per page-load for fair rotation
+        filtered = shuffleArray(filtered);
     }
-    
+
     const grid = document.getElementById('tours-grid');
     if (grid) {
         grid.innerHTML = filtered.slice(0, 50).map(tour => createTourCard(tour)).join('');
