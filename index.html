@@ -20,7 +20,10 @@
     <meta name="twitter:image" content="https://wanderpuertorico.com/og-image.png">
     
     <link rel="icon" type="image/png" href="images/favicon.png">
-    
+
+    <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp">
+    <link rel="preload" as="image" href="images/logo.webp" type="image/webp">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -131,7 +134,10 @@
         <div class="header-container">
             <div class="logo-group">
                 <a href="/" class="logo">
-                    <img src="images/logo.png" alt="Wander Puerto Rico" class="logo-img">
+                    <picture>
+                        <source srcset="images/logo.webp" type="image/webp">
+                        <img src="images/logo.png" alt="Wander Puerto Rico" class="logo-img" width="800" height="321" fetchpriority="high">
+                    </picture>
                 </a>
             </div>
             <nav class="nav-desktop">
@@ -167,7 +173,10 @@
         <div class="hero-content">
             <p class="hero-tagline">Book Local. Live Boricua.</p>
             <div class="hero-logo-pill">
-                <img src="images/hero-banner.png" alt="Wander Puerto Rico" class="hero-logo-img">
+                <picture>
+                    <source srcset="images/hero-banner.webp" type="image/webp">
+                    <img src="images/hero-banner.png" alt="Wander Puerto Rico" class="hero-logo-img" width="1024" height="1024" fetchpriority="high">
+                </picture>
             </div>
             <p class="hero-subtitle">Handpicked San Juan, Fajardo, Rincón & Vieques tours. Book direct with local guides.</p>
             
