@@ -34,10 +34,11 @@
   header { background: #0c5d8c; color: white; padding: 16px 20px; }
   header .nav-wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
   header a { color: white; text-decoration: none; }
-  header .logo { font-weight: 700; font-size: 1.2rem; }
+  header .logo { font-weight: 700; font-size: 1.2rem; display: inline-flex; align-items: center; }
+  header .logo img { height: 40px; width: auto; display: block; }
   header nav a { margin-left: 18px; opacity: 0.9; }
   header nav a:hover { opacity: 1; text-decoration: underline; }
-  .hero { background: linear-gradient(135deg, #0c5d8c 0%, #f08020 100%); color: white; padding: 80px 20px; text-align: center; }
+  .hero { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('/images/hero-vieques.jpg'); background-size: cover; background-position: center; color: white; padding: 80px 20px; text-align: center; min-height: 320px; display: flex; align-items: center; justify-content: center; }
   .hero h1 { font-size: 2.5rem; margin: 0 0 12px 0; }
   .hero p { font-size: 1.1rem; max-width: 720px; margin: 0 auto; opacity: 0.95; }
   .intro { padding: 50px 0; }
@@ -65,7 +66,7 @@
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8rem; }
-    .hero { padding: 50px 20px; }
+    .hero { padding: 30px 20px; min-height: 130px; }
     header nav a { display: none; }
     header nav a:first-child { display: inline; }
   }
@@ -76,7 +77,12 @@
 <body>
 <header>
   <div class="nav-wrap">
-    <a href="/" class="logo">WanderPuertoRico</a>
+    <a href="/" class="logo">
+      <picture>
+        <source srcset="images/logo.webp" type="image/webp">
+        <img src="images/logo.png" alt="Wander Puerto Rico" width="800" height="321">
+      </picture>
+    </a>
     <nav>
       <a href="/">Home</a>
       <a href="/faq.html">FAQ</a>
@@ -85,10 +91,10 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="hero" role="img" aria-label="Tropical beach with palm trees on Vieques island, Puerto Rico">
   <div class="container">
-    <h1>Vieques Tours</h1>
-    <p>The least-developed of Puerto Rico&#x27;s offshore islands — Mosquito Bay (the world&#x27;s brightest bio-bay), wild horses, no tourist crush.</p>
+    <h1>Vieques</h1>
+    <p>Wild horses, empty beaches, slower pace</p>
   </div>
 </section>
 
