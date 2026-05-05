@@ -27,16 +27,11 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Culebra Island Aquafari (with Ferry Tickets)", "url": "https://fareharbor.com/embeds/book/kayakingpuertorico/items/3727/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 2, "name": "Bio Bay Kayak Tour", "url": "https://fareharbor.com/embeds/book/kayakingpuertorico/items/3728/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 3, "name": "Full Day Snorkeling and Boat Experience", "url": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6350/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 4, "name": "Snorkeling Lessons & Interactive Experience for kids and adults", "url": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6894/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 5, "name": "Glowing Bio Bay Kayak Adventure", "url": "https://fareharbor.com/embeds/book/ikapr/items/168561/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 6, "name": "Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R.", "url": "https://fareharbor.com/embeds/book/ecoactiontours/items/215093/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 7, "name": "Public Vieques Powerboat Snorkeling with Turtles and Beach Tour", "url": "https://fareharbor.com/embeds/book/sailgetaway/items/448580/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 8, "name": "Mini Boat Snorkel Adventure", "url": "https://fareharbor.com/embeds/book/kayakingpuertorico/items/3729/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 9, "name": "Kayak Rental", "url": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6352/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}, {"@type": "ListItem", "position": 10, "name": "GoPro Camera Rental", "url": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/15829/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}]}</script>
 
 <script src="/tracking.js" defer></script>
+<link rel="stylesheet" href="/styles.css">
 
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-  header { background: #0c5d8c; color: white; padding: 16px 20px; }
-  header .nav-wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-  header a { color: white; text-decoration: none; }
-  header .logo { font-weight: 700; font-size: 1.2rem; }
-  header nav a { margin-left: 18px; opacity: 0.9; }
-  header nav a:hover { opacity: 1; text-decoration: underline; }
   .hero { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('/images/hero-fajardo.jpg'); background-size: cover; background-position: center; color: white; padding: 80px 20px; text-align: center; min-height: 320px; display: flex; align-items: center; justify-content: center; }
   .hero h1 { font-size: 2.5rem; margin: 0 0 12px 0; }
   .hero p { font-size: 1.1rem; max-width: 720px; margin: 0 auto; opacity: 0.95; }
@@ -66,23 +61,38 @@
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8rem; }
     .hero { padding: 30px 20px; min-height: 130px; }
-    header nav a { display: none; }
-    header nav a:first-child { display: inline; }
   }
 </style>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
-<header>
-  <div class="nav-wrap">
-    <a href="/" class="logo">WanderPuertoRico</a>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="/blog/">Blog</a>
+<header class="header">
+    <div class="header-container">
+        <div class="logo-group">
+            <a href="/" class="logo">
+                <picture>
+                    <source srcset="images/logo.webp" type="image/webp">
+                    <img src="images/logo.png" alt="Wander Puerto Rico" class="logo-img" width="800" height="321" fetchpriority="high">
+                </picture>
+            </a>
+        </div>
+        <nav class="nav-desktop">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#locations">Locations</a>
+            <a href="/#faq">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="nav-mobile">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#locations">Locations</a>
+        <a href="/#faq">FAQs</a>
+        <a href="/blog/">Blog</a>
     </nav>
-  </div>
 </header>
 
 <section class="hero" role="img" aria-label="Sunset over a tropical marina with sailboats, evoking Fajardo's harbor">
@@ -423,5 +433,16 @@
     <p>© 2026 WanderPuertoRico. All rights reserved.</p>
   </div>
 </footer>
+
+<script>
+document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+    var nav = document.querySelector('.nav-mobile');
+    if (!nav) return;
+    var open = !nav.classList.contains('active');
+    nav.classList.toggle('active', open);
+    this.classList.toggle('active', open);
+    this.setAttribute('aria-expanded', String(open));
+});
+</script>
 </body>
 </html>
