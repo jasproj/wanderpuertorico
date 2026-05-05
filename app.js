@@ -331,3 +331,33 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// Mobile hamburger menu — wires .mobile-menu-btn to toggle .nav-mobile.active.
+// Single source-of-truth handler for every page that loads app.js.
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelector('.mobile-menu-btn');
+    const nav = document.querySelector('.nav-mobile');
+    if (!btn || !nav) return;
+
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-controls', 'nav-mobile');
+    nav.id = nav.id || 'nav-mobile';
+
+    const setOpen = (open) => {
+        nav.classList.toggle('active', open);
+        btn.setAttribute('aria-expanded', String(open));
+    };
+
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        setOpen(!nav.classList.contains('active'));
+    });
+
+    nav.addEventListener('click', (e) => {
+        if (e.target.tagName === 'A') setOpen(false);
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && nav.classList.contains('active')) setOpen(false);
+    });
+});
