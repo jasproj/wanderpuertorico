@@ -110,7 +110,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6894/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Perfect for absolute beginners and non-swimmers, this Snorkeling 101 lesson at Cabezas de San Juan, Puerto Rico is a fun and easy way to learn. In this 1.5-hour guided experience, you’ll master snorkeling basics like breathing, floating, and reef-safe practices while exploring calm, clear waters and vibrant coral reefs.\n\nOur friendly, certified guides provide high-quality snorkeling gear and stay with you every step of the way, ensuring a safe, relaxed, and confidence-building experience. After the les",
     "price": 40,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 hours",
     "capacity": 10,
@@ -124,7 +124,8 @@
       "First aid kit on hand",
       "Transportation to/from Cabezas de San Juan"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-168561",
@@ -466,7 +467,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/57220/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Beginner-Friendly Kayak & Snorkel Tour – Las Cabezas de San Juan, Fajardo\n\nDiscover the beauty of Ensenada Yegua on this 3-hour guided kayaking and snorkeling adventure in Fajardo, Puerto Rico. Perfect for beginners, non-swimmers, and families, this eco-friendly tour takes you through calm waters inside the Las Cabezas de San Juan Nature Reserve.\n\nPaddle a tandem kayak with a professional guide to pristine snorkeling spots teeming with tropical fish, sea turtles, lobsters, and more. Enjoy a relaxed, small-group e",
     "price": 50,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "3 hours",
     "capacity": 16,
@@ -480,7 +481,8 @@
       "Eco-friendly, low-impact nature reserve access",
       "Transportation to/from Las Cabezas de San Juan, Fajardo"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-296512",
@@ -654,7 +656,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/46006/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Discover a private 3-hour night snorkeling experience in Fajardo, Puerto Rico, sailing to Palomino Island aboard a Boston Whaler 270 Outrage. Guided by an experienced crew, explore a glowing underwater world using waterproof lights to observe nocturnal reef life in a completely new way.\n\nAfter snorkeling, unwind onboard under the stars with a curated charcuterie spread and refreshing non-alcoholic drinks. Use provided marine life ID cards to deepen your connection to the Caribbean ecosystem while enjoying a peaceful, eco-conscious ocean escape.\n\nDesigned for small private groups, this intimate night cruise combines adventure, relaxation, and stargazing for a truly unforgettable Puerto Rico m",
     "price": 550,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "3 hours",
     "capacity": 6,
@@ -668,7 +670,8 @@
       "Fuel and vessel operation costs",
       "Transportation to/from Villa Marina, Fajardo"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-57279",
@@ -714,7 +717,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/melayastours/items/118202/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Experience the magic of the brightest bioluminescent bay in the world, right here in Vieques. This incredible natural phenomenon can only be seen a few places on Earth and Vieques’ Mosquito Bay is the brightest in the world.\n\nWhat's included\n\nLocal guide\n\nClear bottom kayaks\n\nPick-up and drop-off from Lazy Jacks Restaurant in Esperanza\n\nWhat's not included\n\nFood and drinks\n\nHighlights\nWitness the brightest bioluminescent bay in the world\nKayak in clear bottom kayaks with a local guide\n45 minutes - 1 hour kayaking in Mosquito Bay",
     "price": 70,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 hours",
     "highlights": [
@@ -727,7 +730,8 @@
       "45 minutes - 1 hour kayaking in Mosquito Bay",
       "Swimsuit or comfortable clothing"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-170688",
@@ -751,10 +755,11 @@
     "bookingLink": "https://fareharbor.com/embeds/book/islandjourneys/items/170688/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Island Journeys has teamed up with Puerto Rico’s top bio bay operators to provide you this full-day package, bringing you the best of the East Coast! Save big and take the guesswork out of your planning with this all inclusive tour including: Round Trip Transportation, Fully Guided Rainforest Tour, and the World Famous Bio Bay Kayak Tour.\n\nWhat's included\n\n-Fully guided tours of El Yunque National Rainforest and Bio Bay (Laguna Grande).\n-Pickup and drop-off from your accommodation.\n-Eco interpretations at both locations.\n-Pictures from throughout the combo tour.\n-Light snacks and refreshments during the day.\n-Training a",
     "price": 165,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "capacity": 24,
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-236627",
@@ -825,7 +830,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/sailgetaway/items/45148/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "What to Expect: The Sail Getaways Double Double Dip Excursion\n\nGet ready for an adventure that fits your schedule and style! The Double Double Dip Excursion caters to both early risers and afternoon explorers, offering you the flexibility to choose between morning and afternoon departures. No matter your preference, this excursion promises a day filled with unforgettable moments on the water.\n\nBoth options include our delicious Deli Buffet, featuring a variety of fresh and satisfying options. Refresh with water, juice, and soft drinks available throughout the day. After your snorkeling adventure, return your equipment and head straight to the Rum Bar, where signature tropical drinks like Piña Coladas and Painkillers await. Prefer something extra special? Our premium bar and beers are available for purchase to elevate your experience.\n\nOnce lunch is complete, we’ll take you to a stunning beach destination. Here, you can swim in crystal-clear waters, bask in the sun to perfect your tan, or simply unwind and soak in the serene surroundings.\n\nThis all-inclusive experience combines a",
     "price": 110,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "4 Hours",
     "highlights": [
@@ -833,7 +838,8 @@
       "Reef-safe sunscreen",
       "Cash for DRNA fee"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-344713",
@@ -884,7 +890,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/563467/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Escape on a private 4-hour boat tour for two along Puerto Rico’s east coast to Palomino Island—perfect for couples seeking a relaxed, eco-friendly adventure. Snorkel in crystal-clear Caribbean waters with a certified guide focused on marine conservation, then unwind on a floating water mat while enjoying light snacks and non-alcoholic refreshments.\n\nThis intimate experience highlights sustainable tourism with reef-safe practices and educational marine life ID cards, giving you a deeper connection to the island’s vibrant reef ecosystem. Ideal for couples or friends looking for a peaceful, nature-focused Puerto Rico snorkeling and boating experience away from the crowds.\n\nWhat's included\n\nUSCG-certified captain and crew\n\nSnorkel gear (mask,",
     "price": 450,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "4 hours",
     "capacity": 2,
@@ -898,7 +904,8 @@
       "Transportation to and from the meeting point",
       "GoPro waterproof camera rental ($40/day)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-11821",
@@ -947,7 +954,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/436884/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Set sail on a private 3-hour sunset cruise in Fajardo, Puerto Rico from Villa Marina to stunning Palomino Island. Take in panoramic east-coast views as the sky transforms into vibrant reds, oranges, and golds. Swim in crystal-clear waters, snorkel with easy-to-use marine life ID cards, or unwind on a floating mat while your favorite music sets the mood.\n\nThis intimate boat experience includes a curated charcuterie spread and refreshing non-alcoholic drinks, perfect for couples, families, or small groups. With personalized service and a relaxed atmosphere, it’s one of the best sunset boat tours in Fajardo for creating unforgettable Caribb",
     "price": 450,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "3 hours",
     "capacity": 6,
@@ -961,7 +968,8 @@
       "Alcoholic beverages (guests may bring their own—BYOB allowed)",
       "Towels and sunscreen"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-4287",
@@ -1340,7 +1348,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/iventurescaribbean/items/232794/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Embark on an unforgettable journey to Culebra Island, one of Puerto Rico’s most stunning and untouched gems. Famous for its crystal-clear waters, vibrant reefs, and powder-soft white-sand beaches, Culebra is the perfect destination for travelers seeking adventure, beauty, and relaxation all in one unforgettable day.\n\nYour experience begins with round-trip ferry tickets, making your travel smooth and hassle-free. Once on the island, enjoy included land transfers that take you directly to the best spots—no guesswork, no stress.\n\nDive into the turquoise waters for a guided snorkeling experience with sea turtles, where our friendly and professional crew will lead you through Culebra’s colorful underwater world. After your marine adventure, unwind at the world-famous Flamenco Beac",
     "price": 125,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "10 hours",
     "highlights": [
@@ -1353,7 +1361,8 @@
       "Bottled Water & Light Snacks",
       "Visit World-Famous Flamenco Beach"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-260718",
@@ -1451,7 +1460,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/accesstourspr/items/8754/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Bring excitement to your vacation with our night kayaking tour in the Bio Bay of Laguna Grande Reserve in Fajardo. The Bio Bay has microscopic organisms called dinoflagellates that produce a glowing effect when they are stirred by our paddles.\n\nWhat's included\n\nGuided Night Kayaking Eco-Adventure\n\nLive-commentary in English or Spanish by certified tour guides\n\nKayaking lesson for beginners\n\nAdaptive Paddling Program\n\nLife jackets (US Coast Guard Approved)\n\nTwo-person sit-on-top kayaks\n\nWheelchair accessible adaptations\n\nWhat's not included\n\nMosquito repellent\n\nWaterproof cell phone pouches\n\nHighlights\nAn Eco-Adventure – For outdoor enthusiast and nature lovers only.\nNight Kayaking – Through the mangrove forest of Laguna Grande Reserve.\nChance to paddle through the glow of bioluminescent water.",
     "price": 59,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 Hours",
     "highlights": [
@@ -1464,7 +1473,8 @@
       "Wheelchair accessible adaptations",
       "Mosquito repellent"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-211394",
@@ -1482,7 +1492,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/accesstourspr/items/211394/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Bring excitement to your vacation with our night kayaking tour in the Bio Bay of Laguna Grande Reserve in Fajardo. The Bio Bay has microscopic organisms called dinoflagellates that produce a glowing effect when they are stirred by our paddles.\n\nWhat's included\n\nHotel pickup and drop off\n\nGuided Night Kayaking Eco-Adventure\n\nLive-commentary in English or Spanish by certified tour guides\n\nLife jackets (US Coast Guard Approved)\n\nTwo-person sit-on-top kayaks\n\nWheelchair accessible adaptations\n\nWhat's not included\n\nMosquito repellent\n\nWaterproof cell phone pouches\n\nItinerary\n\nPickup from San Juan at the assigned location and time.\n\nScenic drive to the Kayak Village in Fajardo.\n\nCheck-in and safety briefing with your professional guides.\n\nGuided night kayaking experience through the mangrov",
     "price": 115,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 Hours",
     "capacity": 30,
@@ -1496,7 +1506,8 @@
       "Mosquito repellent",
       "Waterproof cell phone pouches"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-442479",
@@ -1593,7 +1604,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/ecoadventurespr/items/72460/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "A truly unforgettable experience awaits, as you kayak at night through our beautiful mangrove forest to then witness hundreds of tiny star-like bioluminescent plankton scintillating like a starry sky as you move through the bay.\n\nWhat's included\nGuides\nEquipment\nWater\nSnacks\nWhat's not included\n\nBug Spray is not included- We here at Eco Adventures try to do our best inorder to preserve the Lagunas Eco system so we do not offer any procudutcs using harmeful chemicals. However if you believe you will need repllant please try to purchase a \"Deet free\" one., the laguna would thank you:)",
     "price": 63,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 hrs",
     "highlights": [
@@ -1606,7 +1617,8 @@
       "Peolple who are scared of the dark",
       "People weighing  more than 250lbs"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-9022",
@@ -2034,7 +2046,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/adventurespuertorico/items/36900/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Embark on an unforgettable journey of discovery as you snorkel through the Condado Lagoon, a sanctuary for both marine life and manatees. Join us and experience the magic of Puerto Rico's underwater world like never before.\nAbout\n\nExplore the captivating world beneath the surface and embark on our exclusive Snorkeling Tour in the Condado Lagoon, San Juan, Puerto Rico, a designated reserve for manatees. Dive into the crystalline waters and uncover the hidden treasures of this remarkable ecosystem, all while having the chance to encounter these gentle giants in their natural habitat.\n\nTour Highlights:\n\nGuided Exploration: Journey alongside our experienced guides as they lead you through the serene waters of the Condado Lagoon, offering unparalleled insight into its rich biodiversity and conservation efforts. With their expertise, you'll navigate to prime snorkeling spots, ensuring an immersive and educational experience.\n\nEncounters with Manatees, Sea Turtles and Seastars : Delight in the rare opportunity to encounter manatees, also known as sea cows, in their protected habitat within the lagoon. These gentle marine mammals, known for their docile nature, may grace you with their presence as they glide through the water, providing a truly unforgettable experience. Additionally, keep",
     "price": 50,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Duration: Approximately 2 hours",
@@ -2046,7 +2058,8 @@
       "Customers will also receive a full refund in case of operator cancellation due to weather or other unforeseen circumstances.",
       "No-shows will be charged the full price."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-215908",
@@ -2171,7 +2184,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/aquaexperiencespr/items/468043/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Clear Kayak Adventure: Nature by Day, Glow by Night\n\nExperience the magic of Puerto Rico's coastal beauty from a completely unique perspective! Paddle through serene waters in our fully transparent, crystal-clear kayaks, offering an unparalleled \"window to the water.\"\n\nLed by our expert and experienced guides, you will explore the natural habitat of local wildlife while learning about the ecosystem. While nature is unpredictable and sightings are not guaranteed, lucky explorers often spot manatees, sea turtles, and tropical fish gliding beneath their kayaks. Our guides ensure a safe, informative, and fun experience for all skill levels.\n\nOur exclusive 7:30 PM departure transforms the experience into a magical Glow LED Night Tour—this is the only session that features integrated, radiant LED lighting to illuminate the water beneath you as you navigate the calm evening.\n\nCrucial Tour Constraints & Safety Information:\n\nAge Requirement: All participants must be at least 9 years old.\n\n⚠️Weight Restrictions: To ensure stability and safety, the maximum weight limit is 200 lbs per person, with a total maximum capacity of 425 lbs per kayak. (We reserve the right to ver",
     "price": 50,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1 Hour",
     "capacity": 24,
@@ -2185,7 +2198,8 @@
       "Transportation: Guests must arrive at our location on their own.",
       "Personal Items: Sunscreen, towels, and water are not provided."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-516315",
@@ -2718,11 +2732,12 @@
     "bookingLink": "https://fareharbor.com/embeds/book/haciendacarey/items/640481/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Explore the stunning turquoise waters of Crash Boat Beach in Aguadilla—home to vibrant marine life and historic pier pilings that create a breathtaking snorkeling playground for all ages. As you glide through clear Caribbean waters, you'll encounter colorful tropical fish, coral formations, and even the occasional turtle, ray, seahorse, or squid\n\nWhat's included\n\nProfessional, certified snorkeling guide\n\nMask, snorkel, and fins (wetsuits upon request)\n\nSafety briefing and marine-life orientation\n\nPhotos of your snorkeling adventure\n\nItinerary\n\nMeet And Greet\nSafety Brief\nSnorkeling Time\nPhoto Exhange\n\nHighlights\n\nColorful reef fish, tangs, wrasses, and sergeant majors\n\nChance encounters with sea turtles, stingrays, and seahorses\n\nVibrant coral gardens and marine life around historic pier remains",
     "price": 60,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "90 Minutes",
     "capacity": 8,
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-460670",
@@ -2813,7 +2828,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/rincondiving/items/93734/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincon, Puerto Rico, USA\n\n4 Hours • Ages 10+ - Ideal for 1st time Divers • Private Instructor\n\n4.9 \nstars\n \n\n1381 Google reviews\n\n$160\n\tScuba Divers\n\nPrices for Friday, May 1, 2026 at 8:30 AM.\n\n Health & Safety\nHealth & Safety Guidelines for First-Time Divers\n🩺 Health Requirements\nParticipants must be in good health and able to participate in physical activity.\nIf you have any medical conditions (e.g., asthma, heart conditions, epilepsy) or are taking medications, consult your doctor and notify us before booking.\nPregnant individuals cannot participate in scuba diving activities.\nFeeling unwell? Please reschedule for another day.\n📜 Medical Questionnaire\nAll participants must complete a medical questionnaire before diving.\nA doctor’s clearance may be required if you answer “yes” to any questions about health conditions.\n🤿 Pre-Dive Preparation\nNo prior diving experience is required, but you must feel comfortable in the water.\nAvoid alcohol or recreational drugs for at least 12 hours before your dive.\nStay hydrated and eat a light meal beforehand.\n🎓 Briefing & Training\nAll participants will receive a full safety briefing and training from a certified dive instructor before entering the water.\nPractice basic skills in shallow water before progressing to deeper areas.\n🌊 In-Water Safety\nFollow all instructions from your dive instructor at all times.\nNever hold your breath while underwater; always breathe slowly and continuously.\nStay close to your instructor and within the des",
     "price": 160,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "4 hours",
     "highlights": [
@@ -2826,7 +2841,8 @@
       "No prior diving experience is required, but you must feel comfortable in the water.",
       "Avoid alcohol or recreational drugs for at least 12 hours before your dive."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-388922",
@@ -2924,7 +2940,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/rincondiving/items/51392/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincon, Puerto Rico, USA\n\nUp to 3 Hours with your own Private Guide • All Ages welcome 1-4 persons Same price\n\n4.9 \nstars\n \n\n1381 Google reviews\n\n$89\n\tPrivate Snorkel Tour\n\nPrices for Friday, May 1, 2026 at 8:30 AM.\n\n Health & Safety\nHealth & Safety Guidelines for Your Snorkeling Adventure\n🩺 Health Requirements\n\n*Participants should be in good physical health and able to swim.\n*If you have medical conditions such as asthma, heart problems, or are pregnant, consult your doctor before booking.\n*Feeling unwell? Please reschedule for another day to ensure your safety.\n\n🏊 Swimming Skills\n\n*All participants must be comfortable swimming in open water.\n*Life jackets or flotation devices will be provided and required for use by all regardless of swimming ability.\n\n💧 Before the Tour\n\n*Avoid alcohol or recreational drugs for at least 12 hours before snorkeling.\n*Stay hydrated and eat a light meal before the tour.\n\n🌞 Protect Yourself\n\n*Wear reef-safe sunscreen to protect your skin and marine life.\n\n⚠️ In the Water\n\n*Always listen to your guide’s instructions and stay within the designated snorkeling area.\n*Do not touch or stand on coral, and avoid disturbing marine life.\n*Stay aware of your surroundings, including currents and other swimmers.\n*Use a buddy system—never snorkel alone.\n\n🌊 Weather & Environmental Considerations\n\n*Snorkeling conditions may change due to weather. Your safety is our priority, and we may cancel or adjust tours as needed.\n/Keep a safe distance from boats and",
     "price": 89,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Exclusive Experience: Private guide dedicated solely to your group for a customized adventure at Tres Palmas Marine Reserve.",
@@ -2936,7 +2952,8 @@
       "To receive a full refund, please provide at least 24 hours’ notice if you need to cancel your tour.",
       "Cancellations made within 24 hours of the scheduled tour are not eligible for a refund."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-51779",
@@ -2952,9 +2969,10 @@
     "bookingLink": "https://fareharbor.com/embeds/book/rincondiving/items/51779/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincon, Puerto Rico, USA\n\n3+ Hours • Certified Divers • 2 tank • Your Own Private Guide\n\n4.9 \nstars\n \n\n1381 Google reviews\n\n$125\n\tPrivate GSD2\nuse when private tour for 2 tank\n\nPrices for Friday, May 1, 2026 at 8:30 AM.\n\n Health & Safety\nHealth & Safety Guidelines for Your Dive\n🩺 Health Requirements\n\n*Divers must be in good physical health to participate.\n*If you have a medical condition, are pregnant, or take regular medications, consult your doctor and provide a medical clearance form if required.\n*Feeling unwell? Please reschedule your dive for another day.\n\n🏊 Experience & Certification\n\n*All participants must present a valid scuba certification card at check-in.\n*If it has been more than 1-2 years since your last dive, we recommend completing a refresher course before your trip.\n\n💧 Before the Dive\n\n*Avoid alcohol or recreational drugs for at least 12 hours before your dive.\n*Stay hydrated and eat a light meal before your dive.\n*Review and sign the liability waiver before your dive.\n\n📏 Depth Limits & Dive Plans\n\n*Follow all instructions from your guide regarding dive depth and time.\n*Maintain proper buoyancy to protect yourself and the reef.\n\n⚠️ Safety First\n\n*If you feel uncomfortable at any time, let your guide know immediately.\n*Always ascend slowly and follow the guide’s signals.\n\n🌊 Weather & Environmental Considerations\n\n*By booking, you acknowledge the inherent risks of scuba diving and agree to follow all safety guidelines provided.\n\nDuration:\n3+ hours\n\nIf you'",
     "price": 125,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-9566",
@@ -3215,11 +3233,12 @@
     "bookingLink": "https://fareharbor.com/embeds/book/caribbeanbookings/items/678954/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Dive into an exclusive after-hours adventure in Rincón’s waters. As daylight fades, the reef comes alive with nocturnal marine activity you won’t see by day.\nEncounter octopus, eels, shrimp, and perhaps even sharks, all under the careful guidance of our expert instructors.\nThis immersive experience offers a rare glimpse into the captivating behaviors of sea creatures after dark—an elegant and thrilling journey for those who seek more than the ordinary.\n\nPerfect for wildlife enthusiasts and adventurous divers looking to explore the ocean in a whole new light.\n\nThis is a 2 tank dive guided experience from shore.\nYou will be with a Diving professional at all times.\n\nFirst dive will be before completely goes down, and second dive when is darker.\n\nDuration of activity is 4 hours, we could end back to shore depending on your diving skills and tank usage.\n\nWhat's included\n\nWetsuit\nMask, snorkel, and fins\nBCD & Regulator\nTanks\nWeights\nDive lights\nExpert safety briefings and instruction\n\nWhat's not included\n\nTransportation from dive center to entry point at the beach\nTank light (Cy",
     "price": 250,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "4 hours",
     "capacity": 8,
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-689339",
@@ -3238,11 +3257,12 @@
     "bookingLink": "https://fareharbor.com/embeds/book/caribbeanbookings/items/689339/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "The Experience:\nJourney from Fajardo to the breathtaking waters of Culebra for a 6-hour day of immersion in pure Caribbean paradise. This carefully curated adventure is designed for awe, relaxation, and effortless enjoyment.\n\nYour Day Unfolds:\n\nMorning Departure: Board our comfortable boat in Fajardo and feel your everyday concerns melt away as we set sail toward the legendary shores of Culebra.\n\nThe Snorkeling Sanctuary (1 Hour):\n\nFeel the Thrill: Dive into the crystal-clear, pristine waters of a protected Culebra reef.\n\nExperience the Wonder: Glide weightlessly through a serene underwater world, surrounded by vibrant coral gardens and dazzling tropical fish.\n\nEmbrace the Tranquility: This immersive hour is a chance to connect with the vibrant, silent beauty of marine life.\n\nThe Legendary Beach Retreat:\n\nFollowing your snorkel, we'll transport you to the world-class sands of Flamenco Beach or another stunning Culebra cove, chosen for the best conditions of the day.\nSavor the Moment: Feel the soft, famous white sand between your",
     "price": 148,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "6hr",
     "capacity": 35,
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-37549",
@@ -3347,7 +3367,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/divepuertorico/items/233268/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "If you wish to do any PADI specialty Certification Course by itself or towards becoming a Master Scuba Diver, here are the ones we offer:\n\nDuration\n\n5 Hours and 15 Minutes\n\nSpecialty Certifications available:\nBoat Diver- (1 day 2 dives)\nFish ID Diver- (1 day 2 dives)\nUnderwater Navigator diver-(1 day 3 dives)\nPeak Performance Buoyancy Diver-1 day 2 dives)\nUnderwater Photographer Diver-(1 day 2 dives)\nUnderwater Naturalist Diver-(1 day 2 dives)\n\nPlease Note: You must be a certified Open Water Diver in order to take any of these courses.\n\nCourse Schedule: Subject to change if needed\n\nWhat's Included\nLearning Materials\nboat dives\nAll diving gear\nSnacks\nCertification Card\n15% on any purchase in the Dive Shop",
     "price": 325,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "5 Hours and 15 Minutes",
     "highlights": [
@@ -3360,7 +3380,8 @@
       "Learning Materials",
       "All diving gear"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-443704",
@@ -3406,7 +3427,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/aquaexperiencespr/items/456048/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Double Kayak Rental\n\nExplore the Condado Lagoon at Your Own Pace!\n\nGrab a partner and enjoy a self-guided adventure in the crystal-clear waters of the lagoon. Whether you want to relax or get some exercise, our high-quality double kayaks are perfect for a fun day under the sun.\n\nWhy choose our rentals?\n\nPet Friendly & FREE: Bring your dog along for the ride at no extra cost! (Note: Owners must provide their own pet life jacket).\n\nFamily Fun: Children are welcome starting at 3 years old.\n\nWildlife Encounters: Keep an eye out for manatees, turtles, and tropical fish.\n\nFlexible Hours: Available daily from 10:00 AM until 5:00pm. (Subject to weather conditions and availability).\n\nWhat's included\n\nHigh-quality double kayak and paddles.\n\nMandatory life jackets for all human participants.\n\nA brief safety and navigation orientation before you launch.\n\nWhat's not included\n\nAqua Experiences PR is not responsible for any personal items left inside or outside the store or tour locations.\n\nHighlights\n\nSelf-Guided Adventure: Explore the beautiful Condado Lagoon at your own pace.\n\nPet Friendly & FREE: Bring your dog along for the ride at no extra cost!\n\nFamily Friendly: Ch",
     "price": 45,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "High-quality double kayak and paddles.",
@@ -3414,7 +3435,8 @@
       "A brief safety and navigation orientation before you launch.",
       "Aqua Experiences PR is not responsible for any personal items left inside or outside the store or tour locations."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-507219",
@@ -3451,7 +3473,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567601/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 60,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "30Min",
     "capacity": 1,
@@ -3460,7 +3482,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-597127",
@@ -3476,7 +3499,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/rincondiving/items/597127/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincon Puerto Rico, USA\n\nUp to 3 hours, including 1 hour in the water\n\n4.9 \nstars\n \n\n1381 Google reviews\n\n$356\n\tPrivate Snorkel Tours\nPrice includes 4 people\n\nPrices for Friday, May 1, 2026 at 8:30 AM.\n\nInclusive Snorkeling, Tailored Adventure\n\nExperience the vibrant marine life of the Tres Palmas Marine Reserve with a tour customized to your needs. Our Private Adaptive Snorkeling Tour is designed for individuals requiring additional assistance or accommodations, offering personalized guidance to ensure comfort, safety, and enjoyment.\n\nOur professional guides are trained to adapt to various needs, providing a safe and inclusive snorkeling experience. Swim alongside colorful fish, marvel at coral formations, and encounter sea turtles in this breathtaking marine ecosystem.\n\nWhether you’re new to snorkeling or looking for a more supported experience, we tailor the tour to your abilities and interests, ensuring a memorable adventure in Rincón’s waters.\n\nPrice\n\n$356 for up to 4 people / $89 per extra person / *Ask about our scholarships\n\nDuration\n\nUp to 3 hours, including 1 hour in the water\n\nWhat’s Included?\nSnorkeling gear (mask, snorkel, fins, swimming gloves).\nFlotation devices for added support.\nExperienced guides trained in adaptive snorkeling techniques.\nDrinking water (bring a refillable bottle for free filtered refills).",
     "price": 356,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Snorkeling gear (mask, snorkel, fins, swimming gloves).",
@@ -3488,7 +3511,8 @@
       "The tour does not require a boat; the reef is accessible from the shore.",
       "We can provide additional support for individuals with mobility or sensory needs— please call ahead to discuss your requirements"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-690899",
@@ -3511,11 +3535,12 @@
     "bookingLink": "https://fareharbor.com/embeds/book/caribbeanbookings/items/690899/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Your morning adventure awaits on the pristine Fajardo Reefs, where coral castles teem with life and every descent tells a new story. This isn't just a dive; it's your personal gateway to an aquatic universe\n\nIts a 2 tank dive guided excursion.\nThere will be 1-2 Divemaster per 8 divers\n\nTrips available:\nMonday\nTuesday\nWednesday\nFriday\nSunday\n\nFrom 9:00am (departure time) to 1:00pm (approx. return time).\n\nWhat's included\n\nFull guided 2-tank dive experience with a PADI Professional.\n\nTanks and weight for divers.\n\nLight morning refreshments and bottled water on board.\n\nAll necessary safety and navigational equipment.\n\nSmall-group assurance for a quality experience.\n\nTwo reefs for diving or snorkeling\n\nTwo tanks\n\nWeights\n\nSnacks\n\nWhat's not included\n\nScuba diving gear rental (BCD, regulator, wetsuit, mask, fins, snorkel). Available on-site.\n\nTransportation to/from the Fajardo marina.\n\nGratuities for the hard-working crew (industry standard is 15-20%).\n\nItinerary\n\n7:30 AM -",
     "price": 135,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "4 hrs",
     "capacity": 25,
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-11463",
@@ -3620,7 +3645,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/aquaadventurepr/items/12573/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Take the plunge with Aqua Adventure's Discover Scuba program designed for first-time divers. The experience pairs a short introduction to dive theory with guided pool exercises to build confidence and basic skills, followed by an actual dive from the beach or a boat depending on location. Conducted at the Caribe Hilton Hotel in San Juan, this guided session lets you experience breathing underwater and the wonder of shallow reef environments under direct supervision of trained staff.\n\nWhat's included\n\nShort introduction to dive theory\n\nGuided pool exercises\n\nSupervised beach dive or boat dive depending on location\n\nUse of basic scuba training under instructor supervision\n\nHighlights\nHands-on pool practice to build confidence before the open-water dive\nExperience breathing underwater on your first guided dive\nBeach or boat dive option depending on location",
     "price": 159,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 hours",
     "highlights": [
@@ -3633,7 +3658,8 @@
       "Beach or boat dive option depending on location",
       "Notifications of any changes to your tour, including a cancellation, must be made by 6:00pm the day before your tour to avoid any penalties."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-37388",
@@ -3779,7 +3805,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/divepuertorico/items/233264/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Take the next step to becoming an Advanced Diver!\nDuration\n\n2 Days\n\nAbout\n\nExploration, Excitement, Experiences\n\nYou don’t have to be “advanced” to take it – it’s designed to advance your diving, so you can start right after earning your PADI Open Water Diver certification. The course helps build confidence and expand your scuba skills through different Adventure Dives.\n\nWhat will you learn?\n\nThere are two required dives – Deep and Underwater Navigation – and you choose the other three, for a total of five dives.\n\nChoose from:\n\nUnderwater Photography\nUnderwater naturalist\nBoat Diver\nSearch and recovery\nPeak Performance Buoyancy\nDuration -2 days\nIncludes– E-learning theory method, 2 days of boat diving and all Scuba Pro rental gear for the use during the class. Also includes certification card.\nUpgrade: You can pick a day of Culebra 2 tank dives (Wednesday or Saturday for an extra $15.00 plus tax)\n\nCourse Schedule: Subject to change if needed\n\nDay 1: 7:45 am - 1 pm Open water dives 1 and 2\nDay 2: 7:45 am -1 pm Open water dives 3, 4 and 5 (or 7:45 am - 4 pm if Culebra option is selected)\nWhat's Included\nE-Learning Course and boat dives\nAll diving gear\nSnacks\nPADI Certification Card\n15%",
     "price": 525,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 Days",
     "highlights": [
@@ -3792,7 +3818,8 @@
       "Upgrade: You can pick a day of Culebra 2 tank dives (Wednesday or Saturday for an extra $15.00 plus tax)",
       "Day 1: 7:45 am - 1 pm Open water dives 1 and 2"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-233266",
@@ -4143,7 +4170,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/caribbeanbookings/items/688261/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "This two hour fully guided night tour starts off with safety kayaking procedures, you will then paddle your way through the mystical mangrove channels leading to Laguna Grande, exploring the ecosystem and microscopic planktons up close for a glowing experience.\n\nWe don't let the rain stop our tours!! Come ready to get wet rain or shine!  Customers will receive a full refund in case of operator cancellation due to weather alerts, thunder and lighting storms. No-shows will be charged the full price.\nNo singles kayaks available!. If your group is an odd number, the single one will be riding with another single from another group.\n\nWhat's included\nSafe kayaking briefing\nProfessional tour guide\nAll required safety equipment\n• Tandem Kayak (2 seater)\nWhat's not included\n\nDry bags\nPersonal Items\n\nItinerary\n\n5:20 PM (or 7:20 PM) – Check-In & Safety Prep\n\nPresent your booking ID, credit card, and photo ID.\nPrivate participant weight verification for safety.\nReceive all kayaking equipment and safety gear.\n5:45 PM (or 7:45 PM) – Safety Briefing & Launch\nGuided introduction to kayaking safety and techniques.\nGet paired with your tandem kayak partner (odd-numbered grou",
     "price": 63,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2hrs",
     "capacity": 40,
@@ -4157,7 +4184,8 @@
       "Guided introduction to kayaking safety and techniques.",
       "Get paired with your tandem kayak partner (odd-numbered groups will be matched)."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-10548",
@@ -4303,10 +4331,11 @@
     "bookingLink": "https://fareharbor.com/embeds/book/tainodivers/items/333650/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincón, PR\n\n2.5 Hours • All Ages • Great for seeing the sights!\n\n$55\n\tSnorkelers\n(Includes Gear)\n\nPrices for Thursday, April 30, 2026 at 8:30 AM.\n\nRates\n\nSnorkerlers - $45\n\nStart Time\n\n8:30AM\n\nDuration\n\n2.5 Hours\n\nAbout\n\nEnjoy a professionally guided snorkel tour of the Tres Palmas Marine Reserve. Beautiful corals, schooling fish, turtles, and so much more!\n\nOur dive shop is located in the Black Eagle Marina, where you will check-in, get sized for gear, and head across the parking lot to the beach entrance of the Tres Palmas Marine Reserve. Make sure to bring your underwater camera to capture the beauty.",
     "price": 45,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2.5 Hours",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-365552",
@@ -4357,7 +4386,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/geoaventuraspr/items/569623/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Swim, hike, cliff jump, and explore hidden caves with certified guides, led by a geographer and endorsed locally.\n\nWhat's included\n\n-Guided tour\n-Safety equipment\n-pictures and videos\n-Transportation (you must pick the option with it)\n-Snacks\n\nWhat's not included\n\n-Gratuity\n-Lunch\n\nHighlights\n\n-Flexible Access – Choose pickup from San Juan or meet us directly if you have a rental car.\n\n-Certified & Endorsed – Led by a local geologist and certified guides, fully endorsed by Puerto Rico Tourism.\n\n-Scenic Rainforest Hike – Trek through lush vegetation to reach the hidden river caves.\n\n-Swim Through Caves – Explore crystal-clear turquoise waters inside three stunning caves.\n\n-Hidden Waterfall – Discover and relax by a secret waterfall few tourists ever see.\n\n-Taíno Petroglyphs – Learn about ancient indigenous carvings and Puerto Rico’s rich history.\n\n-Optional Cliff Jumping – Add an adrenaline rush with supervised jumps into pristine waters.\n\n-Epic Photo Opportunities – Capture memories in one of the island’s most breathtaking settings.\n\n-Small Group Experience – Enjoy",
     "price": 85,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "capacity": 20,
     "highlights": [
@@ -4370,7 +4399,8 @@
       "Change the date of the tour, subject to availability.",
       "Convert the booking into store credit for future occasions."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-2231",
@@ -4432,7 +4462,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/boatstogopuertorico/items/191576/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Be your own captain in this fun tour for the whole family!\nRates\n\nPrices are per boat not per person\n\nPrivate Mini Boat:\n\n3 passengers maximum capacity per boat: USD$300.00\nAbout\n\nCaptain your very own mini boat in this multi-stop excursion in Culebra! We take you beyond the beach in this fun adventure where you get to explore and discover Culebra in a way you never imagined.\n\nA certified guide will lead the way for all the boats along the route. When the destinations are reached we will anchor and guests can explore Culebra’s ecosystems and pristine clear waters.\n\nFacts\n\n-Duration: 3.5 - 4 hours\n-Stops: 2 stops for snorkeling and beach time.\n-Weight limits: Maximum weight per person can not exceed 300lbs. Combined total weight of passenger on board maximum 650lbs (3 person boat) or 750lbs (4 person boat)\n-Age requirements: 6 years old for passengers. 18+ years for Captain.\n-BOATING LICENSE IS NOT REQUIRED\n\nWhat's included:\nLadder with easy access to climb the raft\nSnacks: Individually wrapped snacks for each guest (600+ calories)\nPrivate Mini boat (13') for your group\nBrief including ocean safety, boating basics and instructions on operating the mini boat\nSafety equipment and life jackets\nCertified guide to assist all guests during the excursion.\nBeach stops\nBottled water\nCooler with ice provided in each boat.\nCancellati",
     "price": 300,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "3 passengers maximum capacity per boat: USD$300.00",
@@ -4444,7 +4474,8 @@
       "Certified guide to assist all guests during the excursion.",
       "Beach stops"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-575709",
@@ -4460,7 +4491,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/smithandpietrojetskirentals/items/575709/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "About\n\nYou’ll be riding one of our top-of-the-line GTX Sea-Doo jet skis, featuring a sleek design, powerful engine, and smooth handling. The GTX offers a high-performance ride that is both thrilling and comfortable, with spacious seating for up to two passengers—perfect for sharing the fun with a family member or close friend.\n\nOur 30min Los Pozos tour departs from El Combate, taking you just a step away from La Bahia Boquerón. This tour not only offers an exciting jet ski adventure but also a chance to observe marine life. As you speed across the water, you'll arrive at the serene Los Pozos beach, where crystal-clear waters set the perfect backdrop for spotting ocean creatures. Keep an eye out for starfish scattered along the seabed, and if you’re lucky, you might even catch a glimpse of a stingray gliding gracefully through the water. This tour blends the thrill of jet skiing with the beauty of encountering marine life in its natural habitat!\n\nWhat's included\nVehicle\nLife vest\nSafety instructions review by one of our guides\nItinerary",
     "price": 80,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "30 Minutes",
     "capacity": 2,
@@ -4474,7 +4505,8 @@
       "Follow Right-of-Way Rules: Understand and follow right-of-way rules with other vessels.",
       "Watch for Weather Changes: Be aware of weather conditions and avoid riding in bad weather."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-575723",
@@ -4490,7 +4522,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/smithandpietrojetskirentals/items/575723/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "About\n\nGet ready for an exhilarating jet ski adventure on our top-of-the-line GTX Sea-Doo machines as you cruise the stunning waters of El Combate. This 30min Punta Águila Tour is the perfect way to explore one of the island's most beautiful, hidden beach spots. With seating for two, it's ideal for couples, friends, or families looking for a memorable experience. Our certified guides will lead you safely along the coast. The tour takes you to the serene, pristine Punta Águila, a peaceful paradise just before the famous Faro Los Morillos and the unique Puente de Piedra.\n\nThough short, this jet ski tour promises a thrilling and unforgettable ride. As you approach Punta Águila, you'll be captivated by its crystal-clear, emerald-green waters and breathtaking coastal views. This hidden treasure offers a secluded feel, perfect for enjoying nature at its finest. From the distant view of the Faro to the unspoiled west coast waters, the experience will allow you to soak in the natural beauty that defines this magical part of Puerto Ric",
     "price": 80,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "30 Minutes",
     "capacity": 2,
@@ -4504,7 +4536,8 @@
       "Wear a Life Jacket: Always wear a properly fitted life jacket and approved by the US Coastal Service.",
       "Stay in Designated Areas: Operate only in designated areas and follow local regulations."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-575724",
@@ -4520,7 +4553,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/smithandpietrojetskirentals/items/575724/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Embark on a thrilling 1-hour jet ski adventure aboard our top-of-the-line Sea-Doo GTX machines, departing from El Combate and taking you along Puerto Rico’s stunning west coast. These high-performance jet skis offer smooth handling and power, ensuring a comfortable and exhilarating ride as you cruise past Los Pozos and Balneario Boquerón. Enjoy the scenic views of white sandy shores, turquoise waters, and the lush, tropical landscape that lines the coast, all while experiencing the adrenaline rush of riding on our premium jet skis. This tour is perfect for families, couples, friends, or even solo adventurers seeking a unique and exciting way to explore the island.\n\nAs you arrive at Boquerón Bay, you'll be greeted by its calm, crystal-clear waters and the vibrant atmosphere of this charming seaside town. Known for its cultural mix and laid-back vibe, Boquerón offers a perfect spot to pause, take in the serene beauty, and poss",
     "price": 160,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1 Hour",
     "capacity": 2,
@@ -4534,7 +4567,8 @@
       "Follow Right-of-Way Rules: Understand and follow right-of-way rules with other vessels.",
       "Watch for Weather Changes: Be aware of weather conditions and avoid riding in bad weather."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-575725",
@@ -4552,7 +4586,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/smithandpietrojetskirentals/items/575725/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Embark on an unforgettable 1-hour jet ski tour that takes you to the breathtaking Faro Los Morillos de Combate, one of the most sought-after destinations for both locals and tourists. As you glide across the sparkling waters, you’ll enjoy the thrill of the sea breeze and the warmth of the sun on your skin. This exhilarating ride showcases our stable and safe Sea-Doo jet skis, perfect for navigating the waters with confidence. Along the way, you’ll pass the stunning Punta Águila and the iconic Puente de Piedra, setting the stage for your arrival at the magnificent lighthouse.\n\nStanding majestically 200 feet above the ocean, Faro Los Morillos is a timeless symbol of coastal beauty and history. Built with elegant design, the lighthouse serves as a sentinel over the rugged cliffs and picturesque coastline, offering panoramic views of the endless horizon. This tour promises not just adventure but also moments of serene beauty as you immerse yourself in the natural splendor of Puerto Rico's west coastline. Experience the perfect blend of excitement and tranquility as yo",
     "price": 160,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1 Hour",
     "highlights": [
@@ -4565,7 +4599,8 @@
       "Follow Right-of-Way Rules: Understand and follow right-of-way rules with other vessels.",
       "Watch for Weather Changes: Be aware of weather conditions and avoid riding in bad weather."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-39097",
@@ -4752,7 +4787,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567604/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 120,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1 hour",
     "capacity": 2,
@@ -4761,7 +4796,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567607",
@@ -4777,7 +4813,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567607/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 180,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 hour",
     "capacity": 3,
@@ -4786,7 +4822,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567610",
@@ -4802,7 +4839,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567610/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 240,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 hours",
     "capacity": 4,
@@ -4811,7 +4848,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567612",
@@ -4827,7 +4865,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567612/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 300,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2.5 hours",
     "capacity": 5,
@@ -4836,7 +4874,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567615",
@@ -4852,7 +4891,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567615/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 360,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "3 hours",
     "capacity": 6,
@@ -4861,7 +4900,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567616",
@@ -4902,7 +4942,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquilloflyboard/items/567617/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n30 Minutes\n\nAbout\n\nLuquillo Flyboard, The ultimate water experience to make your summer and vacations even greater.\n\nYou will be having an amazing experience flying over the incredible waters of Balneario La Monserrate. Don't miss this chance! Come fly with us! Instructions will be provided before doing the activity.\n\nFly over the water like Iron Man. Take in gorgeous views of Luquillo Beach.Have an extreme adventure with a new type of water activity.\n\nWhat's included\n\n30 minutes on Flyboard\n\nInstructions\n\nEquipment (life jacket and helmet)\n\nWhat's not included\n\nTransportation\nWater shoes\n\nHighlights\n\nFly over the water like Iron Man\nTake in gorgeous views of Luquillo Beach\nHave an extreme adventure with a new type of water activity",
     "price": 480,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "4 hours",
     "capacity": 8,
@@ -4911,7 +4951,8 @@
       "Instructions",
       "Equipment (life jacket and helmet)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-594714",
@@ -4927,7 +4968,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/crystalclearvieques/items/594714/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Exclusive shore-entry (no boat) snorkel with underwater photo package, light snacks, gear, sea turtle information, and optional lesson at the best site for turtle sightings in Vieques. The tour is personalized around your group's abilities and desires. With every private tour booked, we make a donation to a local nonprofit that works with the sea turtles in Vieques (TICATOVE). The water duration is one hour, but if you would like an hour and a half of water time, you can select the optional add-on.",
     "price": 380,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Beach shoes",
@@ -4935,7 +4976,8 @@
       "And a payment method.",
       "For parties of 10 or more, please call us to book"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-9567",
@@ -4988,7 +5030,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/adventuremark/items/73065/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Try paddle boarding in a way that you've never experienced before… \"Experience the GLOW\" today!\nRates\n\nPerson (Ages 14+) - $59.00\n\nExperienced Paddle Boarders only\n\nDuration\n\n1 Hour\n\nAbout\nNight SUP for Experienced Paddle Boarders only! Learning at night is not safe\nMust be at least 14 years old to Night SUP.\nMust be accompanied by an adult (18 years or older)",
     "price": 59,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1 Hour",
     "highlights": [
@@ -4996,7 +5038,8 @@
       "Must be at least 14 years old to Night SUP.",
       "Must be accompanied by an adult (18 years or older)"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-240215",
@@ -5166,9 +5209,10 @@
     "bookingLink": "https://fareharbor.com/embeds/book/adventuremark/items/278513/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "About\n\nThis guided adventure begins soon after the sun rises. The \"morning light\" and tranquil waters really are a special time to be on the lagoon. And if you're lucky… You may even spot one of our favorite lagoon locals, the majestic manatee!",
     "price": 59,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-592918",
@@ -5209,7 +5253,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/luquillojetskiadventures/items/630890/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "1 Hour Jet Ski Tour\nLuquillo Jetski Adventures is the destination for a safe and fun jet ski tour at the east coast of Puerto Rico. Our tour takes you through beautiful views and the exclusive area of the sand bar. \nDon’t spend your vacation on land and enjoy the action on the water! Our Jet Ski tour is the best water sports activity in the area.\nTake a break from sunbathing and get on a Jet Ski tour.\nDrive your own Jet Ski on the beautiful coast of the Atlantic Ocean with an amazing view of the rainforest  El Yunque\". We will teach you how to operate the Jetski and all the safety procedures so you can feel confident and safe on your ride.\nMore Information:\n\n-PLEASE BRING THE SAME CREDIT CARD USED FOR YOUR RESERVATION ALONG WITH YOUR ID. WITHOUT THEM, YOU WILL NOT BE ABLE TO DRIVE THE JETSKI AND NO REFUND WILL BE ISSUED.\n\nARRIVE 30 MINUTES EARLY, THE TOUR START AT THE EXACT TIME. IMPORTANT: IF YOU ARRIVE LATE, YOU WILL NOT BE ABLE TO RIDE THE JETSKI AND NO REFUND WILL BE ISSUED.\n\nA STARTING FEE OF $250.00 WILL BE CHARGED TO YOUR CREDIT CARD ON FILE OR ANY OTHER METHOD OF PAYMENT FOR ANY DAMAGES CAUSED TO THE EQUIPMENT\n\nThis service requires a full payment \nReckless driving will not be tolerated and is non-refundable\nPregnant women and",
     "price": 120,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1 Hour",
     "highlights": [
@@ -5222,7 +5266,8 @@
       "Jet Skis seat up to two people. Addional cost the passenger",
       "Weight limit of our jet ski is 330 pound"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-14828",
@@ -5676,7 +5721,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/accesstourspr/items/493405/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Wheelchair Accessible BioBay Night Kayaking Tour\n\nEmbark on a hands-on adventure through Puerto Rico’s glowing Bioluminescent Bay, designed for wheelchair users eager to paddle independently. Our adaptive kayaks provide stability and comfort, allowing you to navigate the bay with ease.\n\nThe tour includes accessible transportation with a ramp, ensuring a seamless, barrier-free experience from start to finish. Enjoy smooth boarding, then glide through the bioluminescent mangroves, creating a dazzling trail with each paddle stroke. Expert guides will share insights about the ecosystem while you control your journey through the protected Laguna Grande Reserve.\n\nWhat's included\n\nHotel Pickup & Drop-Off: Stress-free round-trip\ntransportation in wheelchair-accessible vehicles.\n\nGuided Night Kayaking Eco-Adventure: Explore Laguna\nGrande’s bioluminescent bay with certified naturalist\nguides.\n\nBilingual Live Commen",
     "price": 115,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 Hours",
     "highlights": [
@@ -5689,7 +5734,8 @@
       "Two-Person Sit-On-Top Kayaks: Stable, adaptive kayaks w\nwith wheelchair-friendly seating and transfers.",
       "Mosquito repellent"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-532524",
@@ -5827,7 +5873,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/aquaexperiencespr/items/491948/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "The Most Romantic & Adventurous Date in San Juan!\n\nCombine the fun of paddling with a private gourmet meal on the water. Our Picnic Kayak Experience is the perfect budget-friendly escape for couples.\n\nFace-to-Face Dining: Our specialized double kayaks allow you to adjust the seats to face each other.\n\nBe Your Own Captain: You decide where to drop anchor! Find your favorite scenic spot in the Condado Lagoon and enjoy your picnic surrounded by nature.\n\nGourmet on the Go: Every booking includes a delicious Charcuterie Board and refreshing drinks.\n\nSpecial Dietary Requests & Customization\nWe cater to your lifestyle! We offer customized boards to fit your preferences:\n\nVegan Options: A delicious 100% plant-based selection.\n\nFruit-Only Boards: Fresh, seasonal fruits for a lighter touch.\n\n⚠️ Important: For any special dietary requests (Vegan or Fruit-only), you must contact us at [1-787-903-2141] immediately after booking to coordinate.\n\nImportant Arrival Information\n⏱️ Check-In: Please arrive 30 minutes before your scheduled reservation for check-in and safety instructions. Late arrivals may result in",
     "price": 100,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Special Dietary Requests & Customization\nWe cater to your lifestyle! We offer customized boards to fit your preferences:",
@@ -5838,7 +5884,8 @@
       "Safety Gear: Life jackets and a brief safety orientation.",
       "Aqua Experiences PR is not responsible for any personal items left inside or outside the store or tour locations."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-502615",
@@ -6085,7 +6132,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/discoversnorkelingculebra/items/486767/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Make the best of a full day in Paradise!\nDuration\n\n10 Hours\n\nAbout\n\nThis is a full-day experience on the Island of Culebra, Puerto Rico.\n\nTAKE NOTE: To visit Culebra Island you must take a Ferry from Ceiba, Puerto Rico. Ferry Schedules and Ferry Services are provided by Puerto Rico Ferry (HMS a Hornblower Corp) and they have no relation with Discover Snorkeling Culebra. Puerto Rico Ferry (HMS HornBlower) owns and operates the ferry schedule. Changes in schedule or delays may occur and Discover Snorkeling Culebra has no participation or involvement in such decisions.\n\nFerry Transportation (DEPARTING from Ceiba, Puerto Rico) to and from Culebra Island is included.\n\nClient(s) Must arrive at Ceiba Ferry Pier to board the Ferry 1 hour before departure. Take note that Transportation from your location to CEIBA is not included.\n\nThe tour includes a visit to two of Culebra's most popular beaches, one of them being Flamenco Beach. You will have the opportunity to snorkel and see a variety of marine life, including fish, turtles, and coral reefs. You will also have time to relax on the beach and enjoy the sun and sand.\n\nBeach gear is provided at the location. It is our wish that you can have a pleasant day at the Beach. You should know that it is forbidden to touch, remove, or mistreat",
     "price": 119,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "10 Hours",
     "highlights": [
@@ -6098,7 +6145,8 @@
       "Change of dry clothes",
       "Bottle of water"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567588",
@@ -6114,11 +6162,12 @@
     "bookingLink": "https://fareharbor.com/embeds/book/snorkelwithlocals/items/567588/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "1st meet at Tamarindo beach for an hour snorkel session with turtles, then off we go to the second location, a live coral reef. All gear included, tour guide included\nNo transport included\nNo boat, we swim from shore",
     "price": 135,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "3hr",
     "capacity": 8,
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-569986",
@@ -6174,7 +6223,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/crystalclearvieques/items/594708/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Exclusive shore-entry (no boat) snorkel with underwater photo package, light snacks, gear, sea turtle information, and optional lesson at the best site for turtle sightings in Vieques. The tour is personalized around your group's abilities and desires. With every private tour booked, we make a donation to a local nonprofit that works with the sea turtles in Vieques (TICATOVE). The water duration is one hour, but if you would like an hour and a half of water time, you can select the optional add-on.\nWhat's included\n\nGear\n\nUnderwater photos\n\nLight snacks",
     "price": 440,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Underwater photos",
@@ -6184,7 +6233,8 @@
       "And a payment method.",
       "For parties of 9 or more, please call us to book"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-649631",
@@ -6362,9 +6412,10 @@
     "bookingLink": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/672772/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Explore the magic of El Yunque under the stars Guided by experts, guests venture into lush trails surrounded by dense vegetation and rich biodiversity. This tour offers the peaceful ambiance and a chance to spot coquí frogs and other night creatures in their natural habitat, listen to the forest’s nighttime symphony, and learn about the ecosystem, Including Bioluminescent Fungi (When visible) in a safe, well-lit environment.\n\nWhat's included\n\n✅ Includes round-trip transportation from select hotel areas, Expert Guide\n\nHighlights\n\nExplore the rainforest after dark\nExperience El Yunque in its most mysterious and enchanting state as the forest comes alive with nighttime sounds, cool breezes, and hidden wonders only visible after sunset.\n\nEncounter nocturnal wildlife and ecosystems\nGuests have the opportunity to hear and possibly spot coquí frogs, owls, and other nighttime species, while learning how the rainforest transforms after daylight fades.\n\nDiscover natural bioluminescence\nWhen conditions allow, guests may observe bioluminescent mushrooms and other subtle nighttime glows that make this tour a rare and unforgettable experience.",
     "price": 125,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-101308",
@@ -6417,7 +6468,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/kayakingparguera/items/123311/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "La Parguera, Puerto Rico\n\nRequires Kayaking previous experience\n\nFree cancellation\nInstant confirmation\n$69\n\tPeople\nAges 6+\n\nPrices for Monday, May 4, 2026 at 8:00 PM.\n\nEnjoy the 1.5 hours guided tour in our two person Ocean Kayak in La Parguera BioBay!\nCertifications\n\nOur tours have been certified by the Puerto Rico Tourism Company and the Department of Natural Resources (DRNA) since 2016\n\nDifficulty Level: Intermediate\nTotal Kayaking Distance: 3.5 to 5 Miles\n** Requires Kayaking previous experience**\n\nIMPORTANT: WE USE DOBLE KAYAKS. ODD NUMBER PARTIES WILL BE MERGED DURING THE TOUR.\n\nThere is a DRNA Fee of $3.00 per person\n\nPlease remember, bioluminescence is a natural phenomenon and the intensity/brightness is unpredictable and may vary from one day to another. THE BRIGHTNESS OF THE MOON AFFECTS THE BIOLUMINESCENCE. Bioluminescence is a natural occurrence with varying brightness. When needed, a tarp is used to minimize light from the moon or artificial sources, as an extra step to help better appreciate the bioluminescence.\n\nTHIS TOUR IS AFFECTED BY THE MOON PHASES.\n\nDuration\n\n1.5 Hours (approximately)\n\nAbout\n\nOn this tour we will be departing in kayak through waters to view the natural beauty of Puerto Rico. When we reach our destination, we will have time to see the show that de dinoflagellates gave to us. The Bio Bay have a permanent population is this tiny microorganism. This live animas produce chemical light for defense.\n\nPhotos:\nOur photos are 100% organic, without",
     "price": 69,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 Hours",
     "highlights": [
@@ -6428,7 +6479,8 @@
       "Important: There are no restroom facilities available as we are in a natural reserve. Please plan accordingly to ensure your comfort during the tour.\"",
       "We reserve the right to refuse admission."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-218088",
@@ -6731,9 +6783,10 @@
     "bookingLink": "https://fareharbor.com/embeds/book/dukessurfschool/items/9140/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincón, Puerto Rico\n\n$50\n\tPeople\n\nPrices for Thursday, April 30, 2026 at 4:00 PM.",
     "price": 50,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-9141",
@@ -6749,9 +6802,10 @@
     "bookingLink": "https://fareharbor.com/embeds/book/dukessurfschool/items/9141/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "",
     "price": 20,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-625222",
@@ -6812,7 +6866,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/divecrashboat/items/267439/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "3 Hours • Ages 10+ • Up Close With Colorful Sea Creatures\n\n$60\n\tSnorkelers\nAges 10 and up\n\nPrices for Friday, May 1, 2026 at 8:30 AM.\n\nUp Close With Colorful Sea Creatures\nDURATION\nAllow 3 hours for tour.\nParticipants meet in the dive center at the time stated on their reservation for check-in.\nYou'll meet your guide for professional equipment fitting and briefing on the location and what you can expect to see during the tour.\nThereafter you will follow the guide in your own transportation to the entry point for the snorkeling tour (5 min +/- from dive center). Guides have limited space available for passengers. If you need transportation from the dive center and back, please give the dive center a call so advance arrangements can be made. Additional charges may apply.\nABOUT\n\nSnorkeling in the Tres Palmas Marine Reserve in Rincon, Puerto Rico is fun, safe, and easy for everyone to enjoy! You will be absolutely amazed at the underwater world that lives just steps from the beautiful beaches of Rincon!\n\nWith some expert instruction on how to get the most out of your experience, you can get up close with some of the sea's most lively and colorful creatures.\n\nWHAT YOU'LL LEARN\nHow to select snorkel equipment for best personal fit\nLearn to identify various fish by color and name\nHow to protect the reef\nLearn the mechanics of snorkeling on a shallow reef.\nFun, safe tour on shallow local reef. Enter right at the beach--NO BOAT REQUIRED.\nFeel free to ask lots of questions--our guides",
     "price": 60,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Allow 3 hours for tour.",
@@ -6824,7 +6878,8 @@
       "Learn the mechanics of snorkeling on a shallow reef.",
       "Fun, safe tour on shallow local reef. Enter right at the beach--NO BOAT REQUIRED."
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-34365",
@@ -6933,9 +6988,10 @@
     "bookingLink": "https://fareharbor.com/embeds/book/dukessurfschool/items/9139/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Rincón, Puerto Rico\n\n$50\n\tPeople\n\nPrices for Thursday, April 30, 2026 at 4:00 PM.",
     "price": 50,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-14810",
@@ -6954,7 +7010,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/bellaventuras/items/14810/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Fajardo East side of Puerto Rico\n\n2 hour sail / Up to 6 passengers starting $700.00\n\nDetails:\nTour time: 5:00pm - 7:00pm (Oct 1 - April 30), 5:30pm - 7:30pm (May 1 - Sept 30)\nCheck-in time: 4:30pm\nDeparting marina: Puerto Del Rey, Fajardo, Puerto Rico\nIncludes:\nMenu: Crackers & Cheese plate, Vegetable plate & dip, chips & Dip\nBeverages: Your selection of Rum, Whiskey, vodka, white wine, beer, juices, and sodas\n\nThe BEST way to experience our Caribbean sunset.\n\nEnjoy an evening of sailing around numerous small islands and cays that lie just off the northeast coast of Puerto Rico. We sail across Fajardo’s waterfront enjoying stunning views of the Sunset behind the El Yunque Mountains. While our crew pampers you serving appetizers along with your choice of drinks.",
     "price": 700,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "highlights": [
       "Tour time: 5:00pm - 7:00pm (Oct 1 - April 30), 5:30pm - 7:30pm (May 1 - Sept 30)",
@@ -6963,7 +7019,8 @@
       "Menu: Crackers & Cheese plate, Vegetable plate & dip, chips & Dip",
       "Beverages: Your selection of Rum, Whiskey, vodka, white wine, beer, juices, and sodas"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-187079",
@@ -7186,7 +7243,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/seaadventurespr/items/569373/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n1.5 Hours\n\nAbout\n\nSnorkeling with us offers more than just an adventure. We prioritize safety by keeping our groups small, with no more than ten participants per guide, ensuring a more personalized and attentive experience. You’ll get an up-close look at vibrant marine life, from colorful fish to majestic green sea turtles, while learning about these endangered species. Each of our dive professionals brings their unique personality and focuses on different marine animals, making every tour a unique and enriching experience. Our love for the ocean shines through in our snorkeling adventures, blending education with enjoyment. Join us for a safe, conscious, and fun-filled snorkeling experience that celebrates the beauty and excitement of marine life.\n\nMore info\nIncluded:\nCertified instructor\nUSCG-apprived life jacket\nMask\nSnorkel\nClappers\nAn unforgettable experience\nNot included:\nTowels\nBathing suits\nSunscreen",
     "price": 80,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 Hours",
     "highlights": [
@@ -7195,7 +7252,8 @@
       "An unforgettable experience",
       "Bathing suits"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-72467",
@@ -7307,14 +7365,15 @@
     "bookingLink": "https://fareharbor.com/embeds/book/divecrashboat/items/267467/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Ages 10+ • 3 Hours • Beginners Welcome • The Adventure Begins!\n\n$155\n\tDiscover Diver-1 Tank Dive\n\n$200\n\tDiscover Dive-2-Tank Dives\nTwo Discover Scuba Dive in same day\n\nPrices for Friday, May 1, 2026 at 8:00 AM.\n\nThe Adventure Begins!\nDuration\n\n3 Hours\n\nAbout\n\nThis course is designed for the person who would like to try Scuba Diving without having to take the full dive certification course. No experience necessary.\n\nAll equipment included.\nTaught by professional PADI Professional Instructors following the highest standards.\n\nNO MINIMUM number of participants required to book. Maximum of 4 participants per instructor. If the number of participants in your group exceeds the quantity available to book online, Call the Dive Center for personalized attention.\n\nWHAT YOU'LL LEARN:\n\nThe PADI Discover Scuba Diving program lets you experience the wonder of diving under the supervision of a PADI Instructor in ideal conditions.. During your adventure, you'll master some basic concepts and scuba skills in shallow sea water, before heading off on an open water dive on a shallow ocean reef..\n\nYour open water dive takes you as deep as 40 feet/12 metres. The Discover Scuba Diving experience is a great way to get a head start on your PADI Scuba Diver or Open Water Diver certification. That's because the skills you complete during this adventure, such as mask clearing, regulator recovery and sharing air, may credit these certification levels, so you can continue where you left off. Be sure to as",
     "price": 155,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "3 Hours",
     "highlights": [
       "Water enthusiasts and Snorkelers looking for more adventure",
       "Minimum age: 10 years"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-267470",
@@ -7529,10 +7588,11 @@
     "bookingLink": "https://fareharbor.com/embeds/book/snorkelwithlocals/items/567574/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Ages 7+ • 1.5 Hours • Up to 8 People\n\nFree cancellation\nInstant confirmation\n$70\n\tPeople\nAges 7+\n\nPrices for Wednesday, April 29, 2026 at 4:00 PM.\n\nCulebra Island Best Snorkeling in Puerto Rico!\nDuration\n\n1.5 Hours\n\nAbout\n\nPlease Note: Tours depart from different locations based on time. Please pay attention to the location for each time slot when booking\n\nWe offer this tour at both Culebra island and main island Condado locations. Enjoy marine life accompanied by a a certified local guide who will ensure your experience is safe and memorable! All of our excursions include the use of premium snorkel gear, you simply just show up! Per person cost, ages 7 and up, no prior swimming or snorkeling experiences required. Tours start and finish from shore. No boat. Minimum of 2 people per session. Transportation between tours not included. We recommend our guest keep an open dialog with us throughout the trip to the island of Culebra, in case you have questions on logistics we are available, every time!\n\nMore Info\n\nPlease call to inquire about group sizes larger than eight people.",
     "price": 70,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 Hours",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567594",
@@ -7566,10 +7626,11 @@
     "bookingLink": "https://fareharbor.com/embeds/book/snorkelwithlocals/items/567598/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Ages 7+ • 2 Hours • Up to 4 People • No Experience Needed!\n\nFree cancellation\nInstant confirmation\n$140\n\tPeople\nAges 7+\n\nPrices for Thursday, April 30, 2026 at 8:00 AM.\n\nTry Scuba Diving!\nDuration\n\n2 Hours\n\nAbout\n\nPlease Note: Tours depart from different locations based on time. Please pay attention to the location for each time slot when booking\n\nWe offer this tour at both Culebra island and main island Condado locations. Witness the beauty and all the colors of a live coral reef! We offer shore dives for small groups of up to 4ppl. Our instructors are experienced and certified! This session is available for people of all skill levels. No prior experience required, all gears provided, simply show up! Price is per person cost.",
     "price": 140,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "2 Hours",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-567854",
@@ -7585,7 +7646,7 @@
     "bookingLink": "https://fareharbor.com/embeds/book/seaadventurespr/items/567854/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "description": "Duration\n\n1.5 Hours\n\nAbout\n\nSnorkeling with us offers more than just an adventure. We prioritize safety by keeping our groups small, with no more than ten participants per guide, ensuring a more personalized and attentive experience. You’ll get an up-close look at vibrant marine life, from colorful fish to majestic green sea turtles, while learning about these endangered species. Each of our dive professionals brings their unique personality and focuses on different marine animals, making every tour a unique and enriching experience. Our love for the ocean shines through in our snorkeling adventures, blending education with enjoyment. Join us for a safe, conscious, and fun-filled snorkeling experience that celebrates the beauty and excitement of marine life.\n\nWHAT TO EXPECT\n\nExperience the magic of exploring the marine world at a stunning beach in San Juan. Join this beginner-friendly adventure led by a professional guide in small groups of up to 10, ensuring a personalized and high-quality experience for all. The bay boasts a vibrant array of marine life and magnificent Green Sea Turtles. Guests often spot blue tangs, sergeant majors, fairy basslets, yellow snappers, and more! Occasionally, you might encounter rare creatures like squids, seahorses, rays, and manatees. We suggest the morning time slots as the marine life is more a",
     "price": 50,
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "duration": "1.5 Hours",
     "highlights": [
@@ -7594,7 +7655,8 @@
       "An unforgettable experience",
       "Bathing suits"
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "pr-411798",
