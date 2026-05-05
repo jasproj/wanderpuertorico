@@ -253,22 +253,31 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header-content">
+        <div class="header-container">
+            <div class="logo-group">
                 <a href="/" class="logo">
-                    <img src="logo-full.png" alt="WanderPuertoRico" class="logo-img">
+                    <picture>
+                        <source srcset="images/logo.webp" type="image/webp">
+                        <img src="images/logo.png" alt="Wander Puerto Rico" class="logo-img" width="800" height="321" fetchpriority="high">
+                    </picture>
                 </a>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="tours.html">Tours</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </nav>
-                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#locations">Locations</a>
+                <a href="/#faq">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#locations">Locations</a>
+            <a href="/#faq">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
     </header>
     
     <section class="advertise-hero">
