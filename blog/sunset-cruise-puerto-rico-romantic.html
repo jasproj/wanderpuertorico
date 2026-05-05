@@ -153,5 +153,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+<script>
+document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+    var nav = document.querySelector('.nav-mobile');
+    if (!nav) return;
+    var open = !nav.classList.contains('active');
+    nav.classList.toggle('active', open);
+    this.classList.toggle('active', open);
+    this.setAttribute('aria-expanded', String(open));
+});
+</script>
 </body>
 </html>
