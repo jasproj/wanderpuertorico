@@ -184,7 +184,26 @@
                 padding: 100px 1rem 60px;
             }
         }
-        
+
+        /* Blog article hero — overrides .hero's 100vh full-bleed so a 1200x400
+           Unsplash source isn't upscaled past its width and crop-cut on the sides. */
+        .hero.hero-blog {
+            min-height: 320px;
+            padding: 90px 1.5rem 50px;
+        }
+        .hero.hero-blog .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        @media (max-width: 768px) {
+            .hero.hero-blog {
+                min-height: 220px;
+                padding: 80px 1rem 40px;
+            }
+        }
+
         .hero-bg {
             position: absolute;
             inset: 0;
