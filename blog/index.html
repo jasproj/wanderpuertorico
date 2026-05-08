@@ -32,6 +32,19 @@
         .footer { background: #ede9fe; color: #4c1d95; padding: 2rem 1.5rem; text-align: center; margin-top: 4rem; }
         .footer a { color: #4c1d95; }
         @media (max-width: 600px) { .hero h1 { font-size: 1.75rem; } .grid { grid-template-columns: 1fr; } }
+
+        /* Manifest-consumer compatibility aliases (added 2026-05-07).
+           The cross-site manifest JS template renders .blog-card markup;
+           this site's hand-coded archive uses .card. Aliasing both so a
+           future manifest consumer renders correctly without per-site CSS overrides.
+           Visual values mirror this site's existing .card rules. */
+        .blog-card { display: block; background: white; border: 1px solid #e5e5e5; border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; transition: box-shadow 0.2s, transform 0.2s; }
+        .blog-card:hover { box-shadow: 0 8px 24px rgba(91,33,182,0.12); transform: translateY(-2px); }
+        .blog-card-img { width: 100%; height: 200px; background-size: cover; background-position: center; }
+        .blog-card-content { padding: 1.5rem; }
+        .blog-card-tag { display: inline-block; background: #ede9fe; color: #5b21b6; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .blog-card h2 { font-family: 'DM Sans', sans-serif; font-size: 1.1rem; color: var(--primary-dark); margin-bottom: 0.5rem; }
+        .blog-card p { font-size: 0.9rem; color: #525252; margin: 0; }
     </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
