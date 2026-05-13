@@ -216,7 +216,7 @@ function createTourCard(tour) {
                 ${badgesHtml}
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <a href="${tour.bookingLink}" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="cursor: pointer; border: none; background: none; padding: 0; text-decoration: none; display: inline-block;">Check Availability →</a>
+                    <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="cursor: pointer; border: none; background: none; padding: 0; text-decoration: none; display: inline-block;">Check Availability →</a>
                 </div>
             </div>
         </article>
