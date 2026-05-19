@@ -258,7 +258,10 @@
                 <a href="/" class="logo">
                     <picture>
                         <source srcset="images/logo.webp" type="image/webp">
-                        <img src="images/logo.png" alt="Wander Puerto Rico" class="logo-img" width="800" height="321" fetchpriority="high">
+                        <picture>
+                        <source type="image/webp" srcset="images/logo-160.webp 1x, images/logo-320.webp 2x, images/logo-480.webp 3x">
+                        <img src="images/logo.png" alt="Wander Puerto Rico" class="logo-img" width="800" height="321" fetchpriority="high" loading="eager" decoding="async">
+                    </picture>
                     </picture>
                 </a>
             </div>
@@ -415,7 +418,10 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="logo">
-                        <img src="/images/footer-badge.png" alt="Wander Puerto Rico" class="footer-logo-img">
+                        <picture>
+                        <source type="image/webp" srcset="/images/footer-badge-240.webp 1x, /images/footer-badge-480.webp 2x, /images/footer-badge-720.webp 3x">
+                        <img src="/images/footer-badge.png" alt="Wander Puerto Rico" class="footer-logo-img" loading="lazy" decoding="async">
+                    </picture>
                     </a>
                     <p>Your guide to 303 Puerto Rico tours. Verified local operators, direct booking.</p>
                     <p class="footer-tagline">Direct to local operators. Beyond the resort.</p>
