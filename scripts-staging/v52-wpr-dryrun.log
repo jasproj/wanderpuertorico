@@ -1,0 +1,14 @@
+wanderpuertorico low-confidence tours: 119
+  [20/119] {"fail":11,"pass":9}
+  [40/119] {"fail":25,"pass":15}
+  [60/119] {"fail":33,"pass":27}
+  [80/119] {"fail":39,"pass":41}
+  [100/119] {"fail":48,"pass":52}
+✓ Raw records → scripts-staging/v52-wpr-dryrun-raw.json
+
+Gate PASS:  62
+Gate FAIL:  57
+Errors:     0
+✓ Report → scripts-staging/v52-wpr-dryrun.md
+
+Dry-run complete. Awaiting --live approval.
