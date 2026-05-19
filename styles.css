@@ -1362,6 +1362,18 @@
 
 .blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
 
+/* Footer badge sizing — caps the natural 1254x1254px asset. Matches WHAW/WUSVI/WNZ/WAMS/WENG canonical pattern. */
+.footer-logo-img {
+    height: 120px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-logo-img {
+        height: 90px;
+    }
+}
+
 /* Footer badge — light pill background for contrast on dark footer */
 .footer-logo-img {
     background: rgba(255, 255, 255, 0.9);
