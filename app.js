@@ -229,6 +229,7 @@ async function loadTours() {
         const response = await fetch('tours-data.json');
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
+        toursData = toursData.filter(t => t.status !== 'inactive');
 
         const shuffled = shuffleArray(toursData).slice(0, 50);
         preCacheBookingUrls(shuffled);

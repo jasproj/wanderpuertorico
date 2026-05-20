@@ -15,8 +15,9 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
         const _raw = await response.json();
         const allTours = Array.isArray(_raw) ? _raw : _raw.tours;
 
-        // Filter tours by tags, then shuffle per-page-load before slicing
+        // Filter tours by tags + drop inactive, then shuffle per-page-load before slicing
         const filtered = allTours.filter(tour => {
+            if (tour.status === 'inactive') return false;
             return (tour.tags || []).some(tag => filterTags.includes(tag));
         });
         const filteredTours = shuffleArray(filtered).slice(0, limit);
