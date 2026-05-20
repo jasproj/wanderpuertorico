@@ -11,12 +11,13 @@ function shuffleArray(arr) {
 // Shared tour loading and filtering for activity pages
 async function loadActivityTours(filterTags, containerId = 'tours-grid', limit = 12) {
     try {
-        const response = await fetch('/puertorico-tours.json');
-        const allTours = await response.json();
+        const response = await fetch('/tours-data.json');
+        const _raw = await response.json();
+        const allTours = Array.isArray(_raw) ? _raw : _raw.tours;
 
         // Filter tours by tags, then shuffle per-page-load before slicing
         const filtered = allTours.filter(tour => {
-            return filterTags.some(tag => tour.tags.includes(tag));
+            return (tour.tags || []).some(tag => filterTags.includes(tag));
         });
         const filteredTours = shuffleArray(filtered).slice(0, limit);
         
@@ -33,7 +34,7 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
                 <div class="tour-image">
                     <img src="${tour.image}" alt="${tour.name}" loading="lazy">
                     <div class="tour-overlay">
-                        <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
+                        <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
                             Book Now
                         </a>
                     </div>

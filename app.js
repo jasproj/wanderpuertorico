@@ -226,9 +226,10 @@ function createTourCard(tour) {
 // Load and display tours
 async function loadTours() {
     try {
-        const response = await fetch('puertorico-tours.json');
-        toursData = await response.json();
-        
+        const response = await fetch('tours-data.json');
+        const _raw = await response.json();
+        toursData = Array.isArray(_raw) ? _raw : _raw.tours;
+
         const shuffled = shuffleArray(toursData).slice(0, 50);
         preCacheBookingUrls(shuffled);
         
