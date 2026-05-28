@@ -38,7 +38,7 @@ Tours typically combine the bio bay paddle with stargazing—Vieques has virtual
 
 **Location:** Lajas (Southwest PR) | **Best For:** Swimmers, couples
 
-La Parguera's bio bay is the only one in Puerto Rico where swimming is still permitted. While it's not as bright as Vieques, the chance to fully immerse yourself in glowing water—watching your arms trail blue light with every movement—creates an unforgettable sensory experience.
+La Parguera's bio bay is the only one in Puerto Rico where swimming is still permitted. While it's not as bright as Vieques, the chance to fully immerse yourself in glowing water—watching your arms trail blue light with every movement—creates a vivid sensory experience.
 
 Hook'd on Adventure Parguera runs sunset-to-bio-bay tours that begin with golden hour views over the mangroves before transitioning to the main event after dark.
 
