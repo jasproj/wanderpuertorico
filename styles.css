@@ -341,17 +341,6 @@
             box-shadow: 0 6px 20px rgba(0,0,0,0.3);
         }
         
-        @media (max-width: 560px) {
-            .hero-search {
-                flex-direction: column;
-                border-radius: var(--radius-lg);
-                padding: 1rem;
-            }
-            .search-input-wrap { padding: 0.5rem; }
-            .search-btn { width: 100%; }
-            .hero-logo-img { height: 324px; }
-        }
-        
         /* Quick Tags Marquee */
         .quick-tags-wrapper {
             width: 100%;
@@ -1223,12 +1212,7 @@
             /* Single column on small phones */
             .areas-grid { grid-template-columns: 1fr; }
             .why-grid { grid-template-columns: 1fr; }
-            
-            /* Even more compact hero */
-            .hero { padding: 90px 1rem 50px; }
-            .hero-logo-img { height: 270px; }
-            .hero-tagline { font-size: 1rem; }
-            
+
             /* Tour grid single column */
             .tours-grid { 
                 grid-template-columns: 1fr;
@@ -1369,6 +1353,83 @@
 }
 
 @media (max-width: 768px) {
+    /* Hero Mobile — image-backed band (~290px) with brand logo + tagline +
+       single-row search overlaid. Ported from wanderhawaii #73/#74
+       (mobile-hero-spec). Uses literal rems since WPR has no --space-* tokens. */
+    .hero {
+        min-height: 280px;
+        max-height: 290px;
+        padding: 85px 1rem 1rem;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+        padding: 0 20px;
+        padding-bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .hero-subtitle,
+    .quick-tags-wrapper,
+    .trust-bar {
+        display: none;
+    }
+
+    .hero-tagline {
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-logo {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hero-logo-pill {
+        display: inline-block;
+        padding: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-logo-img {
+        height: 80px;
+        width: auto;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
+    }
+
+    .hero-search {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .hero-search .search-input-wrap {
+        flex: 1;
+        min-width: 0;
+        padding-left: 0.5rem;
+    }
+
+    .hero-search input {
+        min-width: 0;
+    }
+
+    .search-btn {
+        width: auto;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        padding: 0.5rem 1rem;
+    }
+
     .footer-logo-img {
         height: 90px;
     }
