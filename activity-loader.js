@@ -20,7 +20,13 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
             if (tour.status === 'inactive') return false;
             return (tour.tags || []).some(tag => filterTags.includes(tag));
         });
-        const filteredTours = shuffleArray(filtered).slice(0, limit);
+        // Pin proven-converting winners to the top (per-page via #activity-pinned-pks),
+        // then shuffle the rest for fair rotation. A pinned pk that is missing/inactive
+        // is silently skipped (filter(Boolean)), never errors.
+        const pinnedPks = JSON.parse(document.getElementById('activity-pinned-pks')?.textContent || '[]');
+        const pinnedTours = pinnedPks.map(pk => filtered.find(t => t.pk === pk)).filter(Boolean);
+        const rest = filtered.filter(t => !pinnedPks.includes(t.pk));
+        const filteredTours = [...pinnedTours, ...shuffleArray(rest)].slice(0, limit);
         
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -36,7 +42,7 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
                     <img src="${tour.image}" alt="${tour.name}" loading="lazy">
                     <div class="tour-overlay">
                         <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
-                            Book Now
+                            Check Availability →
                         </a>
                     </div>
                 </div>
