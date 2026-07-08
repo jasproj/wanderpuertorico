@@ -1357,8 +1357,8 @@
        single-row search overlaid. Ported from wanderhawaii #73/#74
        (mobile-hero-spec). Uses literal rems since WPR has no --space-* tokens. */
     .hero {
-        min-height: 280px;
-        max-height: 290px;
+        min-height: 320px;
+        max-height: 330px;
         padding: 85px 1rem 1rem;
         justify-content: flex-start;
         overflow: hidden;
@@ -1400,9 +1400,9 @@
     }
 
     .hero-logo-img {
-        height: 150px;
+        height: 110px;
         width: auto;
-        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(0 2px 8px rgba(0,0,0,0.55));
     }
 
     .hero-search {
