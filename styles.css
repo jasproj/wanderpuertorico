@@ -259,23 +259,6 @@
             opacity: 0.9;
         }
         
-        .hero-logo-pill {
-    display: inline-block;
-    background: transparent;
-    padding: 0;
-    margin-bottom: var(--space-lg);
-}
-        
-        .hero-logo-img {
-            height: 504px;
-            width: auto;
-            max-width: 90%;
-            filter:
-                drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4))
-                drop-shadow(0 0 25px #D4B8E8)
-                drop-shadow(0 0 50px #D4B8E8);
-        }
-        
         .hero-subtitle {
             font-size: 1.125rem;
             line-height: 1.7;
@@ -1462,23 +1445,6 @@
         font-size: 0.75rem;
         letter-spacing: 0.15em;
         margin-bottom: 0.5rem;
-    }
-
-    .hero-logo {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .hero-logo-pill {
-        display: inline-block;
-        padding: 0;
-        margin-bottom: 0.5rem;
-    }
-
-    .hero-logo-img {
-        height: 110px;
-        width: auto;
-        filter: drop-shadow(0 2px 8px rgba(0,0,0,0.55));
     }
 
     .hero-search {
