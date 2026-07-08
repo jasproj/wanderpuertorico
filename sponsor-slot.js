@@ -284,7 +284,9 @@
 
     var fill = pickFill(slotEl);
     if (!fill) {
-      // Mark as empty for QA — CSS still reserves height, no shift.
+      // Nothing to show: render nothing at all. The slot is collapsed by
+      // default (display:none) and this attribute keeps it collapsed — no
+      // box, no label, no reserved space. (No creative HTML is injected.)
       slotEl.setAttribute('data-fill-state', 'empty');
       return;
     }
