@@ -14,20 +14,29 @@
    ============================================================ */
 
 .sponsor-slot {
-  display: block;
+  /* Collapsed by default: a slot with nothing to show renders NOTHING —
+     no box, no label, no reserved height, no pre-JS flash. Only a slot that
+     JS fills with a real creative becomes visible (see
+     [data-fill-state="filled"] below). */
+  display: none;
   position: relative;
   overflow: hidden;
   margin: 16px auto;
-  background: #f5f5f5;
   text-align: center;
-  /* Default fill state: empty. Overridden inline by JS once filled.
-     A persistent very-light gray box keeps debugging easy without
-     looking like broken content. */
 }
 
-/* Hide slots that have data-fill-state="empty" once JS has run AND
-   we are NOT in a test/preview context. Comment this rule out during
-   QA to see all empty slots. */
+/* Only a filled slot is shown. Its per-slot-type min-height (below) then
+   reserves the correct IAB dimensions while the creative loads, and the
+   very-light gray backdrop only ever appears behind an actual creative —
+   never as a standalone empty box. */
+.sponsor-slot[data-fill-state="filled"] {
+  display: block;
+  background: #f5f5f5;
+}
+
+/* Explicit guard: slots JS marked empty stay collapsed. Redundant with the
+   default now, but kept so intent is obvious; commenting out the default
+   display:none above (for QA) still leaves empties hidden via this rule. */
 .sponsor-slot[data-fill-state="empty"] {
   display: none;
 }
