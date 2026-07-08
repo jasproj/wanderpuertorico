@@ -340,7 +340,80 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(0,0,0,0.3);
         }
-        
+
+        /* ─── Bio-bay decision hero (replaces seal + search) ───────
+           Mobile-first. Text sits over the dark photo band, so it carries
+           its own contrast: heavy text-shadow on the headline/subhead and
+           solid card backgrounds (the seal was illegible — don't repeat). */
+        .hero-bay-h1 {
+            font-size: 1.5rem;
+            line-height: 1.2;
+            font-weight: 800;
+            color: #ffffff;
+            margin: 0 0 0.5rem;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.65), 0 1px 2px rgba(0,0,0,0.85);
+        }
+
+        .hero-bay-subhead {
+            font-size: 0.95rem;
+            line-height: 1.45;
+            color: #ffffff;
+            max-width: 36ch;
+            margin: 0 auto 1.1rem;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.75);
+        }
+
+        .hero-bay-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 0.55rem;
+            width: 100%;
+            max-width: 440px;
+            margin: 0 auto;
+        }
+
+        .bay-card {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: left;
+            min-height: 48px;
+            padding: 0.65rem 1rem;
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+            text-decoration: none;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .bay-card:hover,
+        .bay-card:focus-visible {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 22px rgba(0, 0, 0, 0.38);
+        }
+
+        .bay-card__name {
+            font-size: 1.05rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #0d3b66;
+        }
+
+        .bay-card__desc {
+            font-size: 0.85rem;
+            line-height: 1.3;
+            color: #444444;
+            margin-top: 2px;
+        }
+
+        /* Desktop: give the headline a bit more presence. */
+        @media (min-width: 769px) {
+            .hero-bay-h1 { font-size: 2.1rem; }
+            .hero-bay-subhead { font-size: 1.05rem; }
+        }
+
         /* Quick Tags Marquee */
         .quick-tags-wrapper {
             width: 100%;
@@ -1357,9 +1430,12 @@
        single-row search overlaid. Ported from wanderhawaii #73/#74
        (mobile-hero-spec). Uses literal rems since WPR has no --space-* tokens. */
     .hero {
+        /* Photo band grows to fit the bio-bay decision content (headline +
+           subhead + 3 cards). min-height keeps the ~320px band feel; the
+           max-height cap is dropped so cards are never clipped. overflow
+           still clips the background photo's zoom animation, not content. */
         min-height: 320px;
-        max-height: 330px;
-        padding: 85px 1rem 1rem;
+        padding: 85px 1rem 1.5rem;
         justify-content: flex-start;
         overflow: hidden;
     }
