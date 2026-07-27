@@ -13,6 +13,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://wanderpuertorico.com/bio-bay-moon-phase-puerto-rico.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://wanderpuertorico.com/bio-bay-tours-puerto-rico.html</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -33,6 +39,12 @@
   <url>
     <loc>https://wanderpuertorico.com/culebra-snorkeling-tours.html</loc>
     <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/culebra.html</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -61,16 +73,28 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://wanderpuertorico.com/fajardo-from-san-juan.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://wanderpuertorico.com/fajardo-water-tours.html</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wanderpuertorico.com/googleda782fa9cb4efcba.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://wanderpuertorico.com/fajardo.html</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/faq.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://wanderpuertorico.com/kayaking.html</loc>
@@ -85,6 +109,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://wanderpuertorico.com/privacy.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wanderpuertorico.com/puerto-rico-itinerary.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,14 +127,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://wanderpuertorico.com/san-juan.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://wanderpuertorico.com/snorkeling.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://wanderpuertorico.com/terms.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wanderpuertorico.com/vieques-day-trip.html</loc>
     <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/vieques.html</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
