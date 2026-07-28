@@ -1,3 +1,7 @@
+// Applied at render time, not just via onerror: 16 records have no image
+// field, and `src="undefined"` costs a real 404 before any fallback runs.
+const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400';
+
 // Fisher-Yates shuffle (non-mutating)
 function shuffleArray(arr) {
     const a = [...arr];
@@ -39,7 +43,7 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
         const html = filteredTours.map(tour => `
             <div class="tour-card">
                 <div class="tour-image">
-                    <img src="${tour.image}" alt="${tour.name}" loading="lazy">
+                    <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" onerror="this.src='${FALLBACK_IMAGE}'">
                     <div class="tour-overlay">
                         <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
                             Check Availability →

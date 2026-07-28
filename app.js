@@ -167,6 +167,10 @@ function generateTourSchema(tour) {
     };
 }
 
+// Applied at render time, not just via onerror: 16 records have no image
+// field, and `src="undefined"` costs a real 404 before onerror can rescue it.
+const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400';
+
 // Fisher-Yates shuffle (non-mutating)
 function shuffleArray(arr) {
     const a = [...arr];
@@ -212,7 +216,7 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
