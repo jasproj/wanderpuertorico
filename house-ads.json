@@ -1,19 +1,5 @@
 {
   "_comment": "House ad rotation — internal cross-promo / sister-site campaigns. Used when no direct sponsor matches. Multiple matching house ads are weighted-randomly selected via rotation_weight (default 1.0 each). Tier 2 by convention.",
-  "house_ads": [
-    {
-      "id": "wander-cross-promo-usvi",
-      "active": true,
-      "tier": 2,
-      "rotation_weight": 1.0,
-      "pages": ["*"],
-      "slot_types": ["leaderboard"],
-      "creative": {
-        "type": "image",
-        "src": "/house-ads/wander-usvi-728x90.jpg",
-        "alt": "Heading to the Caribbean? Visit WanderUSVI for tour discovery in St. Thomas, St. John, St. Croix.",
-        "url": "https://wanderusvi.com?utm_source=house&utm_medium=display&utm_campaign=cross-network"
-      }
-    }
-  ]
+  "_removed": "wander-cross-promo-usvi pointed at /house-ads/wander-usvi-728x90.jpg, which has never existed in this repo (there is no house-ads/ directory), so the one leaderboard slot it matched rendered a broken image. Removed rather than replaced; re-add with a real asset or an html creative.",
+  "house_ads": []
 }
