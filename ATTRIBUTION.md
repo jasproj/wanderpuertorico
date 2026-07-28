@@ -32,7 +32,7 @@ presented as a specific place.
 |---|---|---|
 | `images/hero-vieques.jpg` | `tropical-beach-scene-with-palm-trees-and-ocean-waves` | Palm-lined golden-sand beach with sea grape and a reef break. Caribbean-consistent, **no identifiable landmark** — cannot be confirmed as Vieques. |
 | `images/hero-el-yunque.jpg` | `trees-in-the-forest` | Tropical rainforest of sierra palms with a narrow trail. Subject strongly consistent with El Yunque's palm zone; **location not provable**. |
-| `images/hero-bio-bay.jpg` | `ocean-under-starry-sky` | Milky Way over a dark rocky coastline. **Shows no bioluminescence at all** — the water is dark. Subject mismatch for a bio-bay page, though it makes no false location claim. `images/bio-bay-vieques.jpg` (Wikimedia, "Bioluminescent Handprint") does show bioluminescence and is the better fit. |
+| `images/hero-bio-bay.jpg` | `ocean-under-starry-sky` | Milky Way over a dark rocky coastline. **Shows no bioluminescence at all** — the water is dark. **REMOVED from bio-bay.html 2026-07-28** and replaced with `images/bio-bay-vieques.jpg`, which actually shows glowing water. File retained, referenced nowhere. |
 
 ## ✅ Verified correct
 
