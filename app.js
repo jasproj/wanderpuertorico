@@ -234,8 +234,14 @@ function createTourCard(tour) {
 
 // Load and display tours
 async function loadTours() {
+    // Nothing to render and nothing to count without a grid, so skip the
+    // fetch entirely -- app.js is also loaded by ~30 gridless blog pages.
+    const grid = document.getElementById('tours-grid');
+    if (!grid) return;
     try {
-        const response = await fetch('tours-data.json');
+        // Absolute: a relative path resolved against the page directory and
+        // 404'd on every subdirectory page (bio-bay/, culebra/, ...).
+        const response = await fetch('/tours-data.json');
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
         toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
@@ -243,12 +249,9 @@ async function loadTours() {
 
         const shuffled = shuffleArray(toursData).slice(0, 50);
         preCacheBookingUrls(shuffled);
-        
-        const grid = document.getElementById('tours-grid');
-        if (grid) {
-            grid.innerHTML = shuffled.map(tour => createTourCard(tour)).join('');
-            attachBookingHandler(grid);
-        }
+
+        grid.innerHTML = shuffled.map(tour => createTourCard(tour)).join('');
+        attachBookingHandler(grid);
     } catch (error) {
         console.error('Error loading tours:', error);
     }
