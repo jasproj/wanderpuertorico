@@ -51,7 +51,9 @@ function trackTourBooking(tour) {
     gtag('event', 'booking_click', {
         tour_id: tour.id,
         tour_name: tour.name,
-        region: tour.region,
+        // detectRegion() is exported by tracking.js; guard in case load
+        // order ever changes so this can never throw and kill the event.
+        region: (typeof window.detectRegion === 'function' ? window.detectRegion() : undefined),
         price: tour.price || 'unknown',
         company: tour.company,
         event_category: 'conversion'

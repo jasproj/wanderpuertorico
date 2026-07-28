@@ -68,6 +68,10 @@
         return { name: name, id: id, href: href };
     }
 
+    // Exported so app.js can use the same region taxonomy instead of
+    // duplicating it. detectRegion() is otherwise private to this IIFE.
+    window.detectRegion = window.detectRegion || detectRegion;
+
     if (typeof window.trackBookingClick !== 'function') {
         window.trackBookingClick = function (tourName, tourId, region) {
             if (typeof gtag === 'undefined') return;
