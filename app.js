@@ -169,7 +169,7 @@ function generateTourSchema(tour) {
 
 // Applied at render time, not just via onerror: 16 records have no image
 // field, and `src="undefined"` costs a real 404 before onerror can rescue it.
-const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400';
+const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
 
 // Fisher-Yates shuffle (non-mutating)
 function shuffleArray(arr) {
