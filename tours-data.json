@@ -7008,7 +7008,7 @@
       "island": "",
       "price": 85,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 66,
       "currency": "USD",
       "duration": "",
@@ -7203,7 +7203,7 @@
       "island": "",
       "price": 183,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 66,
       "currency": "USD",
       "duration": "",
@@ -8136,7 +8136,7 @@
       "island": "",
       "price": 25,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 62,
       "currency": "USD",
       "duration": "4 Hours",
@@ -9094,7 +9094,7 @@
       "island": "",
       "price": 126,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 57,
       "currency": "USD",
       "duration": "6 hours",
@@ -9183,7 +9183,7 @@
       "island": "",
       "price": 135,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 56,
       "currency": "USD",
       "duration": "6 Hours",
@@ -9793,7 +9793,7 @@
       "island": "",
       "price": 25,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 52,
       "currency": "USD",
       "duration": "",
@@ -15087,7 +15087,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 505113,
@@ -19193,7 +19193,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "1 dia campamento",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 541883,
@@ -22211,7 +22211,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "People 1 to 4",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 688247,
@@ -24225,7 +24225,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "1 día de Campamento",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1232865,
@@ -24308,7 +24308,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "People 1 to 4",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 688247,
@@ -26112,7 +26112,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Four Hours",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1178053,
@@ -26173,7 +26173,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Four Hours",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1178053,
@@ -26234,7 +26234,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Four Hours",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1178053,
@@ -26295,7 +26295,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Four Hours",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1178053,
@@ -26356,7 +26356,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Four Hours",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1178053,
@@ -28521,7 +28521,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Full Day Private Charter",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1213440,
@@ -34733,7 +34733,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Private Tour - Full House 14",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1253418,
@@ -36352,7 +36352,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Protective Pads Combo",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1189712,
@@ -39803,7 +39803,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Public Charter",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 692577,
@@ -41698,7 +41698,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Full Day Private Trip",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 852260,
@@ -41740,7 +41740,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Half Day Private Trip",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 852259,
@@ -45694,7 +45694,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "One to Four People",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 782542,
@@ -45750,7 +45750,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "One to Four People",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 782542,
@@ -45806,7 +45806,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "One to Four People",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 782542,
@@ -45859,7 +45859,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Night Transport • 1 - 4 People",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 739205,
@@ -50872,7 +50872,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Guest",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1248345,
@@ -50920,7 +50920,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Guest",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1248345,
