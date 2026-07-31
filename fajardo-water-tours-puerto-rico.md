@@ -1,6 +1,6 @@
 # Top Water Tours in Fajardo, Puerto Rico (2025)
 
-**Meta Description:** Fajardo is Puerto Rico's water sports hub. Book snorkeling, kayaking, boat tours & bio bay trips. 50+ tours from local operators, instant booking.
+**Meta Description:** Fajardo is Puerto Rico's water sports hub. Book snorkeling, kayaking, boat tours & bio bay trips. Tours from local operators, instant booking.
 
 ---
 
