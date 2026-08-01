@@ -236,6 +236,55 @@ function createTourCard(tour) {
     `;
 }
 
+// Render an explicit, ordered pk roster for a curated page.
+//
+// A pin that cannot be rendered is reported LOUDLY and leaves a visible gap. It
+// is never backfilled from the catalogue: a silent backfill is exactly the
+// defect this replaces (a "Bioluminescent Bay Kayaking" page quietly serving an
+// ATV tour in Patillas because one pinned pk went inactive).
+function renderPinnedRoster(grid, pinnedEl, allRecords) {
+    let pinnedPks;
+    try {
+        pinnedPks = JSON.parse(pinnedEl.textContent || '[]');
+    } catch (err) {
+        console.error('[pinned-roster] #activity-pinned-pks is not valid JSON:', err);
+        grid.innerHTML = '<p class="pinned-roster-error">Tour roster could not be read.</p>';
+        return;
+    }
+    if (!Array.isArray(pinnedPks) || pinnedPks.length === 0) {
+        console.error('[pinned-roster] #activity-pinned-pks is present but empty — refusing to fall back to the shuffle.');
+        grid.innerHTML = '<p class="pinned-roster-error">Tour roster is empty.</p>';
+        return;
+    }
+
+    const livePk = new Map(toursData.map(t => [t.pk, t]));
+    const anyPk = new Map(allRecords.map(t => [t.pk, t]));
+
+    const html = [];
+    const rendered = [];
+    pinnedPks.forEach(pk => {
+        const tour = livePk.get(pk);
+        if (tour) {
+            rendered.push(tour);
+            html.push(createTourCard(tour));
+            return;
+        }
+        const raw = anyPk.get(pk);
+        const why = !raw ? 'not present in tours-data.json'
+            : raw.status === 'inactive' ? 'status=inactive'
+            : raw.bookingDead ? 'bookingDead=true'
+            : 'unrenderable for an unknown reason';
+        console.error('[pinned-roster] pk ' + pk + ' cannot be rendered (' + why +
+                      ') — leaving a gap, NOT backfilling from the catalogue.');
+        html.push('<div class="tour-card pinned-roster-missing" data-missing-pk="' + pk + '">' +
+                  '<p>This tour is temporarily unavailable.</p></div>');
+    });
+
+    preCacheBookingUrls(rendered);
+    grid.innerHTML = html.join('');
+    attachBookingHandler(grid);
+}
+
 // Load and display tours
 async function loadTours() {
     // Nothing to render and nothing to count without a grid, so skip the
@@ -247,9 +296,19 @@ async function loadTours() {
         // 404'd on every subdirectory page (bio-bay/, culebra/, ...).
         const response = await fetch('/tours-data.json');
         const _raw = await response.json();
-        toursData = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        const allRecords = Array.isArray(_raw) ? _raw : _raw.tours;
+        toursData = allRecords.filter(t => t.status !== 'inactive' && !t.bookingDead);
         updateVerifiedToursCount(toursData.length);
+
+        // A curated page declares an explicit pk roster. When one is present we
+        // render EXACTLY that roster, in declared order, and return before the
+        // shuffle -- a topic page must never serve a random cross-section of the
+        // catalogue. Pages without the element are completely unaffected.
+        const pinnedEl = document.getElementById('activity-pinned-pks');
+        if (pinnedEl) {
+            renderPinnedRoster(grid, pinnedEl, allRecords);
+            return;
+        }
 
         const shuffled = shuffleArray(toursData).slice(0, 50);
         preCacheBookingUrls(shuffled);
