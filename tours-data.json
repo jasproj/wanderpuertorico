@@ -22299,7 +22299,7 @@
       "name": "El Yunque Waterslide Adventure",
       "description": "Slide down a natural waterslide, swim in crystal-clear waterfalls, and explore hidden rainforest pools away from crowds. Enjoy expert guides, authentic street food, and free photos on this exclusive El Yunque adventure.",
       "location": "San Juan",
-      "price": 49,
+      "price": 59,
       "bookingUrl": "https://fareharbor.com/embeds/book/sharepuertorico/items/695666/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/50HpjXauTumClkQtplu9/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -39182,7 +39182,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Child",
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -45009,7 +45009,7 @@
       "name": "El Conquistador Resort Sunset Sail Cruise by SALTours",
       "description": "Experience a breathtaking sunset cruise exclusively for El Conquistador Resort guests. Set sail on Saturdays and indulge in delicious appetizers and refreshing drinks while enjoying stunning views of the El Yunque Mountains and the serene islands of Puerto Rico. Relax as the crew caters to your every need during this memorable evening.",
       "location": "Fajardo",
-      "price": 105,
+      "price": 125,
       "bookingUrl": "https://fareharbor.com/embeds/book/saltoursllc/items/380406/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/bFmKC0RMSYaNiKJjPudH/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -45037,7 +45037,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Child",
+      "priceLabel": "Conquistador Resort - Sunset Sail",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -46871,7 +46871,7 @@
       "name": "Horseback Riding at the Forest",
       "description": "Ride through lush valleys and wetlands on horseback, soaking in stunning views and vibrant wildlife. Perfect for families, with guided tours from a private farm—adventure awaits in this unique ecosystem.",
       "location": "Dorado",
-      "price": 63,
+      "price": 84,
       "bookingUrl": "https://fareharbor.com/embeds/book/endlessadventures/items/86204/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/imUnjM7kQ2eH6vFyCzSo/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -46898,7 +46898,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Child",
+      "priceLabel": "Rider (1 hour)",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
