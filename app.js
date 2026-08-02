@@ -108,21 +108,7 @@ function openBookingWithLoader(url, tour) {
 }
 
 // Helper functions
-function escapeHtml(str) {
-    if (str == null) return '';
-    return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
-}
 
-function formatPrice(price, confidence) {
-    if (!Number.isFinite(price) || price <= 0) return 'Price on request';
-    if (confidence === 'low') return 'Price on request';
-    return `From $${price}`;
-}
 
 // attachBookingHandler used to wire a delegated click handler that
 // called openBookingWithLoader. That was a workaround for the previous
@@ -143,29 +129,6 @@ function scoreLabel(score) {
     return '';
 }
 
-function generateTourSchema(tour) {
-    const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low';
-    return {
-        "@context": "https://schema.org",
-        "@type": "TouristTrip",
-        "name": tour.name,
-        "description": tour.description || "",
-        "touristType": tour.tags ? tour.tags.join(", ") : "",
-        ...(emitPrice && {
-            "offers": {
-                "@type": "Offer",
-                "price": tour.price,
-                "priceCurrency": "USD",
-                "url": tour.bookingUrl,
-                "availability": "https://schema.org/InStock"
-            }
-        }),
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": tour.company
-        }
-    };
-}
 
 // Applied at render time, not just via onerror: 16 records have no image
 // field, and `src="undefined"` costs a real 404 before onerror can rescue it.
