@@ -22,6 +22,11 @@
 </script>
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
+    <!-- Booking cards. .tour-card resolves from styles.css (flex column, purple border,
+         16px radius) but carries no padding there; .book-btn has no rule in any stylesheet
+         in this repo. Both are supplied here. No .tour-price rule is shipped or used —
+         none exists, verified by injection against a plain <div> control. -->
+    <style>.tour-card{padding:1.25rem 1.5rem;margin:1.5rem 0}.tour-card h3{margin-top:0;color:var(--primary-dark)}.tour-card .book-btn{display:inline-block;align-self:flex-start;background:#5b21b6;color:#fff;padding:.5rem 1.25rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:.9rem;margin-top:.75rem}</style>
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
@@ -109,6 +114,14 @@
 
         <h3>🤿 Snorkeling</h3>
         <p>Snorkel directly from shore. Reef starts 100 feet out. Fish, sea turtles, rays visible. Equipment rental in town.</p>
+
+        <div class="tour-card">
+            <h3>Culebra Island Aquafari (with Ferry Tickets)</h3>
+            <p><strong>This is a guided full-day excursion that includes round-trip ferry tickets &mdash; it is not a ferry booking.</strong> The public Fajardo&ndash;Culebra ferry described above is a government service and is still booked separately at the terminal. This tour departs from the Ceiba ferry terminal instead, and covers the crossing as part of the day.</p>
+            <p>Guided snorkelling in the Luis Pe&ntilde;a Marine Reserve &mdash; a protected reef with better visibility than the shore entry at Flamenco &mdash; followed by beach time at Flamenco itself. Gear and guides included. 7 hours.</p>
+            <p><strong>Company:</strong> Kayaking Puerto Rico &middot; <strong>Departs:</strong> Ceiba</p>
+            <a href="https://fareharbor.com/embeds/book/kayakingpuertorico/items/3727/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-3727" data-tour-name="Culebra Island Aquafari (with Ferry Tickets)">Check Availability</a>
+        </div>
 
         <h3>🏕️ Camping</h3>
         <p>Flamenco has 50 campsites directly on beach. Primitive (no showers, basic facilities). ~$20/night. Book months ahead via Puerto Rico Parks Recreation Department.</p>
