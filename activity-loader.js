@@ -40,10 +40,22 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
             return;
         }
         
-        const html = filteredTours.map(tour => `
+        const html = filteredTours.map(tour => {
+            // formatPrice / generateTourSchema / escapeHtml come from
+            // tour-render.js, shared with app.js. Not reimplemented here.
+            const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+            // Make the basis explicit when the stored tier is not a per-seat
+            // fare, so "From $2510" cannot read as a per-person price.
+            const label = (tour.priceLabel || '');
+            const basis = /whole boat|charter|per vehicle|vehicle|private boat|boat$/i.test(label)
+                ? ' <span class="tour-price-basis">' + escapeHtml(label) + '</span>'
+                : '';
+            const schemaJson = JSON.stringify(generateTourSchema(tour)).replace(/<\/script/gi, '<\\/script');
+            return `
             <div class="tour-card">
+                <script type="application/ld+json">${schemaJson}</script>
                 <div class="tour-image">
-                    <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" onerror="this.src='${FALLBACK_IMAGE}'">
+                    <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" onerror="this.src='${FALLBACK_IMAGE}'">
                     <div class="tour-overlay">
                         <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
                             Check Availability →
@@ -51,15 +63,18 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
                     </div>
                 </div>
                 <div class="tour-content">
-                    <h3>${tour.name}</h3>
-                    <p class="tour-company">${tour.company}</p>
-                    <p class="tour-location">📍 ${tour.location}</p>
+                    <h3>${escapeHtml(tour.name)}</h3>
+                    <p class="tour-company">${escapeHtml(tour.company)}</p>
+                    <p class="tour-location">📍 ${escapeHtml(tour.location)}</p>
                     <div class="tour-tags">
-                        ${tour.tags.slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        ${tour.tags.slice(0, 3).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
+                    </div>
+                    <div class="tour-footer">
+                        <div class="tour-price">${priceDisplay}${basis}</div>
                     </div>
                 </div>
             </div>
-        `).join('');
+        `;}).join('');
         
         container.innerHTML = html;
     } catch (error) {
