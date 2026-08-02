@@ -23,7 +23,7 @@
         .tour-card{border:1px solid #e5e5e5;border-radius:12px;padding:1.25rem 1.5rem;margin:1.25rem 0;} .tour-card h3{margin-top:0;color:var(--primary-dark);}
         .footer{background:#ede9fe;color:#4c1d95;padding:2rem 1.5rem;text-align:center;margin-top:4rem;} .footer a{color:#4c1d95;}
         @media(max-width:600px){h1{font-size:1.75rem;} article{padding:2rem 1rem;}}
-    </style>
+     /* Button only. .tour-card is already defined on this page and styles two existing content panels; redefining it would restyle them. */.tour-card .book-btn{display:inline-block;background:#5b21b6;color:#fff;padding:0.5rem 1.25rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.9rem;margin-top:0.75rem}</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -77,6 +77,13 @@
 
         <h3>Option 2: Guided Tour (Easier)</h3>
         <p>Book a full-day Culebra tour from San Juan that includes hotel pickup, ferry, snorkel guide, gear, and lunch. <strong>Cost:</strong> $85–150 per person</p>
+        <div class="tour-card">
+            <h3>Culebra Island Aquafari (with Ferry Tickets)</h3>
+            <p><strong>Includes round-trip ferry tickets</strong> — this is a guided full-day excursion that covers the ferry, not a ferry booking. Snorkel the Luis Pe&ntilde;a Marine Reserve, then beach time at Flamenco. Departs the Ceiba ferry terminal; gear and guides included. 7 hours.</p>
+            <p><strong>Company:</strong> Kayaking Puerto Rico &middot; <strong>Departs:</strong> Ceiba</p>
+            <a href="https://fareharbor.com/embeds/book/kayakingpuertorico/items/3727/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-3727" data-tour-name="Culebra Island Aquafari (with Ferry Tickets)">Check Availability</a>
+        </div>
+
         <h2>Your Day at Flamenco Beach</h2>
         <h3>Timeline (Self-Guided)</h3>
         <ul><li>6:30 AM: Leave San Juan</li><li>7:30 AM: Arrive Fajardo, park, breakfast</li><li>9:30 AM: Ferry departs</li><li>10:45 AM–4 PM: Beach time (snorkel, swim, lunch, relax)</li><li>5:00 PM: Ferry departs Culebra</li><li>7:15 PM: Back in San Juan</li></ul>
