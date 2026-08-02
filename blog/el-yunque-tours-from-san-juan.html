@@ -79,6 +79,11 @@
 </script>
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
+    <!-- Booking cards. .tour-card resolves from styles.css (flex column, purple border,
+         16px radius) but carries no padding there; .book-btn has no rule in any stylesheet
+         in this repo. Both are supplied here. No .tour-price rule is shipped or used —
+         none exists, verified by injection against a plain <div> control. -->
+    <style>.tour-card{padding:1.25rem 1.5rem;margin:1.5rem 0}.tour-card h3{margin-top:0;color:var(--primary-dark)}.tour-card .book-btn{display:inline-block;align-self:flex-start;background:#5b21b6;color:#fff;padding:.5rem 1.25rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:.9rem;margin-top:.75rem}</style>
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
@@ -154,9 +159,22 @@
                 <h2>Guided Tours vs. Independent Visits</h2>
                 
                 <h3>Guided Tours from San Juan ($80-150)</h3>
-                <p>Full-service tours include hotel pickup, transportation, expert guides, and sometimes meals and entrance fees. Guides share rainforest ecology, history, and wildlife information. Tours fit various schedules (half-day or full-day). Small-group tours provide personalized experiences. This hassle-free option is ideal for first-time visitors without rental cars.</p
+                <p>Full-service tours include hotel pickup, transportation, expert guides, and sometimes meals and entrance fees. Guides share rainforest ecology, history, and wildlife information. Tours fit various schedules (half-day or full-day). Small-group tours provide personalized experiences. This hassle-free option is ideal for first-time visitors without rental cars.</p>
 
-                
+                <div class="tour-card">
+                    <h3>(Small Group) El Yunque Half Day Tour with Transport</h3>
+                    <p>Small-group half-day tour with transport included &mdash; the hotel-pickup option described above. Rainforest trails, a 20-foot natural waterslide, rope swings into pools, and waterfall swims.</p>
+                    <p><strong>Location:</strong> Corozal</p>
+                    <a href="https://fareharbor.com/embeds/book/tourshacker/items/483931/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-483931" data-tour-name="(Small Group) El Yunque Half Day Tour with Transport">Check Availability</a>
+                </div>
+
+                <div class="tour-card">
+                    <h3>El Yunque National Forest Half Day Tour</h3>
+                    <p>Half-day guided tour of the rainforest covering waterfalls, native flora, and the panoramic views from the observation tower. A relaxed pace suited to first-time visitors.</p>
+                    <p><strong>Location:</strong> Carolina</p>
+                    <a href="https://fareharbor.com/embeds/book/bespokeconcierge/items/59282/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-59282" data-tour-name="El Yunque National Forest Half Day Tour">Check Availability</a>
+                </div>
+
                 <h3>Independent Visits</h3>
                 <p>Renting a car ($40-60/day) and driving yourself offers maximum flexibility. You'll pay $5 entrance fee and can explore trails independently. This budget option suits confident travelers comfortable navigating. However, guides provide invaluable context and safety expertise.</p>
                 

@@ -68,6 +68,11 @@
 </script>
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
+    <!-- Booking cards. .tour-card resolves from styles.css (flex column, purple border,
+         16px radius) but carries no padding there; .book-btn has no rule in any stylesheet
+         in this repo. Both are supplied here. No .tour-price rule is shipped or used —
+         none exists, verified by injection against a plain <div> control. -->
+    <style>.tour-card{padding:1.25rem 1.5rem;margin:1.5rem 0}.tour-card h3{margin-top:0;color:var(--primary-dark)}.tour-card .book-btn{display:inline-block;align-self:flex-start;background:#5b21b6;color:#fff;padding:.5rem 1.25rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:.9rem;margin-top:.75rem}</style>
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
@@ -160,6 +165,13 @@
             <li><strong>Moon sensitivity:</strong> Tours are weather and moon-phase dependent.</li>
         </ul>
 
+        <div class="tour-card">
+            <h3>Clear-Bottom Kayaking Bio Bay Tours</h3>
+            <p>Guided clear-bottom kayak tour of Mosquito Bay, the Vieques bay described above. Paddle the glowing water with the hull lit from beneath, so the dinoflagellates are visible through the boat as well as around it. 1.5 hours.</p>
+            <p><strong>Company:</strong> Mosquito Bio Bay Tours &middot; <strong>Departs:</strong> Vieques</p>
+            <a href="https://fareharbor.com/embeds/book/mosquitobiobaytours/items/586640/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-586640" data-tour-name="Clear-Bottom Kayaking Bio Bay Tours">Check Availability</a>
+        </div>
+
         <h2>Fajardo Lagoon: The Convenient Choice</h2>
 
         <p>Fajardo's bio bay (Seven Seas Lagoon) is the closest option to major Puerto Rico tourist centers. It's accessible from the main island—no ferry needed. Tours are plentiful, affordable, and geared toward cruise ship passengers and resort visitors.</p>
@@ -184,6 +196,13 @@
             <li><strong>More commercialized:</strong> Chain tour operators feel less authentic than local Vieques or La Parguera guides.</li>
         </ul>
 
+        <div class="tour-card">
+            <h3>Bio Bay Kayak Tour</h3>
+            <p>Two-hour guided night kayak through the Laguna Grande mangrove channel in Fajardo &mdash; the mainland lagoon covered in this section, reachable without a ferry. Expert guides; no previous kayaking experience needed.</p>
+            <p><strong>Company:</strong> Kayaking Puerto Rico &middot; <strong>Departs:</strong> Fajardo</p>
+            <a href="https://fareharbor.com/embeds/book/kayakingpuertorico/items/3728/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-3728" data-tour-name="Bio Bay Kayak Tour">Check Availability</a>
+        </div>
+
         <h2>La Parguera: The Local's Favorite</h2>
 
         <p>Located on Puerto Rico's southwest coast, La Parguera is the least touristy bio bay. It's bright, authentic, and offers a genuine Puerto Rican village experience. Tours here support local businesses rather than big operators.</p>
@@ -206,6 +225,13 @@
             <li><strong>Fewer English guides:</strong> Many local operators speak primarily Spanish.</li>
             <li><strong>Harder to access:</strong> No major highway nearby. Requires driving through mountain roads.</li>
         </ul>
+
+        <div class="tour-card">
+            <h3>Sunset + Swim the Bioluminescent Bay Tour</h3>
+            <p>Two-hour boat tour of the La Parguera bay described above. The first hour cruises the bay at sunset with a stop at a nearby sandbar; the tour then stays out for the bioluminescence after dark. Swimming in the glowing water is part of this one.</p>
+            <p><strong>Company:</strong> Hook&#39;d on Adventure Parguera &middot; <strong>Departs:</strong> Lajas</p>
+            <a href="https://fareharbor.com/embeds/book/hookdonadventureparguera/items/215903/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener noreferrer" data-tour-id="pr-215903" data-tour-name="Sunset + Swim the Bioluminescent Bay Tour">Check Availability</a>
+        </div>
 
         <h2>Our Recommendation: Which Bio Bay to Visit?</h2>
 
