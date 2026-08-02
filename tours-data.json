@@ -763,8 +763,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-02",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -1414,6 +1415,46 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
       },
+      "gallery": []
+    },
+    {
+      "id": "pr-598183",
+      "pk": 598183,
+      "name": "Public Icacos Luxury Sailing Catamaran Twilight Beach and Sunset Sail",
+      "company": "Sail Getaways",
+      "bookingUrl": "https://fareharbor.com/embeds/book/sailgetaway/items/598183/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "Fajardo",
+      "island": "",
+      "price": 100,
+      "priceLabel": "Person",
+      "priceConfidence": "high",
+      "qualityScore": 81,
+      "currency": "USD",
+      "duration": "2 Hours",
+      "durationText": "",
+      "description": "Twilight sail to Icacos aboard a luxury sailing catamaran, with beach time and sunset. 2 hours, up to 49 passengers.",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Catamaran",
+        "Sailing"
+      ],
+      "image": null,
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": 0,
+      "ratingSource": "",
+      "freeCancellation": false,
+      "timeOfDay": "",
+      "capacity": 49,
+      "enrichmentSource": "",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": null,
+      "statusConsecutiveRuns": null,
+      "lastUpdated": "",
       "gallery": []
     },
     {
@@ -39824,7 +39865,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:20:48.145Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/sailgetaway/items/371460/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/sailgetaway/items/371460/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-02"
     },
     {
       "pk": 373888,
@@ -48724,7 +48768,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:55:27.023Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/sailgetaway/items/701387/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/sailgetaway/items/701387/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-02"
     },
     {
       "pk": 13408,
@@ -53478,7 +53525,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:22:00.624Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/sailgetaway/items/598438/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/sailgetaway/items/598438/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-02"
     },
     {
       "pk": 598814,
