@@ -34,7 +34,7 @@
         .tour-card h3 { margin-top: 0; color: var(--primary-dark); }
         .faq-item { margin: 1.5rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid #e5e5e5; }
         .faq-q { font-weight: 600; color: var(--primary-dark); margin-bottom: 0.5rem; }
-        table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
+        table { width: 100%; display: block; overflow-x: auto; border-collapse: collapse; margin: 2rem 0; }
         td, th { padding: 1rem; text-align: left; border: 1px solid #d6bcfa; }
         tr:nth-child(even) { background: #f9fafb; }
         .footer { background: #ede9fe; color: #4c1d95; padding: 2rem 1.5rem; text-align: center; margin-top: 4rem; }
@@ -100,7 +100,7 @@
 
         <h2>Head-to-Head Comparison</h2>
 
-        <table>
+        <table tabindex="0" aria-label="Culebra versus Vieques snorkeling comparison">
             <tr style="background: #ede9fe;">
                 <th>Factor</th><th>Culebra</th><th>Vieques</th>
             </tr>
