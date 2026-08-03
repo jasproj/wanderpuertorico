@@ -340,8 +340,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "private-not-publicly-bookable",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -2362,8 +2363,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -3843,8 +3845,9 @@
       "timeOfDay": "",
       "capacity": 4,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -7079,8 +7082,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": ""
@@ -7127,8 +7131,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -7523,8 +7528,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -8392,8 +8398,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -9542,8 +9549,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -10042,8 +10050,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -11534,8 +11543,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -12726,8 +12736,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -14061,8 +14072,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -14108,8 +14120,9 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -34387,7 +34400,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:01:17.611Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/bespokeconcierge/items/640354/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/bespokeconcierge/items/640354/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 641067,
@@ -34824,7 +34840,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:03:03.384Z",
       "imageEnrichmentStatus": "no_filestack_images",
-      "bookingUrlLegacy": "https://fareharbor.com/itibatour/items/610585/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/itibatour/items/610585/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 665973,
@@ -44387,7 +44406,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:36:30.548Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/casacoralpr/items/384654/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/casacoralpr/items/384654/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 489367,
@@ -45713,7 +45735,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:41:17.938Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/adventuretimepr/items/431379/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/adventuretimepr/items/431379/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "operator-account-removed",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 435310,
@@ -47510,7 +47535,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:48:56.706Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/adventuretourspr/items/424059/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/adventuretourspr/items/424059/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 491259,
@@ -49654,7 +49682,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:00:18.920Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/abessnorkeling/items/117087/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/abessnorkeling/items/117087/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 169758,
@@ -50338,7 +50369,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:04:42.805Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/adventureandwatersports-patillas/items/383022/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/adventureandwatersports-patillas/items/383022/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 383040,
@@ -51293,7 +51327,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:09:48.658Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/getshoppedpr/items/39518/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/getshoppedpr/items/39518/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 39586,
@@ -52807,7 +52844,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:17:58.301Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/naturaprtours/items/363656/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/naturaprtours/items/363656/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 363699,
@@ -52835,7 +52875,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:18:08.579Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/naturaprtours/items/363699/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/naturaprtours/items/363699/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 363988,
@@ -52890,7 +52933,10 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T02:18:28.891Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/islandexperiencepr/items/387908/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/islandexperiencepr/items/387908/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "status": "inactive",
+      "statusReason": "call-to-book-no-online-availability",
+      "statusCheckedAt": "2026-08-03"
     },
     {
       "pk": 387915,
