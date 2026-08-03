@@ -49,6 +49,16 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
 .spec{background:rgba(245,184,76,0.1);border-radius:6px;padding:5px 10px;font-size:0.83rem;color:#cdd9e5}
 .spec b{color:#F5B84C}
 .winner{color:#4caf7d;font-weight:700}
+/* Site chrome, scoped. Reproduces the .site-header set's rendered result --
+   a 105px white bar (80px logo + 2x0.75rem padding + 1px border) carrying the
+   199x80 logo -- with styles.css's custom properties resolved to literals, so
+   this page keeps its own body/link/list styling. Nothing outside .site-header
+   is touched; the footer is deliberately left unstyled in this change. */
+.site-header{background:rgba(255,255,255,0.95);border-bottom:1px solid #E5E5E5}
+.header-container{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 1.5rem;max-width:1280px;margin:0 auto}
+.logo-link{display:flex;align-items:center}
+.logo-link img{height:80px;width:auto}
+@media(max-width:768px){.logo-link img{height:60px}}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
@@ -62,7 +72,9 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 </head>
-<body><article class="wrap">
+<body>
+    <header class="site-header"><div class="header-container"><a href="/" class="logo-link"><img src="/images/logo.png" alt="Wander Puerto Rico"></a></div></header>
+<article class="wrap">
 <p class="meta">WanderPuertoRico &nbsp;·&nbsp; Booking Guide</p>
 <h1>Morning vs Sunset Snorkeling Tours Puerto Rico: Which Is Better?</h1>
 <p>Puerto Rico's east coast sees consistent easterly trade winds that build through the day. That pattern makes morning the clear winner for snorkeling — and evening the right time for everything else. Here's exactly how to plan your water time.</p>
