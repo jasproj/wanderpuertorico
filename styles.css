@@ -1484,3 +1484,53 @@
     padding: 10px;
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
 }
+
+/* ========== SITE HEADER (blog article template) ==========
+   The .site-header markup had no rules at all, so its logo fell back to the
+   asset's intrinsic 800x321 and blew the bar out to 371px tall. These rules
+   mirror the rendered result of the .header / .logo / .logo-img set: an 80px
+   logo (60px on mobile) in the same white bar with a hairline bottom border.
+
+   Deliberate difference: .header is position: fixed, which overlaps the first
+   105px of content on the pages that use it. These article pages have no top
+   offset to clear a fixed bar, so .site-header stays in normal flow. */
+.site-header {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.logo-link img { height: 80px; width: auto; }
+
+/* Text-logo variant of this template lays out with .container, not
+   .header-container — give it the same row as the .header-container set. */
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    /* .container ships 0 vertical padding; match .header-container so this
+       variant lands on the same 105px bar height as every other page. */
+    padding: 0.75rem 1.5rem;
+}
+
+.site-header .main-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+    color: var(--gray-700);
+}
+
+@media (max-width: 768px) {
+    .logo-link img { height: 60px; }
+}
