@@ -1,0 +1,14 @@
+/* wanderpuertorico.vars.css — palette only. Load AFTER wander-template.css */
+:root{
+  --ink:#04122E; --blue:#0A2A6B; --blue-lift:#123A87;
+  --blue-line:rgba(255,255,255,.14);
+  --red:#E4002B; --red-hi:#FF1F45;
+  --white:#FFFFFF; --paper:#F4F1EA; --muted:#A9BADB;
+  --glow:#7FE9D6;
+  --r:14px; --pad:20px;
+  --bgimg:url('/images/bio-bay-bg.jpg');
+}
+.bgfix .scrim{
+  background:linear-gradient(180deg,rgba(4,18,46,.62) 0%,rgba(4,18,46,.40) 38%,rgba(4,18,46,.80) 100%);
+}
+.bgfix .img{background-position:center 62%;}
