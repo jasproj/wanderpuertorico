@@ -63,6 +63,47 @@
         .footer { background: #ede9fe; color: #4c1d95; padding: 2rem 1.5rem; text-align: center; margin-top: 4rem; }
         .footer a { color: #4c1d95; }
         @media (max-width: 600px) { h1 { font-size: 1.75rem; } article { padding: 2rem 1rem; } .moon-table { font-size: 0.85rem; } .moon-table th, .moon-table td { padding: 0.5rem; } }
+/* Site footer, scoped. Reproduces the .footer set's rendered result from
+   styles.css (1096-1161 + 1406/1481, plus .container 721 and .logo 66) with
+   every var() resolved to the literal measured on snorkeling.html, the
+   reference page: --primary-dark #4c1d95, --primary-light #a78bfa,
+   --font-display 'DM Sans'. Every selector is prefixed with .footer so none
+   can reach article content -- linking styles.css instead was measured to
+   restyle body, article text and all 22 FareHarbor anchors, which is why this
+   is scoped. font-size/line-height on .footer stand in for styles.css's
+   body{font-size:16px;line-height:1.6}, which the footer's h4 and .footer-bottom
+   inherit there; this page keeps its own 17px/1.7 body outside the footer.
+   Dropped: .footer-platform-tagline (no element carries it) and both
+   .footer padding-bottom:100px rules (@supports 1293, <=768px 1195) -- they
+   clear a mobile CTA bar these 5 pages do not have. */
+.footer{background:#ede9fe;color:#4c1d95;padding:4rem 0 2rem;font-size:16px;line-height:1.6}
+.footer .container{width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem}
+.footer a{color:#4c1d95;text-decoration:none}
+.footer ul{list-style:none;padding-left:0;margin-bottom:0}
+.footer .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+.footer .logo{display:flex;align-items:center;gap:0.5rem;font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;font-size:1.5rem;font-weight:700;color:#4c1d95}
+.footer .footer-brand .logo{margin-bottom:0.5rem;color:#4c1d95}
+.footer .footer-brand p{font-size:0.9375rem;line-height:1.7;margin-bottom:0.5rem}
+.footer .footer-tagline{color:#7c3aed}
+.footer .footer-links h4{color:#4c1d95;font-weight:600;margin-bottom:1rem}
+.footer .footer-links ul li{margin-bottom:0.5rem}
+.footer .footer-links a{font-size:0.9375rem;transition:color 0.15s ease}
+.footer .footer-links a:hover{color:#a78bfa}
+.footer .footer-bottom{padding-top:2rem;border-top:1px solid #c4b5fd;text-align:center}
+.footer .footer-bottom p{font-size:0.875rem;margin-bottom:0.5rem}
+/* Footer badge: 1406 (height) + 1481 (white circle). max-width/display come
+   from styles.css's img{} reset, folded in so the badge lands on the control's
+   120x120 box instead of the unconstrained 240x240 it renders today. */
+.footer .footer-logo-img{height:120px;width:auto;max-width:100%;display:block;background:rgba(255,255,255,0.9);border-radius:50%;padding:10px;filter:drop-shadow(0 0 8px rgba(255,255,255,0.5))}
+@media(max-width:768px){
+.footer .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+.footer .footer-brand{grid-column:1/-1;text-align:center}
+.footer .footer-brand .logo{justify-content:center}
+.footer .footer-logo-img{height:90px}
+}
+@media(max-width:480px){
+.footer .footer-grid{grid-template-columns:1fr;text-align:center}
+}
     </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
