@@ -4,9 +4,12 @@
    Single source of truth for the booking_click GA4 conversion event.
    Loaded site-wide via <script src="/tracking.js" defer> in <head>.
 
-   Wires every Check Availability anchor (FareHarbor links and CTA-class
-   anchors) via document-level click delegation — no per-anchor onclick
-   required. Survives runtime-rendered anchors.
+   Wires every FareHarbor booking anchor via document-level click
+   delegation — no per-anchor onclick required. Survives runtime-rendered
+   anchors. Gated on href alone: a fareharbor.com href is required to fire.
+   A CTA-class-only anchor never fires, regardless of class name — that
+   guard used to also fire on internal nav, scroll-to-grid, and dead links
+   carrying a CTA class with no FareHarbor href.
 
    Coexistence notes:
    - Anchors with an existing onclick="trackBookingClick(...)" are skipped
@@ -31,23 +34,6 @@
         var sep = url.indexOf('?') === -1 ? '?' : '&';
         return url + sep + 'utm_source=' + encodeURIComponent(slug);
     }
-
-    var CTA_CLASSES = [
-        'book-btn',
-        'book-btn-inline',
-        'btn-primary',
-        'tour-book-btn',
-        'cta-btn',
-        'cta-button',
-        'final-cta-btn',
-        'browse-cta-btn',
-        'mobile-cta-btn',
-        'primary-cta',
-        'island-cta',
-        'footer-cta',
-        'sidebar-cta',
-        'blog-cta'
-    ];
 
     var REGION_KEYWORDS = ['fajardo', 'san-juan', 'culebra', 'vieques', 'bio-bay', 'el-yunque'];
 
@@ -85,14 +71,6 @@
         };
     }
 
-    function hasCtaClass(link) {
-        if (!link.classList) return false;
-        for (var i = 0; i < CTA_CLASSES.length; i++) {
-            if (link.classList.contains(CTA_CLASSES[i])) return true;
-        }
-        return false;
-    }
-
     document.addEventListener('click', function (e) {
         var link = e.target.closest && e.target.closest('a');
         if (!link) return;
@@ -100,10 +78,8 @@
         if (onclickAttr.indexOf('trackBookingClick') !== -1) return;
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
-        if (!isFareHarbor && !hasCtaClass(link)) return;
-        if (isFareHarbor) {
-            link.href = appendUtmSource(link.href, 'wanderpuertorico');
-        }
+        if (!isFareHarbor) return;
+        link.href = appendUtmSource(link.href, 'wanderpuertorico');
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
         gtag('event', 'booking_click', {
