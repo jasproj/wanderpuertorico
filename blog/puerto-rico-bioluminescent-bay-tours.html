@@ -43,6 +43,25 @@
 .tcph img{width:100%;height:100%;object-fit:cover}
 .heroph img{width:100%;height:100%;object-fit:cover}
 .ph.hasimg{padding:0}
+/* Mobile-render fix (2026-08-10): hero was carrying the full bay-picker module,
+   ~4x the ~290px hero spec. Scoped here rather than in wander-template.css
+   (shared across the 9-site network) — only this page's markup changes.
+   H1 line-height bumped from the shared 1.04: measured clipping
+   (scrollHeight>clientHeight) on Instrument Serif's descenders at 390/320px;
+   1.3 is the first value that fully clears it at both widths. */
+.hero h1.display{line-height:1.3}
+.hbar{gap:10px}
+.hbtns{display:flex;align-items:center;gap:2px}
+.menubtn{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:48px;height:48px;background:transparent;border:0;cursor:pointer;padding:0;flex:0 0 48px}
+.menubtn span{display:block;width:20px;height:2px;background:var(--white);transition:transform .2s ease,opacity .2s ease}
+.menubtn[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menubtn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menubtn[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.navmobile{display:none;flex-direction:column;background:rgba(4,18,46,.97);backdrop-filter:blur(14px);border-top:1px solid var(--blue-line)}
+.navmobile.active{display:flex}
+.navmobile a{padding:14px var(--pad);min-height:48px;display:flex;align-items:center;font-size:14px;font-weight:700;color:var(--white);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.08)}
+.navmobile a:last-child{border-bottom:0}
+.navmobile a:hover,.navmobile a:focus-visible{background:rgba(255,255,255,.06)}
 </style>
 <script type="application/ld+json">
 {
@@ -116,8 +135,19 @@
 <header>
   <div class="wrap hbar">
     <a class="logo" href="/"><picture><source type="image/webp" sizes="34px" srcset="/images/puertorico-logo-full-80.webp 80w, /images/puertorico-logo-full-160.webp 160w, /images/puertorico-logo-full-240.webp 240w"><img src="/puertorico-logo-full.png" alt="Wander Puerto Rico" height="34" loading="eager" decoding="async" style="height:34px;width:auto"></picture></a>
-    <a class="hlink" href="#tours">See tours ↓</a>
+    <div class="hbtns">
+      <a class="hlink" href="#tours">See tours ↓</a>
+      <button class="menubtn" id="menubtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navmobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
+  <nav class="navmobile" id="navmobile">
+    <a href="/">Home</a>
+    <a href="/">Tours</a>
+    <a href="/blog/">Blog</a>
+    <a href="/about.html">About</a>
+  </nav>
   <div class="stripes flag"><i></i><i></i><i></i><i></i><i></i></div>
 </header>
 
@@ -127,7 +157,15 @@
     <div class="eyebrow">Fajardo · Vieques · La Parguera</div>
     <h1 class="display"><span class="star"></span>Puerto Rico Bioluminescent Bay Tours: Fajardo, Vieques &amp; La Parguera Compared</h1>
     <p class="lede" style="margin-top:12px"><em>Which one should you actually paddle?</em> Three glowing bays. One is the brightest on earth, one is the only one you can swim in, and one you can reach from San&nbsp;Juan and be back by midnight.</p>
+  </div>
+</div>
 
+<!-- HERO MEDIA — image, trust badges, bay picker. Split out of .hero so the
+     hero itself stays in the ~290px-class mobile-hero-spec range; these
+     classes render identically as .hero's siblings (none of .heroph/.trust/
+     .picker/.bay depend on the .hero ancestor). -->
+<section style="padding-top:0">
+  <div class="wrap">
     <div class="ph heroph hasimg"><img src="../images/bio-bay-vieques.jpg" alt="Bioluminescent plankton glowing blue-green around a hand lifted from the water at night, off La Parguera, Puerto Rico" loading="eager" decoding="async"></div>
 
     <div class="trust"><i>Prices verified this week</i><i>Direct operator booking</i><i>New-moon timing included</i></div>
@@ -150,7 +188,7 @@
       </a>
     </div>
   </div>
-</div>
+</section>
 
 <!-- VERDICT -->
 <section style="padding-top:34px">
@@ -456,6 +494,27 @@
   </div>
 </div>
 
+<script>
+(function(){
+  var btn=document.getElementById('menubtn');
+  var nav=document.getElementById('navmobile');
+  if(!btn||!nav) return;
+  function setOpen(open){
+    nav.classList.toggle('active', open);
+    btn.setAttribute('aria-expanded', String(open));
+  }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    setOpen(!nav.classList.contains('active'));
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName==='A') setOpen(false);
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape' && nav.classList.contains('active')) setOpen(false);
+  });
+})();
+</script>
 <script>
 (function(){
   var d=document.getElementById('dock');
