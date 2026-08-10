@@ -22,9 +22,75 @@
         table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
         th, td { padding: 10px; text-align: left; border-bottom: 1px solid #e0e0e0; }
         th { background: #f5f5f5; }
+        /* Site chrome (2026-08-10): this page had none — no <header>, no <footer>,
+           no stylesheet link. Recon ruled out linking styles.css (same-specificity
+           .container collision: styles.css's .container is 1280px vs this page's own
+           720px reading column, and .site-footer has zero rules anywhere in
+           styles.css). This block instead copies the pattern already proven and live
+           on best-moonless-nights-bio-bay-puerto-rico.html: a scoped snapshot that
+           reproduces styles.css's rendered .header/.footer result, every selector
+           namespaced under .header/.footer/.nav so nothing here can reach
+           .container/.meta/.cta or the article's own body/a rules above. Header nav
+           swaps that page's single "All Articles" back-link for the site's canon
+           blog-nav set (Home/Tours/Blog/About, same as other blog posts' .nav-desktop)
+           since a single back-link isn't "canon" navigation. Footer is the same
+           four-column snapshot (citing styles.css 1096-1161 + 1406/1481, .container 721,
+           .logo 66) with --primary-dark/--primary-light/--font-display resolved to the
+           literals measured on snorkeling.html, the reference page. Both header nav
+           links and footer links get explicit padding/min-height added on top of the
+           snapshot — the reference page's own back-link (32px) and footer links (19px)
+           render under the 48px touch-target minimum, so copying them verbatim would
+           reproduce that gap on a third page instead of fixing it. */
+        :root { --primary: #5b21b6; --primary-dark: #4c1d95; --primary-light: #a78bfa; }
+        .header { background: rgba(255,255,255,0.95); border-bottom: 1px solid #e5e5e5; padding: 0.5rem 1.5rem; position: sticky; top: 0; z-index: 100; }
+        .header-inner { max-width: 800px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
+        .header .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; flex-shrink: 0; }
+        .header .logo img { height: 40px; width: auto; }
+        .header .nav { display: flex; align-items: center; }
+        .header .nav a { color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.85rem; padding: 0 8px; min-height: 48px; display: flex; align-items: center; }
+        .header .nav a:hover, .header .nav a:focus-visible { color: var(--primary-dark); }
+        .footer{background:#ede9fe;color:#4c1d95;padding:4rem 0 2rem;font-size:16px;line-height:1.6;margin-top:4rem}
+        .footer .container{width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem}
+        .footer a{color:#4c1d95;text-decoration:none}
+        .footer ul{list-style:none;padding-left:0;margin-bottom:0}
+        .footer .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+        .footer .logo{display:flex;align-items:center;gap:0.5rem;font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;font-size:1.5rem;font-weight:700;color:#4c1d95}
+        .footer .footer-brand .logo{margin-bottom:0.5rem;color:#4c1d95}
+        .footer .footer-brand p{font-size:0.9375rem;line-height:1.7;margin-bottom:0.5rem}
+        .footer .footer-tagline{color:#7c3aed}
+        .footer .footer-links h4{color:#4c1d95;font-weight:600;margin-bottom:1rem}
+        .footer .footer-links ul li{margin-bottom:0}
+        .footer .footer-links a{font-size:0.9375rem;padding:11px 0;min-height:48px;display:flex;align-items:center;transition:color 0.15s ease}
+        .footer .footer-links a:hover,.footer .footer-links a:focus-visible{color:#a78bfa}
+        .footer .footer-bottom{padding-top:2rem;border-top:1px solid #c4b5fd;text-align:center}
+        .footer .footer-bottom p{font-size:0.875rem;margin-bottom:0.5rem}
+        .footer .footer-bottom a{padding:11px 6px;min-height:48px;display:inline-flex;align-items:center}
+        .footer .footer-logo-img{height:120px;width:auto;max-width:100%;display:block;background:rgba(255,255,255,0.9);border-radius:50%;padding:10px;filter:drop-shadow(0 0 8px rgba(255,255,255,0.5))}
+        @media(max-width:768px){
+            .footer .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+            .footer .footer-brand{grid-column:1/-1;text-align:center}
+            .footer .footer-brand .logo{justify-content:center}
+            .footer .footer-logo-img{height:90px}
+        }
+        @media(max-width:480px){
+            .footer .footer-grid{grid-template-columns:1fr;text-align:center}
+        }
     </style>
 </head>
 <body>
+<header class="header">
+    <div class="header-inner">
+        <a href="/" class="logo">
+            <picture><source type="image/webp" sizes="40px" srcset="/images/puertorico-logo-full-80.webp 80w, /images/puertorico-logo-full-160.webp 160w, /images/puertorico-logo-full-240.webp 240w"><img src="/puertorico-logo-full.png" alt="Wander Puerto Rico" loading="eager" decoding="async"></picture>
+        </a>
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+        </nav>
+    </div>
+</header>
 <div class="container">
     <h1>Puerto Rico Bio Bay Guide 2026: Which Bay, Which Tour</h1>
     <p class="meta">Updated May 28, 2026 • 6 min read</p>
@@ -139,5 +205,57 @@
         <p><a href="https://wanderpuertorico.com/el-yunque">→ El Yunque Tours (combine with Fajardo)</a></p>
     </div>
 </div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="logo">
+                    <picture>
+                    <source type="image/webp" srcset="/images/footer-badge-240.webp 240w, /images/footer-badge-480.webp 480w, /images/footer-badge-720.webp 720w" sizes="(max-width: 768px) 90px, 120px">
+                    <img src="/images/footer-badge.png" alt="Wander Puerto Rico" class="footer-logo-img" loading="lazy" decoding="async">
+                </picture>
+                </a>
+                <p>Your guide to Puerto Rico tours. Verified local operators, direct booking.</p>
+                <p class="footer-tagline">Direct to local operators. Beyond the resort.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Regions</h4>
+                <ul>
+                    <li><a href="/fajardo.html">Fajardo</a></li>
+                    <li><a href="/san-juan.html">San Juan</a></li>
+                    <li><a href="/vieques.html">Vieques</a></li>
+                    <li><a href="/culebra.html">Culebra</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Popular</h4>
+                <ul>
+                    <li><a href="/snorkeling.html">Snorkeling</a></li>
+                    <li><a href="/kayaking.html">Kayaking</a></li>
+                    <li><a href="/bio-bay.html">Bio Bay Tours</a></li>
+                    <li><a href="/el-yunque.html">El Yunque</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/advertise.html">Advertise</a></li>
+                    <li><a href="/faq.html">FAQs</a></li>
+                    <li><a href="mailto:info@wanderpuertorico.com">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wander Puerto Rico. All rights reserved.</p>
+            <p><a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
