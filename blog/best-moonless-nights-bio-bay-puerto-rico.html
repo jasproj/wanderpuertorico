@@ -232,7 +232,7 @@
             <h3>Kayak Bio Bay Night Tour – Fajardo</h3>
             <p>Guided kayak tour through the mangrove channel to Laguna Grande. Tours depart around sunset and return after dark. Tandem kayaks included; no prior experience needed. The paddle through the mangroves is scenic even before you reach the bioluminescent section.</p>
             <p><strong>Location:</strong> Fajardo · <strong>Duration:</strong> ~2.5 hours</p>
-            <a href="/bio-bay.html" class="book-btn">Check Availability</a>
+            <a href="https://fareharbor.com/embeds/book/ecoactiontours/items/215093/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-name="Bio Bay Night Kayaking Laguna Grande" data-tour-id="pr-215093">Check Availability</a>
         </div>
 
         <h3>La Parguera, Lajas</h3>
@@ -247,7 +247,7 @@
             <h3>Sunset + Swim the Bioluminescent Bay – La Parguera</h3>
             <p>Evening tour that combines a sunset boat ride with swimming in the bio bay after dark. Unlike the Fajardo and Vieques bays, La Parguera allows guests to enter the water and experience the glow firsthand. Bring a swimsuit and prepare for a surreal night swim.</p>
             <p><strong>Location:</strong> Lajas (southwest coast) · <strong>Duration:</strong> ~3 hours</p>
-            <a href="/bio-bay.html" class="book-btn">Check Availability</a>
+            <a href="https://fareharbor.com/embeds/book/hookdonadventureparguera/items/215903/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-name="Sunset and Swim the Bioluminescent Bay" data-tour-id="pr-215903">Check Availability</a>
         </div>
 
         <h2>What If You Can't Avoid a Full Moon?</h2>
@@ -379,5 +379,17 @@
             </div>
         </div>
     </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="fareharbor.com"]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      gtag('event', 'booking_click', {
+        'tour_name': this.dataset.tourName || this.textContent.trim(),
+        'outbound_url': this.href
+      });
+    });
+  });
+});
+</script>
 </body>
 </html>
