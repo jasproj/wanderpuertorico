@@ -19,16 +19,29 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
         const _raw = await response.json();
         const allTours = Array.isArray(_raw) ? _raw : _raw.tours;
 
-        // Filter tours by tags + drop inactive, then shuffle per-page-load before slicing
-        const filtered = allTours.filter(tour => {
-            if (tour.status === 'inactive') return false;
-            return (tour.tags || []).some(tag => filterTags.includes(tag));
-        });
-        // Pin proven-converting winners to the top (per-page via #activity-pinned-pks),
-        // then shuffle the rest for fair rotation. A pinned pk that is missing/inactive
-        // is silently skipped (filter(Boolean)), never errors.
+        // The live pool: everything bookable, regardless of tags.
+        const live = allTours.filter(tour => tour.status !== 'inactive' && !tour.bookingDead);
+        // The tag-filtered subset feeds the UNPINNED remainder only.
+        const filtered = live.filter(tour => (tour.tags || []).some(tag => filterTags.includes(tag)));
+
+        // A pin is an explicit editorial choice, so it resolves against `live`, NOT against
+        // `filtered`. Resolving pins against the tag-filtered subset reinstated the very
+        // defect rostering exists to bypass: 869 of 1167 records carry `tags: []`, so every
+        // genuine Old San Juan walking tour was unpinnable on the page about Old San Juan.
+        // The unpinned remainder still comes from the tag filter and still shuffles.
+        //
+        // A pin that matches no record at all is still skipped rather than rendered, but it
+        // now warns. The silent skip is what kept this class of defect invisible: a typo'd or
+        // retired pk looked indistinguishable from a working roster.
         const pinnedPks = JSON.parse(document.getElementById('activity-pinned-pks')?.textContent || '[]');
-        const pinnedTours = pinnedPks.map(pk => filtered.find(t => t.pk === pk)).filter(Boolean);
+        const pinnedTours = pinnedPks.map(pk => {
+            const tour = live.find(t => t.pk === pk);
+            if (!tour) {
+                console.warn('[activity-loader] pinned pk ' + pk + ' matched no live record '
+                    + '(missing, inactive, or bookingDead) — skipped.');
+            }
+            return tour;
+        }).filter(Boolean);
         const rest = filtered.filter(t => !pinnedPks.includes(t.pk));
         const filteredTours = [...pinnedTours, ...shuffleArray(rest)].slice(0, limit);
         
