@@ -56,11 +56,6 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
                 <script type="application/ld+json">${schemaJson}</script>
                 <div class="tour-image">
                     <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" onerror="this.src='${FALLBACK_IMAGE}'">
-                    <div class="tour-overlay">
-                        <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
-                            Check Availability →
-                        </a>
-                    </div>
                 </div>
                 <div class="tour-content">
                     <h3>${escapeHtml(tour.name)}</h3>
@@ -71,6 +66,7 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
                     </div>
                     <div class="tour-footer">
                         <div class="tour-price">${priceDisplay}${basis}</div>
+                        <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">Check Availability →</a>
                     </div>
                 </div>
             </div>
