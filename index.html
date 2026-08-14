@@ -270,7 +270,12 @@
 
     <!-- TOURS SECTION -->
     <section class="tours-section" id="tours-section">
-        <div class="container">
+        <!-- id="tours" lands 17 sitewide /#tours nav links on the Featured Tours
+             section. It sits on this inner container, not on the <section>, because
+             an element carries only one id and #tours-section is load-bearing: GSC
+             shows /#tours-section and /#locations drawing impressions, so neither is
+             renamed. Both fragments now resolve to the same block. -->
+        <div class="container" id="tours">
             <div class="section-header">
                 <h2>Featured Tours</h2>
                 <p>Handpicked experiences from local Puerto Rican operators.</p>
