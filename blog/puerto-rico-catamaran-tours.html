@@ -43,6 +43,13 @@
         .blog-content { max-width: 800px; margin: 3rem auto; padding: 0 1.5rem; line-height: 1.8; }
         .blog-content h2 { margin-top: 2rem; margin-bottom: 1rem; color: #0a0a0a; }
         .blog-content p { margin-bottom: 1rem; color: #404040; }
+        /* Ported from blog/flamenco-beach-day-trip-san-juan.html. That page
+           resolves --primary/--primary-dark from styles.css; this one links no
+           stylesheet and defines no custom properties, so the gradient stops are
+           written as the literals those vars hold on the source page (#5b21b6,
+           #4c1d95). Same rendered result, no new design. */
+        .cta-box { background: #ede9fe; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+        .cta-box a { display: inline-block; background: linear-gradient(135deg, #5b21b6, #4c1d95); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; }
     </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
@@ -103,6 +110,11 @@
             <p>Pricing varies by operator, tour length, and what's included. Book directly with the operator for full trip details.</p>
             <h2>Why Book With Us</h2>
             <p>We work exclusively with verified local operators who know Puerto Rico intimately. Direct booking means better prices and authentic experiences.</p>
+            <div class="cta-box">
+                <p style="margin-bottom:0.35rem;font-weight:600;">Public Icacos Luxury Sailing Catamaran Beach Day</p>
+                <p style="margin-bottom:1rem;">$155 per person · 6-hour sailing catamaran day trip with Sail Getaways, departing Fajardo</p>
+                <a href="https://fareharbor.com/embeds/book/sailgetaway/items/34808/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" data-tour-id="pr-34808" data-tour-name="Public Icacos Luxury Sailing Catamaran Beach Day">Check Availability →</a>
+            </div>
         </article>
     </section>
 
