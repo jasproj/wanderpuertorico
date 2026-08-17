@@ -45,12 +45,43 @@
         return 'puerto-rico';
     }
 
+    // tour_id is derived from the pk in the anchor's own href so that one
+    // product reports one value. Before this, 53 of the 185 pks reachable on
+    // the live site emitted more than one tour_id and four of them emitted
+    // four: pr-<pk>, a bare <pk>, an <operator>/<pk>, and the full href.
+    //
+    // pr-<pk> is not a new scheme. It is the catalogue's own convention: all
+    // 298 non-absent `id` values in tours-data.json are exactly pr-<own pk>,
+    // zero exceptions. Deriving cannot contradict hand-written markup either —
+    // all 164 existing data-tour-id values contain their own href's pk, with
+    // zero disagreements, and no FareHarbor href on the site lacks /items/<pk>.
+    var PK_IN_HREF = /\/items\/(\d+)/;
+
+    // Precedence:
+    //   1. data-tour-id when non-empty AND already canonical for this pk
+    //   2. pr-<pk> derived from the anchor's own href
+    //   3. the previous chain: data-tour-id -> href -> 'unknown'
+    //
+    // An EMPTY data-tour-id must fall through to (2). app.js renders
+    // data-tour-id="${escapeHtml(tour.id)}" and escapeHtml returns '' for a
+    // missing field, so 37 of the 50 cards on the homepage grid carry an empty
+    // attribute rather than none — a presence check reads those as set when
+    // they are not. `attr` is normalised to '' so both cases take one path.
+    function readTourId(link, href) {
+        var attr = link.dataset.tourId || '';
+        var m = PK_IN_HREF.exec(href);
+        var canonical = m ? 'pr-' + m[1] : '';
+        if (attr && attr === canonical) return attr;
+        if (canonical) return canonical;
+        return attr || href || 'unknown';
+    }
+
     function readContext(link) {
         var href = link.getAttribute('href') || '';
         var name = link.dataset.tourName
             || link.textContent.replace(/[→➤➔\s]+$/, '').trim()
             || 'unknown';
-        var id = link.dataset.tourId || href || 'unknown';
+        var id = readTourId(link, href);
         return { name: name, id: id, href: href };
     }
 
