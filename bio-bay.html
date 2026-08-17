@@ -454,17 +454,5 @@
             document.querySelector('.nav-mobile').classList.toggle('active');
         });
     </script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('a[href*="fareharbor.com"]').forEach(function(link) {
-    link.addEventListener('click', function() {
-      gtag('event', 'booking_click', {
-        'tour_name': this.dataset.tourName || this.textContent.trim(),
-        'outbound_url': this.href
-      });
-    });
-  });
-});
-</script>
 </body>
 </html>
