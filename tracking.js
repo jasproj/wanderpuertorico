@@ -37,12 +37,32 @@
 
     var REGION_KEYWORDS = ['fajardo', 'san-juan', 'culebra', 'vieques', 'bio-bay', 'el-yunque'];
 
+    // Returns '' when the path names more than one region. First-match ordering
+    // used to pick whichever keyword sat earliest in REGION_KEYWORDS, which
+    // emitted a FALSE label rather than an imprecise one: a
+    // Vieques-vs-Fajardo-vs-Parguera comparison reported region='fajardo', and
+    // an El Yunque guide written "from San Juan" reported region='san-juan'.
+    // Nine pages match more than one keyword, six of which carry booking cards.
+    // A blank is honest; a wrong region corrupts any regional grouping.
+    //
+    // A path matching NO keyword still returns 'puerto-rico' — that is the
+    // site-level default, not an ambiguity, and it is unchanged.
     function detectRegion() {
         var path = (location && location.pathname) || '';
+        var hits = [];
         for (var i = 0; i < REGION_KEYWORDS.length; i++) {
-            if (path.indexOf(REGION_KEYWORDS[i]) !== -1) return REGION_KEYWORDS[i];
+            if (path.indexOf(REGION_KEYWORDS[i]) !== -1) hits.push(REGION_KEYWORDS[i]);
         }
-        return 'puerto-rico';
+        if (hits.length > 1) return '';
+        return hits.length === 1 ? hits[0] : 'puerto-rico';
+    }
+
+    // region is omitted from the payload entirely when detectRegion() abstains,
+    // rather than sent as an empty string: GA4 would otherwise carry a real ''
+    // value that groups alongside the genuine ones.
+    function withRegion(payload, region) {
+        if (region) payload.region = region;
+        return payload;
     }
 
     // tour_id is derived from the pk in the anchor's own href so that one
@@ -92,13 +112,12 @@
     if (typeof window.trackBookingClick !== 'function') {
         window.trackBookingClick = function (tourName, tourId, region) {
             if (typeof gtag === 'undefined') return;
-            gtag('event', 'booking_click', {
+            gtag('event', 'booking_click', withRegion({
                 event_category: 'conversion',
                 event_label: tourName,
                 tour_name: tourName,
-                tour_id: tourId,
-                region: region || detectRegion()
-            });
+                tour_id: tourId
+            }, region || detectRegion()));
         };
     }
 
@@ -113,12 +132,11 @@
         link.href = appendUtmSource(link.href, 'wanderpuertorico');
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
-        gtag('event', 'booking_click', {
+        gtag('event', 'booking_click', withRegion({
             event_category: 'conversion',
             event_label: ctx.name,
             tour_name: ctx.name,
-            tour_id: ctx.id,
-            region: detectRegion()
-        });
+            tour_id: ctx.id
+        }, detectRegion()));
     });
 })();
