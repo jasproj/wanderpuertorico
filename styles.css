@@ -165,6 +165,29 @@
             .logo-img { height: 60px; }
         }
         
+        /* ========== BREADCRUMB ========== */
+        /* .breadcrumb is the first in-flow element after the fixed .header, and
+           carried no top spacing at all: the only declaration reaching it was the
+           universal `*, ::before, ::after { padding: 0 }` reset, so it rendered at
+           y=0 entirely behind the header and both its links were unhittable.
+           Values are measured on this repo's own header, not ported: it is a flat
+           105px at >=769px and a flat 85px at <=768px (swept 1920..320), stepping at
+           the same 768px breakpoint used above. The +12px is the .header-container's
+           own 0.75rem vertical padding, reused as the gap below it.
+           padding, not margin: .breadcrumb paints nothing (transparent, no image,
+           0 border) and is the first in-flow child of a body with no padding-top or
+           border-top, so a margin-top would collapse through body and move the page
+           rather than open a gap under the fixed header. */
+        nav.breadcrumb {
+            padding-top: 117px;
+        }
+        
+        @media (max-width: 768px) {
+            nav.breadcrumb {
+                padding-top: 97px;
+            }
+        }
+        
         /* ========== HERO ========== */
         .hero {
             position: relative;
