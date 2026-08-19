@@ -32,7 +32,7 @@
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-  .hero { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('/images/hero-photo-3.jpg'); background-size: cover; background-position: center; color: white; padding: 80px 20px; text-align: center; min-height: 320px; display: flex; align-items: center; justify-content: center; }
+  .hero { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('/images/hero-photo-3.jpg'); background-size: cover; background-position: center; color: white; padding: 117px 20px 80px; text-align: center; min-height: 320px; display: flex; align-items: center; justify-content: center; }
   .hero h1 { font-size: 2.5rem; margin: 0 0 12px 0; }
   .hero p { font-size: 1.1rem; max-width: 720px; margin: 0 auto; opacity: 0.95; }
   .intro { padding: 50px 0; }
@@ -58,9 +58,15 @@
   .related a { color: #0c5d8c; text-decoration: none; margin-right: 14px; }
   .related a:hover { text-decoration: underline; }
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
+  /* Band 601-768px: the fixed .header steps 105px -> 85px at max-width:768px,
+     but this page's own hero query does not fire until 600px, so the base
+     padding met an 85px header with nothing between them. Measured, not assumed. */
+  @media (max-width: 768px) {
+    .hero { padding-top: 97px; }
+  }
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8rem; }
-    .hero { padding: 30px 20px; min-height: 130px; }
+    .hero { padding: 97px 20px 30px; min-height: 130px; }
   }
 </style>
     <link rel="stylesheet" href="/sponsor-slot.css">
