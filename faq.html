@@ -34,6 +34,14 @@
   .hero { background: linear-gradient(135deg, #0c5d8c 0%, #f08020 100%); color: white; padding: 60px 20px; text-align: center; }
   .hero h1 { font-size: 2.2rem; margin: 0 0 10px 0; }
   .hero p { font-size: 1rem; opacity: 0.95; }
+  /* <=768 only. At >=769 this hero is min-height:100vh with align-items:center and
+     the h1 renders at 404.05px, well clear of the 105px header -- D-338 flags it on
+     the padding edge but nothing is occluded, so the base padding is deliberately
+     left alone. At <=768 the box has no centring slack, the h1 sits at the padding
+     edge behind an 85px header, and padding moves it 1:1. */
+  @media (max-width: 768px) {
+    .hero { padding-top: 97px; }
+  }
   .faq-section { padding: 50px 0; }
   details { background: #f6f6f8; border-left: 4px solid #f08020; padding: 14px 20px; margin-bottom: 12px; border-radius: 4px; }
   details summary { font-weight: 600; cursor: pointer; padding: 6px 0; }

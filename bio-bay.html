@@ -227,8 +227,14 @@
             transform: scale(1.05);
         }
         @media (max-width: 768px) {
+            /* Header on these two pages is 85px from 768 down to 392, then 101.78px
+               from 391 down (the .logo span "Wander Puerto Rico" wraps to a second
+               line -- a content reflow, not a breakpoint, so no media query is keyed
+               to it). One value sized to the worst case: margin-top 60 + 54 = 114,
+               clearing the 101.78px header by 12.22px. margin-top and the 20px
+               bottom padding are authored and untouched. */
             .activity-hero {
-                padding: 30px 20px 20px;
+                padding: 54px 20px 20px;
                 min-height: 130px;
             }
             .activity-hero h1 {
