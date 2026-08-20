@@ -22,10 +22,13 @@
     <link rel="stylesheet" href="styles.css">
     
     <style>
+        /* Header measured on this page: 105px at >=769, 85px at <=768, flat to
+           320px (no logo-text reflow here -- the logo is image-only). Clearance is
+           header + 12px at each band; the authored 80px bottom padding is kept. */
         .advertise-hero {
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             color: white;
-            padding: 80px 20px;
+            padding: 117px 20px 80px;
             text-align: center;
             margin-bottom: 60px;
         }
@@ -226,6 +229,10 @@
         }
         
         @media (max-width: 768px) {
+            .advertise-hero {
+                padding-top: 97px;
+            }
+
             .advertise-hero h1 {
                 font-size: 32px;
             }
