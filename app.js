@@ -273,7 +273,35 @@ async function loadTours() {
             return;
         }
 
-        const shuffled = shuffleArray(toursData).slice(0, 50);
+        // DRAW POOL — eligibility only. The shuffle draws from tours the renderer
+        // can actually price; a card reading "Price on request" cannot convert and
+        // was 33.8% of this pool. Eligibility is asked of formatPrice() itself
+        // rather than re-implemented, so this can never drift from what a visitor
+        // sees.
+        //
+        // toursData is deliberately NOT narrowed. It feeds filterTours() and the
+        // "Verified Tours" counter, and narrowing search to priced items would be a
+        // worse outcome for a visitor than a lottery card: someone searching a tour
+        // by name should find it whether or not we hold its price.
+        //
+        // Two documented exceptions, excluded by pk because no structural
+        // discriminator exists for them — company, tags, category and priceLabel
+        // are identical to real inventory, and a name rule would kill genuine
+        // rental products. The general case is a data-tagging job, not a filter.
+        const DRAW_POOL_EXCLUDED_PKS = [
+            641082,  // "Add-a-Dive" Upgrade — a tier attached to another purchase
+            447602,  // "RENTAL PACKAGE FOR INTRUCTORS" — trade inventory
+        ];
+        const drawPool = toursData.filter(t =>
+            formatPrice(t.price, t.priceConfidence) !== 'Price on request'
+            && !DRAW_POOL_EXCLUDED_PKS.includes(t.pk)
+        );
+        // Mechanical proof surface: the length of the array the shuffle actually
+        // draws from, published at render time so it can be asserted on a live
+        // page without resampling the draw.
+        grid.dataset.drawPool = String(drawPool.length);
+
+        const shuffled = shuffleArray(drawPool).slice(0, 50);
         preCacheBookingUrls(shuffled);
 
         grid.innerHTML = shuffled.map(tour => createTourCard(tour)).join('');
