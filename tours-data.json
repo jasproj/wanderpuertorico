@@ -24707,7 +24707,7 @@
       "name": "Lift eFoil Discovery Lesson",
       "description": "Soar above San Juan Bay on an eFoil, guided by expert instructors. Perfect for beginners or pros, this thrilling yet calming ride combines top gear with personalized coaching in a stunning tropical setting.",
       "location": "San Juan",
-      "price": 225,
+      "price": 325,
       "bookingUrl": "https://fareharbor.com/embeds/book/seakindlyfoilschool/items/183764/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/WVz0UZK3QoSTSOPuaDbb/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -38417,7 +38417,7 @@
       "name": "Half Day Private Deep Sea Fishing Charter",
       "description": "Hook into massive tuna, watch marlins leap, or reel in vibrant mahi-mahi in Puerto Rico’s prime waters. Fathom Charters handles everything—just focus on landing your next big catch. Book now!",
       "location": "Rincón",
-      "price": 985,
+      "price": 925,
       "bookingUrl": "https://fareharbor.com/embeds/book/fathomfishingcharters/items/151941/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/MPu6i073Qna753Q4J8Rr/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -41918,7 +41918,7 @@
       "name": "SDI/TDI Specialty Certification Courses",
       "description": "Dive into a thrilling underwater world with our expert-led scuba courses. From lionfish hunting to night dives, enjoy shore-based training, all gear included, and a safe, fun experience tailored for all skill levels.",
       "location": "Rincón",
-      "price": 223,
+      "price": 169,
       "bookingUrl": "https://fareharbor.com/embeds/book/greatescapepr/items/465408/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/MctIKhnJQSmNLgjy0ve4/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -41940,7 +41940,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "SDI Underwater Hunter (Lionfish) & Collector Class",
+      "priceLabel": "SDI Underwater Photography Class",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
