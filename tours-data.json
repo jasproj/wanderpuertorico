@@ -26196,7 +26196,7 @@
       "name": "Exclusive 5-Hour Culebra Charter",
       "description": "Set sail on a 5-hour private boat to Culebra and Culebrita, where vibrant reefs, calm waters, and white-sand beaches await. Snorkel, dive, or relax in a personalized, unforgettable ocean adventure.",
       "location": "Fajardo",
-      "price": 1100,
+      "price": 875,
       "bookingUrl": "https://fareharbor.com/embeds/book/signaturedives/items/647418/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/ENzGbQnkRLOxCrBMfeX5/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -26214,7 +26214,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Two-Tank Scuba Diving Excursion",
+      "priceLabel": "Snorkeling and Remote Beaches",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -27043,7 +27043,7 @@
       "name": "Luggage Storage in Condado",
       "description": "Store your luggage securely in Condado and explore San Juan freely. Drop off your bags anytime after 10 AM, enjoy the city hands-free, and pick up before 6 PM—your hassle-free way to see more.",
       "location": "San Juan",
-      "price": 15,
+      "price": 6,
       "bookingUrl": "https://fareharbor.com/embeds/book/aquaexperiencespr/items/713674/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/rHZJvxfkSnmuBsmUqq7N/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -27069,7 +27069,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Other Bag",
+      "priceLabel": "Small Bag",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -41593,7 +41593,7 @@
       "name": "Snorkeling Equipment & Kayak Rentals",
       "description": "Explore Rincon’s stunning coral reefs and coastal views with flexible kayak and snorkel rentals. Whether for an hour or all day, dive into an unforgettable Puerto Rican water adventure.",
       "location": "Rincón",
-      "price": 34,
+      "price": 22,
       "bookingUrl": "https://fareharbor.com/embeds/book/greatescapepr/items/465116/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/MctIKhnJQSmNLgjy0ve4/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -41615,7 +41615,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Four Hour Snorkel Rental",
+      "priceLabel": "Two Hour Snorkel Rental",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -43120,7 +43120,7 @@
       "name": "Sports Court Rental",
       "description": "Experience the thrill of playing in a unique setting with both roofed and non-roofed court options. Whether you prefer the open air or a sheltered environment, enjoy a memorable 4-5 hour session that caters to your playing style and enhances your game. Perfect for all skill levels!",
       "location": "Toa Baja",
-      "price": 15,
+      "price": 10,
       "bookingUrl": "https://fareharbor.com/embeds/book/lagosdeplataresidences/items/483256/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/uukb4u9RT6lIyJ4fQqUn/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -43136,7 +43136,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Court with Roof",
+      "priceLabel": "Court without Roof",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
