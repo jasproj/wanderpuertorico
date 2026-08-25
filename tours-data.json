@@ -25652,25 +25652,16 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Essential Trip • 1-4 Guests",
+      "priceLabel": "Essential Trip • 5-6 Guests",
       "priceConfidence": "high",
       "priceBreakdown": [
-        {
-          "id": 758768,
-          "singular": "Essential Trip • 1-4 Guests",
-          "plural": "Essential Trip • 1-4 Guests",
-          "note": "",
-          "priceCents": 145000,
-          "price": 1450,
-          "minPartySize": 1
-        },
         {
           "id": 758767,
           "singular": "Essential Trip • 5-6 Guests",
           "plural": "Essential Trip • 5-6 Guests",
           "note": "",
           "priceCents": 150000,
-          "price": 1500,
+          "price": 1500.0,
           "minPartySize": 1
         }
       ],
@@ -25683,7 +25674,21 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:33:12.473Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/leisureboatexperience/items/420774/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/leisureboatexperience/items/420774/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 758767,
+          "singular": "Essential Trip • 5-6 Guests",
+          "plural": "Essential Trip • 5-6 Guests",
+          "note": "",
+          "priceCents": 150000,
+          "price": 1500.0,
+          "minPartySize": 1
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "sole-tier"
     },
     {
       "id": "pr-421033",
@@ -25758,25 +25763,16 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Essential Trip • 1-4 Guests",
+      "priceLabel": "Essential Trip • 5-6 Guests",
       "priceConfidence": "high",
       "priceBreakdown": [
-        {
-          "id": 758768,
-          "singular": "Essential Trip • 1-4 Guests",
-          "plural": "Essential Trip • 1-4 Guests",
-          "note": "",
-          "priceCents": 218000,
-          "price": 2180,
-          "minPartySize": 1
-        },
         {
           "id": 758767,
           "singular": "Essential Trip • 5-6 Guests",
           "plural": "Essential Trip • 5-6 Guests",
           "note": "",
           "priceCents": 220000,
-          "price": 2200,
+          "price": 2200.0,
           "minPartySize": 1
         }
       ],
@@ -25789,7 +25785,21 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:33:33.157Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/leisureboatexperience/items/421034/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/leisureboatexperience/items/421034/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 758767,
+          "singular": "Essential Trip • 5-6 Guests",
+          "plural": "Essential Trip • 5-6 Guests",
+          "note": "",
+          "priceCents": 220000,
+          "price": 2200.0,
+          "minPartySize": 1
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "sole-tier"
     },
     {
       "id": "pr-543240",
@@ -30469,7 +30479,7 @@
       "name": "La Parguera Bio Bay Boat Ride and Swimming with San Juan Transportation",
       "description": "Glide through La Parguera’s glowing waters on a boat to Puerto Rico’s original bioluminescent bay, then swim in shimmering, luminous waters—an unforgettable, magical experience in a charming fishing village.",
       "location": "Río Grande",
-      "price": 144.99,
+      "price": 54.99,
       "bookingUrl": "https://fareharbor.com/embeds/book/caribbeanbreezeadventures/items/383857/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/wJzIuX1tS1yJKaun8kad/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -30491,7 +30501,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Guest With Round Trip Transportation",
+      "priceLabel": "Guest Providing Own Transportation",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -30522,7 +30532,30 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:47:02.041Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/caribbeanbreezeadventures/items/383857/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/caribbeanbreezeadventures/items/383857/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 693312,
+          "singular": "Guest With Round Trip Transportation",
+          "plural": "Guests With Round Trip Transportation",
+          "note": "Round Trip Transportation Included",
+          "priceCents": 14499,
+          "price": 144.99,
+          "minPartySize": 1
+        },
+        {
+          "id": 1174911,
+          "singular": "Guest Providing Own Transportation",
+          "plural": "Guests Providing Own Transportation",
+          "note": "Providing Own Transportation",
+          "priceCents": 5499,
+          "price": 54.99,
+          "minPartySize": 1
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "D-625 same-product-variant floor"
     },
     {
       "id": "pr-392110",
@@ -34531,7 +34564,7 @@
           "plural": "Adults",
           "note": "Ages 18+ • Price per person. 90 minute tour with (9) tastings",
           "priceCents": 8000,
-          "price": 80,
+          "price": 80.0,
           "minPartySize": 2
         },
         {
@@ -34540,16 +34573,7 @@
           "plural": "Children",
           "note": "For visitors ages 17 and under • No tastings allowed • Must be accompanied by an adult",
           "priceCents": 2000,
-          "price": 20,
-          "minPartySize": 2
-        },
-        {
-          "id": 1035781,
-          "singular": "Adult (No rum tasting included)",
-          "plural": "Adult",
-          "note": "Adults who want the full San Juan Artisan Distillers premium tour experience minus the rum tasting.",
-          "priceCents": 6000,
-          "price": 60,
+          "price": 20.0,
           "minPartySize": 2
         }
       ],
@@ -34562,7 +34586,30 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:00:26.272Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/sanjuanartisandistillers/items/495636/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/sanjuanartisandistillers/items/495636/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 883909,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+ • Price per person. 90 minute tour with (9) tastings",
+          "priceCents": 8000,
+          "price": 80.0,
+          "minPartySize": 2
+        },
+        {
+          "id": 883910,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "For visitors ages 17 and under • No tastings allowed • Must be accompanied by an adult",
+          "priceCents": 2000,
+          "price": 20.0,
+          "minPartySize": 2
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "D-624 adult-base-fare (live ladder has no $60 tier)"
     },
     {
       "id": "pr-522793",
@@ -39753,7 +39800,39 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:18:52.082Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/saltoursllc/items/320063/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/saltoursllc/items/320063/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 584888,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "",
+          "priceCents": 10314,
+          "price": 103.14,
+          "minPartySize": 4
+        },
+        {
+          "id": 857929,
+          "singular": "Infant 4 and under",
+          "plural": "Infants 4 and under",
+          "note": "4 AND UNDER",
+          "priceCents": 8969,
+          "price": 89.69,
+          "minPartySize": 4
+        },
+        {
+          "id": 1186614,
+          "singular": "Adult",
+          "plural": "Adult",
+          "note": "Yunque Half day adult",
+          "priceCents": 11659,
+          "price": 116.59,
+          "minPartySize": 4
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "D-624 adult-base-fare"
     },
     {
       "id": "pr-321376",
@@ -45701,7 +45780,7 @@
           "plural": "Children",
           "note": "5-11 years old",
           "priceCents": 10500,
-          "price": 105,
+          "price": 105.0,
           "minPartySize": 1
         },
         {
@@ -45710,7 +45789,7 @@
           "plural": "Infants",
           "note": "complementary infants (sunset sail) below 4",
           "priceCents": 0,
-          "price": 0,
+          "price": 0.0,
           "minPartySize": 1
         },
         {
@@ -45719,7 +45798,7 @@
           "plural": "Conquistador Resort - Sunset Sail",
           "note": "+12 and Adults price.",
           "priceCents": 12500,
-          "price": 125,
+          "price": 125.0,
           "minPartySize": 1
         }
       ],
@@ -45732,7 +45811,39 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:39:07.789Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/saltoursllc/items/380406/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/saltoursllc/items/380406/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 584888,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "5-11 years old",
+          "priceCents": 10500,
+          "price": 105.0,
+          "minPartySize": 1
+        },
+        {
+          "id": 687100,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "complementary infants (sunset sail) below 4",
+          "priceCents": 0,
+          "price": 0.0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1188057,
+          "singular": "Conquistador Resort - Sunset Sail",
+          "plural": "Conquistador Resort - Sunset Sail",
+          "note": "+12 and Adults price.",
+          "priceCents": 12500,
+          "price": 125.0,
+          "minPartySize": 1
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "D-624 adult-base-fare"
     },
     {
       "id": "pr-409312",
@@ -47609,7 +47720,7 @@
           "plural": "Children",
           "note": "",
           "priceCents": 6300,
-          "price": 63,
+          "price": 63.0,
           "minPartySize": 1
         },
         {
@@ -47618,7 +47729,7 @@
           "plural": "Riders (1 hour)",
           "note": "",
           "priceCents": 8400,
-          "price": 84,
+          "price": 84.0,
           "minPartySize": 1
         }
       ],
@@ -47631,7 +47742,30 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:46:35.416Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/endlessadventures/items/86204/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/endlessadventures/items/86204/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceTiers": [
+        {
+          "id": 133596,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "",
+          "priceCents": 6300,
+          "price": 63.0,
+          "minPartySize": 1
+        },
+        {
+          "id": 538426,
+          "singular": "Rider (1 hour)",
+          "plural": "Riders (1 hour)",
+          "note": "",
+          "priceCents": 8400,
+          "price": 84.0,
+          "minPartySize": 1
+        }
+      ],
+      "priceSource": "s49-wpr-anchorfix",
+      "priceSourceAt": "2026-08-25",
+      "priceBasis": "D-624 adult-base-fare"
     },
     {
       "id": "pr-87072",
