@@ -1,0 +1,19 @@
+: main cards=50 smalls=0 | branch cards=50 smalls=0 basisSpans=0 | prices identical main==branch: false | branch deterministic: false
+   fixture(all rows priceUnit): cards=50 smalls=50 basisSpans=0 text="per boat · up to 6 guests" css={"display":"block","fontSize":"9.92px","tt":"uppercase"}
+   visible(From $) main=50 branch=50
+el-yunque.html: main cards=4 smalls=0 | branch cards=4 smalls=0 basisSpans=0 | prices identical main==branch: true | branch deterministic: true
+   fixture(all rows priceUnit): cards=4 smalls=4 basisSpans=0 text="per boat · up to 6 guests" css={"display":"block","fontSize":"9.92px","tt":"uppercase"}
+   visible(From $) main=4 branch=4
+: main cards=50 smalls=0 | branch cards=50 smalls=0 basisSpans=0 | prices identical main==branch: false | branch deterministic: false
+   fixture(all rows priceUnit): cards=50 smalls=50 basisSpans=0 text="per boat · up to 6 guests" css={"display":"block","fontSize":"9.92px","tt":"uppercase"}
+   visible(From $) main=50 branch=50
+el-yunque.html: main cards=4 smalls=0 | branch cards=4 smalls=0 basisSpans=0 | prices identical main==branch: true | branch deterministic: true
+   fixture(all rows priceUnit): cards=4 smalls=4 basisSpans=0 text="per boat · up to 6 guests" css={"display":"block","fontSize":"9.92px","tt":"uppercase"}
+   visible(From $) main=4 branch=4
+=== seeded run ===
+index.html: main cards=50 smalls=0 | branch cards=50 smalls=0 basisSpans=0 | prices identical main==branch: true | branch deterministic: true
+   fixture(all rows priceUnit): cards=50 smalls=50 basisSpans=0 text="per boat · up to 6 guests" css={"display":"block","fontSize":"9.92px","tt":"uppercase"}
+   visible(From $) main=50 branch=50
+el-yunque.html: main cards=4 smalls=0 | branch cards=4 smalls=0 basisSpans=0 | prices identical main==branch: true | branch deterministic: true
+   fixture(all rows priceUnit): cards=4 smalls=4 basisSpans=0 text="per boat · up to 6 guests" css={"display":"block","fontSize":"9.92px","tt":"uppercase"}
+   visible(From $) main=4 branch=4

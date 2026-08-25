@@ -57,12 +57,16 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
             // formatPrice / generateTourSchema / escapeHtml come from
             // tour-render.js, shared with app.js. Not reimplemented here.
             const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+            // Explicit unit (shared priceUnitHtml, driven only by _unknownFields.priceUnit)
+            // takes precedence; the older label-regex basis span below is the fallback
+            // and is unchanged for every row without a priceUnit.
+            const unitHtml = priceUnitHtml(tour);
             // Make the basis explicit when the stored tier is not a per-seat
             // fare, so "From $2510" cannot read as a per-person price.
             const label = (tour.priceLabel || '');
-            const basis = /whole boat|charter|per vehicle|vehicle|private boat|boat$/i.test(label)
+            const basis = unitHtml ? '' : (/whole boat|charter|per vehicle|vehicle|private boat|boat$/i.test(label)
                 ? ' <span class="tour-price-basis">' + escapeHtml(label) + '</span>'
-                : '';
+                : '');
             const schemaJson = JSON.stringify(generateTourSchema(tour)).replace(/<\/script/gi, '<\\/script');
             return `
             <div class="tour-card">
@@ -78,7 +82,7 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
                         ${tour.tags.slice(0, 3).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
                     </div>
                     <div class="tour-footer">
-                        <div class="tour-price">${priceDisplay}${basis}</div>
+                        <div class="tour-price">${priceDisplay}${unitHtml}${basis}</div>
                         <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">Check Availability →</a>
                     </div>
                 </div>

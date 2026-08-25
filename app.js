@@ -165,6 +165,7 @@ function createTourCard(tour) {
 
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+    const unitHtml = priceUnitHtml(tour);   // '' unless the row carries _unknownFields.priceUnit
 
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');
@@ -191,7 +192,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 ${badgesHtml}
                 <div class="tour-footer">
-                    <div class="tour-price">${priceDisplay}</div>
+                    <div class="tour-price">${priceDisplay}${unitHtml}</div>
                     <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
                 </div>
             </div>
