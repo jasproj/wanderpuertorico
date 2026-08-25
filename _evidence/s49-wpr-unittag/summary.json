@@ -1,0 +1,1359 @@
+{
+ "day": "2026-08-25",
+ "kept": 188,
+ "tagged": 181,
+ "ruling": 0,
+ "tagged_rows": [
+  {
+   "pk": 433832,
+   "price": 4125,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 389627,
+   "price": 125,
+   "label": "Jet Ski",
+   "unit": "Jet Ski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 421942,
+   "price": 180,
+   "label": "Jetski",
+   "unit": "Jetski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 428431,
+   "price": 90,
+   "label": "Jetski",
+   "unit": "Jetski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 460670,
+   "price": 495,
+   "label": "PR BIG PAPPA 21’ Sea Doo Cruiser 2 Hours",
+   "unit": "PR BIG PAPPA 21’ Sea Doo Cruiser 2 Hours",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 687577,
+   "price": 780,
+   "label": "Boat charter experience",
+   "unit": "Boat charter experience",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 521000,
+   "price": 1499.99,
+   "label": "Private Group of 2",
+   "unit": "Private Group of 2",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 453543,
+   "price": 175,
+   "label": "Jet Ski",
+   "unit": "Jet Ski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 250873,
+   "price": 1495,
+   "label": "Private charter",
+   "unit": "Private charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 250880,
+   "price": 1895,
+   "label": "Private charter",
+   "unit": "Private charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 267463,
+   "price": 89,
+   "label": "Private SNK",
+   "unit": "Private SNK",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 267470,
+   "price": 175,
+   "label": "Private DSD",
+   "unit": "Private DSD",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 267670,
+   "price": 150,
+   "label": "Private GSD2",
+   "unit": "Private GSD2",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 662697,
+   "price": 850,
+   "label": "Half Day Charter",
+   "unit": "Half Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 333653,
+   "price": 2900,
+   "label": "Private Boat Tour",
+   "unit": "Private Boat Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 661938,
+   "price": 695,
+   "label": "Half Day Charters",
+   "unit": "Half Day Charters",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 662696,
+   "price": 895,
+   "label": "Half Day Charters",
+   "unit": "Half Day Charters",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 333661,
+   "price": 3500,
+   "label": "Private Boat Tour",
+   "unit": "Private Boat Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 424640,
+   "price": 105,
+   "label": "Private Vehicle",
+   "unit": "Private Vehicle",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 490276,
+   "price": 1250,
+   "label": "Private Tour: Icacos or Palomino Half-Day",
+   "unit": "Private Tour: Icacos or Palomino Half-Day",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 625268,
+   "price": 1679,
+   "label": "CHARTER",
+   "unit": "CHARTER",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 662729,
+   "price": 1250,
+   "label": "3/4 Day Charter",
+   "unit": "3/4 Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 283543,
+   "price": 1200,
+   "label": "La Muñeca - Private Snorkeling Boat Charter",
+   "unit": "La Muñeca - Private Snorkeling Boat Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 283563,
+   "price": 700,
+   "label": "La Muñeca - Private Snorkeling Boat Charter",
+   "unit": "La Muñeca - Private Snorkeling Boat Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 343864,
+   "price": 700,
+   "label": "Half Day Charter",
+   "unit": "Half Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 343865,
+   "price": 995,
+   "label": "3/4 Day Charter",
+   "unit": "3/4 Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 402641,
+   "price": 1000,
+   "label": "La Muñeca - Private Snorkeling Boat Charter",
+   "unit": "La Muñeca - Private Snorkeling Boat Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 473669,
+   "price": 1100,
+   "label": "Fishing Charter",
+   "unit": "Fishing Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 605837,
+   "price": 1325,
+   "label": "Full Day Charter Vieques",
+   "unit": "Full Day Charter Vieques",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 606001,
+   "price": 1538,
+   "label": "Full Day Charter Culebrita",
+   "unit": "Full Day Charter Culebrita",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 606023,
+   "price": 1147.75,
+   "label": "Full Day Charter Icacos and Palomino",
+   "unit": "Full Day Charter Icacos and Palomino",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 606026,
+   "price": 1482,
+   "label": "Full Day Charter Vieques",
+   "unit": "Full Day Charter Vieques",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 606029,
+   "price": 1699,
+   "label": "Full Day Charter Culebrita",
+   "unit": "Full Day Charter Culebrita",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 606031,
+   "price": 1315,
+   "label": "Full Day Charter Icacos and Palomino",
+   "unit": "Full Day Charter Icacos and Palomino",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 10563,
+   "price": 500,
+   "label": "Private",
+   "unit": "Private",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 531512,
+   "price": 3500,
+   "label": "All Inclusive Private Charter",
+   "unit": "All Inclusive Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 705169,
+   "price": 2299,
+   "label": "Boat charter experience",
+   "unit": "Boat charter experience",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 183730,
+   "price": 150,
+   "label": "Private Vehicle",
+   "unit": "Private Vehicle",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 333614,
+   "price": 1250,
+   "label": "Private Boat Tour",
+   "unit": "Private Boat Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 334385,
+   "price": 1099.99,
+   "label": "Private Group of 2",
+   "unit": "Private Group of 2",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 334414,
+   "price": 1099.99,
+   "label": "Private Group of 2",
+   "unit": "Private Group of 2",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 606028,
+   "price": 1482,
+   "label": "Full Day Charter Culebra",
+   "unit": "Full Day Charter Culebra",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 649665,
+   "price": 500,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 10765,
+   "price": 1250,
+   "label": "Private",
+   "unit": "Private",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 333618,
+   "price": 950,
+   "label": "Private Boat Tour",
+   "unit": "Private Boat Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 655016,
+   "price": 425,
+   "label": "One UTV – Up to 3 Passengers",
+   "unit": "One UTV – Up to 3 Passengers",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 3721,
+   "price": 120,
+   "label": "Half Hour Rental",
+   "unit": "Half Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 521940,
+   "price": 45,
+   "label": "Paddleboard Rental For One Hour",
+   "unit": "Paddleboard Rental For One Hour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 521988,
+   "price": 79,
+   "label": "Two-Seater Kayak Rental for 1-Hour",
+   "unit": "Two-Seater Kayak Rental for 1-Hour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 626828,
+   "price": 160,
+   "label": "Buggy",
+   "unit": "Buggy",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 640648,
+   "price": 1775,
+   "label": "Private Charter (Up to 20 People)",
+   "unit": "Private Charter (Up to 20 People)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 699246,
+   "price": 4500,
+   "label": "Private Yacht 4 Hours",
+   "unit": "Private Yacht 4 Hours",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 300252,
+   "price": 600,
+   "label": "Deluxe Charter",
+   "unit": "Deluxe Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 399220,
+   "price": 850,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 399238,
+   "price": 1200,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 408310,
+   "price": 100,
+   "label": "60 Minute Lesson",
+   "unit": "Private Surf Lesson",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 408333,
+   "price": 170,
+   "label": "60 Minute Lesson",
+   "unit": "Semi-Private Surf Lesson",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 494986,
+   "price": 650,
+   "label": "Tropical Adventure",
+   "unit": "private boat",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 506795,
+   "price": 1500,
+   "label": "Tropical Adventure",
+   "unit": "private boat",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 626095,
+   "price": 780,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 649014,
+   "price": 300,
+   "label": "Group 6",
+   "unit": "Group 6",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 695202,
+   "price": 130,
+   "label": "Private",
+   "unit": "Private",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 711080,
+   "price": 221.88,
+   "label": "Private UTV Cabin",
+   "unit": "Private UTV Cabin",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 48971,
+   "price": 505,
+   "label": "Private Charter (Up to 6 people)",
+   "unit": "Private Charter (Up to 6 people)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 624530,
+   "price": 288,
+   "label": "Up to 4 People",
+   "unit": "Up to 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 656687,
+   "price": 400,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698431,
+   "price": 180,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698475,
+   "price": 180,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698776,
+   "price": 180,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698781,
+   "price": 250,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698786,
+   "price": 200,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698794,
+   "price": 180,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698795,
+   "price": 180,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698945,
+   "price": 220,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698989,
+   "price": 180,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698991,
+   "price": 250,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698998,
+   "price": 200,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 699001,
+   "price": 180,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 700436,
+   "price": 1500,
+   "label": "Tropical Adventure",
+   "unit": "Viques Boat Tour",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 15373,
+   "price": 1375,
+   "label": "Six Hour Charter",
+   "unit": "Six Hour Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 712911,
+   "price": 165,
+   "label": "Jet Ski Experience",
+   "unit": "Jet Ski Experience",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 36464,
+   "price": 275,
+   "label": "Private Vehicle",
+   "unit": "Private Vehicle",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 421033,
+   "price": 1200,
+   "label": "Essential Trip • 1-6 Guests",
+   "unit": "Essential Trip • 1-6 Guests",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 633949,
+   "price": 600,
+   "label": "Private Party Boat",
+   "unit": "Private Party Boat",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 647411,
+   "price": 525,
+   "label": "Snorkeling at Remote Beach",
+   "unit": "Private 3-Hour Sunset Charter",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 647418,
+   "price": 875,
+   "label": "Snorkeling and Remote Beaches",
+   "unit": "private boat",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 712907,
+   "price": 120,
+   "label": "Jet Ski",
+   "unit": "Jet Ski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 713156,
+   "price": 160,
+   "label": "Jet Ski",
+   "unit": "Jet Ski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 713158,
+   "price": 220,
+   "label": "Jet Ski",
+   "unit": "Jet Ski",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 716758,
+   "price": 35,
+   "label": "3 Hours Rental",
+   "unit": "3 Hours Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 12359,
+   "price": 700,
+   "label": "Private",
+   "unit": "Private",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 384898,
+   "price": 1099,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 489352,
+   "price": 800,
+   "label": "4 HOUR REEF HUNT (PRIVATE BOAT)",
+   "unit": "4 HOUR REEF HUNT (PRIVATE BOAT)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 530335,
+   "price": 2500,
+   "label": "4 Hours",
+   "unit": "up to 12 passengers",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 570041,
+   "price": 275,
+   "label": "One UTV – Up to 3 Passengers",
+   "unit": "One UTV – Up to 3 Passengers",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 668325,
+   "price": 450,
+   "label": "Tropical Adventure",
+   "unit": "private boat",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 680891,
+   "price": 1200,
+   "label": "1-13 Guests",
+   "unit": "1-13 Guests",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698804,
+   "price": 600,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 718722,
+   "price": 550,
+   "label": "Half Day Charter",
+   "unit": "Half Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 732678,
+   "price": 279,
+   "label": "Private Cabin",
+   "unit": "Private Cabin",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 732679,
+   "price": 199,
+   "label": "Private Cabin",
+   "unit": "Private Cabin",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 476445,
+   "price": 1800,
+   "label": "Private Yacht 4 Hours",
+   "unit": "Private Yacht 4 Hours",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 570033,
+   "price": 450,
+   "label": "One UTV – Up to 3 Passengers",
+   "unit": "One UTV – Up to 3 Passengers",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 570040,
+   "price": 350,
+   "label": "One UTV – Up to 3 Passengers",
+   "unit": "One UTV – Up to 3 Passengers",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 375780,
+   "price": 170,
+   "label": "UTV - 2 People",
+   "unit": "UTV - 2 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 398520,
+   "price": 3500,
+   "label": "Sea Ray 51’ Private Charter",
+   "unit": "Sea Ray 51’ Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 398523,
+   "price": 2400,
+   "label": "Sea Ray 51’ Private Charter",
+   "unit": "Sea Ray 51’ Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 398526,
+   "price": 2400,
+   "label": "Sea Ray 51’ Private Charter",
+   "unit": "Sea Ray 51’ Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 398528,
+   "price": 4500,
+   "label": "Sea Ray 51’ Private Charter",
+   "unit": "Sea Ray 51’ Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 421037,
+   "price": 2200,
+   "label": "Essential Trip • 5-6 Guests",
+   "unit": "Essential Trip • 5-6 Guests",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 471811,
+   "price": 2200,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 471849,
+   "price": 2800,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 471862,
+   "price": 4900,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 497512,
+   "price": 275,
+   "label": "Private Vehicle",
+   "unit": "Private Vehicle",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542102,
+   "price": 1595,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542104,
+   "price": 1995,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542108,
+   "price": 2200,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542109,
+   "price": 2800,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542110,
+   "price": 3200,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542111,
+   "price": 4500,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 699018,
+   "price": 180,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 43872,
+   "price": 695,
+   "label": "Group of 2 People",
+   "unit": "Group of 2 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 230182,
+   "price": 800,
+   "label": "One Day Rental",
+   "unit": "One Day Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 325171,
+   "price": 250,
+   "label": "Two Hour Rental",
+   "unit": "Two Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 417502,
+   "price": 895,
+   "label": "Sunset on Private Yacht",
+   "unit": "Sunset on Private Yacht",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 556342,
+   "price": 80,
+   "label": "Half Hour Rental",
+   "unit": "Half Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 698802,
+   "price": 180,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 699021,
+   "price": 180,
+   "label": "Tour Privado",
+   "unit": "Tour Privado",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 261847,
+   "price": 115,
+   "label": "Half Hour Rental",
+   "unit": "Half Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 545322,
+   "price": 1950,
+   "label": "Sunset on Private Yacht",
+   "unit": "Sunset on Private Yacht",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 333780,
+   "price": 199,
+   "label": "Mini-Boat",
+   "unit": "Mini-Boat",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 501338,
+   "price": 459,
+   "label": "1-6 Passengers",
+   "unit": "1-6 Passengers",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 562888,
+   "price": 45,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 671586,
+   "price": 750,
+   "label": "Sailing Charter",
+   "unit": "Sailing Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 677293,
+   "price": 6900,
+   "label": "Half Day Charter",
+   "unit": "Half Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 677329,
+   "price": 5500,
+   "label": "Half Day Charter",
+   "unit": "Half Day Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 690050,
+   "price": 220,
+   "label": "Mercedes Classic Jetcar",
+   "unit": "Mercedes Classic Jetcar",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 697734,
+   "price": 650,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 697753,
+   "price": 1400,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 122507,
+   "price": 85,
+   "label": "1 hour Group Surf Lesson",
+   "unit": "1 hour Group Surf Lesson",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 151927,
+   "price": 1425,
+   "label": "Full Day Private Charter",
+   "unit": "Full Day Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 151941,
+   "price": 925,
+   "label": "Half Day Private Charter • 1-4 people",
+   "unit": "Half Day Private Charter • 1-4 people",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 178350,
+   "price": 1585,
+   "label": "Eight Hour Charter",
+   "unit": "Eight Hour Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 245333,
+   "price": 570,
+   "label": "Group Lesson",
+   "unit": "Group Lesson",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 261733,
+   "price": 50,
+   "label": "Couple",
+   "unit": "Couple",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 290234,
+   "price": 315,
+   "label": "Seven-Hour Rental",
+   "unit": "Seven-Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 290380,
+   "price": 315,
+   "label": "Seven-Hour Rental",
+   "unit": "Seven-Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 290385,
+   "price": 380,
+   "label": "Seven-Hour Rental",
+   "unit": "Seven-Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 290390,
+   "price": 455,
+   "label": "Seven-Hour Rental",
+   "unit": "Seven-Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 290396,
+   "price": 1200,
+   "label": "Four-Hour",
+   "unit": "Private Activities Catamaran Rental",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 321376,
+   "price": 35,
+   "label": "Kiteboarding Board",
+   "unit": "Kiteboarding Board",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 415627,
+   "price": 205,
+   "label": "2 Hour",
+   "unit": "up to 3 people",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 436461,
+   "price": 225,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 444716,
+   "price": 1200,
+   "label": "6 hour",
+   "unit": "for 6 people",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 447602,
+   "price": 15,
+   "label": "Snorkeler's Combo Package (Includes Mask, Snorkel, Fins)",
+   "unit": "Snorkeler's Combo Package (Includes Mask, Snorkel, Fins)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 453578,
+   "price": 763.75,
+   "label": "Three Hours",
+   "unit": "up to 6 passengers",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 453614,
+   "price": 881.25,
+   "label": "Four Hours",
+   "unit": "up to 6 passengers",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 453621,
+   "price": 998.75,
+   "label": "Five Hours",
+   "unit": "up to 6 passengers",
+   "rule": "description quoted"
+  },
+  {
+   "pk": 496120,
+   "price": 160,
+   "label": "Jet Ski Tour",
+   "unit": "Jet Ski Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 496287,
+   "price": 200,
+   "label": "Jet Ski Tour",
+   "unit": "Jet Ski Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 513419,
+   "price": 80,
+   "label": "Half Hour Rental",
+   "unit": "Half Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 541188,
+   "price": 1250,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 483249,
+   "price": 25,
+   "label": "Gazebo Rental",
+   "unit": "Gazebo Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 483256,
+   "price": 10,
+   "label": "Court without Roof",
+   "unit": "Court without Roof",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 501342,
+   "price": 59,
+   "label": "KAYAK",
+   "unit": "KAYAK",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 501489,
+   "price": 25,
+   "label": "Snorkeling Equipment",
+   "unit": "Snorkeling Equipment",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 612447,
+   "price": 175,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 717343,
+   "price": 116.6,
+   "label": "Private Earthship Room • 1 Night",
+   "unit": "Private Earthship Room • 1 Night",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 296583,
+   "price": 750,
+   "label": "Private charter",
+   "unit": "Private charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 281475,
+   "price": 189,
+   "label": "1-2 people (1hr)",
+   "unit": "1-2 people (1hr)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 409312,
+   "price": 295,
+   "label": "Night Transport • 1 - 4 People",
+   "unit": "Night Transport • 1 - 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 409376,
+   "price": 235,
+   "label": "Night Transport • 1 - 4 People",
+   "unit": "Night Transport • 1 - 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 409381,
+   "price": 160,
+   "label": "Night Transport • 1 - 4 People",
+   "unit": "Night Transport • 1 - 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 409386,
+   "price": 135,
+   "label": "Night Transport • 1 - 4 People",
+   "unit": "Night Transport • 1 - 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 409387,
+   "price": 145,
+   "label": "Night Transport • 1 - 4 People",
+   "unit": "Night Transport • 1 - 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 409389,
+   "price": 80,
+   "label": "Night Transport • 1 - 4 People",
+   "unit": "Night Transport • 1 - 4 People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 435316,
+   "price": 145,
+   "label": "One to Four People",
+   "unit": "One to Four People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 435324,
+   "price": 80,
+   "label": "One to Four People",
+   "unit": "One to Four People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 640901,
+   "price": 100,
+   "label": "People",
+   "unit": "People",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 665533,
+   "price": 300,
+   "label": "Scenic Boat Private Tour",
+   "unit": "Scenic Boat Private Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 16306,
+   "price": 140,
+   "label": "Discovery Dive",
+   "unit": "for one to three people",
+   "rule": "description quoted (ruling)"
+  }
+ ],
+ "ruling_rows": [
+  {
+   "pk": 290742,
+   "price": 249.5,
+   "label": "10 participantes ​Depósito 1:00 PM - 5:00 PM",
+   "name": "Reservaciones Cumpleaños 1:00pm a 5:00pm",
+   "why": "\"10 participantes Depósito\" $249.50 is a DEPOSIT tier, not a price — publishing it as From $249.50 is itself questionable",
+   "ruling": "held low (deposit)"
+  },
+  {
+   "pk": 107727,
+   "price": 145,
+   "label": "Bio Bay Night Kayaking • Beach • Rainforest Trio",
+   "name": "Rainforest River, Bio Bay, Luquillo Beach Trio Tour",
+   "why": "\"Bio Bay Night Kayaking • Beach • Rainforest Trio\" $145 is a per-person combo tour (classified group because the label contains \"kayak\")",
+   "ruling": "per-person KEPT, no unit"
+  },
+  {
+   "pk": 581595,
+   "price": 90,
+   "label": "Climber",
+   "name": "Rock Climbing Birthday Party",
+   "why": "\"Climber\" is per person (ladder Climber $90 / $55 / Non-Climber $10); KEPT via group misclass; unit \"up to 30 guests\" from the description would mislead",
+   "ruling": "per-person KEPT, no unit"
+  },
+  {
+   "pk": 637393,
+   "price": 105,
+   "label": "Diver",
+   "name": "Two-Tanks Dives Crash boat",
+   "why": "\"Diver\" $105 is a per-person tier (classified group only because the product name contains \"boat\")",
+   "ruling": "per-person KEPT, no unit"
+  },
+  {
+   "pk": 324591,
+   "price": 103.14,
+   "label": "Child",
+   "name": "Rainforest Full Day Tour from San Juan",
+   "why": "sole live tier is \"Child\" $103.14 — an adult tier is absent; anchoring on a child fare needs a ruling",
+   "ruling": "sole-tier, no unit"
+  },
+  {
+   "pk": 16306,
+   "price": 140,
+   "label": "Discovery Dive",
+   "name": "Discovery Dive",
+   "why": "\"Discovery Dive\" $140, note \"For booking from one to three people\" — per person or per booking is not determinable from the ladder",
+   "ruling": "tagged"
+  },
+  {
+   "pk": 17489,
+   "price": 585,
+   "label": "SSI Open Water Diver",
+   "name": "SSI - Open Water Diver",
+   "why": "\"SSI Open Water Diver\" $585 is a per-person course fee (classifier gap: diver/course)",
+   "ruling": "per-person KEPT, no unit"
+  },
+  {
+   "pk": 641067,
+   "price": 65,
+   "label": "Diver",
+   "name": "Full Scuba Gear Rental",
+   "why": "\"Diver\" $65 gear rental is per person (same \"Diver\" gap)",
+   "ruling": "per-person KEPT, no unit"
+  }
+ ],
+ "rulings_2026-08-25": {
+  "per_person_kept_no_unit": [
+   581595,
+   637393,
+   641067,
+   17489,
+   107727
+  ],
+  "sole_tier_no_unit": [
+   324591
+  ],
+  "tagged_by_ruling": {
+   "16306": "for one to three people"
+  },
+  "held_low": {
+   "290742": "deposit tier is not a price"
+  }
+ }
+}
