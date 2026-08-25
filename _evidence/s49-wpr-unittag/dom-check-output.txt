@@ -1,0 +1,3 @@
+index.html (route: ONLY the 180 tagged rows, seeded draw): {"cards":50,"smalls":50,"from":50,"sample":["From $315 | SEVEN-HOUR RENTAL","From $180 | PRIVATE TOUR","From $180 | TOUR PRIVADO"],"smallCss":"block 9.92px","basis":0}
+index.html (real data, seeded draw): {"cards":50,"smalls":12,"from":50,"sample":["From $89","From $25","From $2259"],"smallCss":"block 9.92px","basis":0}
+el-yunque.html (real data): {"cards":4,"smalls":0,"from":4,"sample":["From $165","From $165","From $165"],"smallCss":null,"basis":0}
