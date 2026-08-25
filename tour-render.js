@@ -26,6 +26,25 @@ function formatPrice(price, confidence) {
     return `From $${price}`;
 }
 
+// Pricing unit for the card badge — "per group", "whole boat · up to 4 people".
+// Ported from wanderengland/app.js priceUnit() (WENG, itself verbatim from
+// wanderamsterdam/app.js, WAMS #91, via keywestsandbartours / wandernewzealand #108):
+// driven ONLY by the explicit _unknownFields.priceUnit string — no inference from
+// priceLabel words. Empty for every row that does not carry one, so those cards
+// render exactly as they did before this existed. Lives HERE rather than in app.js
+// because WPR has two renderers (app.js, activity-loader.js) sharing this file.
+// formatPrice() is left alone: it answers "what is the number", this answers
+// "what does the number buy".
+function priceUnit(tour) {
+    const u = (tour._unknownFields || {}).priceUnit;
+    return (typeof u === "string" && u.trim()) ? u.trim() : "";
+}
+
+function priceUnitHtml(tour) {
+    const unit = priceUnit(tour);
+    return unit ? `<small>${escapeHtml(unit)}</small>` : '';
+}
+
 function generateTourSchema(tour) {
     // The `tour.price > 0` term is deliberate and is a FIX made during the
     // extraction. Previously this gated only on Number.isFinite() and the

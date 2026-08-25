@@ -1001,6 +1001,22 @@
             margin-top: auto;
         }
         
+        /* Unit qualifier inside the JS-rendered price badge. Emitted only when the row
+           carries _unknownFields.priceUnit (ported from wanderengland/styles.css, itself from
+           wanderamsterdam WAMS #91 via keywestsandbartours / wandernewzealand #108).
+           WPR: .tour-price itself has NO rule in this sheet (the 4 inline rules on
+           fajardo/vieques/culebra/san-juan style static cards that never contain <small>),
+           and 0 `.tour-price small` elements exist in tracked HTML, so this cannot restyle
+           anything already shipped. */
+        .tour-price small {
+            display: block;
+            font-size: 0.62rem;
+            font-weight: 600;
+            line-height: 1.15;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+        
         .tour-company {
             font-size: 0.75rem;
             color: var(--gray-500);
