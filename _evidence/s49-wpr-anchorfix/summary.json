@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-25",
+  "base": "3ddaec27123c3955ac19db2098ce573c0c82e2b5",
+  "attempted": 64,
+  "succeeded": 64,
+  "samples": "undated + 2026-08-26..09-01, single-pk, 1 req/s",
+  "writes": {
+    "420774": {
+      "before": 1500,
+      "beforeLabel": "Essential Trip \u2022 1-4 Guests",
+      "after": 1500,
+      "label": "Essential Trip \u2022 5-6 Guests",
+      "basis": "sole-tier"
+    },
+    "421034": {
+      "before": 2200,
+      "beforeLabel": "Essential Trip \u2022 1-4 Guests",
+      "after": 2200,
+      "label": "Essential Trip \u2022 5-6 Guests",
+      "basis": "sole-tier"
+    },
+    "320063": {
+      "before": 116.59,
+      "beforeLabel": "Adult",
+      "after": 116.59,
+      "label": "Adult",
+      "basis": "D-624 adult-base-fare"
+    },
+    "380406": {
+      "before": 125,
+      "beforeLabel": "Conquistador Resort - Sunset Sail",
+      "after": 125,
+      "label": "Conquistador Resort - Sunset Sail",
+      "basis": "D-624 adult-base-fare"
+    },
+    "86204": {
+      "before": 84,
+      "beforeLabel": "Rider (1 hour)",
+      "after": 84,
+      "label": "Rider (1 hour)",
+      "basis": "D-624 adult-base-fare"
+    },
+    "383857": {
+      "before": 144.99,
+      "beforeLabel": "Guest With Round Trip Transportation",
+      "after": 54.99,
+      "label": "Guest Providing Own Transportation",
+      "basis": "D-625 same-product-variant floor"
+    },
+    "495636": {
+      "before": 80,
+      "beforeLabel": "Adult",
+      "after": 80,
+      "label": "Adult",
+      "basis": "D-624 adult-base-fare (live ladder has no $60 tier)"
+    }
+  },
+  "left": {
+    "699657": "NO-ITEM on 8/8 samples (199-byte empty), not written"
+  }
+}
