@@ -1,0 +1,26 @@
+population A=965 minus s49-anchorfix=7 -> 958
+10/244 operators, 40 req
+20/244 operators, 80 req
+30/244 operators, 120 req
+40/244 operators, 160 req
+50/244 operators, 200 req
+60/244 operators, 240 req
+70/244 operators, 280 req
+80/244 operators, 320 req
+90/244 operators, 364 req
+100/244 operators, 404 req
+110/244 operators, 444 req
+120/244 operators, 484 req
+130/244 operators, 524 req
+140/244 operators, 564 req
+150/244 operators, 604 req
+160/244 operators, 648 req
+170/244 operators, 696 req
+180/244 operators, 736 req
+190/244 operators, 776 req
+200/244 operators, 816 req
+210/244 operators, 856 req
+220/244 operators, 898 req
+230/244 operators, 938 req
+240/244 operators, 978 req
+{"requests":994,"retries":1,"reconcile":{"population":958,"pksWithFullProbeSet":958,"incomplete":[]}}
