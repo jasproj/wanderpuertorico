@@ -1,0 +1,9 @@
+population unstamped=205 (stamped 965)
+10/64 operators, 40 req
+20/64 operators, 80 req
+30/64 operators, 120 req
+40/64 operators, 160 req
+50/64 operators, 200 req
+60/64 operators, 240 req
+{"requests":256,"retries":0,"reconcile":{"population":205,"pksWithFullProbeSet":205,"incomplete":[]}}
+EXIT 0

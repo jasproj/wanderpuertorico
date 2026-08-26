@@ -1,0 +1,1 @@
+{"rows":1170,"cardsChanged":2,"changedInS51":2,"changedOutsideS51":0,"visibleHead":736,"visibleNow":736,"smallHead":239,"smallNow":239,"offerMismatch":0,"sample":[[6350,"From $1050<small>Private charter</small>|offer=1050"],[6352,"From $45<small>Two Hours Doble Kayak Rental</small>|offer=45"],[15829,"From $40<small>One day Camera Rental</small>|offer=40"]]}
