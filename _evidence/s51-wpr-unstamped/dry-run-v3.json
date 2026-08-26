@@ -1,0 +1,5141 @@
+{
+ "stampedAt": "2026-08-26T14:58:59.777Z",
+ "appliedAt": "2026-08-26T14:58:59.777Z",
+ "population": 205,
+ "rowsChanged": 205,
+ "untouchedInPop": 0,
+ "disposition": {
+  "unchanged": 113,
+  "unit-unchanged": 51,
+  "repriced": 10,
+  "zero_price": 6,
+  "unit-repriced": 6,
+  "UNSAMPLED": 13,
+  "HELD": 4,
+  "PROBE_ERROR": 2
+ },
+ "summary": [
+  {
+   "pk": 3727,
+   "name": "Culebra Island Aquafari (with Ferry Tickets)",
+   "old": 109,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 14+",
+     "price": 109,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-13",
+     "price": 109,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 109,
+   "label": "Adult"
+  },
+  {
+   "pk": 3728,
+   "name": "Bio Bay Kayak Tour",
+   "old": 70,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 14+",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-13",
+     "price": 70,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 70,
+   "label": "Adult"
+  },
+  {
+   "pk": 6350,
+   "name": "Full Day Snorkeling and Boat Experience",
+   "old": 1050,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Piñero Island",
+     "note": "Up to six guests!",
+     "price": 1050,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1050,
+   "label": "Piñero Island",
+   "unit": "Private charter",
+   "rule": "description quoted (\"Private charter\")"
+  },
+  {
+   "pk": 6894,
+   "name": "Snorkeling Lessons & Interactive Experience for kids and adults",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "By the Hand Snorkeling Lesson- Adults",
+     "note": "How many guests over 12 years are in your group?",
+     "price": 40,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "By the Hand Snorkeling Lesson - children under 12",
+     "note": "How many guests under 12 years are in your group?",
+     "price": 40,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 40,
+   "label": "By the Hand Snorkeling Lesson- Adults"
+  },
+  {
+   "pk": 168561,
+   "name": "Glowing Bio Bay Kayak Adventure",
+   "old": 75,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Minor",
+     "note": "Ages 6-17",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 65,
+   "label": "Adult"
+  },
+  {
+   "pk": 215093,
+   "name": "Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R.",
+   "old": 64,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Guests",
+     "note": "Price per person + Taxes & Fees",
+     "price": 64,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 64,
+   "label": "Guests"
+  },
+  {
+   "pk": 3729,
+   "name": "Mini Boat Snorkel Adventure",
+   "old": 190,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Mini Boat",
+     "note": "Up to 3 Passengers",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 6352,
+   "name": "Kayak Rental",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Two Hours Doble Kayak Rental",
+     "note": "Two Hours Doble Kayak Rental",
+     "price": 45,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-repriced",
+   "new": 45,
+   "label": "Two Hours Doble Kayak Rental",
+   "unit": "Two Hours Doble Kayak Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 15829,
+   "name": "GoPro Camera Rental",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One day Camera Rental",
+     "note": "",
+     "price": 40,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 40,
+   "label": "One day Camera Rental",
+   "unit": "One day Camera Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 215903,
+   "name": "Sunset + Swim the Bioluminescent Bay Tour",
+   "old": 70,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4+",
+     "price": 70,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 3 & under",
+     "price": 55,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Private Charter",
+     "note": "Enjoy a private experience! (Max 6 passengers per boat)",
+     "price": 450,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 70,
+   "label": "Person"
+  },
+  {
+   "pk": 276931,
+   "name": "Weekly Rentals",
+   "old": 30,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Seven Days Beach Bean Bag",
+     "note": "",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 60,
+   "label": "Seven Days Beach Bean Bag"
+  },
+  {
+   "pk": 11151,
+   "name": "All Inclusive Culebra Snorkeling Excursion",
+   "old": 145,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+",
+     "price": 145,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 3-12",
+     "price": 125,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Gold Snorkel Package",
+     "note": "This package has the same inclusions plus a 6 pack of cold beer per person",
+     "price": 160,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 145,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 57220,
+   "name": "Snorkeling & Kayak Eco-Experience",
+   "old": 50,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Snorkeling & Kayak Mini Eco-Experience",
+     "note": "How many participant over 12 years are in your group?",
+     "price": 50,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Snorkeling & Kayak Mini Eco-Adventure Child under 12 years",
+     "note": "How many participant under 12 years are in your group?",
+     "price": 50,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 50,
+   "label": "Snorkeling & Kayak Mini Eco-Experience"
+  },
+  {
+   "pk": 296512,
+   "name": "Half Day Snorkeling and Boat Experience",
+   "old": 650,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Half Day Piñero Island: Morning Option",
+     "note": "Up to six guests!",
+     "price": 650,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 650,
+   "label": "Half Day Piñero Island: Morning Option",
+   "unit": "Private boat",
+   "rule": "description quoted (\"Private boat\")"
+  },
+  {
+   "pk": 378841,
+   "name": "Fajardo Morning Snorkeling Tour - Check in by 7:15 AM",
+   "old": 120,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+",
+     "price": 120,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 3-12",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Gold Snorkel Package",
+     "note": "18 Years al older- This Upgraded package includes Buffet lunch, rum drinks and a 6pack of cold beer per person",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 120,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 15832,
+   "name": "Snorkeling Gear Rental",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Seven Days Snorkeling Gear Rental",
+     "note": "",
+     "price": 85,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-repriced",
+   "new": 85,
+   "label": "Seven Days Snorkeling Gear Rental",
+   "unit": "Seven Days Snorkeling Gear Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 34808,
+   "name": "Public Icacos Luxury Sailing Catamaran Beach Day",
+   "old": 155,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All Ages · All excursions require a minimum number of people for excursion to occur.",
+     "price": 155,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Charter",
+     "note": "",
+     "price": 7500,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 155,
+   "label": "Person"
+  },
+  {
+   "pk": 40377,
+   "name": "Private Icacos Double Dip Power Catamaran Snorkeling and Beach Tour",
+   "old": 3300,
+   "oldLabel": "Private Charter",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "28 People MAX (Adult & Children Combined)",
+     "price": 3300,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 3300,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 46006,
+   "name": "Nite Snorkeling and Boat Experience",
+   "old": 550,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Nite Snorkeling and Boat Experience",
+     "note": "Up to six guests!",
+     "price": 550,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 550,
+   "label": "Nite Snorkeling and Boat Experience",
+   "unit": "Nite Snorkeling and Boat Experience",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 57279,
+   "name": "All Inclusive Beach & Snorkel Tour to Icacos Island",
+   "old": 125,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "For ages 12+",
+     "price": 125,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 125,
+   "label": "Adult"
+  },
+  {
+   "pk": 118202,
+   "name": "Guided Clear Bottom Kayak Bio Bay Tour",
+   "old": 70,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Person High season credit",
+     "note": "Ages 3+",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Group high season",
+     "note": "Ages 3+ • Up to 16 people. Call for larger group inquiries.",
+     "price": 980,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 70,
+   "label": "Person High season credit"
+  },
+  {
+   "pk": 170688,
+   "name": "El Yunque Rainforest & Bio Bay Combo Tour",
+   "old": 165,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 165,
+   "label": "Person"
+  },
+  {
+   "pk": 236627,
+   "name": "Beach and Snorkel  Private Charters ( Must check in 1 hour before  departure time)",
+   "old": 3400,
+   "oldLabel": "whole boat",
+   "tiers": [
+    {
+     "singular": "Private Charter 4hrs",
+     "note": "Up to 24 people • Price includes the first 20",
+     "price": 3400,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 3400,
+   "label": "Private Charter 4hrs",
+   "unit": "Private Charter 4hrs",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 7609,
+   "name": "Paddle board Rental",
+   "old": 60,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One hour Paddle board rental",
+     "note": "",
+     "price": 25,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-repriced",
+   "new": 25,
+   "label": "One hour Paddle board rental",
+   "unit": "One hour Paddle board rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 45148,
+   "name": "Public Icacos Double Dip Power Catamaran Snorkeling and Beach Tour",
+   "old": 110,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All excursions require a minimum number of people for excursion to occur.",
+     "price": 110,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 110,
+   "label": "Person"
+  },
+  {
+   "pk": 598183,
+   "name": "Public Icacos Luxury Sailing Catamaran Twilight Beach and Sunset Sail",
+   "old": 100,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All Ages",
+     "price": 100,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 100,
+   "label": "Person"
+  },
+  {
+   "pk": 344713,
+   "name": "Adventure Trail",
+   "old": 99,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-15",
+     "price": 79,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99,
+   "label": "Adult"
+  },
+  {
+   "pk": 563467,
+   "name": "Boat & Snorkeling Experience for Two",
+   "old": 450,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Boat & Snorkeling Experience for two",
+     "note": "",
+     "price": 450,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 450,
+   "label": "Boat & Snorkeling Experience for two",
+   "unit": "Boat & Snorkeling Experience for two",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 436884,
+   "name": "Sunset Boat Experience",
+   "old": 450,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Sunset Experience by Manta VIP Boat Tour",
+     "note": "Up to six guests",
+     "price": 450,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 450,
+   "label": "Sunset Experience by Manta VIP Boat Tour",
+   "unit": "Sunset Experience by Manta VIP Boat Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 4287,
+   "name": "Icacos sailing & snorkeling tour",
+   "old": 135,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Infant",
+     "note": "Ages 2 and under are free. A paying adult ages 18+ must accompany any infant",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 135,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 to 11. A paying adult ages 18+ must accompany child.",
+     "price": 115,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 135,
+   "label": "Adult"
+  },
+  {
+   "pk": 34811,
+   "name": "Private Icacos Luxury Sailing Catamaran Beach Day",
+   "old": 7600,
+   "oldLabel": "Private Charter",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "",
+     "price": 7600,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 7600,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 46134,
+   "name": "Guided Snorkel Tour - San Juan",
+   "old": 39,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 39,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 8-17",
+     "price": 39,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 39,
+   "label": "Adult"
+  },
+  {
+   "pk": 34540,
+   "name": "Try Scuba Diving Tour - San Juan",
+   "old": 89,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 10+",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 89,
+   "label": "Adult"
+  },
+  {
+   "pk": 451146,
+   "name": "Overnight Kayak Rental",
+   "old": 100,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Overnight kayak Rental",
+     "note": "",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 100,
+   "label": "Overnight kayak Rental",
+   "unit": "Overnight kayak Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 94000,
+   "name": "Bio Bay & Rainforest Combo Tour",
+   "old": 165,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 14+",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-13",
+     "price": 165,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 165,
+   "label": "Adult"
+  },
+  {
+   "pk": 271047,
+   "name": "Culebra Blue Paradise Experience",
+   "old": 170,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 170,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6 to 11 • A paying adult ages 18+ must accompany any child. • Children under 6 years are not allowed on this tour.",
+     "price": 150,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 170,
+   "label": "Adult"
+  },
+  {
+   "pk": 381060,
+   "name": "Rainforest Zipline Experience plus Adventure Trail",
+   "old": 160,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 160,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-15",
+     "price": 140,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 160,
+   "label": "Adult"
+  },
+  {
+   "pk": 2228,
+   "name": "Fajardo Reefs Morning Dive Excursion",
+   "old": 99,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Certified Diver",
+     "note": "Ages 10+( use this option if you are a diver with a certification card)",
+     "price": 130,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Discover Scuba Diver/Open Water Referral Diver/Advanced Student",
+     "note": "(7:00am sharp check in)",
+     "price": 185,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Bubble Watcher",
+     "note": "Just along for the ride! • Ages 6+",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 232794,
+   "name": "Culebra Swim with Turtles Adventure and Flamenco Beach by Ferry",
+   "old": 125,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 125,
+   "probeErrors": []
+  },
+  {
+   "pk": 260718,
+   "name": "Sea Runner",
+   "old": 900,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private Charter | Icacos Island | Full Day",
+     "note": "",
+     "price": 900,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 900,
+   "label": "Private Charter | Icacos Island | Full Day",
+   "unit": "Private Charter | Icacos Island | Full Day",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 555512,
+   "name": "Icacos Half Day Tours",
+   "old": 100,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 100,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-12",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 100,
+   "label": "Adult"
+  },
+  {
+   "pk": 8754,
+   "name": "Bioluminescent Bay",
+   "old": 65,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Bio Bay Night Kayaking",
+     "note": "For ages 6+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 65,
+   "label": "Bio Bay Night Kayaking"
+  },
+  {
+   "pk": 211394,
+   "name": "Bioluminescent Bay with Transportation from San Juan",
+   "old": 115,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Bio Bay Night Kayaking with Transportation from San Juan area",
+     "note": "Ages 6+",
+     "price": 115,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 115,
+   "label": "Bio Bay Night Kayaking with Transportation from San Juan area"
+  },
+  {
+   "pk": 456020,
+   "name": "Build Your Own Aqua Deck Experience at Condado Lagoon",
+   "old": 160,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Hour Rental",
+     "note": "Including up to 4 people",
+     "price": 160,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Hour Rental",
+     "note": "Including up to 4 people",
+     "price": 220,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 160,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 487640,
+   "name": "SCUBA Dive & Snorkel Charter",
+   "old": 1350,
+   "oldLabel": "Half day Morning",
+   "tiers": [
+    {
+     "singular": "Half day Morning",
+     "note": "8am - 12pm",
+     "price": 1350,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Full day",
+     "note": "Max of 6 Guests • For safety reasons, pregnant women can't participate on any tours",
+     "price": 1650,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1350,
+   "label": "Half day Morning",
+   "unit": "SCUBA Dive & Snorkel Charter",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 72460,
+   "name": "Bio Bay Bioluminescent Kayaking Tour in Fajardo, PR",
+   "old": 63,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 5+",
+     "price": 63,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 63,
+   "label": "Person"
+  },
+  {
+   "pk": 9022,
+   "name": "Guided Shore Dive",
+   "old": 79,
+   "oldLabel": "Certified Diver-1 tank  GSD1",
+   "tiers": [
+    {
+     "singular": "Certified Diver-1 tank  GSD1",
+     "note": "1 person -- 1 dive   GSD1",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Certified Diver-2 tank GSD2",
+     "note": "1 person for 2 dives- GSD2",
+     "price": 109,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "2+ Divers-1 dive GSD1",
+     "note": "",
+     "price": 69,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "2+ Divers-  2 dives GSD2",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 79,
+   "label": "Certified Diver-1 tank  GSD1"
+  },
+  {
+   "pk": 343915,
+   "name": "Private Catamaran Day Charters",
+   "old": 1950,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Fajardo Charter",
+     "note": "Include Lunch,  Cheese Platter and full bar drinks • Up to 6 people",
+     "price": 1950,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1950,
+   "label": "Fajardo Charter",
+   "unit": "Fajardo Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 491476,
+   "name": "Las Picuas Hydroventure Tour",
+   "old": 120,
+   "oldLabel": "Jetski • Thirty Minutes",
+   "tiers": [
+    {
+     "singular": "Jetski • Thirty Minutes",
+     "note": "",
+     "price": 120,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Jetski • One Hour",
+     "note": "",
+     "price": 220,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 120,
+   "label": "Jetski • Thirty Minutes"
+  },
+  {
+   "pk": 519855,
+   "name": "All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito",
+   "old": 549,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Four Hours",
+     "note": "",
+     "price": 549.99,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Five Hours",
+     "note": "",
+     "price": 649.99,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Six Hours",
+     "note": "",
+     "price": 749.99,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Seven Hours",
+     "note": "",
+     "price": 849.99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-repriced",
+   "new": 549.99,
+   "label": "Four Hours",
+   "unit": "All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 14861,
+   "name": "Chair, Umbrella & Beach Toys Rentals",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Beach Chair Rental",
+     "note": "",
+     "price": 8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Umbrella Rental",
+     "note": "",
+     "price": 10,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Beach Chair & One Umbrella Rental",
+     "note": "",
+     "price": 25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Beach Bean Bag Rental",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 8,
+   "label": "Beach Chair Rental"
+  },
+  {
+   "pk": 233090,
+   "name": "Fajardo Afternoon  snorkeling boat tour check  in by 1:00pm",
+   "old": 99,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 3-12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "from 0 to 2 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Gold Snorkel Package",
+     "note": "18 Years al older- This Upgraded package includes Sandwiches, rum drinks and a 6pack of cold beer per person",
+     "price": 114,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 240862,
+   "name": "Private Try Scuba Diving Tour-San Juan",
+   "old": 199,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 199,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 199,
+   "label": "Adult"
+  },
+  {
+   "pk": 265269,
+   "name": "Private: Boat Day and Bioluminescent Bay Charter",
+   "old": 750,
+   "oldLabel": "whole boat",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "All Ages • Up to 6 People",
+     "price": 750,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Twin Vee Boat Upgrade",
+     "note": "Secure an upgraded boat! Without this upgrade, a deck boat will be assigned randomly. (No last-minute choices are possible)",
+     "price": 850,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Starcraft Boat Upgrade",
+     "note": "Secure an upgraded boat! Without this upgrade, a deck boat will be assigned randomly. (No last-minute choices are possible)",
+     "price": 850,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 750,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 491474,
+   "name": "Freestyle Run",
+   "old": 80,
+   "oldLabel": "Jetski • Thirty Minutes",
+   "tiers": [
+    {
+     "singular": "Jetski • Thirty Minutes",
+     "note": "",
+     "price": 80,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Jetski • One Hour",
+     "note": "",
+     "price": 160,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 80,
+   "label": "Jetski • Thirty Minutes"
+  },
+  {
+   "pk": 512325,
+   "name": "VIP Snorkeling",
+   "old": 525,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private Charter (Up to 6 people)",
+     "note": "Up to 6 people • Ages 6+",
+     "price": 525,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 525,
+   "label": "Private Charter (Up to 6 people)",
+   "unit": "Private Charter (Up to 6 people)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 36900,
+   "name": "Snorkeling Guided Tour Experience",
+   "old": 50,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Guided Tour",
+     "note": "",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 50,
+   "label": "Guided Tour"
+  },
+  {
+   "pk": 215908,
+   "name": "Private: Snorkeling Boat Day Charter",
+   "old": 350,
+   "oldLabel": "whole boat",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "4 Hours • Up to 6 People",
+     "price": 350,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Twin Vee Boat Upgrade",
+     "note": "Secure an upgraded boat! Without this upgrade, a deck boat will be assigned randomly. (No last-minute choices are possible)",
+     "price": 450,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Starcraft Boat Upgrade",
+     "note": "Secure an upgraded boat! Without this upgrade, a deck boat will be assigned randomly. (No last-minute choices are possible)",
+     "price": 450,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 350,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 384443,
+   "name": "Private: Evening Swim and Bioluminescent Bay Charter",
+   "old": 550,
+   "oldLabel": "whole boat",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "All Ages • Up to 6 People",
+     "price": 550,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Twin Vee Boat Upgrade",
+     "note": "Secure an upgraded boat! Without this upgrade, a deck boat will be assigned randomly. (No last-minute choices are possible)",
+     "price": 650,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Starcraft Boat Upgrade",
+     "note": "Secure an upgraded boat! Without this upgrade, a deck boat will be assigned randomly. (No last-minute choices are possible)",
+     "price": 650,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 550,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 11823,
+   "name": "Snorkel & Beach Culebra Full Day Tour",
+   "old": 150,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult - Snorkeler",
+     "note": "Ages 13+ • For safety reasons, pregnant women can't participate on any of our excursions.",
+     "price": 150,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Snorkeler",
+     "note": "Ages 6-12 • Children under the age of 6 can not participate.",
+     "price": 120,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 150,
+   "label": "Adult - Snorkeler"
+  },
+  {
+   "pk": 468043,
+   "name": "Clear Kayak Tour - Condado Lagoon",
+   "old": 50,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person - Kayak",
+     "note": "Per person",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 55,
+   "label": "Person - Kayak"
+  },
+  {
+   "pk": 516315,
+   "name": "Ocean Ray Private Power Catamaran",
+   "old": 2098.77,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Culebra option",
+     "note": "Price for up to 15 people",
+     "price": 2510.29,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Icacos",
+     "note": "Price for up to 15 people",
+     "price": 2098.77,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Vieques option",
+     "note": "Price for up to 15 people",
+     "price": 2510.29,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 2098.77,
+   "label": "Private Icacos",
+   "unit": "Private Icacos",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 9020,
+   "name": "Guided Snorkeling Tour",
+   "old": 69,
+   "oldLabel": "1 Snorkeler",
+   "tiers": [
+    {
+     "singular": "1 Snorkeler",
+     "note": "Reservation for 1 person",
+     "price": 69,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 2 or more Snorkelers (same reservation)",
+     "note": "",
+     "price": 59,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "2+ Snorkeler (1Guardian with children)",
+     "note": "Children must be accompanied by Guardian",
+     "price": 59,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 5-11",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 69,
+   "label": "1 Snorkeler"
+  },
+  {
+   "pk": 11825,
+   "name": "Private Snorkel and Cruise Experience in Ceiba",
+   "old": 900,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Full day",
+     "note": "Max of 6 Guests • For safety reasons, pregnant women can't participate on any tours",
+     "price": 1300,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-repriced",
+   "new": 1300,
+   "label": "Full day",
+   "unit": "Max of 6 Guests",
+   "rule": "description quoted (\"Max of 6 Guests\")"
+  },
+  {
+   "pk": 39989,
+   "name": "Snorkel & Beach Vieques Island Tour",
+   "old": 120,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult - Snorkeler",
+     "note": "Ages 13+ • For safety reasons, pregnant women can't participate on any of our excursions.",
+     "price": 120,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Snorkeler",
+     "note": "Ages 6-12 • Children under the age of 6 can not participate.",
+     "price": 90,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 120,
+   "label": "Adult - Snorkeler"
+  },
+  {
+   "pk": 92476,
+   "name": "Mermaid Snorkel Tour and Photo Shoot - San Juan",
+   "old": 89,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 89,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 10+",
+     "price": 89,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 89,
+   "label": "Adult"
+  },
+  {
+   "pk": 334369,
+   "name": "Mystic Waters Under the Sun & Stars: Private Roadtrip to La Parguera and Snorkeling, Sunset & Bioluminicent Swim Boat Tour",
+   "old": 1299,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "All ages • From 2 up to 14 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 378127,
+   "name": "Snorkeling Puerto Rico Private Boat Charters",
+   "old": 4200,
+   "oldLabel": "whole boat",
+   "tiers": [
+    {
+     "singular": "Snorkel Private Boat Charter (Up to 45 guests!)",
+     "note": "",
+     "price": 4200,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Snorkel & Slide Private Boat Charter (Up to 73 guests!)",
+     "note": "",
+     "price": 8700,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 4200,
+   "label": "Snorkel Private Boat Charter (Up to 45 guests!)",
+   "unit": "Snorkel Private Boat Charter (Up to 45 guests!)",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 2977,
+   "name": "Surf Lessons",
+   "old": 70,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 8+",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "3 Lesson Package Special PER PERSON",
+     "note": "Group Lessons • Non-transferrable",
+     "price": 160,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "5 Lesson Package Special PER PERSON",
+     "note": "Group Lessons • Non-transferrable",
+     "price": 250,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 70,
+   "label": "Person"
+  },
+  {
+   "pk": 5924,
+   "name": "Bioluminescent Bay Kayak Adventure",
+   "old": 68,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 68,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages from 6 to 12",
+     "price": 68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group (Use only for 10+ Participants)",
+     "note": "Group Rate -Select Only for groups of 10+ participants",
+     "price": 63,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 68,
+   "label": "Adult"
+  },
+  {
+   "pk": 19388,
+   "name": "Culebra Excursion",
+   "old": 151,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+ (All equipment included)",
+     "price": 151,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 3-12 (All equipment included)",
+     "price": 123,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Certified Diver (shallow dive)",
+     "note": "Optional rental equipment provided",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Discover Scuba Diver",
+     "note": "Ages 10+",
+     "price": 202,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 151,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 64400,
+   "name": "Zatara Sailing Catamaran",
+   "old": 1934.16,
+   "oldLabel": "Wave",
+   "tiers": [
+    {
+     "singular": "Sting Ray package",
+     "note": "up to 12 passengers with upgraded BBQ lunch & Full Bar",
+     "price": 2427.99,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Mermaid package",
+     "note": "up to 12 passengers with a chicken & steak skewers and bar",
+     "price": 2263.37,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Star Fish package",
+     "note": "up to 12 passengers with Deli style lunch & Rum bar",
+     "price": 2098.77,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Wave package",
+     "note": "up to 12 passengers  - Bring your own lunch and beverages",
+     "price": 1934.16,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1934.16,
+   "label": "Wave package",
+   "unit": "Wave package",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 423947,
+   "name": "Snorkel & Slide Boat Tours",
+   "old": 105,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "‍Ages 6 - 12",
+     "price": 105,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Tour + Transportation",
+     "note": "Roundtrip from San Juan to Fajardo Area",
+     "price": 145,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 105,
+   "label": "Adult"
+  },
+  {
+   "pk": 673110,
+   "name": "Paddle Board Adventure at Mangrove Piñones",
+   "old": 75,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 75,
+   "label": "Adult"
+  },
+  {
+   "pk": 233206,
+   "name": "Culebra Reef Dive Excursion(check in starting at 7:30am)",
+   "old": 145,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Certified Diver",
+     "note": "Ages 10+",
+     "price": 155,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Discover Scuba Diver/Open Water Referral Diver/Advanced Student",
+     "note": "Includes Gear Rental & Instruction • Ages 10+ •",
+     "price": 200,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+",
+     "price": 145,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 6-12",
+     "price": 125,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Bubble Watcher",
+     "note": "Just along for the ride! • Ages 6+",
+     "price": 145,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 145,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 461485,
+   "name": "Aqua Brunch Experience",
+   "old": 229,
+   "oldLabel": "Two Persons",
+   "tiers": [
+    {
+     "singular": "Two Persons",
+     "note": "Ages 3+",
+     "price": 229,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Persons",
+     "note": "",
+     "price": 320,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Persons",
+     "note": "",
+     "price": 400,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 229,
+   "label": "Two Persons",
+   "unit": "Two Persons",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 519875,
+   "name": "Exclusive Floating Dinner at Condado Lagoon",
+   "old": 269,
+   "oldLabel": "Two Persons",
+   "tiers": [
+    {
+     "singular": "Two Persons",
+     "note": "Adults Only",
+     "price": 269,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 269,
+   "label": "Two Persons",
+   "unit": "Two Persons",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 6851,
+   "name": "Icacos Half Day Snorkeling Tour",
+   "old": 110,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 110,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4 to 11 • A paying adult ages 18+ must accompany any child.",
+     "price": 90,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 110,
+   "label": "Adult"
+  },
+  {
+   "pk": 586640,
+   "name": "Clear-Bottom Kayaking Bio Bay Tours",
+   "old": 65,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13 +",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12",
+     "price": 60,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 65,
+   "label": "Adult"
+  },
+  {
+   "pk": 640481,
+   "name": "Underwater Magic: Aguadilla Snorkel Adventure",
+   "old": 75,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Snorkeler",
+     "note": "",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 75,
+   "label": "Snorkeler"
+  },
+  {
+   "pk": 567810,
+   "name": "Full Day Culebra and Culebrita Island Adventure on Mako 29ft Boat – All-Inclusive",
+   "old": 1750,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Group Culebrita",
+     "note": "Price is per 7 hrs • Up to 6 passengers",
+     "price": 1950,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group Punta Arena Vieques",
+     "note": "Price is per 7 hrs • Up to 6 passengers",
+     "price": 1850,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Group Cayo Luis Peña",
+     "note": "Price is per 7 hrs • Up to 6 passengers",
+     "price": 1750,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1750,
+   "label": "Private Group Cayo Luis Peña",
+   "unit": "Private Group Cayo Luis Peña",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 9024,
+   "name": "Discover Scuba Diving Adventure-Unleash your Inner Explorer",
+   "old": 149,
+   "oldLabel": "Discover Dive",
+   "tiers": [
+    {
+     "singular": "Discover Dive",
+     "note": "Reservation for 1 person",
+     "price": 149,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "2+ Discover  Divers",
+     "note": "Reservation for 2 or more divers. BRING YOUR FRIENDS & save $10 Per person",
+     "price": 139,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 149,
+   "label": "Discover Dive"
+  },
+  {
+   "pk": 93734,
+   "name": "Private Discover Scuba Diver Adventure",
+   "old": 160,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Scuba Diver",
+     "note": "",
+     "price": 160,
+     "min": 4,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 160,
+   "label": "Scuba Diver"
+  },
+  {
+   "pk": 388922,
+   "name": "Discover Mermaid Experience",
+   "old": 75,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Child",
+     "note": "Ages 6 - 10",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8 - 10",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 75,
+   "label": "Adult"
+  },
+  {
+   "pk": 673119,
+   "name": "Guided Surfing Adventure",
+   "old": 99,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99,
+   "label": "Adult"
+  },
+  {
+   "pk": 51392,
+   "name": "PRIVATE SNORKEL TOUR and Guide",
+   "old": 89,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Snorkel Tour",
+     "note": "",
+     "price": 89,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 89,
+   "label": "Private Snorkel Tour",
+   "unit": "Private Snorkel Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 51779,
+   "name": "Private Guided Shore Dive",
+   "old": 125,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private GSD2",
+     "note": "use when private tour for 2 tank",
+     "price": 125,
+     "min": 4,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 125,
+   "label": "Private GSD2",
+   "unit": "Private GSD2",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 9566,
+   "name": "Open Water Scuba Diver",
+   "old": 275,
+   "oldLabel": "Scuba Diver UPGRADE",
+   "tiers": [
+    {
+     "singular": "Open Water Student",
+     "note": "5 confined water sessions and 4 open water dives",
+     "price": 600,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2+ Open Water Student",
+     "note": "Bring a Friend and Save: 2 or more students--5 confined water sessions and 4 open water dives",
+     "price": 550,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Scuba Diver",
+     "note": "3 confined water sessions and 2 open water dives",
+     "price": 450,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "2+ Scuba Diver",
+     "note": "-Bring a Friend and Save: 2 or more students--3 confined water sessions and 2 open water dives",
+     "price": 375,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Scuba Diver UPGRADE",
+     "note": "Confined Water4&5 and Open Water 3&4",
+     "price": 275,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2+ Scuba Diver UPGRADE",
+     "note": "-Bring a Friend and Save: 2 or more students-Confined Water 4&5 and Open Water 3&4",
+     "price": 240,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 450,
+   "label": "Scuba Diver"
+  },
+  {
+   "pk": 334320,
+   "name": "Ocean's Edge to Jungle's Heart: Private 5-Hour Adventure with Beach Bliss, Rock Formation Hike, and Rainforest Waterfalls",
+   "old": 899,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "All ages • From 2 up to 12 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 334203,
+   "name": "Private VIP Boat Tour of La Parguera: Snorkeling, Sunset and Bioluminiscent Bay swimming experience",
+   "old": 1299,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "All ages • From 2 up to 12 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 641341,
+   "name": "Surfari",
+   "old": 250.88,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 9 and older",
+     "price": 250.88,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 250.88,
+   "label": "Adult"
+  },
+  {
+   "pk": 304244,
+   "name": "Clear SUP - Morning Tour",
+   "old": 49,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 49,
+   "probeErrors": []
+  },
+  {
+   "pk": 349262,
+   "name": "Luquillo Beach 1 Hour Navigated Jet Ski Excursion",
+   "old": 117,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Jet Ski • Driver",
+     "note": "1 person • Ages 21+",
+     "price": 117,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 117,
+   "label": "Jet Ski • Driver"
+  },
+  {
+   "pk": 675098,
+   "name": "Harvest + Cook",
+   "old": 250,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult in San Juan",
+     "note": "For ages 5 and up",
+     "price": 250,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "",
+     "price": 165,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 250,
+   "label": "Adult in San Juan"
+  },
+  {
+   "pk": 678954,
+   "name": "NIGHT DIVE",
+   "old": 250,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "PAYMENT",
+     "note": "INCLUDES EQUIPMENT - You need to be a certified diver for this experience",
+     "price": 250,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 250,
+   "label": "PAYMENT"
+  },
+  {
+   "pk": 689339,
+   "name": "CULEBRA ISLAND-  ALL INCLUSIVE SNORKELING",
+   "old": 148,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "PAYMENT",
+     "note": "5 years old & up",
+     "price": 148,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 148,
+   "label": "PAYMENT"
+  },
+  {
+   "pk": 37549,
+   "name": "Morning Snorkeling Adventure",
+   "old": 112.11,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+ (All equipment included)",
+     "price": 112.11,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 3-12 (All equipment included)",
+     "price": 98.66,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 112.11,
+   "label": "Adult Snorkeler"
+  },
+  {
+   "pk": 48968,
+   "name": "Biobay Kayak, Swim, and Boat Tour",
+   "old": 78,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4 and up",
+     "price": 78,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "1-3 Years Old",
+     "price": 33,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 78,
+   "label": "Person"
+  },
+  {
+   "pk": 233231,
+   "name": "PADI Open Water Certification E-Learning Course",
+   "old": 625,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Student",
+     "note": "Ages 10+ ( Is required to fill out the name, dob and email of person in other for us to send e-learning code)",
+     "price": 625,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 625,
+   "label": "Student"
+  },
+  {
+   "pk": 233268,
+   "name": "PADI Specialty Course",
+   "old": 325,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Student",
+     "note": "All dives at Fajardo • Ages 10+",
+     "price": 325,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 325,
+   "label": "Student"
+  },
+  {
+   "pk": 443704,
+   "name": "Snorkeling Gear Rental",
+   "old": 35,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Snorkeling (solo equipo)",
+     "note": "Takes place at Condado Beach",
+     "price": 35,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 35,
+   "label": "Snorkeling (solo equipo)",
+   "unit": "Snorkeling Gear Rental",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 456048,
+   "name": "Double Kayak Rental",
+   "old": 45,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Hour Rental",
+     "note": "Including up to 2 people",
+     "price": 45,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Hour Rental",
+     "note": "Including up to 2 people",
+     "price": 70,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 45,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 567601,
+   "name": "Flyboard for 1 Person",
+   "old": 60,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 60,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 597127,
+   "name": "Adaptive Snorkeling Tour",
+   "old": 356,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Snorkel Tour",
+     "note": "Price includes 4 people",
+     "price": 356,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 356,
+   "label": "Private Snorkel Tour",
+   "unit": "Private Snorkel Tour",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 690899,
+   "name": "DIVING EXPERIENCE IN FAJARDO LOCAL REEFS",
+   "old": 135,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "PAYMENT",
+     "note": "Any person not diving but going on board- Includes: Snorkeling equipment, snacks and soft drinks",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Certified Diver",
+     "note": "10 years old & up",
+     "price": 135,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "DISCOVER DIVER (First time or not certified as a Diver)",
+     "note": "10 Years old minimum age required",
+     "price": 175,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 135,
+   "label": "Certified Diver"
+  },
+  {
+   "pk": 11463,
+   "name": "Dive San Juan - Caribe Hilton Shore/Beach Dive",
+   "old": 88.79,
+   "oldLabel": "One Tank Diver",
+   "tiers": [
+    {
+     "singular": "One Tank Diver",
+     "note": "All gear included",
+     "price": 88.79,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 88.79,
+   "label": "One Tank Diver"
+  },
+  {
+   "pk": 11467,
+   "name": "Sea Trek",
+   "old": 103,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 and up",
+     "price": 103,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 103,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 103,
+   "label": "Adult"
+  },
+  {
+   "pk": 11468,
+   "name": "San Juan Snorkeling",
+   "old": 68.79,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 and up",
+     "price": 68.79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 68.79,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 68.79,
+   "label": "Adult"
+  },
+  {
+   "pk": 12573,
+   "name": "Discover Scuba Diving at San Juan/Caribe",
+   "old": 159.8,
+   "oldLabel": "Diver",
+   "tiers": [
+    {
+     "singular": "Diver",
+     "note": "Ages 10 and up",
+     "price": 159.8,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 159.8,
+   "label": "Diver"
+  },
+  {
+   "pk": 37388,
+   "name": "SNORKEL, BEACH & DIVE RENTAL",
+   "old": 25,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Snorkeler's Combo Package (Most Popular)",
+     "note": "Includes Mask, Snorkel, Closed Heel Fins",
+     "price": 25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Mask & Snorkel",
+     "note": "Mask & Snorkel Combo",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Mask only",
+     "note": "Mask only",
+     "price": 13,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Prescription Mask Add On",
+     "note": "lens -1.5 - -6.0",
+     "price": 6,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Snorkel Only",
+     "note": "Snorkel Only",
+     "price": 6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Fins Only",
+     "note": "closed heel or open heel (booties not included)",
+     "price": 12.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Flotation Vest Only (Recommended)",
+     "note": "Life vest or inflatable snorkel vest",
+     "price": 6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Diver's Package (BCD Regulator with Analog Gauges & Octo)",
+     "note": "",
+     "price": 28,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Bike Rental-Hourly",
+     "note": "PER HOUR: Min. 2 hours @ $3/hr",
+     "price": 3.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "BCD-Buoyancy Compensator",
+     "note": "Integrated weight pockets included",
+     "price": 19,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Regulator Only",
+     "note": "Reg, Octo & Analog Console included",
+     "price": 17,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Tank Rental",
+     "note": "80 cu.ft Aluminum",
+     "price": 12,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Air Tank Refill",
+     "note": "",
+     "price": 10,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Nitrox Tank Fill",
+     "note": "up to 36% EANx (Nitrox certification Required)",
+     "price": 20,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Weight per Lb.",
+     "note": "",
+     "price": 0.9,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dive Computer",
+     "note": "Added to Regulator Console",
+     "price": 17,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dive Flag (Recommended for safety in the water)",
+     "note": "Required by law",
+     "price": 6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Compass",
+     "note": "",
+     "price": 4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dive Knife",
+     "note": "",
+     "price": 2.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Catch Bag",
+     "note": "",
+     "price": 2.25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Dive Light",
+     "note": "",
+     "price": 10.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Camera",
+     "note": "GoPro style digital Camera (memory card extra)",
+     "price": 23,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Booties",
+     "note": "",
+     "price": 7,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Glove Pair",
+     "note": "",
+     "price": 5.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Weight Belt",
+     "note": "",
+     "price": 2.25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Bike Overnight Rental - Deposit Required",
+     "note": "",
+     "price": 28,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Cooler Rental",
+     "note": "",
+     "price": 6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Umbrella Rental",
+     "note": "INCLUDES SAND ANCHOR",
+     "price": 16.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Chair Rental",
+     "note": "",
+     "price": 11.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Wet Suit",
+     "note": "3mm Shorty",
+     "price": 11.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "NITROX Tank Rental",
+     "note": "32% EANx",
+     "price": 22.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 2.25,
+   "label": "Catch Bag"
+  },
+  {
+   "pk": 91370,
+   "name": "Inshore Fishing Charter",
+   "old": 1400,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Full day",
+     "note": "Max of 6 Guests • For safety reasons, pregnant women can't participate on any tours",
+     "price": 1395,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-repriced",
+   "new": 1395,
+   "label": "Full day",
+   "unit": "Max of 6 Guests",
+   "rule": "description quoted (\"Max of 6 Guests\")"
+  },
+  {
+   "pk": 106116,
+   "name": "Beginner Scuba Diving Tour",
+   "old": 125,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 125,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 10-17",
+     "price": 125,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 125,
+   "label": "Adult"
+  },
+  {
+   "pk": 106342,
+   "name": "Coral Reef Snorkel Adventure",
+   "old": 59,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-17",
+     "price": 59,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 59,
+   "label": "Adult"
+  },
+  {
+   "pk": 233264,
+   "name": "PADI Advanced Open Water Diver Course",
+   "old": 525,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Student",
+     "note": "Ages 12+( Is required to fill out the name, dob and email of person in other for us to send e-learning code)",
+     "price": 525,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 525,
+   "label": "Student"
+  },
+  {
+   "pk": 233266,
+   "name": "PADI Rescue Diver Course",
+   "old": 530,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Student",
+     "note": "Ages 12+( Is required to fill out the name, dob and email of person in other for us to send e-learning code)",
+     "price": 530,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 530,
+   "label": "Student"
+  },
+  {
+   "pk": 456027,
+   "name": "XL Board",
+   "old": 169,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Hour Rental",
+     "note": "Including up to 2 people",
+     "price": 169,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 169,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 645812,
+   "name": "Beginner Breaks",
+   "old": 641.13,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 9 and older",
+     "price": 641.13,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 641.13,
+   "label": "Adult"
+  },
+  {
+   "pk": 689787,
+   "name": "47FT CATAMARAN PRIVATE CHARTER",
+   "old": 2259,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Catamaran Experience",
+     "note": "Up to 6 people or upgrade below",
+     "price": 2259,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 2259,
+   "label": "Catamaran Experience",
+   "unit": "Up to 6 people",
+   "rule": "description quoted (\"Up to 6 people\")"
+  },
+  {
+   "pk": 10555,
+   "name": "El Yunque & BioBay Combo Tour",
+   "old": 165,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult El Yunque Rainforest and BioBay Combo Tour",
+     "note": "Ages 13 and up",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult El Yunque Rainforest and BioBay Combo Tour",
+     "note": "Ages 13 and up",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child El Yunque Rainforest and BioBay Combo Tour",
+     "note": "Ages 7-12",
+     "price": 155,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 165,
+   "label": "Adult El Yunque Rainforest and BioBay Combo Tour"
+  },
+  {
+   "pk": 3730,
+   "name": "Aquafari Seven Seas",
+   "old": 85,
+   "oldLabel": "per person",
+   "disposition": "UNSAMPLED",
+   "new": 85,
+   "probeErrors": []
+  },
+  {
+   "pk": 334168,
+   "name": "Discover Puerto Rico 3 Day Package Private 3 Day Journey to Puerto Rico's top 10 Bucket List",
+   "old": 3899.99,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "All ages • From 2 up to 6 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Group of 2",
+     "note": "API",
+     "price": 3899.99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 3899.99,
+   "label": "Private Group of 2",
+   "unit": "Private Group of 2",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 641349,
+   "name": "River & Rhythm - Half Loop",
+   "old": 122.65,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 9 and older",
+     "price": 122.65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8 and younger",
+     "price": 105.93,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 122.65,
+   "label": "Adult"
+  },
+  {
+   "pk": 641615,
+   "name": "River & Rhythm - Full Loop",
+   "old": 183,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 183,
+   "probeErrors": []
+  },
+  {
+   "pk": 641617,
+   "name": "Foil Voyage  - River",
+   "old": 390.25,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 9 and older",
+     "price": 390.25,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 390.25,
+   "label": "Adult"
+  },
+  {
+   "pk": 688261,
+   "name": "BIO BAY KAYAK TOUR",
+   "old": 63,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "PAYMENT",
+     "note": "Ages 6+",
+     "price": 63,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 63,
+   "label": "PAYMENT"
+  },
+  {
+   "pk": 10548,
+   "name": "Fajardo Bioluminescent Bay Kayak Adventure Tour",
+   "old": 99,
+   "oldLabel": "BioBay Kayak Tour",
+   "tiers": [
+    {
+     "singular": "BioBay Kayak Tour",
+     "note": "Price includes pick up in San Juan locations",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99,
+   "label": "BioBay Kayak Tour"
+  },
+  {
+   "pk": 243799,
+   "name": "Cayo Caracoles Kayak Tour",
+   "old": 39.99,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 6+",
+     "price": 39.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Snorkeling Gear Rent",
+     "note": "",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dry Bag Rent",
+     "note": "NRS Tuff Sacks",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 39.99,
+   "label": "People"
+  },
+  {
+   "pk": 277423,
+   "name": "Private Luxury Powerboat",
+   "old": 1176.98,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Culebra",
+     "note": "Children under 4 years of age can't participate",
+     "price": 1810.85,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Charter to Local Islands",
+     "note": "",
+     "price": 1176.98,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Vieques",
+     "note": "Up to 6 passengers",
+     "price": 1810.85,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1176.98,
+   "label": "Charter to Local Islands",
+   "unit": "Charter to Local Islands",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 333650,
+   "name": "Local Snorkel Shore Tour",
+   "old": 55,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Snorkeler",
+     "note": "(Includes Gear)",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 55,
+   "label": "Snorkeler"
+  },
+  {
+   "pk": 365552,
+   "name": "Full Day Rainforest Mega Tour:El Yunque hike/water slide/beach/Piñones/Loiza",
+   "old": 138,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All Ages",
+     "price": 138,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 138,
+   "label": "Person"
+  },
+  {
+   "pk": 569623,
+   "name": "THE CAVE ADVENTURE",
+   "old": 85,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Participant",
+     "note": "",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Participants w/Pick-up Service",
+     "note": "Pickup location will be included with confirmation notes on the next page",
+     "price": 110,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 85,
+   "label": "Participant"
+  },
+  {
+   "pk": 191576,
+   "name": "Be your own Captain! Mini Boat Tours",
+   "old": 300,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 300,
+   "probeErrors": []
+  },
+  {
+   "pk": 575709,
+   "name": "Los Pozos Jetski Tour",
+   "old": 80,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Half Hour Rental",
+     "note": "",
+     "price": 80,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 80,
+   "label": "Half Hour Rental",
+   "unit": "Half Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 575723,
+   "name": "Punta Aguila Jetski Tour",
+   "old": 80,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Half Hour Rental",
+     "note": "",
+     "price": 80,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 80,
+   "label": "Half Hour Rental",
+   "unit": "Half Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 575724,
+   "name": "Bahia Boquerón Jetski Tour",
+   "old": 160,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Hour Rental",
+     "note": "",
+     "price": 160,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 160,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 575725,
+   "name": "El Faro Los Morillos Jetski Tour",
+   "old": 160,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Hour Rental",
+     "note": "",
+     "price": 160,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 160,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 564302,
+   "name": "Icacos Half day Snorkeling tour",
+   "old": 25,
+   "oldLabel": "per person",
+   "disposition": "UNSAMPLED",
+   "new": 25,
+   "probeErrors": []
+  },
+  {
+   "pk": 567604,
+   "name": "Flyboard for 2 People",
+   "old": 120,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 120,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 120,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 567607,
+   "name": "Flyboard for 3 People",
+   "old": 180,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 180,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 180,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 567610,
+   "name": "Flyboard for 4 People",
+   "old": 240,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 240,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 240,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 567612,
+   "name": "Flyboard for 5 People",
+   "old": 300,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 300,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 300,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 567615,
+   "name": "Flyboard for 6 People",
+   "old": 360,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 360,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 360,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 567616,
+   "name": "Flyboard for 7 People",
+   "old": 420,
+   "oldLabel": "Flyboard Session",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 420,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 420,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 567617,
+   "name": "Flyboard for 8 People",
+   "old": 480,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Flyboard Session",
+     "note": "",
+     "price": 480,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 480,
+   "label": "Flyboard Session"
+  },
+  {
+   "pk": 594714,
+   "name": "Private Sea Turtle Snorkel (Doesn't Include Transportation)",
+   "old": 380,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "60-Minute Private Snorkel",
+     "note": "Price starting at $380 for 2 ppl, includes 1 hour of water time and 2 hours total.",
+     "price": 380,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "90-Minute Private Snorkel",
+     "note": "Price starts at $480 for 2 ppl, includes 1.5 hours of water time and 2.5 hours total",
+     "price": 480,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 380,
+   "label": "60-Minute Private Snorkel",
+   "unit": "60-Minute Private Snorkel",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 73065,
+   "name": "Night SUP",
+   "old": 59,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 59,
+   "probeErrors": []
+  },
+  {
+   "pk": 73063,
+   "name": "Night Kayak - City Lights Tour",
+   "old": 69,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "$59 per person (not per kayak)  Minimum age = 3 years",
+     "price": 69,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 69,
+   "label": "Person"
+  },
+  {
+   "pk": 433326,
+   "name": "Icacos Snorkeling & Beach tour",
+   "old": 126,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 126,
+   "probeErrors": []
+  },
+  {
+   "pk": 144322,
+   "name": "Icacos Snorkeling & beach by Power Catamaran",
+   "old": 135,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 135,
+   "probeErrors": []
+  },
+  {
+   "pk": 278513,
+   "name": "Glass Bottom Kayak Eco-Tour",
+   "old": 59,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 59,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 59,
+   "label": "Person"
+  },
+  {
+   "pk": 630890,
+   "name": "1 Hour Jet Ski Tour",
+   "old": 120,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Jet Ski",
+     "note": "Jetski and Driver",
+     "price": 120,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 120,
+   "label": "Jet Ski"
+  },
+  {
+   "pk": 14828,
+   "name": "Luxury Sailing Charter (up to 6 passengers)",
+   "old": 1440,
+   "oldLabel": "Dolphin Package",
+   "tiers": [
+    {
+     "singular": "Dolphin Package",
+     "note": "Up to 6 people • 6 hr day sail with capt and crew • Bring your own lunch and beverages",
+     "price": 1440,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Jellyfish Package",
+     "note": "Up to 6 people • 6 hr day sail • Includes Chicken salad or veggie wraps, rum, beers and soft drinks",
+     "price": 1800,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Black Pearl Package",
+     "note": "Up to 6 people • 6 hr day sail • BBQ lunch with full bar",
+     "price": 2160,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1440,
+   "label": "Dolphin Package",
+   "unit": "Dolphin Package",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 39095,
+   "name": "Debí Tirar Más Fotos a Boricua Bunny Experience",
+   "old": 25,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 6 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 9136,
+   "name": "Private Group Lessons",
+   "old": 120,
+   "oldLabel": "One Lesson",
+   "tiers": [
+    {
+     "singular": "One Lesson",
+     "note": "",
+     "price": 120,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Lessons",
+     "note": "Receive a code to redeem for other lesson",
+     "price": 240,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Lessons",
+     "note": "Receive a code to redeem for other lessons",
+     "price": 360,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Lessons",
+     "note": "Receive a code to redeem for other lessons",
+     "price": 480,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Five Lessons",
+     "note": "",
+     "price": 600,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 120,
+   "label": "One Lesson",
+   "unit": "Private Group",
+   "rule": "description quoted (\"Private Group\")"
+  },
+  {
+   "pk": 9137,
+   "name": "Private One-on-One Lessons",
+   "old": 120,
+   "oldLabel": "One Lesson",
+   "tiers": [
+    {
+     "singular": "One Lesson",
+     "note": "",
+     "price": 120,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Lessons",
+     "note": "Receive a code to redeem for other lesson",
+     "price": 240,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Lessons",
+     "note": "Receive a code to redeem for other lessons",
+     "price": 360,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Lessons",
+     "note": "Receive a code to redeem for other lessons",
+     "price": 480,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Five Lessons",
+     "note": "",
+     "price": 500,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 120,
+   "label": "One Lesson",
+   "unit": "Private One-on-One Lessons",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 9384,
+   "name": "Guided Night Diving",
+   "old": 149,
+   "oldLabel": "Night Divers",
+   "tiers": [
+    {
+     "singular": "Night Divers",
+     "note": "",
+     "price": 149,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "2+ Night Divers",
+     "note": "",
+     "price": 139,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 149,
+   "label": "Night Divers"
+  },
+  {
+   "pk": 39083,
+   "name": "Sacred Rainforest and Archaeological Experience",
+   "old": 133,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 6 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 105587,
+   "name": "Full Moon Kayak Adventure",
+   "old": 68,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 68,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages from 6 to 12 years old",
+     "price": 68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group (Use only for 10+ Participants)",
+     "note": "Group Rate -Select Only for groups of 10+ participants",
+     "price": 63,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 68,
+   "label": "Adult"
+  },
+  {
+   "pk": 126557,
+   "name": "Rentals",
+   "old": 25,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 25,
+   "probeErrors": []
+  },
+  {
+   "pk": 493405,
+   "name": "Wheelchair-Accessible Bioluminescent Bay Tour",
+   "old": 115,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Bio Bay Night Kayaking",
+     "note": "For ages 6+",
+     "price": 115,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 115,
+   "label": "Bio Bay Night Kayaking"
+  },
+  {
+   "pk": 9142,
+   "name": "Bio Bay Tour",
+   "old": 100,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Additional Rider",
+     "note": "",
+     "price": 100,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 100,
+   "label": "Additional Rider"
+  },
+  {
+   "pk": 471870,
+   "name": "Kayak Rental: Palmas Del Mar",
+   "old": 40,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Two Hour Rental • Single Kayak",
+     "note": "",
+     "price": 40,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Hour Rental • Single Kayak",
+     "note": "",
+     "price": 60,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Full Day Rental • Single Kayak",
+     "note": "7 Hours",
+     "price": 80,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Hour Rental • Tandem Kayak",
+     "note": "",
+     "price": 60,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Hour Rental • Tandem Kayak",
+     "note": "",
+     "price": 80,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Full Day Rental • Tandem Kayak",
+     "note": "7 Hours",
+     "price": 95,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 40,
+   "label": "Two Hour Rental • Single Kayak"
+  },
+  {
+   "pk": 491948,
+   "name": "Floating Burger Experience",
+   "old": 100,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "One Hour Rental",
+     "note": "Including up to 2 people",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Hour Rental",
+     "note": "Including up to 2 people",
+     "price": 200,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 100,
+   "label": "One Hour Rental",
+   "unit": "One Hour Rental",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542101,
+   "name": "Scuba Charter - DR",
+   "old": 1495,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Ages 6+ • Up to 6 people",
+     "price": 1495,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1495,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542105,
+   "name": "Fishing Charter - DR",
+   "old": 1895,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Ages 6+ • Includes up to 6 people",
+     "price": 1895,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1895,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 542107,
+   "name": "Private Bioluminescence Kayak Tour - DR",
+   "old": 99,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 9+",
+     "price": 99,
+     "min": 4,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3–8",
+     "price": 79,
+     "min": 4,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 99,
+   "label": "Adult"
+  },
+  {
+   "pk": 9135,
+   "name": "Beginner Group Lessons",
+   "old": 90,
+   "oldLabel": "One Lesson",
+   "tiers": [
+    {
+     "singular": "One Lesson",
+     "note": "",
+     "price": 90,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Two Lessons",
+     "note": "Receive a code to redeem for other lesson",
+     "price": 180,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Three Lessons",
+     "note": "Receive a code to redeem for other lessons",
+     "price": 270,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Four Lessons",
+     "note": "Receive a code to redeem for other lessons",
+     "price": 360,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Five Lessons",
+     "note": "",
+     "price": 450,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 90,
+   "label": "One Lesson"
+  },
+  {
+   "pk": 448978,
+   "name": "Scuba Charter",
+   "old": 1495,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Ages 6+ • Up to 6 people",
+     "price": 1495,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1495,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 449012,
+   "name": "Fishing Charter",
+   "old": 1895,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Ages 6+ • Includes up to 6 people",
+     "price": 1895,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1895,
+   "label": "Private Charter",
+   "unit": "Private Charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 486767,
+   "name": "Aqua Venture - MON-FRI - Return 5:30PM",
+   "old": 119,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Price is per person",
+     "price": 119,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 119,
+   "label": "Person"
+  },
+  {
+   "pk": 567588,
+   "name": "Coral Reef and Sea Turtle Snorkeling Tour",
+   "old": 135,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 7+",
+     "price": 135,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 135,
+   "label": "Person"
+  },
+  {
+   "pk": 569986,
+   "name": "VIEQUES Bioluminescence Bay",
+   "old": 149,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 9+",
+     "price": 149,
+     "min": 4,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3–8",
+     "price": 149,
+     "min": 4,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 149,
+   "label": "Adult"
+  },
+  {
+   "pk": 594708,
+   "name": "Private Sea Turtle Snorkel (includes Transportation)",
+   "old": 440,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "60-Minute Private Snorkel",
+     "note": "Price starting at $380 for 2 ppl, includes 1 hour of water time and 2 hours total.",
+     "price": 440,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "90-Minute Private Snorkel",
+     "note": "Price starts at $480 for 2 ppl, includes 1.5 hours of water time and 2.5 hours total",
+     "price": 540,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 440,
+   "label": "60-Minute Private Snorkel",
+   "unit": "60-Minute Private Snorkel",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 511528,
+   "name": "Beach Lounge Chair Rental",
+   "old": 12,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Beach Umbrella",
+     "note": "",
+     "price": 20,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Beach Lounge Chairs",
+     "note": "",
+     "price": 20,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Beach Camper Chair",
+     "note": "",
+     "price": 12,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 12,
+   "label": "Beach Camper Chair",
+   "unit": "Beach Lounge Chair Rental",
+   "rule": "product name quoted"
+  },
+  {
+   "pk": 672772,
+   "name": "El Yunque Rainforest Night Tour",
+   "old": 125,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Hyatt Regency - Shared Tour",
+     "note": "Priced per person • Hyatt Regency Pickup and Drop Off",
+     "price": 125,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 125,
+   "label": "Hyatt Regency - Shared Tour"
+  },
+  {
+   "pk": 101308,
+   "name": "Island Hopping Kayak Adventure",
+   "old": 49.99,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 6+",
+     "price": 49.99,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 49.99,
+   "label": "People"
+  },
+  {
+   "pk": 123311,
+   "name": "BIOBAY KAYAK ADVENTURE",
+   "old": 59,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 6+",
+     "price": 59.99,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 59.99,
+   "label": "People"
+  },
+  {
+   "pk": 243766,
+   "name": "Caracoles Pedal Kayak Tour",
+   "old": 59.99,
+   "oldLabel": "People",
+   "tiers": [
+    {
+     "singular": "People",
+     "note": "Ages 6+",
+     "price": 59.99,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 59.99,
+   "label": "People"
+  },
+  {
+   "pk": 267659,
+   "name": "Professionally Guided Shore Dive",
+   "old": 155,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Discover Dive",
+     "note": "",
+     "price": 155,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Certified Diver-1 tank",
+     "note": "One Tank",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Certified Diver-2 tank",
+     "note": "Two Tanks",
+     "price": 120,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 85,
+   "label": "Certified Diver-1 tank"
+  },
+  {
+   "pk": 267702,
+   "name": "Open Water Scuba Diver",
+   "old": 600,
+   "oldLabel": "Open Water Student",
+   "tiers": [
+    {
+     "singular": "Open Water Student",
+     "note": "",
+     "price": 600,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Snorkeler's Combo Package (Includes Mask, Snorkel, Fins)",
+     "note": "",
+     "price": 48,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Scuba Diver",
+     "note": "3 confined water sessions and 2 open water dives",
+     "price": 450,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 450,
+   "label": "Scuba Diver"
+  },
+  {
+   "pk": 9140,
+   "name": "Snorkeling Tour",
+   "old": 50,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Additional Rider",
+     "note": "",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 50,
+   "label": "Additional Rider"
+  },
+  {
+   "pk": 9141,
+   "name": "Waterfall Tour",
+   "old": 20,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Additional Rider",
+     "note": "",
+     "price": 20,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 20,
+   "label": "Additional Rider"
+  },
+  {
+   "pk": 250891,
+   "name": "Full Day To Culebra",
+   "old": 1995,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private charter",
+     "note": "For up to 6 people • Ages 6 and up",
+     "price": 1995,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1995,
+   "label": "Private charter",
+   "unit": "Private charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 267439,
+   "name": "Guided Snorkeling Tour",
+   "old": 60,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Snorkeler",
+     "note": "Ages 10 and up",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 60,
+   "label": "Snorkeler"
+  },
+  {
+   "pk": 34365,
+   "name": "Scuba Dive & Snorkel Charter",
+   "old": 99,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 99,
+   "probeErrors": []
+  },
+  {
+   "pk": 540719,
+   "name": "Fly Fishing",
+   "old": 375,
+   "oldLabel": "unknown",
+   "disposition": "PROBE_ERROR",
+   "new": 375,
+   "probeErrors": [
+    "HTTP 400",
+    "HTTP 400",
+    "HTTP 400",
+    "HTTP 400"
+   ]
+  },
+  {
+   "pk": 9139,
+   "name": "Paddleboard & Snorkeling Tour",
+   "old": 50,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Additional Rider",
+     "note": "",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 50,
+   "label": "Additional Rider"
+  },
+  {
+   "pk": 14810,
+   "name": "Private Sunset Catamaran Sail",
+   "old": 700,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 700,
+   "probeErrors": []
+  },
+  {
+   "pk": 250737,
+   "name": "Snorkel Tour",
+   "old": 165,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11 and older",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4 to 10",
+     "price": 72,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Private charter",
+     "note": "For up to 6 people • Ages 4 and up",
+     "price": 990,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 165,
+   "label": "Adult"
+  },
+  {
+   "pk": 250882,
+   "name": "Full Day to Cayo Icacos",
+   "old": 1595,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private charter",
+     "note": "For up to 13 people • Ages 6 and up",
+     "price": 1595,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 1595,
+   "label": "Private charter",
+   "unit": "Private charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 540720,
+   "name": "Reef Fishing",
+   "old": 550,
+   "oldLabel": "unknown",
+   "disposition": "PROBE_ERROR",
+   "new": 550,
+   "probeErrors": [
+    "HTTP 400",
+    "HTTP 400",
+    "HTTP 400",
+    "HTTP 400"
+   ]
+  },
+  {
+   "pk": 552005,
+   "name": "Surfing Lessons",
+   "old": 68,
+   "oldLabel": "Participant",
+   "tiers": [
+    {
+     "singular": "Participant",
+     "note": "Ages 8+",
+     "price": 68,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 68,
+   "label": "Participant"
+  },
+  {
+   "pk": 567863,
+   "name": "Kids and Family Snorkeling Adventure",
+   "old": 42,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Age 18+",
+     "price": 44,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth",
+     "note": "Age: 8 to 17 years",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 44,
+   "label": "Adult"
+  },
+  {
+   "pk": 569373,
+   "name": "VIP Snorkeling with Turtles Adventure",
+   "old": 80,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Participant",
+     "note": "",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 70,
+   "label": "Participant"
+  },
+  {
+   "pk": 156696,
+   "name": "Bioluminescent Bay Tour",
+   "old": 110,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 110,
+   "probeErrors": []
+  },
+  {
+   "pk": 267467,
+   "name": "PADI Discover Scuba Diving Adventure",
+   "old": 155,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Discover Dive",
+     "note": "",
+     "price": 155,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Discover Dive-2-Tank Dive",
+     "note": "Two Discover Scuba Dive in same day",
+     "price": 200,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 155,
+   "label": "Discover Dive"
+  },
+  {
+   "pk": 267754,
+   "name": "RENTAL EQUIPMENT-Return next day",
+   "old": 33,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "AC2 MANTEINANCE KIT",
+     "note": "MANTEINANCE KIT AC2",
+     "price": 33.75,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "CRESSI REGULATORS",
+     "note": "MANTEINANCE KIT COMPCT",
+     "price": 33.75,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Snorkeler's Combo Package (Includes Mask, Snorkel, Fins)",
+     "note": "",
+     "price": 22,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Mask only",
+     "note": "",
+     "price": 14,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Snorkel Only",
+     "note": "",
+     "price": 8,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Fins Only",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Flotation Vest Only",
+     "note": "",
+     "price": 12,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Diver's Package (BCD Regulator with Analog Gauges & Octo)",
+     "note": "",
+     "price": 35,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "BCD-Buoyancy Compensator",
+     "note": "",
+     "price": 30,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Regulator with Octo & Analog Gauges - Regulator Only",
+     "note": "",
+     "price": 25,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Tank Rental",
+     "note": "",
+     "price": 14,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Tank Refill",
+     "note": "",
+     "price": 10,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Weight per Lb.",
+     "note": "1 Lb Weights",
+     "price": 1,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dive Computer",
+     "note": "Added to Regulator Console",
+     "price": 30,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dive Flag",
+     "note": "",
+     "price": 10,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Compass",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Dive Knife",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Pole Spear",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Catch Bag",
+     "note": "",
+     "price": 10,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Dive Light",
+     "note": "",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Booties",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Wet Suit",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Glove Pair",
+     "note": "",
+     "price": 5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Hood/Vest",
+     "note": "",
+     "price": 10,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Weight Belt",
+     "note": "$4.00 or Free with Weight Rental",
+     "price": 6,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Cooler Rental",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Umbrella Rental",
+     "note": "",
+     "price": 22,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Chair Rental",
+     "note": "",
+     "price": 12,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Kayak Full Day",
+     "note": "",
+     "price": 50,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "T10-T10SC",
+     "note": "",
+     "price": 50,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "new": 5,
+   "label": "Glove Pair"
+  },
+  {
+   "pk": 267782,
+   "name": "Twilight Two~tank Special",
+   "old": 139,
+   "oldLabel": "Certified Diver-2 tank",
+   "tiers": [
+    {
+     "singular": "Certified Diver-2 tank",
+     "note": "Two Tanks",
+     "price": 139,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 139,
+   "label": "Certified Diver-2 tank"
+  },
+  {
+   "pk": 293820,
+   "name": "Half Day Snorkel & Beach Tour",
+   "old": 995,
+   "oldLabel": "charter",
+   "tiers": [
+    {
+     "singular": "Private charter",
+     "note": "6 Included in Price • Ages 4 and up",
+     "price": 995,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "unit-unchanged",
+   "new": 995,
+   "label": "Private charter",
+   "unit": "Private charter",
+   "rule": "tier label verbatim"
+  },
+  {
+   "pk": 567574,
+   "name": "Coral Reef Snorkeling Tour",
+   "old": 70,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 7+",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 70,
+   "label": "Person"
+  },
+  {
+   "pk": 567598,
+   "name": "Scuba Diving Try Dive Tour",
+   "old": 140,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 7+",
+     "price": 140,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 140,
+   "label": "Person"
+  },
+  {
+   "pk": 567854,
+   "name": "Snorkeling with Turtles Adventure",
+   "old": 42,
+   "oldLabel": "Participant",
+   "tiers": [
+    {
+     "singular": "Participant",
+     "note": "",
+     "price": 44,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "repriced",
+   "new": 44,
+   "label": "Participant"
+  },
+  {
+   "pk": 44643,
+   "name": "Bio Bay Kayak Adventure — Laguna Grande, Fajardo",
+   "old": 85,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "For ages 7+",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Tour & Transport",
+     "note": "Please Call for Availability If You Are A Solo Traveler",
+     "price": 145,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 85,
+   "label": "Person"
+  },
+  {
+   "pk": 433259,
+   "name": "Vieques Bio Bay Kayak Tour — from mainland Puerto Rico",
+   "old": 195,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 10+",
+     "price": 195,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Tour + Transportation",
+     "note": "Roundtrip from San Juan to Fajardo Area",
+     "price": 245,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Charter Bio Bay",
+     "note": "",
+     "price": 3700,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 195,
+   "label": "Person"
+  },
+  {
+   "pk": 11133,
+   "name": "Bio Bay Kayak Tour — Fajardo",
+   "old": 59,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18 and above",
+     "price": 59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-17",
+     "price": 59,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "unchanged",
+   "new": 59,
+   "label": "Adult"
+  }
+ ]
+}
