@@ -29,6 +29,19 @@
 // the 30 "ladders" a first replay found were price→$0 on the October dates). $0 tiers are ignored when comparing
 // readings, and a reading with no priced tier at all does not participate in ladder detection.
 //
+// A ladder detected within ONE probe day is a CANDIDATE, not a fact. pk 707738 read PAYMENT $3,991 / $3,991 / $200 / $200
+// on 2026-08-25 (contiguous, both rungs on two dates — "seasonal" by shape) and $3,991 on every date on 2026-08-27: a
+// transient operator edit, indistinguishable from a season inside a single probe day. So:
+//   - a candidate is recorded as `SEASONAL-BOUNDARY (candidate, single probe day D — re-verify before asserting): ...`
+//     with the sampled dates of every rung, and NO figure differing from the stored price is written (hold + report);
+//   - it is PROMOTED to an asserted `SEASONAL-BOUNDARY: ...` only by a run whose probe day is strictly later and whose
+//     readings agree with the candidate on every re-sampled date (at least one per rung);
+//   - a later run that reads one shape resolves the candidate to flat and drops it (counted), a different ladder replaces it.
+// The probe day is MECHANICAL: the evidence bundle's `startedAt` (wall-clock of the probe run), passed in by the caller —
+// never a convention someone remembers. A >50% swing between adjacent rungs is LABELLED implausible-as-season in the
+// segment; it never gates. An already-asserted segment (PR #256's six, hand-bracketed across probe days) is never demoted:
+// it is carried forward exactly when its dates lie outside the run's span, and re-verified only by a run that spans them.
+//
 // Every outcome is counted by the caller (disposition) and printed — the original defect was silent.
 export function resolveLadder(sampled) {
   const byDateAll = [...sampled].sort((a, b) => a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
@@ -64,9 +77,9 @@ const nextDay = d => { const t = new Date(d + 'T00:00:00Z'); t.setUTCDate(t.getU
 // PR #256: `SEASONAL-BOUNDARY: tier "X" $a valid-through D1; tier "X" $b from D2`. A boundary bracketed to the day
 // (consecutive sampled dates) is stated as such; otherwise `valid-through >=D1 ... from <=D2 (boundary between D1
 // and D2 not bracketed to the day)`. A rung on which the anchor tier is absent is reported as such, not priced.
-export function seasonalSegment(res, anchorName, source) {
+export function seasonalSegment(res, anchorName, source, opts = {}) {
   if (res.kind !== 'seasonal') return '';
-  const parts = []; const R = res.runs;
+  const parts = []; const R = res.runs; let prevCents = null;
   for (let i = 0; i < R.length; i++) {
     const r = R[i]; const tier = r.rep.tiers.find(x => x.singular === anchorName);
     const fig = tier ? `$${dollars(tier.priceCents)}` : 'anchor tier absent';
@@ -75,8 +88,68 @@ export function seasonalSegment(res, anchorName, source) {
     const thru = !next ? '' : (nextDay(r.last) === next.first ? ` valid-through ${r.last}` : ` valid-through >=${r.last}`);
     const brk = next && nextDay(r.last) !== next.first ? ` (boundary between ${r.last} and ${next.first} not bracketed to the day)` : '';
     const conf = r.confirmed ? '' : ` (single sampled date ${r.first} — unconfirmed rung, not written)`;
-    parts.push(`tier "${anchorName}" ${fig}${from}${thru}${brk}${conf}`);
+    // >50% swing vs the previous rung is a LABEL for the reader, never a gate (a genuine steep season must survive)
+    const swing = tier && prevCents ? Math.abs(tier.priceCents - prevCents) / prevCents : 0;
+    const impl = swing > 0.5 ? ` [implausible-as-season: ${Math.round(swing * 100)}% swing]` : '';
+    const sampled = opts.candidate ? ` sampled=${r.readings.map(p => p.date).join(',')}` : '';
+    parts.push(`tier "${anchorName}" ${fig}${from}${thru}${brk}${conf}${impl}${sampled}`);
+    if (tier) prevCents = tier.priceCents;
   }
   const f = R.find(r => r.inForce);
-  return `; SEASONAL-BOUNDARY: ${parts.join('; ')} (${source}, ${R.length} rungs from ${R.reduce((n, r) => n + r.readings.length, 0)} dated readings; rung in force = earliest rung confirmed on >=2 dates, ${f.first}..${f.last})`;
+  const head = opts.candidate ? `SEASONAL-BOUNDARY (candidate, single probe day ${opts.probeDay} — re-verify before asserting): `
+    : opts.promotedFrom ? `SEASONAL-BOUNDARY (asserted: candidate from probe day ${opts.promotedFrom} reproduced on probe day ${opts.probeDay}): ` : 'SEASONAL-BOUNDARY: ';
+  return `; ${head}${parts.join('; ')} (${source}, ${R.length} rungs from ${R.reduce((n, r) => n + r.readings.length, 0)} dated readings; rung in force = earliest rung confirmed on >=2 dates, ${f.first}..${f.last})`;
+}
+
+// Split a stored priceBasis into its SEASONAL-BOUNDARY segments: asserted (plain or "(asserted: …)" or "(prior, …)") and
+// candidate ("(candidate, single probe day D — …)"). Everything is parsed from the text itself.
+export function boundarySegments(basis) {
+  const out = []; const re = /; SEASONAL-BOUNDARY(?: \(([^)]*)\))?: /g; let m; const idx = [];
+  while ((m = re.exec(basis || ''))) idx.push({ at: m.index, qual: m[1] || '' });
+  for (let i = 0; i < idx.length; i++) {
+    const text = (basis || '').slice(idx[i].at, i + 1 < idx.length ? idx[i + 1].at : undefined);
+    const cand = /^candidate, single probe day (\d{4}-\d{2}-\d{2})/.exec(idx[i].qual);
+    const rungs = []; const rr = /tier "([^"]+)" (\$[\d.]+|anchor tier absent)[^;]*? sampled=([\d,-]+)/g; let x;
+    while (cand && (x = rr.exec(text))) rungs.push({ tier: x[1], fig: x[2], dates: x[3].split(',') });
+    out.push({ kind: cand ? 'candidate' : 'asserted', probeDay: cand ? cand[1] : null, text, rungs, dates: text.match(/\d{4}-\d{2}-\d{2}/g) || [] });
+  }
+  return out;
+}
+
+// Reconcile this run's classification with what the stored row already says. Returns the segments to append, the counter
+// events, and whether the caller must HOLD the stored figure (a candidate/asserted ladder whose rung in force differs from
+// the stored price is never written by rule — it is reported for a ruling).
+//   storedBasis  the row's priceBasis before this run      res  resolveLadder() result      readings  this run's sampled readings
+//   probeDay     bundle startedAt.slice(0,10)              dates  this run's DATES         anchorName / source / storedPrice
+export function reconcile({ storedBasis, res, readings, probeDay, dates, anchorName, source, storedPrice }) {
+  const segs = []; const events = []; let hold = false;
+  const prior = boundarySegments(storedBasis);
+  const span = [dates[0], dates[dates.length - 1]];
+  const figOn = date => { const p = readings.find(q => q.date === date); const t = p && p.tiers.find(x => x.singular === anchorName); return t ? `$${dollars(t.priceCents)}` : (p ? 'anchor tier absent' : null); };
+  const cand = prior.find(x => x.kind === 'candidate');
+  const inForceCents = res.kind === 'seasonal' && res.cur ? (res.cur.tiers.find(x => x.singular === anchorName) || {}).priceCents : null;
+  const differs = inForceCents != null && storedPrice != null && Math.round(storedPrice * 100) !== inForceCents;
+  if (res.kind === 'seasonal') {
+    if (cand && cand.probeDay < probeDay && cand.rungs.length) {
+      // promotion test: every candidate date re-sampled today must read the candidate's figure; at least one per rung
+      const perRung = cand.rungs.map(r => { const re = r.dates.filter(d => figOn(d) !== null); return { re, agree: re.every(d => figOn(d) === r.fig) }; });
+      const allAgree = perRung.every(x => x.agree), coverage = perRung.every(x => x.re.length > 0);
+      if (allAgree && coverage) { segs.push(seasonalSegment(res, anchorName, source, { probeDay, promotedFrom: cand.probeDay })); events.push('ladder-promoted'); }
+      else if (!allAgree) { segs.push(seasonalSegment(res, anchorName, source, { candidate: true, probeDay })); events.push('candidate-replaced'); }
+      else { segs.push(seasonalSegment(res, anchorName, source, { candidate: true, probeDay })); events.push('candidate-unverifiable-dates'); }
+    } else { segs.push(seasonalSegment(res, anchorName, source, { candidate: true, probeDay })); events.push(cand ? 'candidate-restated-same-day' : 'ladder-candidate'); }
+    if (differs) { hold = true; events.push('ladder-hold'); }
+  } else if (cand) {
+    // one shape today: the candidate did not reproduce
+    const overlap = cand.rungs.some(r => r.dates.some(d => figOn(d) !== null));
+    if (cand.probeDay < probeDay && overlap) events.push('candidate-resolved-flat');            // dropped, counted
+    else { segs.push(cand.text.replace(/\s+$/, '')); events.push(cand.probeDay < probeDay ? 'candidate-unverifiable-dates' : 'candidate-restated-same-day'); }
+  }
+  // asserted segments are never demoted: carried exactly when this run's dates cannot see them
+  for (const a of prior.filter(x => x.kind === 'asserted')) {
+    const outside = a.dates.some(d => d < span[0] || d > span[1]);
+    if (outside) { segs.push(a.text.replace(/^; SEASONAL-BOUNDARY(?: \([^)]*\))?: /, `; SEASONAL-BOUNDARY (prior, not re-verified: names dates outside this run's span ${span[0]}..${span[1]}): `).replace(/\s+$/, '')); events.push('prior-boundary-carried'); }
+    else if (res.kind !== 'seasonal') events.push('prior-boundary-contradicted');                 // spanned and not seen: dropped, counted loudly
+  }
+  return { segments: segs, events, hold };
 }
