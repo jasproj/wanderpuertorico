@@ -13,6 +13,7 @@
 //   Non-USD live currency → D-620 hold, true currency + amount stamped, low.
 //   usage: node s49-wpr-refresh.mjs probe|apply [--dry-run]
 import fs from 'node:fs';
+import { resolveLadder, seasonalSegment } from './ladder-rule.mjs';   // s52: replaces the majority-ladder pick (see that file's header)
 const FILE = 'tours-data.json';
 const EV = '_evidence/s49-wpr-refresh';
 const SOURCE = 's49-wpr-refresh';
@@ -38,7 +39,13 @@ const raw = fs.readFileSync(FILE, 'utf8'); const doc = JSON.parse(raw);
 // (byte-identical round-trip proven), carrying the rows-outside-population guard with it.
 if ((JSON.stringify(doc, null, 2) + '\n') !== raw.replace(/(\d)\.0(?=,?\n)/g, '$1')) { console.error('ABORT: no byte round-trip beyond integral floats (D-599)'); process.exit(2); }
 const inA = t => typeof t.priceEnrichmentAt === 'string' && t.priceEnrichmentAt.startsWith('2026-05-28');
-const pop = doc.tours.filter(t => inA(t) && t.priceSource !== 's49-wpr-anchorfix');
+let pop = doc.tours.filter(t => inA(t) && t.priceSource !== 's49-wpr-anchorfix');
+// s52 REPLAY knob (dry-run only): REPLAY_PKS=389627,4287 or REPLAY_PKS=ALL replays rows against the evidence bundle regardless of
+// their current stamp, so the ladder rule can be proven on real probe data after the population has been stamped. Never writes.
+if (process.env.REPLAY_PKS) { if (!DRY) { console.error('ABORT: REPLAY_PKS requires --dry-run'); process.exit(8); }
+  const want = process.env.REPLAY_PKS === 'ALL' ? null : new Set(process.env.REPLAY_PKS.split(',').map(Number));
+  const evPks = new Set(Object.keys(JSON.parse(fs.readFileSync(`${EV}/probe.json`, 'utf8')).perPk).map(Number));   // only rows the bundle actually probed
+  pop = doc.tours.filter(t => (want ? want.has(t.pk) : true) && evPks.has(t.pk)); }
 const excluded = doc.tours.filter(t => inA(t) && t.priceSource === 's49-wpr-anchorfix').length;
 console.error(`population A=${doc.tours.filter(inA).length} minus s49-anchorfix=${excluded} -> ${pop.length}`);
 for (const t of pop) { const p = parseFhUrl(t.bookingUrl); if (!p || p.pk !== t.pk) { console.error('ABORT: bookingUrl pk mismatch', t.pk); process.exit(2); } }
@@ -134,7 +141,7 @@ function classifyTier(t, productName) {
 function apply() {
   const ev = JSON.parse(fs.readFileSync(`${EV}/probe.json`, 'utf8'));
   if (ev.reconcile.incomplete.length) { console.error('ABORT: probe incomplete'); process.exit(5); }
-  if (ev.population !== pop.length) { console.error('ABORT: population drift since probe'); process.exit(5); }
+  if (!process.env.REPLAY_PKS && (ev.population !== pop.length)) { console.error('ABORT: population drift since probe'); process.exit(5); }
   // date-validity instrument: at least one start_at must move across dates for some row
   const moved = Object.values(ev.perPk).some(v => new Set(v.probes.filter(p => p.start_at).map(p => p.start_at)).size > 1);
   if (!moved) { console.error('ABORT: date parameter ignored (no start_at moved)'); process.exit(6); }
@@ -142,11 +149,11 @@ function apply() {
   // priceEnrichmentAt is locked to the ruling's stamp day (2026-08-25); the wall-clock apply time is recorded in the evidence bundle.
   const ts = `${STAMP_DAY}T${appliedAt.slice(11)}`;
   const before = doc.tours.map(t => JSON.stringify(t)); const popSet = new Set(pop.map(t => t.pk));
-  const summary = []; const disp = {};
+  const summary = []; const disp = {}; const ladders = { detected: 0 };   // s52: ladder outcomes are counted, never silent
   const bump = k => { disp[k] = (disp[k] || 0) + 1; };
   for (const t of pop) {
     const v = ev.perPk[t.pk]; const ok = v.probes.filter(p => !p.error); const sampled = ok.filter(p => !p.absent);
-    const old = { price: t.price, label: t.priceLabel, conf: t.priceConfidence };
+    const old = { price: t.price, label: t.priceLabel, conf: t.priceConfidence, basis: t.priceBasis };
     const rec = { pk: t.pk, name: t.name, old: old.price, oldLabel: old.label };
     const tiersOf = p => p.tiers.map(x => ({ name: x.singular, note: x.note || '', price: u(x.priceCents), minPartySize: x.min ?? null }));
     if (sampled.length === 0) {
@@ -155,12 +162,32 @@ function apply() {
       t.priceTiers = (t.priceBreakdown || []).map(x => ({ name: x.singular, note: x.note || '', price: x.price, minPartySize: x.minPartySize ?? null }));
       Object.assign(rec, { disposition: ok.length ? 'UNSAMPLED' : 'PROBE_ERROR', new: t.price, probeErrors: v.probes.filter(p => p.error).map(p => p.error) }); bump(ok.length ? 'UNSAMPLED' : 'PROBE_ERROR'); summary.push(rec); continue;
     }
-    // majority ladder across sampled readings (by non-zero tier name+price)
-    const key = p => JSON.stringify(p.tiers.map(x => [x.singular, x.priceCents]));
-    const counts = new Map(); for (const p of sampled) counts.set(key(p), (counts.get(key(p)) || 0) + 1);
-    const majKey = [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0]; const maj = sampled.find(p => key(p) === majKey);
+    // s52 ladder rule (ladder-rule.mjs) — the readings are CLASSIFIED, not voted on. The former majority pick wrote $125 for
+    // pk 389627 over a real $115/$125/$155 seasonal ladder its own evidence recorded as "3 ladder shape(s)".
+    //   flat / wobble → representative reading, unchanged behaviour;  seasonal → the rung in force at the EARLIEST sampled
+    //   date is written and every rung is recorded as SEASONAL-BOUNDARY (PR #256 form) on the anchor tier;  alternating →
+    //   row left untouched, reported for a ruling. Every kind is counted in `ladders` and printed with the run summary.
+    const lad = resolveLadder(sampled);
+    ladders[lad.kind] = (ladders[lad.kind] || 0) + 1; if (lad.kind !== 'flat' && lad.kind !== 'wobble') ladders.detected++;
+    const ladderRuns = () => lad.runs.map(r => ({ first: r.first, last: r.last, readings: r.readings.length, tiers: r.rep.tiers.map(x => [x.singular, x.priceCents]) }));
+    if (lad.kind === 'alternating' || lad.kind === 'seasonal-unconfirmed') {
+      const d = lad.kind === 'alternating' ? 'LADDER-ALTERNATING' : 'LADDER-UNCONFIRMED';   // untouched, reported: two products on one item / no rung seen on >=2 dates
+      Object.assign(rec, { disposition: d, new: old.price, ladder: ladderRuns() }); bump(d); summary.push(rec); continue;
+    }
+    const maj = lad.cur;
+    // A SEASONAL-BOUNDARY already on the stored row (PR #256 hand-bracketed six to the day) is never dropped silently. If any date
+    // it names lies OUTSIDE this run's probe span, this run cannot have re-verified it, so the prior segment is carried forward —
+    // after a freshly detected ladder if there is one — marked prior/not re-verified, and counted. Only a run whose dates span
+    // every date the prior segment names may replace it, and then only with what it measured.
+    const priorSeg = (old.basis || '').match(/; SEASONAL-BOUNDARY(?: \([^)]*\))?: .*$/);
+    const priorOutside = priorSeg && (priorSeg[0].match(/\d{4}-\d{2}-\d{2}/g) || []).some(d => d < DATES[0] || d > DATES[DATES.length - 1]);
+    const ladderNote = anchorName => {
+      if (lad.kind === 'seasonal') { t.priceBasis += seasonalSegment(lad, anchorName, SOURCE); rec.ladder = ladderRuns(); rec.disposition += '+ladder-seasonal'; bump('ladder-seasonal'); }
+      if (priorOutside) { t.priceBasis += priorSeg[0].replace(/^; SEASONAL-BOUNDARY(?: \([^)]*\))?: /, `; SEASONAL-BOUNDARY (prior, not re-verified: names dates outside this run's span ${DATES[0]}..${DATES[DATES.length - 1]}): `); rec.disposition += '+prior-boundary-carried'; bump('prior-boundary-carried'); ladders.priorCarried = (ladders.priorCarried || 0) + 1; }
+      rec.basis = t.priceBasis;
+    };
     const valid = sampled.filter(p => p.dateValid).length;
-    const evid = `${sampled.length}/${DATES.length} dated readings (${valid} date-valid), ${counts.size} ladder shape(s)`;
+    const evid = `${sampled.length}/${DATES.length} dated readings (${valid} date-valid), ${lad.tierSets} tier-set(s), ${lad.shapes} price shape(s) [${lad.kind}]`;
     const cur = maj.liveCurrency; const L = tiersOf(maj);
     // refresh v7-shaped provenance from the live majority reading
     t.priceBreakdown = maj.tiers.map(c => ({ id: c.id, singular: c.singular, plural: c.plural, note: c.note, priceCents: c.priceCents, price: u(c.priceCents), minPartySize: c.min }));
@@ -180,14 +207,14 @@ function apply() {
       const anchor = (base.length ? base : maj.tiers.filter(x => x.priceCents > 0)).reduce((a, b) => b.priceCents < a.priceCents ? b : a);
       t.currency = cur; t.price = u(anchor.priceCents); t.priceLabel = anchor.singular; t.priceConfidence = 'low'; t.priceEnrichmentStatus = `non_usd_currency:${cur}`;
       t.priceBasis = `HELD (D-620): live details.currency ${cur} ≠ site USD; true amount ${cur} ${t.price} (${anchor.singular}) stamped, unpublished; ${evid}`;
-      Object.assign(rec, { disposition: 'D-620', new: t.price, currency: cur }); bump('D-620');
+      Object.assign(rec, { disposition: 'D-620', new: t.price, currency: cur }); bump('D-620'); ladderNote(anchor.singular);
     } else if (base.length) {
       const anchor = base.reduce((a, b) => b.priceCents < a.priceCents ? b : a);
       t.currency = 'USD'; t.price = u(anchor.priceCents); t.priceLabel = anchor.singular; t.priceConfidence = 'high'; t.priceEnrichmentStatus = 'high';
       const skipped = classes.filter(c => c.cls !== 'base' && c.x.priceCents > 0).map(c => `${c.x.singular} $${u(c.x.priceCents)} [${c.cls}]`);
       t.priceBasis = `D-624 cheapest adult/base per-person tier ${anchor.singular} $${t.price}${base.length > 1 ? ` of ${base.length} base tiers (D-625)` : ''}${skipped.length ? `; not anchoring: ${skipped.join(', ')}` : ''}; ${evid}; live USD`;
       const changed = old.price !== t.price;
-      Object.assign(rec, { disposition: changed ? 'repriced' : 'unchanged', new: t.price, label: anchor.singular }); bump(changed ? 'repriced' : 'unchanged');
+      Object.assign(rec, { disposition: changed ? 'repriced' : 'unchanged', new: t.price, label: anchor.singular }); bump(changed ? 'repriced' : 'unchanged'); ladderNote(anchor.singular);
     } else {
       // whole-party-only (or never-anchor-only) ladder → HELD low (D-621; no priceUnit render path)
       const nz = maj.tiers.filter(x => x.priceCents > 0);
@@ -202,12 +229,12 @@ function apply() {
         // WPR s49: the D-621 whole-party hold is NOT applied here — it would hide 192 currently-visible charter/jet-ski/private-tour prices and was not in the GO ruling. The stored tier is re-verified live and kept as-is; one field flip applies the hold once ruled.
         t.currency = 'USD'; t.priceEnrichmentStatus = 'high';
         t.priceBasis = `KEPT (D-621 hold pending WPR ruling): live ladder ${nz.map(x => `${x.singular} $${u(x.priceCents)}`).join(' / ')} has no standalone adult/base per-person tier; stored ${old.label} $${old.price} re-verified live and kept visible; whole-party floor $${u(floor.priceCents)} (${floor.singular}); ${evid}; live USD`;
-        Object.assign(rec, { disposition: 'HELD-kept', new: t.price, label: t.priceLabel }); bump('HELD-kept'); summary.push(rec); continue;
+        Object.assign(rec, { disposition: 'HELD-kept', new: t.price, label: t.priceLabel }); bump('HELD-kept'); ladderNote(t.priceLabel); summary.push(rec); continue;
       }
       t.currency = 'USD'; t.priceConfidence = 'low'; t.priceEnrichmentStatus = 'high';
       t.price = u(floor.priceCents); t.priceLabel = floor.singular;
       t.priceBasis = `HELD (${group.length ? 'D-621 whole-party' : 'no adult/base tier'}): live ladder ${nz.map(x => `${x.singular} $${u(x.priceCents)}`).join(' / ')} has no standalone adult/base per-person tier; floor $${t.price} (${floor.singular}) stamped unpublished pending priceUnit port; ${evid}; live USD`;
-      Object.assign(rec, { disposition: 'HELD', new: t.price, label: floor.singular }); bump('HELD');
+      Object.assign(rec, { disposition: 'HELD', new: t.price, label: floor.singular }); bump('HELD'); ladderNote(floor.singular);
     }
     summary.push(rec);
   }
@@ -216,10 +243,10 @@ function apply() {
   const outside = changedIdx.filter(i => !popSet.has(doc.tours[i].pk));
   if (outside.length || doc.tours.length !== before.length) { console.error('ABORT: rows outside population changed', outside.length); process.exit(4); }
   const untouchedInPop = pop.length - changedIdx.length;   // every population row gets a fresh stamp, so this must be 0
-  const result = { stampedAt: ts, appliedAt, population: pop.length, rowsChanged: changedIdx.length, untouchedInPop, disposition: disp, summary };
+  const result = { stampedAt: ts, appliedAt, population: pop.length, rowsChanged: changedIdx.length, untouchedInPop, disposition: disp, ladders, summary };
   if (!DRY) { const patch = {}; for (const i of changedIdx) patch[doc.tours[i].pk] = doc.tours[i];
     fs.writeFileSync(`${EV}/patch.json`, JSON.stringify(patch)); fs.writeFileSync(`${EV}/apply-summary.json`, JSON.stringify(result, null, 1) + '\n'); }
   else if (process.env.DRY_OUT) fs.writeFileSync(process.env.DRY_OUT, JSON.stringify(result, null, 1) + '\n');
-  console.log(JSON.stringify({ stampedAt: ts, population: pop.length, rowsChanged: changedIdx.length, untouchedInPop, disposition: disp, dry: DRY }));
+  console.log(JSON.stringify({ stampedAt: ts, population: pop.length, rowsChanged: changedIdx.length, untouchedInPop, disposition: disp, ladders, dry: DRY }));
 }
 if (mode === 'probe') probe(); else if (mode === 'apply') apply(); else { console.error('usage: probe|apply'); process.exit(1); }
