@@ -13,7 +13,7 @@
 //   Non-USD live currency → D-620 hold, true currency + amount stamped, low.
 //   usage: node s49-wpr-refresh.mjs probe|apply [--dry-run]
 import fs from 'node:fs';
-import { resolveLadder, seasonalSegment } from './ladder-rule.mjs';   // s52: replaces the majority-ladder pick (see that file's header)
+import { resolveLadder, reconcile } from './ladder-rule.mjs';   // s52: replaces the majority-ladder pick (see that file's header)
 const FILE = 'tours-data.json';
 const EV = '_evidence/s49-wpr-refresh';
 const SOURCE = 's49-wpr-refresh';
@@ -175,16 +175,16 @@ function apply() {
       Object.assign(rec, { disposition: d, new: old.price, ladder: ladderRuns() }); bump(d); summary.push(rec); continue;
     }
     const maj = lad.cur;
-    // A SEASONAL-BOUNDARY already on the stored row (PR #256 hand-bracketed six to the day) is never dropped silently. If any date
-    // it names lies OUTSIDE this run's probe span, this run cannot have re-verified it, so the prior segment is carried forward —
-    // after a freshly detected ladder if there is one — marked prior/not re-verified, and counted. Only a run whose dates span
-    // every date the prior segment names may replace it, and then only with what it measured.
-    const priorSeg = (old.basis || '').match(/; SEASONAL-BOUNDARY(?: \([^)]*\))?: .*$/);
-    const priorOutside = priorSeg && (priorSeg[0].match(/\d{4}-\d{2}-\d{2}/g) || []).some(d => d < DATES[0] || d > DATES[DATES.length - 1]);
+    // s52 candidate/re-verify (ladder-rule.mjs reconcile): a ladder seen within ONE probe day is recorded as a candidate and
+    // never moves the stored figure; a later probe day that reproduces it promotes it; asserted segments (PR #256) are
+    // carried forward exactly when this run's dates cannot see them. probeDay is the bundle's startedAt — mechanical.
+    const probeDay = String(ev.startedAt || '').slice(0, 10);
     const ladderNote = anchorName => {
-      if (lad.kind === 'seasonal') { t.priceBasis += seasonalSegment(lad, anchorName, SOURCE); rec.ladder = ladderRuns(); rec.disposition += '+ladder-seasonal'; bump('ladder-seasonal'); }
-      if (priorOutside) { t.priceBasis += priorSeg[0].replace(/^; SEASONAL-BOUNDARY(?: \([^)]*\))?: /, `; SEASONAL-BOUNDARY (prior, not re-verified: names dates outside this run's span ${DATES[0]}..${DATES[DATES.length - 1]}): `); rec.disposition += '+prior-boundary-carried'; bump('prior-boundary-carried'); ladders.priorCarried = (ladders.priorCarried || 0) + 1; }
-      rec.basis = t.priceBasis;
+      const r = reconcile({ storedBasis: old.basis, res: lad, readings: sampled, probeDay, dates: DATES, anchorName, source: SOURCE, storedPrice: old.price });
+      for (const e of r.events) { bump(e); ladders[e] = (ladders[e] || 0) + 1; }
+      if (r.hold) { t.price = old.price; t.priceLabel = old.label; t.priceConfidence = old.conf; rec.disposition = 'LADDER-HOLD'; rec.new = old.price; rec.heldInForce = lad.cur.tiers.map(x => [x.singular, x.priceCents]); }
+      else if (r.events.length) rec.disposition += '+' + r.events.join('+');
+      t.priceBasis += r.segments.join(''); if (lad.kind === 'seasonal') rec.ladder = ladderRuns(); rec.basis = t.priceBasis;
     };
     const valid = sampled.filter(p => p.dateValid).length;
     const evid = `${sampled.length}/${DATES.length} dated readings (${valid} date-valid), ${lad.tierSets} tier-set(s), ${lad.shapes} price shape(s) [${lad.kind}]`;
