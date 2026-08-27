@@ -424,7 +424,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
-      "priceSource": "s51-wpr-unstamped",
+      "priceSource": "s52-wpr-seasonal",
       "priceTiers": [
         {
           "name": "Adult",
@@ -440,7 +440,8 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $65; not anchoring: Minor $65 [never]; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $65; not anchoring: Minor $65 [never]; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD; SEASONAL-BOUNDARY: tier \"Adult\" $65 valid-through 2026-11-19; tier \"Adult\" $75 from 2026-11-20 (s52-wpr-seasonal, bracketed daily, re-read live 2026-08-27)",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-215093",
@@ -2773,7 +2774,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
-      "priceSource": "s51-wpr-unstamped",
+      "priceSource": "s52-wpr-seasonal",
       "priceTiers": [
         {
           "name": "Infant",
@@ -2795,7 +2796,8 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $135; not anchoring: Child $115 [never]; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $135; not anchoring: Child $115 [never]; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD; SEASONAL-BOUNDARY: tier \"Adult\" $135 valid-through 2026-11-19; tier \"Adult\" $141.75 from 2026-11-20 (s52-wpr-seasonal, bracketed daily, re-read live 2026-08-27)",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-34811",
@@ -3344,7 +3346,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
-      "priceSource": "s51-wpr-unstamped",
+      "priceSource": "s52-wpr-seasonal",
       "priceTiers": [
         {
           "name": "Adult",
@@ -3360,7 +3362,8 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $170; not anchoring: Child $150 [never]; 4/4 dated readings (2 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $170; not anchoring: Child $150 [never]; 4/4 dated readings (2 date-valid), 2 ladder shape(s); live USD; SEASONAL-BOUNDARY: tier \"Adult\" $170 valid-through 2026-11-18; tier \"Adult\" $178.5 from 2026-11-19 (s52-wpr-seasonal, bracketed daily, re-read live 2026-08-27)",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-381060",
@@ -3524,7 +3527,7 @@
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s52-wpr-seasonal",
       "priceTiers": [
         {
           "name": "Adult",
@@ -3539,7 +3542,8 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $160; not anchoring: Child $140 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $160; not anchoring: Child $140 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD; SEASONAL-BOUNDARY: tier \"Adult\" $160 valid-through 2026-11-19; tier \"Adult\" $168 from 2026-11-20 (s52-wpr-seasonal, bracketed daily, re-read live 2026-08-27)",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-2228",
@@ -4914,7 +4918,7 @@
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s49-wpr-unittag",
+      "priceSource": "s52-wpr-seasonal",
       "priceTiers": [
         {
           "name": "Jet Ski",
@@ -4923,11 +4927,12 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-621 published with unit \"Jet Ski\" (rule: tier label verbatim); live ladder Jet Ski $125 has no standalone adult/base per-person tier; stored Jet Ski $125 re-verified live and kept visible; whole-party floor $125 (Jet Ski); 4/4 dated readings (4 date-valid), 3 ladder shape(s); live USD",
+      "priceBasis": "D-621 published with unit \"Jet Ski\" (rule: tier label verbatim); live ladder Jet Ski $125 has no standalone adult/base per-person tier; stored Jet Ski $125 re-verified live and kept visible; whole-party floor $125 (Jet Ski); 4/4 dated readings (4 date-valid), 3 ladder shape(s); live USD; SEASONAL-BOUNDARY: tier \"Jet Ski\" $125 valid-through 2026-09-30; tier \"Jet Ski\" $155 from 2026-10-01; earlier rung: tier \"Jet Ski\" $115 valid-through 2026-08-31 (s52-wpr-seasonal, bracketed daily, re-read live 2026-08-27)",
       "_unknownFields": {
         "priceUnit": "Jet Ski"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-27",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-421942",
@@ -8028,7 +8033,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
-      "priceSource": "s51-wpr-unstamped",
+      "priceSource": "s52-wpr-seasonal",
       "priceTiers": [
         {
           "name": "Adult",
@@ -8044,7 +8049,8 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $110; not anchoring: Child $90 [never]; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $110; not anchoring: Child $90 [never]; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD; SEASONAL-BOUNDARY: tier \"Adult\" $110 valid-through 2026-11-19; tier \"Adult\" $115.5 from 2026-11-20 (s52-wpr-seasonal, bracketed daily, re-read live 2026-08-27)",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-586640",
@@ -27751,7 +27757,7 @@
       "name": "ULTIMATE ISLAND CHARTER",
       "description": "Sail to Puerto Rico’s stunning beaches and vibrant reefs on a private boat. Snorkel at top spots, relax on Flamenco’s famous sands, and enjoy an all-inclusive day tailored just for you and your group.",
       "location": "Fajardo",
-      "price": 2299,
+      "price": 2799,
       "bookingUrl": "https://fareharbor.com/embeds/book/caribbeanbookings/items/705169/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/IqdmgpuVSxaNNTkh5aaG/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
@@ -27799,8 +27805,8 @@
           "singular": "Boat charter experience",
           "plural": "Experiences",
           "note": "10:00am-4:00pm (6hrs) Visit: Palomino or  Icacos Island",
-          "priceCents": 229900,
-          "price": 2299,
+          "priceCents": 279900,
+          "price": 2799,
           "minPartySize": 1
         }
       ],
@@ -27814,20 +27820,21 @@
       "imageEnrichmentAt": "2026-05-28T00:09:49.449Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/caribbeanbookings/items/705169/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-unittag",
+      "priceSource": "s52-wpr-drift",
       "priceTiers": [
         {
           "name": "Boat charter experience",
           "note": "10:00am-4:00pm (6hrs) Visit: Palomino or  Icacos Island",
-          "price": 2299,
+          "price": 2799,
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-621 published with unit \"Boat charter experience\" (rule: tier label verbatim); live ladder Boat charter experience $2299 has no standalone adult/base per-person tier; stored Boat charter experience $2299 re-verified live and kept visible; whole-party floor $2299 (Boat charter experience); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceBasis": "D-624 tier \"Boat charter experience\" $2799 re-read live 2026-08-27 (s52-wpr-drift): stored $2299 was stale — wall-clock operator reprice, not seasonal; live \"Boat charter experience\" $2799 on 2026-09-20 and 2026-11-22 (and on 2026-10-25 in the s52 census); confidence high; live USD. Prior basis: D-621 published with unit \"Boat charter experience\" (rule: tier label verbatim); live ladder Boat charter experience $2299 has no standalone adult/base per-person tier; stored Boat charter experience $2299 re-verified live and kept visible; whole-party floor $2299 (Boat charter experience); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "Boat charter experience"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-27",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-9090",
@@ -29808,7 +29815,7 @@
       "name": "Historic Tours",
       "description": "Embark on a captivating guided tour through San Juan's rich history in just 60-70 minutes. Explore iconic landmarks like the Casa de Espana, the Capitol, and the majestic Castillo de San Cristobal. Experience the vibrant culture and stunning architecture that make this journey unforgettable.",
       "location": "San Juan",
-      "price": 85,
+      "price": 95,
       "bookingUrl": "https://fareharbor.com/embeds/book/sanjuanscenehopper/items/611878/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/1hB10zeQQFy9tzkkl1zY/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
@@ -29833,8 +29840,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "Ages 18+",
-          "priceCents": 8500,
-          "price": 85,
+          "priceCents": 9500,
+          "price": 95,
           "minPartySize": 1
         },
         {
@@ -29842,8 +29849,8 @@
           "singular": "Child",
           "plural": "Children",
           "note": "Ages 6-17",
-          "priceCents": 8500,
-          "price": 85,
+          "priceCents": 9500,
+          "price": 95,
           "minPartySize": 1
         }
       ],
@@ -29857,22 +29864,23 @@
       "imageEnrichmentAt": "2026-05-28T00:14:53.339Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/sanjuanscenehopper/items/611878/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s52-wpr-drift",
       "priceTiers": [
         {
           "name": "Adult",
           "note": "Ages 18+",
-          "price": 85,
+          "price": 95,
           "minPartySize": 1
         },
         {
           "name": "Child",
           "note": "Ages 6-17",
-          "price": 85,
+          "price": 95,
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $85; not anchoring: Child $85 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 tier \"Adult\" $95 re-read live 2026-08-27 (s52-wpr-drift): stored $85 was stale — wall-clock operator reprice, not seasonal; live \"Adult\" $95 on 2026-09-20 and 2026-11-22 (and on 2026-10-25 in the s52 census); confidence high; live USD. Prior basis: D-624 cheapest adult/base per-person tier Adult $85; not anchoring: Child $85 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-655016",
@@ -33527,7 +33535,7 @@
       "name": "Rainforest Adventures Tour",
       "description": "Slide down untouched natural waterslides, swim in crystal-clear mountain pools, and explore hidden waterfalls surrounded by lush rainforest. Capture every moment with professional photos on this exclusive, all-inclusive adventure.",
       "location": "San Juan",
-      "price": 49,
+      "price": 59,
       "bookingUrl": "https://fareharbor.com/embeds/book/sharepuertorico/items/695667/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/50HpjXauTumClkQtplu9/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -33548,8 +33556,8 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "",
-          "priceCents": 4900,
-          "price": 49,
+          "priceCents": 5900,
+          "price": 59,
           "minPartySize": 1
         },
         {
@@ -33557,8 +33565,8 @@
           "singular": "Senior",
           "plural": "Seniors",
           "note": "",
-          "priceCents": 3900,
-          "price": 39,
+          "priceCents": 4900,
+          "price": 49,
           "minPartySize": 1
         },
         {
@@ -33566,8 +33574,8 @@
           "singular": "Child",
           "plural": "Children",
           "note": "",
-          "priceCents": 3900,
-          "price": 39,
+          "priceCents": 4900,
+          "price": 49,
           "minPartySize": 1
         }
       ],
@@ -33581,28 +33589,29 @@
       "imageEnrichmentAt": "2026-05-28T00:23:35.593Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/sharepuertorico/items/695667/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s52-wpr-drift",
       "priceTiers": [
         {
           "name": "Adult",
           "note": "",
-          "price": 49,
+          "price": 59,
           "minPartySize": 1
         },
         {
           "name": "Senior",
           "note": "",
-          "price": 39,
+          "price": 49,
           "minPartySize": 1
         },
         {
           "name": "Child",
           "note": "",
-          "price": 39,
+          "price": 49,
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $49; not anchoring: Senior $39 [never], Child $39 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 tier \"Adult\" $59 re-read live 2026-08-27 (s52-wpr-drift): stored $49 was stale — wall-clock operator reprice, not seasonal; live \"Adult\" $59 on 2026-09-20 and 2026-11-22 (and on 2026-10-25 in the s52 census); confidence high; live USD. Prior basis: D-624 cheapest adult/base per-person tier Adult $49; not anchoring: Senior $39 [never], Child $39 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-711080",
@@ -33897,7 +33906,7 @@
       "name": "El Yunque Rainforest Small Group Tour from San Juan",
       "description": "Explore El Yunque rainforest with waterfalls, natural slides, rope swings, and stunning views. Enjoy a scenic drive, guided hike, river swims, and unforgettable jungle adventures—all from San Juan.",
       "location": "San Juan",
-      "price": 75,
+      "price": 79,
       "bookingUrl": "https://fareharbor.com/embeds/book/sanjuantourspr/items/141073/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/MUjqfSuFQkKqayRUvjSp/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -33958,8 +33967,8 @@
           "singular": "Self-Driven Participant to The Rainforest",
           "plural": "Self-Driven Participants to The Rainforest",
           "note": "(Ages 7+) Meet us at our tour area.",
-          "priceCents": 7500,
-          "price": 75,
+          "priceCents": 7900,
+          "price": 79,
           "minPartySize": 1
         },
         {
@@ -33982,12 +33991,12 @@
       "imageEnrichmentAt": "2026-05-28T00:24:25.779Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/sanjuantourspr/items/141073/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s52-wpr-drift",
       "priceTiers": [
         {
           "name": "Self-Driven Participant to The Rainforest",
           "note": "(Ages 7+) Meet us at our tour area.",
-          "price": 75,
+          "price": 79,
           "minPartySize": 1
         },
         {
@@ -33997,7 +34006,8 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Self-Driven Participant to The Rainforest $75 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 tier \"Self-Driven Participant to The Rainforest\" $79 re-read live 2026-08-27 (s52-wpr-drift): stored $75 was stale — wall-clock operator reprice, not seasonal; live \"Self-Driven Participant to The Rainforest\" $79 on 2026-09-20 and 2026-11-22 (and on 2026-10-25 in the s52 census); confidence high; live USD. Prior basis: D-624 cheapest adult/base per-person tier Self-Driven Participant to The Rainforest $75 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceVerifiedAt": "2026-08-27"
     },
     {
       "id": "pr-475700",
@@ -58046,7 +58056,7 @@
       "name": "Snorkeling Equipment & Kayak Rentals",
       "description": "Explore Rincon’s stunning coral reefs and coastal views with flexible kayak and snorkel rentals. Whether for an hour or all day, dive into an unforgettable Puerto Rican water adventure.",
       "location": "Rincón",
-      "price": 25,
+      "price": 22,
       "bookingUrl": "https://fareharbor.com/embeds/book/greatescapepr/items/465116/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/MctIKhnJQSmNLgjy0ve4/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -58068,7 +58078,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Four Hour Snorkel Rental",
+      "priceLabel": "Two Hour Snorkel Rental",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -58076,17 +58086,17 @@
           "singular": "Four Hour Snorkel Rental",
           "plural": "Four Hour Snorkel Rentals",
           "note": "Pricing is per person",
-          "priceCents": 2500,
-          "price": 25,
+          "priceCents": 3400,
+          "price": 34,
           "minPartySize": 1
         },
         {
-          "id": 834105,
-          "singular": "Full Day Snorkel Rental",
-          "plural": "Full Day Snorkel Rentals",
-          "note": "8 Hours • Pricing is per person",
-          "priceCents": 4000,
-          "price": 40,
+          "id": 834107,
+          "singular": "Two Hour Snorkel Rental",
+          "plural": "Two Hour Snorkel Rentals",
+          "note": "Pricing is per person",
+          "priceCents": 2200,
+          "price": 22,
           "minPartySize": 1
         },
         {
@@ -58118,18 +58128,18 @@
       "imageEnrichmentAt": "2026-05-28T01:24:51.508Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/greatescapepr/items/465116/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s52-wpr-drift",
       "priceTiers": [
         {
           "name": "Four Hour Snorkel Rental",
           "note": "Pricing is per person",
-          "price": 25,
+          "price": 34,
           "minPartySize": 1
         },
         {
-          "name": "Full Day Snorkel Rental",
-          "note": "8 Hours • Pricing is per person",
-          "price": 40,
+          "name": "Two Hour Snorkel Rental",
+          "note": "Pricing is per person",
+          "price": 22,
           "minPartySize": 1
         },
         {
@@ -58145,7 +58155,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Four Hour Snorkel Rental $25 of 2 base tiers (D-625); not anchoring: Four Hour Tandem Kayak Rental $150 [group], Full Day Tandem Kayak Rental $230 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest per-person tier \"Two Hour Snorkel Rental\" $22 (2 hours; FareHarbor tier note \"Pricing is per person\") re-read live 2026-08-27 (s52-wpr-drift) on 2026-09-20, 2026-10-25, 2026-11-22; \"Four Hour Snorkel Rental\" $34 sits above it (was the stored $25 anchor — stale, and no longer the floor; the $40 \"Full Day Snorkel Rental\" tier is gone live); not anchoring: \"Four Hour Tandem Kayak Rental\" $150 and \"Full Day Tandem Kayak Rental\" $230 — whole-unit thing-token tiers sharing the item, not a person fare (ruling s52, cf. KWST 309104); unit \"Two Hour Snorkel Rental\" published D-621 (tier label verbatim); confidence high; live USD. Prior basis: D-624 cheapest adult/base per-person tier Four Hour Snorkel Rental $25 of 2 base tiers (D-625); not anchoring: Four Hour Tandem Kayak Rental $150 [group], Full Day Tandem Kayak Rental $230 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceVerifiedAt": "2026-08-27",
+      "_unknownFields": {
+        "priceUnit": "Two Hour Snorkel Rental"
+      }
     },
     {
       "id": "pr-465147",
