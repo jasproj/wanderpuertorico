@@ -1,0 +1,278 @@
+pool (emitting population): 734 of 1170 rows; baseline emitted a bare Offer.price on all 734
+
+state 1 per-person asserted      : 423 rows, face $54,589.4 -> bare Offer.price, byte-identical
+state 2 non-per-person asserted  : 242 rows, face $234,727.84
+  2a card unit mirrored          : 221 rows, face $222,825.85 -> UnitPriceSpecification, unitText = card string verbatim
+  2b no mirrorable card unit     : 21 rows, face $11,901.99 -> no price emitted
+state 3 no unit evidence         : 69 rows, face $34,400.1 -> no price emitted
+
+cross-check vs the s52 cross-site audit (~125 non-per-person rows / ~$183,038 face): this census finds 242 / $234,727.84. Broader for the same reason as the WHAW reference (#263): the pool's own vocabulary also surfaces jet-ski/UTV/buggy rentals and Spanish "Tour Privado" listings the audit's word list didn't carry — every extra row errs toward silence, never toward a bare price.
+
+== deciding evidence strings, state per-person (85 distinct) ==
+  140  Person
+  118  Adult
+   16  Participant
+    9  Adult Snorkeler
+    8  Diver
+    6  Passenger
+    6  People
+    6  Hyatt Regency - Shared Tour
+    5  Per Person
+    5  Visitor
+    4  Snorkeler
+    4  Student
+    4  Additional Rider
+    4  Rider
+    4  1 traveler
+    3  Guest - Experience
+    2  Adult - Snorkeler
+    2  1 Snorkeler
+    2  Two Persons
+    2  Discover Dive
+    2  Open Water Student
+    2  Adult in San Juan
+    2  Certified Diver
+    2  Refresher Course
+    2  Ticket
+    2  PARTICIPANT
+    2  Single Rider Scooter
+    2  1 Person Lesson
+    1  By the Hand Snorkeling Lesson- Adults
+    1  Guests
+    1  Person High season credit
+    1  Certified Diver-1 tank  GSD1
+    1  Person - Kayak
+    1  Scuba Diver
+    1  Certified Diver Vieques
+    1  One Tank Diver
+    1  Adult El Yunque Rainforest and BioBay Combo Tour
+    1  Night Divers
+    1  One Lesson
+    1  Scuba Experience
+    1  Certified Diver-1 tank
+    1  Certified Diver-2 tank
+    1  CPR STUDENT
+    1  Participant for LED Night Kayak
+    1  Participant for Kayak Tour
+    1  Semi-Private Surf Lesson
+    1  Guest
+    1  Self-Driven Participant to The Rainforest
+    1  Participant for Snorkeling Tour
+    1  Participant for Boat Tour
+    1  Participant for Guided Scuba Tour
+    1  Adult for 2 Hour Rainforest Horseback Riding
+    1  Guest With Round Trip Transportation
+    1  Adult for San Cristobal & Old San Juan
+    1  Participant to The Early Rainforest
+    1  2+ REFERRAL COURSE - Two Dives
+    1  Advanced Open Water Student
+    1  Participant for Beach Horseback Riding
+    1  One Tank Scuba Diver
+    1  Spear Student
+    1  Reef Hunter
+    1  Guest Providing Own Transportation
+    1  Child
+    1  SSI - Referral Diver
+    1  Adult for Founder's Experience
+    1  Member Rider
+    1  Single Rider
+    1  1-Tank Dive
+    1  SSI Open Water Diver
+    1  Driver
+    1  Hyatt Regency - Shared
+    1  San Juan Area - SharedTour
+    1  1 hour Group Surf Lesson
+    1  Group Lesson
+    1  Single Passenger
+    1  One Tank Dive
+    1  SDI Open Water Class
+    1  SDI Underwater Photography Class
+    1  Adult for Legay Tour
+    1  Adult for Mixology Class
+    1  Person (45 mins)
+    1  Whale Watch Individual
+    1  Person (More Fun Hike)
+    1  Rider (1 hour)
+    1  Adult • With Transportation
+
+== deciding evidence strings, state non-per-person (113 distinct) ==
+   27  Private Charter
+   14  Private Tour
+    9  One Hour Rental
+    8  Tour Privado
+    7  Private charter
+    6  Jet Ski
+    6  Half Hour Rental
+    6  Night Transport • 1 - 4 People
+    5  Half Day Charter
+    4  Private Group of 2
+    4  Private Boat Tour
+    4  Private Vehicle
+    4  Private
+    4  One UTV – Up to 3 Passengers
+    4  private boat
+    4  Sea Ray 51’ Private Charter
+    4  Seven-Hour Rental
+    3  La Muñeca - Private Snorkeling Boat Charter
+    3  Essential Trip • 5-6 Guests
+    3  up to 6 passengers
+    2  Jetski
+    2  Jetski • Thirty Minutes
+    2  Private Charter (Up to 6 people)
+    2  Max of 6 Guests
+    2  Boat charter experience
+    2  Private Snorkel Tour
+    2  Private GSD2
+    2  Jet Ski • Driver
+    2  60-Minute Private Snorkel
+    2  Half Day Charters
+    2  3/4 Day Charter
+    2  Full Day Charter Vieques
+    2  Full Day Charter Culebrita
+    2  Full Day Charter Icacos and Palomino
+    2  Private Yacht 4 Hours
+    2  Private Cabin
+    2  Sunset on Private Yacht
+    2  Jet Ski Tour
+    2  Jet Ski Driver
+    2  One to Four People
+    1  Two Hours Doble Kayak Rental
+    1  One day Camera Rental
+    1  Private boat
+    1  Seven Days Snorkeling Gear Rental
+    1  Private Charter 4hrs
+    1  One hour Paddle board rental
+    1  Overnight kayak Rental
+    1  Private Charter | Icacos Island | Full Day
+    1  SCUBA Dive & Snorkel Charter
+    1  Fajardo Charter
+    1  Private Icacos
+    1  Snorkel Private Boat Charter (Up to 45 guests!)
+    1  Wave package
+    1  Private Group Cayo Luis Peña
+    1  Snorkeling Gear Rental
+    1  Up to 6 people
+    1  Charter to Local Islands
+    1  Dolphin Package
+    1  Private Group
+    1  Private One-on-One Lessons
+    1  Two Hour Rental • Single Kayak
+    1  Beach Lounge Chair Rental
+    1  Private SNK
+    1  Private DSD
+    1  Adult • 1 to 9 people
+    1  Private Tour: Icacos or Palomino Half-Day
+    1  CHARTER
+    1  Fishing Charter
+    1  All Inclusive Private Charter
+    1  Full Day Charter Culebra
+    1  Paddleboard Rental For One Hour
+    1  Two-Seater Kayak Rental for 1-Hour
+    1  Buggy
+    1  Private Charter (Up to 20 People)
+    1  Deluxe Charter
+    1  Private Surf Lesson
+    1  Private UTV Cabin
+    1  Up to 4 People
+    1  Six Hour Charter
+    1  Jet Ski Experience
+    1  Essential Trip • 1-6 Guests
+    1  Private Party Boat
+    1  Private 3-Hour Sunset Charter
+    1  3 Hours Rental
+    1  4 HOUR REEF HUNT (PRIVATE BOAT)
+    1  up to 12 passengers
+    1  1-13 Guests
+    1  Bike
+    1  UTV - 2 People
+    1  Group of 2 People
+    1  One Day Rental
+    1  Two Hour Rental
+    1  Participant for Bike Tour
+    1  for one to three people
+    1  Mini-Boat
+    1  1-6 Passengers
+    1  Sailing Charter
+    1  Full Day Private Charter
+    1  Half Day Private Charter • 1-4 people
+    1  Eight Hour Charter
+    1  Six Hour Lesson Package
+    1  Nine Hour Lesson Package
+    1  Twelve Hour Lesson Package
+    1  Couple
+    1  Private Activities Catamaran Rental
+    1  up to 3 people
+    1  for 6 people
+    1  Kite Package
+    1  Two Hour Snorkel Rental
+    1  Gazebo Rental
+    1  Private Earthship Room • 1 Night
+    1  1-2 people (1hr)
+    1  Scenic Boat Private Tour
+
+== deciding evidence strings, state none (47 distinct) ==
+    8  Flyboard Session
+    7  PAYMENT
+    6  Four Hours
+    3  Tropical Adventure
+    2  Bio Bay Night Kayaking
+    2  Walking Tour
+    1  Seven Days Beach Bean Bag
+    1  Snorkeling & Kayak Mini Eco-Experience
+    1  Nite Snorkeling and Boat Experience
+    1  Boat & Snorkeling Experience for two
+    1  Sunset Experience by Manta VIP Boat Tour
+    1  Bio Bay Night Kayaking with Transportation from San Juan area
+    1  Guided Tour
+    1  PR BIG PAPPA 21’ Sea Doo Cruiser 2 Hours
+    1  BioBay Kayak Tour
+    1  Custom Tours & Activities
+    1  Snorkel Experience
+    1  Nature Walk
+    1  Bio Bay Night Kayaking • Beach • Rainforest Trio
+    1  Climber
+    1  Airport Pickup Transportation
+    1  Single Kayak
+    1  National Rainforest Hiking
+    1  Group 6
+    1  REGULATORS
+    1  Check ride
+    1  Small Bag
+    1  Dock fee
+    1  Standard Group
+    1  Adventurer • With Transportation
+    1  Zip-line with transportation.
+    1  Mercedes Classic Jetcar
+    1  Kiteboarding Board
+    1  Standard Snorkeling Tour
+    1  Standard Tour
+    1  Snorkel Kayak Tour
+    1  Aguadilla Outdoor Sport Climbing
+    1  South Coast Wahoo Expedition
+    1  Court without Roof
+    1  TRIO experience
+    1  KAYAK
+    1  Snorkeling Equipment
+    1  Sunchill
+    1  Five Hour Tour
+    1  Conquistador Resort - Sunset Sail
+    1  Bio Bay Tour
+    1  Young Explorer
+
+=== fixture: perPerson — pk 3727 "Culebra Island Aquafari (with Ferry Tickets)" price $109 ===
+  evidence: priceUnit="" priceLabel="Adult" anchorSingular="Adult"
+  before offers: {"@type":"Offer","price":109,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/kayakingpuertorico/items/3727/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  after  offers: {"@type":"Offer","price":109,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/kayakingpuertorico/items/3727/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  full schema byte-identical to baseline: true
+
+=== fixture: wholeUnit — pk 6350 "Full Day Snorkeling and Boat Experience" price $1050 ===
+  evidence: priceUnit="Private charter" priceLabel="Piñero Island" anchorSingular="Piñero Island"
+  before offers: {"@type":"Offer","price":1050,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6350/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  after  offers: {"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":1050,"priceCurrency":"USD","unitText":"Private charter"},"url":"https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6350/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+
+=== fixture: noEvidence — pk 276931 "Weekly Rentals" price $60 ===
+  evidence: priceUnit="" priceLabel="Seven Days Beach Bean Bag" anchorSingular="Seven Days Beach Bean Bag"
+  before offers: {"@type":"Offer","price":60,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/piratesnorkelingshack/items/276931/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no","availability":"https://schema.org/InStock"}
+  after  offers: null
+
+all assertions passed: partition exact, state-1 byte-identical, state-2a verbatim card unitText + no bare price, state-2b/3 no price key
