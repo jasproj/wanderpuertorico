@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,follow">
+    <title>Find Your Perfect Bio Bay Tour | Wander Puerto Rico</title>
+    <meta name="description" content="Answer 5 quick questions to find the best bioluminescent bay tour in Puerto Rico for your trip.">
+    <link rel="canonical" href="https://wanderpuertorico.com/bio-bay-quiz.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderpuertorico.com/bio-bay-quiz.html">
+    <meta property="og:title" content="Find Your Perfect Bio Bay Tour | Wander Puerto Rico">
+    <meta property="og:description" content="Answer 5 quick questions to find the best bioluminescent bay tour in Puerto Rico.">
+    <meta property="og:image" content="https://wanderpuertorico.com/images/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MBNZZ0D7VD');
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --deep-blue: #0B1D3A;
+            --glow-green: #00E5A0;
+            --glow-dark: #00C48C;
+            --midnight: #0D2847;
+            --white: #FFFFFF;
+            --text: #1A1A2E;
+            --muted: #6B7280;
+            --bg: #F0F7FA;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: var(--deep-blue);
+            padding: 12px 16px;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .quiz-wrap {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px 16px 40px;
+        }
+
+        .progress {
+            height: 4px;
+            background: #ddd;
+            border-radius: 2px;
+            margin-bottom: 8px;
+        }
+        .progress-fill {
+            height: 100%;
+            background: var(--glow-green);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+        .progress-text {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .question {
+            display: none;
+            animation: fadeIn 0.25s ease;
+        }
+        .question.active { display: block; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .q-emoji { font-size: 40px; text-align: center; margin-bottom: 12px; }
+        .q-title { font-size: 22px; font-weight: 700; text-align: center; margin-bottom: 6px; color: var(--deep-blue); }
+        .q-sub { font-size: 13px; color: var(--muted); text-align: center; margin-bottom: 20px; }
+
+        .options { display: grid; gap: 10px; }
+        .opt {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 14px 16px;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .opt:hover { border-color: var(--glow-green); }
+        .opt.selected { border-color: var(--glow-green); background: rgba(0,229,160,0.08); }
+        .opt-emoji { font-size: 24px; }
+        .opt-text { font-weight: 600; font-size: 14px; }
+        .opt-sub { font-size: 12px; color: var(--muted); }
+
+        .nav { display: flex; gap: 10px; margin-top: 24px; }
+        .btn-back {
+            background: transparent;
+            border: 2px solid #ccc;
+            color: #666;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn-next {
+            flex: 1;
+            background: var(--glow-green);
+            border: none;
+            color: var(--deep-blue);
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            opacity: 0.4;
+            pointer-events: none;
+            transition: opacity 0.2s;
+        }
+        .btn-next.enabled { opacity: 1; pointer-events: auto; }
+
+        .loading { display: none; text-align: center; padding: 80px 20px; }
+        .loading.active { display: block; }
+        .spinner {
+            width: 40px; height: 40px;
+            border: 3px solid #e0e0e0;
+            border-top-color: var(--glow-green);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .results { display: none; }
+        .results.active { display: block; }
+        .results-header { text-align: center; margin-bottom: 20px; }
+        .results-header h1 { font-size: 24px; margin-bottom: 4px; color: var(--deep-blue); }
+        .results-header p { font-size: 13px; color: var(--muted); }
+        .results-count { font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+        .tour-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 2px solid transparent;
+        }
+        .tour-card:first-child { border-color: var(--glow-green); }
+        .tour-img { width: 100%; height: 160px; object-fit: cover; background: #eee; }
+        .tour-body { padding: 14px; }
+        .tour-badge {
+            display: inline-block;
+            background: var(--glow-green);
+            color: var(--deep-blue);
+            font-size: 10px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 12px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .tour-head { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+        .tour-name { font-weight: 700; font-size: 15px; flex: 1; color: var(--deep-blue); }
+        .tour-price { font-weight: 700; font-size: 18px; color: var(--glow-dark); white-space: nowrap; }
+        .tour-meta { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+        .tour-match {
+            font-size: 12px;
+            color: var(--deep-blue);
+            background: rgba(0,229,160,0.12);
+            padding: 8px 10px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+        .tour-cta {
+            display: block;
+            background: var(--glow-green);
+            color: var(--deep-blue);
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .more-results { text-align: center; margin: 16px 0; }
+        .more-btn {
+            background: white;
+            border: 2px solid var(--deep-blue);
+            color: var(--deep-blue);
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .email-box {
+            background: white;
+            border: 2px dashed var(--glow-green);
+            border-radius: 12px;
+            padding: 18px;
+            text-align: center;
+            margin-top: 8px;
+        }
+        .email-box h3 { font-size: 15px; margin-bottom: 6px; color: var(--deep-blue); }
+        .email-box p { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+        .email-form { display: flex; gap: 8px; flex-direction: column; }
+        .email-input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .email-btn {
+            background: var(--deep-blue);
+            color: white;
+            border: none;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .email-success { display: none; color: #059669; font-weight: 600; }
+
+        .restart { text-align: center; margin-top: 20px; }
+        .restart a { color: var(--muted); font-size: 12px; }
+
+        @media (min-width: 500px) {
+            .email-form { flex-direction: row; }
+        }
+    </style>
+    <script src="/tracking.js" defer></script>
+    <link rel="stylesheet" href="/sponsor-slot.css">
+    <script src="/sponsor-slot.js" defer></script>
+    <link rel="stylesheet" href="/chrome.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <picture><source type="image/webp" sizes="(max-width: 768px) 60px, 79px" srcset="/images/puertorico-logo-full-80.webp 80w, /images/puertorico-logo-full-160.webp 160w, /images/puertorico-logo-full-240.webp 240w"><img src="/puertorico-logo-full.png" alt="Wander Puerto Rico" class="logo-img" loading="eager" decoding="async"></picture>
+                    <span>Wander Puerto Rico</span>
+                </a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#locations">Locations</a>
+                <a href="/faq.html">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#locations">Locations</a>
+            <a href="/faq.html">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+    </header>
+
+    <div class="quiz-wrap">
+        <div class="progress">
+            <div class="progress-fill" id="prog" style="width:20%"></div>
+        </div>
+        <div class="progress-text"><span id="step">1</span> of 5</div>
+
+        <!-- Q1: Where are you staying? -->
+        <div class="question active" id="q1">
+            <div class="q-emoji">📍</div>
+            <h2 class="q-title">Where are you staying?</h2>
+            <p class="q-sub">We'll find the closest bio bay</p>
+            <div class="options">
+                <div class="opt" data-v="sanjuan" onclick="pick(this,'base')">
+                    <span class="opt-emoji">🏙️</span>
+                    <div><div class="opt-text">San Juan area</div><div class="opt-sub">Old San Juan, Condado, Isla Verde</div></div>
+                </div>
+                <div class="opt" data-v="fajardo" onclick="pick(this,'base')">
+                    <span class="opt-emoji">⛵</span>
+                    <div><div class="opt-text">Fajardo / East Coast</div><div class="opt-sub">Closest to Laguna Grande bio bay</div></div>
+                </div>
+                <div class="opt" data-v="southwest" onclick="pick(this,'base')">
+                    <span class="opt-emoji">🌅</span>
+                    <div><div class="opt-text">Southwest / Rincon / Lajas</div><div class="opt-sub">Near La Parguera bio bay</div></div>
+                </div>
+                <div class="opt" data-v="vieques" onclick="pick(this,'base')">
+                    <span class="opt-emoji">🏝️</span>
+                    <div><div class="opt-text">Vieques</div><div class="opt-sub">Home to Mosquito Bay — brightest in the world</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-next" id="n1" onclick="next(2)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q2: Experience type -->
+        <div class="question" id="q2">
+            <div class="q-emoji">🛶</div>
+            <h2 class="q-title">How do you want to see it?</h2>
+            <p class="q-sub">Each way hits different</p>
+            <div class="options">
+                <div class="opt" data-v="kayak" onclick="pick(this,'style')">
+                    <span class="opt-emoji">🚣</span>
+                    <div><div class="opt-text">Kayak</div><div class="opt-sub">Classic bio bay experience — paddle through the glow</div></div>
+                </div>
+                <div class="opt" data-v="clear" onclick="pick(this,'style')">
+                    <span class="opt-emoji">🔍</span>
+                    <div><div class="opt-text">Clear / glass-bottom kayak</div><div class="opt-sub">See the glow beneath you</div></div>
+                </div>
+                <div class="opt" data-v="boat" onclick="pick(this,'style')">
+                    <span class="opt-emoji">🚤</span>
+                    <div><div class="opt-text">Boat tour</div><div class="opt-sub">Less effort, good for all fitness levels</div></div>
+                </div>
+                <div class="opt" data-v="swim" onclick="pick(this,'style')">
+                    <span class="opt-emoji">🏊</span>
+                    <div><div class="opt-text">Swimming in the glow</div><div class="opt-sub">Full immersion — La Parguera only</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(1)">← Back</button>
+                <button class="btn-next" id="n2" onclick="next(3)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q3: Who's coming -->
+        <div class="question" id="q3">
+            <div class="q-emoji">👥</div>
+            <h2 class="q-title">Who's coming?</h2>
+            <p class="q-sub">Some tours are better for certain groups</p>
+            <div class="options">
+                <div class="opt" data-v="couple" onclick="pick(this,'who')">
+                    <span class="opt-emoji">💑</span>
+                    <div><div class="opt-text">Just us two</div><div class="opt-sub">Romantic night on the water</div></div>
+                </div>
+                <div class="opt" data-v="family" onclick="pick(this,'who')">
+                    <span class="opt-emoji">👨‍👩‍👧‍👦</span>
+                    <div><div class="opt-text">Family with kids</div><div class="opt-sub">Safe, guided, kid-friendly</div></div>
+                </div>
+                <div class="opt" data-v="friends" onclick="pick(this,'who')">
+                    <span class="opt-emoji">🎉</span>
+                    <div><div class="opt-text">Friend group</div><div class="opt-sub">Adventure crew</div></div>
+                </div>
+                <div class="opt" data-v="solo" onclick="pick(this,'who')">
+                    <span class="opt-emoji">🧭</span>
+                    <div><div class="opt-text">Solo traveler</div><div class="opt-sub">Join a group tour</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(2)">← Back</button>
+                <button class="btn-next" id="n3" onclick="next(4)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q4: Combo or standalone -->
+        <div class="question" id="q4">
+            <div class="q-emoji">🌿</div>
+            <h2 class="q-title">Just bio bay, or more?</h2>
+            <p class="q-sub">Some tours combine bio bay with other adventures</p>
+            <div class="options">
+                <div class="opt" data-v="bioonly" onclick="pick(this,'combo')">
+                    <span class="opt-emoji">✨</span>
+                    <div><div class="opt-text">Bio bay only</div><div class="opt-sub">Evening tour, 1.5–2 hours</div></div>
+                </div>
+                <div class="opt" data-v="rainforest" onclick="pick(this,'combo')">
+                    <span class="opt-emoji">🌴</span>
+                    <div><div class="opt-text">Bio bay + El Yunque rainforest</div><div class="opt-sub">Full day: hike by day, glow by night</div></div>
+                </div>
+                <div class="opt" data-v="snorkel" onclick="pick(this,'combo')">
+                    <span class="opt-emoji">🤿</span>
+                    <div><div class="opt-text">Bio bay + snorkeling</div><div class="opt-sub">Water day + glowing night</div></div>
+                </div>
+                <div class="opt" data-v="flexible" onclick="pick(this,'combo')">
+                    <span class="opt-emoji">🤷</span>
+                    <div><div class="opt-text">Show me everything</div><div class="opt-sub">All options welcome</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(3)">← Back</button>
+                <button class="btn-next" id="n4" onclick="next(5)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q5: Budget -->
+        <div class="question" id="q5">
+            <div class="q-emoji">💰</div>
+            <h2 class="q-title">What's your budget?</h2>
+            <p class="q-sub">Per person</p>
+            <div class="options">
+                <div class="opt" data-v="budget" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">💵</span>
+                    <div><div class="opt-text">Under $60</div><div class="opt-sub">Great value bio bay tours</div></div>
+                </div>
+                <div class="opt" data-v="mid" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">💎</span>
+                    <div><div class="opt-text">$60 – $100</div><div class="opt-sub">Most popular range</div></div>
+                </div>
+                <div class="opt" data-v="premium" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">👑</span>
+                    <div><div class="opt-text">$100+</div><div class="opt-sub">Combos, private tours, transport included</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(4)">← Back</button>
+                <button class="btn-next" id="n5" onclick="showResults()">See My Matches ✨</button>
+            </div>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div>Finding your perfect bio bay tour...</div>
+        </div>
+
+        <!-- Results -->
+        <div class="results" id="results">
+            <div class="results-header">
+                <h1>Your Bio Bay Matches ✨</h1>
+                <p>Curated for your trip</p>
+                <div class="results-count" id="matchCount"></div>
+            </div>
+            <div id="tourResults"></div>
+            <div class="more-results" id="moreSection" style="display:none;">
+                <button class="more-btn" onclick="showMore()">Show More Options</button>
+            </div>
+
+            <div class="email-box">
+                <h3>📧 Save Your Results</h3>
+                <p>Get these options + our "Bio Bay Tips & Packing List"</p>
+                <form class="email-form" id="emailForm" onsubmit="submitEmail(event)">
+                    <input type="email" class="email-input" id="emailInput" placeholder="your@email.com" required>
+                    <button type="submit" class="email-btn">Send It</button>
+                </form>
+                <div class="email-success" id="emailOk">✓ Sent! Check your inbox</div>
+            </div>
+
+            <div class="restart">
+                <a href="#" onclick="restart()">↻ Start over</a>
+            </div>
+        </div>
+    </div>
+
+<script>
+const TOURS = [
+    // FAJARDO — KAYAK (Laguna Grande)
+    {name:"Bio Bay Kayak Tour", price:70, company:"Kayaking Puerto Rico", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/dSsO8Y3hRai11t9PN9EB", link:"https://fareharbor.com/embeds/book/kayakingpuertorico/items/3728/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["mid"], match:"Top-rated Fajardo bio bay kayak tour — Laguna Grande"},
+    {name:"Glowing Bio Bay Kayak Adventure", price:65, company:"Island Kayaking Adventure", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/PSniqjuXRSaTrcKulURZ", link:"https://fareharbor.com/embeds/book/ikapr/items/168561/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak"], who:["couple","friends","solo"], combo:["bioonly","flexible"], budgets:["mid"], match:"Guided kayak through glowing Laguna Grande — small groups"},
+    {name:"Bio Bay Night Kayaking Tour Laguna Grande", price:64, company:"Eco Action Tours", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/LTajbi1PTjyQgWitVAVf", link:"https://fareharbor.com/embeds/book/ecoactiontours/items/215093/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["mid"], match:"Night kayak tour of Laguna Grande — eco-focused guides"},
+    {name:"Fajardo Bio Bay Kayak Tour", price:59, company:"Pure Adventure", image:"https://www.filepicker.io/api/file/dSsO8Y3hRai11t9PN9EB", link:"https://fareharbor.com/embeds/book/pureadventurepr/items/11821/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak"], who:["couple","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Budget-friendly bio bay kayak — great reviews, lower price"},
+    {name:"Bioluminescent Kayak Tour Laguna Grande", price:55, company:"Kayak PR", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/z0O18KdfQwOSLLr5YudM", link:"https://fareharbor.com/embeds/book/kayak-pr/items/326433/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak"], who:["couple","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Lowest-price Fajardo bio bay kayak — solid operator"},
+
+    // FAJARDO — CLEAR/GLASS BOTTOM
+    {name:"Bio Bay Kayak Tour — Fajardo", price:59, company:"Glass Bottom PR", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/MEzqoDtLTga4TpvYL2oS", link:"https://fareharbor.com/embeds/book/glassbottompr/items/11133/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["clear","kayak"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Clear-bottom kayak — see the glow beneath you"},
+    {name:"Bioluminescent Bay", price:65, company:"Puerto Rico Access Tours", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/PSniqjuXRSaTrcKulURZ", link:"https://fareharbor.com/embeds/book/accesstourspr/items/8754/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak","clear"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["mid"], match:"Accessible bio bay tour — good for first-timers"},
+
+    // WITH SAN JUAN TRANSPORT
+    {name:"Bioluminescent Bay with Transportation from San Juan", price:115, company:"Puerto Rico Access Tours", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/PSniqjuXRSaTrcKulURZ", link:"https://fareharbor.com/embeds/book/accesstourspr/items/211394/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["sanjuan"], style:["kayak","clear","boat"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["premium"], match:"Hotel pickup in San Juan included — no rental car needed"},
+
+    // COMBOS — RAINFOREST + BIO BAY
+    {name:"El Yunque Rainforest & Bio Bay Combo Tour", price:165, company:"Island Journeys, LLC", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/JHsHjjS2TVqDE0r3QgeD", link:"https://fareharbor.com/embeds/book/islandjourneys/items/170688/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["sanjuan","fajardo"], style:["kayak"], who:["couple","family","friends","solo"], combo:["rainforest","flexible"], budgets:["premium"], match:"Full day: El Yunque hike by day, glowing bay by night"},
+    {name:"Bio Bay & Rainforest Combo Tour", price:165, company:"Kayaking Puerto Rico", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/JHsHjjS2TVqDE0r3QgeD", link:"https://fareharbor.com/embeds/book/kayakingpuertorico/items/94000/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["sanjuan","fajardo"], style:["kayak"], who:["couple","family","friends","solo"], combo:["rainforest","flexible"], budgets:["premium"], match:"Two iconic Puerto Rico experiences in one day"},
+
+    // VIEQUES — MOSQUITO BAY
+    {name:"Guided Clear Bottom Kayak Bio Bay Tour", price:70, company:"Melaya's Tours", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/twKvmZNT4OHzfnukWCzQ", link:"https://fareharbor.com/embeds/book/melayastours/items/118202/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["vieques"], style:["clear","kayak"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["mid"], match:"Mosquito Bay — brightest bio bay in the world, clear-bottom kayak"},
+
+    // LA PARGUERA — SWIMMING + BOAT
+    {name:"Sunset + Swim the Bioluminescent Bay Tour", price:70, company:"Hook'd on Adventure Parguera", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/mfMZGJTURvSiVTffJTqt", link:"https://fareharbor.com/embeds/book/hookdonadventureparguera/items/215903/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["southwest"], style:["swim","boat"], who:["couple","friends"], combo:["bioonly","snorkel","flexible"], budgets:["mid"], match:"Only place you can SWIM in a bio bay — sunset + glow combo"},
+    {name:"Bio Bay Swimming Tour", price:45, company:"Parguera Eco Tours", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/mfMZGJTURvSiVTffJTqt", link:"https://fareharbor.com/embeds/book/pargueraecotours/items/240215/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["southwest"], style:["swim","boat"], who:["couple","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Swim in glowing water at La Parguera — lowest price bio bay"},
+    {name:"La Parguera Bioluminescent Bay Catamaran", price:20, company:"Johnny's Boats", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/x0VWNGJbTQuvz9DEIFcD", link:"https://fareharbor.com/embeds/book/johnnysboats/items/700587/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["southwest"], style:["boat"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"$20 catamaran ride through La Parguera bio bay — cheapest option"},
+    {name:"Bioluminescent Bay Glassbottom Boat Tours", price:22, company:"Fondo de Cristal", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/5smw7IFT5GdsC3kNGKUQ", link:"https://fareharbor.com/embeds/book/fondodecristal-3/items/290229/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["southwest"], style:["boat","clear"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Glass-bottom boat at La Parguera — see the glow from above"},
+    {name:"BIOBAY KAYAK ADVENTURE", price:59.99, company:"Kayaking Parguera", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/YCIfsipjRlORSH9xOStS", link:"https://fareharbor.com/embeds/book/kayakingparguera/items/123311/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["southwest"], style:["kayak"], who:["couple","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Kayak La Parguera bio bay — where you can also swim"},
+
+    // PRIVATE
+    {name:"Private: Evening Swim and Bioluminescent Bay Charter", price:550, company:"Hook'd on Adventure Parguera", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/mfMZGJTURvSiVTffJTqt", link:"https://fareharbor.com/embeds/book/hookdonadventureparguera/items/384443/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["southwest"], style:["swim","boat"], who:["couple","friends"], combo:["bioonly","snorkel","flexible"], budgets:["premium"], match:"Private charter — swim in bio bay with your own captain"},
+
+    // BIO BAY + SNORKEL COMBOS
+    {name:"Bio Bay Bioluminescent Kayaking Tour in Fajardo", price:63, company:"Eco Adventures", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/LTajbi1PTjyQgWitVAVf", link:"https://fareharbor.com/embeds/book/ecoadventurespr/items/72460/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["fajardo","sanjuan"], style:["kayak"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["mid"], match:"Eco-certified bio bay kayaking in Fajardo"},
+
+    // WITH SAN JUAN TRANSPORT — COMBO
+    {name:"La Parguera Bio Bay Boat Ride and Swimming with San Juan Transport", price:54.99, company:"Caribbean Breeze Adventures", image:"https://cdn.filestackcontent.com/resize=w:1200,fit:max/auto_image/compress/wJzIuX1tS1yJKaun8kad", link:"https://fareharbor.com/embeds/book/caribbeanbreezeadventures/items/383857/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", base:["sanjuan","southwest"], style:["boat","swim"], who:["couple","family","friends","solo"], combo:["bioonly","flexible"], budgets:["budget"], match:"Transport from San Juan to La Parguera bio bay — swim included"},
+];
+
+const A = {};
+let S = 1;
+let scoredTours = [];
+let showing = 3;
+
+function pick(el, key) {
+    el.parentElement.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
+    el.classList.add('selected');
+    A[key] = el.dataset.v;
+    document.getElementById('n'+S).classList.add('enabled');
+    gtag('event', 'quiz_answer', {question: key, answer: A[key], quiz: 'biobay'});
+}
+
+function next(n) {
+    document.getElementById('q'+S).classList.remove('active');
+    document.getElementById('q'+n).classList.add('active');
+    S = n;
+    document.getElementById('prog').style.width = (S*20)+'%';
+    document.getElementById('step').textContent = S;
+}
+
+function back(n) {
+    document.getElementById('q'+S).classList.remove('active');
+    document.getElementById('q'+n).classList.add('active');
+    S = n;
+    document.getElementById('prog').style.width = (S*20)+'%';
+    document.getElementById('step').textContent = S;
+}
+
+function showResults() {
+    document.getElementById('q5').classList.remove('active');
+    document.getElementById('loading').classList.add('active');
+
+    scoredTours = TOURS.map(t => {
+        let score = 0;
+        if (t.base.includes(A.base)) score += 100;
+        if (t.style.includes(A.style)) score += 50;
+        if (t.who.includes(A.who)) score += 40;
+        if (t.combo.includes(A.combo)) score += 50;
+        if (t.budgets.includes(A.budget)) score += 40;
+        return {...t, score};
+    });
+
+    scoredTours.sort((a, b) => {
+        if (b.score !== a.score) return b.score - a.score;
+        return a.price - b.price;
+    });
+
+    scoredTours = scoredTours.filter(t => t.score >= 80);
+
+    setTimeout(() => {
+        document.getElementById('loading').classList.remove('active');
+        showing = 3;
+        renderTours();
+        document.getElementById('results').classList.add('active');
+        gtag('event', 'quiz_complete', {...A, matches: scoredTours.length, quiz: 'biobay'});
+    }, 1200);
+}
+
+function renderTours() {
+    const toShow = scoredTours.slice(0, showing);
+    const badges = ['✨ Best Match', '🥈 Great Option', '🥉 Also Excellent'];
+
+    document.getElementById('matchCount').textContent =
+        `Found ${scoredTours.length} tours for your trip`;
+
+    document.getElementById('tourResults').innerHTML = toShow.map((t, i) => `
+        <div class="tour-card">
+            <img src="${t.image}" class="tour-img" alt="${t.name}"
+                 onerror="this.style.background='linear-gradient(135deg,#00E5A0,#0B1D3A)';this.style.height='120px';">
+            <div class="tour-body">
+                <span class="tour-badge">${badges[i] || '✓ Good Fit'}</span>
+                <div class="tour-head">
+                    <span class="tour-name">${t.name}</span>
+                    <span class="tour-price">$${t.price % 1 === 0 ? t.price : t.price.toFixed(2)}</span>
+                </div>
+                <div class="tour-meta">${t.company}</div>
+                <div class="tour-match">✓ ${t.match}</div>
+                <a href="${t.link}" target="_blank" class="tour-cta"
+                   onclick="trackClick('${t.name.replace(/'/g,"\\'")}',${t.price})">
+                    Check Availability →
+                </a>
+            </div>
+        </div>
+    `).join('');
+
+    document.getElementById('moreSection').style.display =
+        scoredTours.length > showing ? 'block' : 'none';
+}
+
+function showMore() {
+    showing += 5;
+    renderTours();
+    gtag('event', 'quiz_show_more', {showing, quiz: 'biobay'});
+}
+
+function trackClick(name, price) {
+    gtag('event', 'booking_click', {
+        tour_name: name,
+        tour_price: price,
+        source: 'biobay_quiz',
+        quiz_base: A.base,
+        quiz_style: A.style
+    });
+}
+
+function submitEmail(e) {
+    e.preventDefault();
+    const email = document.getElementById('emailInput').value;
+    gtag('event', 'quiz_email_capture', {...A, quiz: 'biobay'});
+
+    fetch('https://formspree.io/f/xpwzgkla', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            email,
+            quiz: 'biobay',
+            answers: A,
+            top_matches: scoredTours.slice(0,3).map(t => t.name)
+        })
+    });
+
+    document.getElementById('emailForm').style.display = 'none';
+    document.getElementById('emailOk').style.display = 'block';
+}
+
+function restart() {
+    Object.keys(A).forEach(k => delete A[k]);
+    S = 1;
+    showing = 3;
+    document.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
+    document.querySelectorAll('.btn-next').forEach(b => b.classList.remove('enabled'));
+    document.getElementById('results').classList.remove('active');
+    document.getElementById('q1').classList.add('active');
+    document.getElementById('prog').style.width = '20%';
+    document.getElementById('step').textContent = '1';
+    return false;
+}
+</script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <picture>
+                        <source type="image/webp" srcset="/images/footer-badge-240.webp 240w, /images/footer-badge-480.webp 480w, /images/footer-badge-720.webp 720w" sizes="(max-width: 768px) 90px, 120px">
+                        <img src="/images/footer-badge.png" alt="Wander Puerto Rico" class="footer-logo-img" loading="lazy" decoding="async">
+                        </picture>
+                    </a>
+                    <p>Your guide to Puerto Rico tours. Verified local operators, direct booking.</p>
+                    <p class="footer-tagline">Direct to local operators. Beyond the resort.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Regions</h4>
+                    <ul>
+                        <li><a href="/fajardo.html">Fajardo</a></li>
+                        <li><a href="/san-juan.html">San Juan</a></li>
+                        <li><a href="/vieques.html">Vieques</a></li>
+                        <li><a href="/culebra.html">Culebra</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="/snorkeling.html">Snorkeling</a></li>
+                        <li><a href="/kayaking.html">Kayaking</a></li>
+                        <li><a href="/bio-bay.html">Bio Bay Tours</a></li>
+                        <li><a href="/el-yunque.html">El Yunque</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/advertise.html">Advertise</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; 2026 Wander Puerto Rico. Book direct with local operators.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/chrome.js" defer></script>
+</body>
+</html>
