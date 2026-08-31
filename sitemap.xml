@@ -821,4 +821,34 @@
         <lastmod>2026-08-30</lastmod>
         <priority>0.7</priority>
     </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/things-to-do-rincon.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/things-to-do-vieques.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/things-to-do-ponce.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/things-to-do-cabo-rojo.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wanderpuertorico.com/blog/things-to-do-fajardo.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
