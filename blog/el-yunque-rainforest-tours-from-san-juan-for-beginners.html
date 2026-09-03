@@ -35,7 +35,24 @@
     }
     </script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://wanderpuertorico.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://wanderpuertorico.com/blog/"},{"@type":"ListItem","position":3,"name":"El Yunque Rainforest Tours from San Juan for Beginners","item":"https://wanderpuertorico.com/blog/el-yunque-rainforest-tours-from-san-juan-for-beginners.html"}]}</script>
-</head>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MBNZZ0D7VD');
+        
+        function trackBookingClick(tourName, tourId, region) {
+            gtag('event', 'booking_click', {
+                'event_category': 'conversion',
+                'event_label': tourName,
+                'tour_id': tourId,
+                'region': region || 'puerto-rico'
+            });
+        }
+    </script>
+  </head>
 <body>
     <header class="site-header">
         <div class="container">
