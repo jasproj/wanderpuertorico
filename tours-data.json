@@ -452,7 +452,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 64,
+      "price": 58,
       "priceLabel": "Guests",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -514,7 +514,11 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Guests $64; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Guests $64; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-448580",
@@ -670,7 +674,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 45,
+      "price": 25,
       "priceLabel": "Two Hours Doble Kayak Rental",
       "priceConfidence": "high",
       "qualityScore": 99,
@@ -737,7 +741,9 @@
       ],
       "priceEnrichmentStatus": "high",
       "_unknownFields": {
-        "priceUnit": "Two Hours Doble Kayak Rental"
+        "priceUnit": "Two Hours Doble Kayak Rental",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBasis": "D-621 published with unit \"Two Hours Doble Kayak Rental\" (rule: tier label verbatim); live ladder Two Hours Doble Kayak Rental $45 has no standalone adult/base per-person tier; whole-party floor $45 (Two Hours Doble Kayak Rental); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
     },
@@ -930,7 +936,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 60,
+      "price": 280,
       "priceLabel": "Seven Days Beach Bean Bag",
       "priceConfidence": "high",
       "qualityScore": 99,
@@ -995,7 +1001,11 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Seven Days Beach Bean Bag $60; 4/4 dated readings (4 date-valid), 4 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Seven Days Beach Bean Bag $60; 4/4 dated readings (4 date-valid), 4 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-11151",
@@ -1511,7 +1521,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 85,
+      "price": 65,
       "priceLabel": "Seven Days Snorkeling Gear Rental",
       "priceConfidence": "high",
       "qualityScore": 97,
@@ -1575,7 +1585,9 @@
       ],
       "priceEnrichmentStatus": "high",
       "_unknownFields": {
-        "priceUnit": "Seven Days Snorkeling Gear Rental"
+        "priceUnit": "Seven Days Snorkeling Gear Rental",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBasis": "D-621 published with unit \"Seven Days Snorkeling Gear Rental\" (rule: tier label verbatim); live ladder Seven Days Snorkeling Gear Rental $85 has no standalone adult/base per-person tier; whole-party floor $85 (Seven Days Snorkeling Gear Rental); 4/4 dated readings (4 date-valid), 4 ladder shape(s); live USD"
     },
@@ -2092,7 +2104,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 3400,
+      "price": 4000,
       "priceLabel": "Private Charter 4hrs",
       "priceConfidence": "high",
       "qualityScore": 97,
@@ -2147,7 +2159,9 @@
       ],
       "priceEnrichmentStatus": "high",
       "_unknownFields": {
-        "priceUnit": "Private Charter 4hrs"
+        "priceUnit": "Private Charter 4hrs",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBasis": "D-621 published with unit \"Private Charter 4hrs\" (rule: tier label verbatim); live ladder Private Charter 4hrs $3400 has no standalone adult/base per-person tier; whole-party floor $3400 (Private Charter 4hrs); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
     },
@@ -2160,7 +2174,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 25,
+      "price": 45,
       "priceLabel": "One hour Paddle board rental",
       "priceConfidence": "high",
       "qualityScore": 96,
@@ -2226,7 +2240,9 @@
       ],
       "priceEnrichmentStatus": "high",
       "_unknownFields": {
-        "priceUnit": "One hour Paddle board rental"
+        "priceUnit": "One hour Paddle board rental",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBasis": "D-621 published with unit \"One hour Paddle board rental\" (rule: tier label verbatim); live ladder One hour Paddle board rental $25 has no standalone adult/base per-person tier; whole-party floor $25 (One hour Paddle board rental); 4/4 dated readings (4 date-valid), 3 ladder shape(s); live USD"
     },
@@ -11459,7 +11475,7 @@
       "category": "",
       "location": "Ceiba",
       "island": "",
-      "price": 1395,
+      "price": 995,
       "priceLabel": "Full day",
       "priceConfidence": "high",
       "qualityScore": 68,
@@ -11522,7 +11538,9 @@
       ],
       "priceEnrichmentStatus": "high",
       "_unknownFields": {
-        "priceUnit": "Max of 6 Guests"
+        "priceUnit": "Max of 6 Guests",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBasis": "D-621 published with unit \"Max of 6 Guests\" (rule: description quoted (\"Max of 6 Guests\")); live ladder Full day $1395 has no standalone adult/base per-person tier; whole-party floor $1395 (Full day); 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
     },
@@ -19045,7 +19063,7 @@
       "category": "",
       "location": "Luquillo",
       "island": "",
-      "price": 125,
+      "price": 135,
       "priceLabel": "Hyatt Regency - Shared Tour",
       "priceConfidence": "high",
       "qualityScore": 46,
@@ -19074,7 +19092,8 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "priceSource": "v52-dominant-gate"
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -26319,7 +26338,7 @@
       "name": "Boat Charter | Silver",
       "description": "Relax on a comfortable boat exploring Vieques’ reefs, mangroves, and pristine beaches. Snorkel, spot wildlife, enjoy snacks and drinks, all led by certified crew in a laid-back 4-hour adventure.",
       "location": "Vieques",
-      "price": 1200,
+      "price": 2000,
       "bookingUrl": "https://fareharbor.com/embeds/book/saltyspiritllc/items/283543/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/mzGgCUA3QJqL0q8JIg9I/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -26378,7 +26397,9 @@
       ],
       "priceBasis": "D-621 published with unit \"La Muñeca - Private Snorkeling Boat Charter\" (rule: tier label verbatim); live ladder La Muñeca - Private Snorkeling Boat Charter $1200 has no standalone adult/base per-person tier; stored La Muñeca - Private Snorkeling Boat Charter $1200 re-verified live and kept visible; whole-party floor $1200 (La Muñeca - Private Snorkeling Boat Charter); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
       "_unknownFields": {
-        "priceUnit": "La Muñeca - Private Snorkeling Boat Charter"
+        "priceUnit": "La Muñeca - Private Snorkeling Boat Charter",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceSourceAt": "2026-08-25"
     },
@@ -30665,7 +30686,7 @@
       "name": "San Juan Bay LED Night Kayak Tour",
       "description": "Glide through calm, transparent waters in a glowing kayak, marvel at vibrant marine life, and enjoy stunning city views under starry skies. Perfect for all skill levels, this magical night tour creates unforgettable memories.",
       "location": "San Juan",
-      "price": 64,
+      "price": 84,
       "bookingUrl": "https://fareharbor.com/embeds/book/sanjuantourspr/items/522073/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [],
       "tags": [],
@@ -30703,7 +30724,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Participant for LED Night Kayak $64; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Participant for LED Night Kayak $64; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-528770",
@@ -31032,7 +31057,7 @@
       "name": "San Juan Bay Clear Kayak Tour",
       "description": "Glide through calm waters in a transparent kayak, marveling at vibrant marine life beneath you. Perfect for all skill levels, this immersive adventure combines relaxation, stunning views, and educational insights into Puerto Rico’s underwater world.",
       "location": "San Juan",
-      "price": 64,
+      "price": 79,
       "bookingUrl": "https://fareharbor.com/embeds/book/sanjuantourspr/items/723937/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/MUjqfSuFQkKqayRUvjSp/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -31116,7 +31141,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Participant for Kayak Tour $64; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Participant for Kayak Tour $64; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-15923",
@@ -32185,7 +32214,7 @@
       "name": "Tanama Cave Tubing Adventure",
       "description": "Float through Tanama’s stunning limestone caves and pristine springs on the longest cave tubing adventure. Trek, explore caves, and relax in crystal-clear waters in a remote, untouched rainforest setting.",
       "location": "Arecibo",
-      "price": 75,
+      "price": 79,
       "bookingUrl": "https://fareharbor.com/embeds/book/aventureopr/items/405755/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/h4xjKE4LSjWMsWE5pgSk/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -32252,7 +32281,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $75 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $75 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-408310",
@@ -32325,7 +32358,7 @@
       "name": "Semi-Private Surf Lesson",
       "description": "Dive into the thrilling world of surfing with MOKU Surf School! Enjoy a comprehensive 60 or 90-minute class that begins with essential surf culture and safety lessons, followed by hands-on practice in the waves. All equipment is provided, plus perks like discounts and beach amenities for a memorable day.",
       "location": "Isabela",
-      "price": 170,
+      "price": 255,
       "bookingUrl": "https://fareharbor.com/embeds/book/mokusurfshop/items/408333/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/LbzM4DqQOi9Mp5ixECwW/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -32389,7 +32422,9 @@
       ],
       "priceBasis": "D-621 published with unit \"Semi-Private Surf Lesson\" (rule: product name quoted); live ladder 60 Minute Lesson $170 / 90 min. Surf lesson $230 has no standalone adult/base per-person tier; stored 60 Minute Lesson $170 re-verified live and kept visible; whole-party floor $170 (60 Minute Lesson); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
       "_unknownFields": {
-        "priceUnit": "Semi-Private Surf Lesson"
+        "priceUnit": "Semi-Private Surf Lesson",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceSourceAt": "2026-08-25"
     },
@@ -47725,7 +47760,7 @@
       "name": "LLUVIA DE ESTRELLAS NIGHT RIDE",
       "description": "Enjoy a peaceful, guided horseback ride through quiet countryside or coastlines, ending with a stargazing session under Vieques’ clear skies—perfect for intimate groups seeking serenity and natural beauty.",
       "location": "Vieques",
-      "price": 200,
+      "price": 250,
       "bookingUrl": "https://fareharbor.com/embeds/book/islanenatrails/items/689305/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/kwnrzMlaQiqz6m6E8tvj/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -47772,7 +47807,11 @@
           "price": 200,
           "minPartySize": 1
         }
-      ]
+      ],
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-730828",
@@ -49336,7 +49375,7 @@
       "name": "⛵ Catamaran Sail & Snorkel Tour",
       "description": "Sail into turquoise waters on a modern catamaran, snorkel vibrant coral reefs, enjoy tropical drinks and music, and relax on deck or splash in clear seas—all with round-trip transport included.",
       "location": "Luquillo",
-      "price": 215,
+      "price": 225,
       "bookingUrl": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/672496/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/9yfmuUeR766kyXLQPoRY/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
@@ -49377,7 +49416,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $215; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $215; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-672509",
@@ -49449,7 +49492,7 @@
       "name": "Beach Horseback Riding",
       "description": "Enjoy a peaceful horseback ride through lush tropical trails or along sandy beaches. Perfect for beginners, families, and couples, this scenic adventure offers gentle horses and expert guides. Relax, take in vibrant scenery, and create lasting memories—all with safety gear and convenient hotel pickup included.",
       "location": "Luquillo",
-      "price": 245,
+      "price": 255,
       "bookingUrl": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/675663/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/9yfmuUeR766kyXLQPoRY/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
@@ -49490,7 +49533,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $245; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $245; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-675672",
@@ -49498,7 +49545,7 @@
       "name": "Culebra Beach and Snorkeling Tour",
       "description": "Swim in crystal-clear waters, relax on powdery sands, and explore vibrant reefs filled with tropical fish and sea turtles. A full-day adventure blending sun, sea, and unforgettable underwater sights.",
       "location": "Luquillo",
-      "price": 245,
+      "price": 255,
       "bookingUrl": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/675672/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/9yfmuUeR766kyXLQPoRY/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
@@ -49539,7 +49586,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $245; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $245; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-692613",
@@ -50002,7 +50053,7 @@
       "name": "🐎 Horseback Riding",
       "description": "Enjoy a peaceful ride through lush forests or along sandy beaches on gentle horses, perfect for beginners, families, and couples. Soak in tropical scenery with expert guides and safety gear for a memorable adventure.",
       "location": "Luquillo",
-      "price": 179,
+      "price": 189,
       "bookingUrl": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/672510/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/9yfmuUeR766kyXLQPoRY/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
@@ -50043,7 +50094,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $179; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $179; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-675654",
@@ -51739,7 +51794,7 @@
       "name": "Zipline Adventure",
       "description": "Fly above Puerto Rico’s treetops on thrilling zip lines and hanging bridges, soaking in breathtaking canopy views with expert guides. Safety gear included for an unforgettable adventure.",
       "location": "Luquillo",
-      "price": 195,
+      "price": 205,
       "bookingUrl": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/672513/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/9yfmuUeR766kyXLQPoRY/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
@@ -51780,7 +51835,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared $195; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared $195; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-682615",
@@ -52781,7 +52840,7 @@
       "name": "El Yunque Day Tour",
       "description": "Explore El Yunque’s lush canopies, stunning mountain views, and rare tropical wildlife with expert guides. Small groups, scenic stops, and round-trip transport make this unforgettable rainforest adventure yours to claim.",
       "location": "Luquillo",
-      "price": 125,
+      "price": 135,
       "bookingUrl": "https://fareharbor.com/embeds/book/puertoricotouroutlet/items/662906/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/wpo0qUGvS3GpLPJXCqRC/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -52830,7 +52889,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier San Juan Area - SharedTour $125; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier San Juan Area - SharedTour $125; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-671584",
@@ -54745,7 +54808,7 @@
       "name": "Dinghy Tour",
       "description": "Enjoy a private boat trip through the bay’s stunning landscapes and vibrant marine life, day or night. Add snorkeling or coastal shopping for an extra 30 minutes of adventure.",
       "location": "Patillas",
-      "price": 50,
+      "price": 165,
       "bookingUrl": "https://fareharbor.com/embeds/book/adventureandwatersports-patillas/items/261733/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/jbuulJ4cStyyPxZ1vTEf/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -54791,7 +54854,9 @@
       ],
       "priceBasis": "D-621 published with unit \"Couple\" (rule: tier label verbatim); live ladder Couple $50 has no standalone adult/base per-person tier; stored Couple $50 re-verified live and kept visible; whole-party floor $50 (Couple); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
       "_unknownFields": {
-        "priceUnit": "Couple"
+        "priceUnit": "Couple",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceSourceAt": "2026-08-25"
     },
@@ -59613,7 +59678,7 @@
       "name": "El Yunque Whisper's Swing And River Tour",
       "description": "Embark on an exhilarating adventure in El Yunque Rain Forest with Montaña Explora’s Whisper’s Swing and River tour. Hike to the summit for breathtaking views, then experience the thrill of swinging over 700 feet above sea level. This unforgettable journey promises stunning scenery and heart-pounding excitement in Puerto Rico.",
       "location": "Naguabo",
-      "price": 140,
+      "price": 175,
       "bookingUrl": "https://fareharbor.com/embeds/book/mexplorapr/items/519441/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/lv3Xtg8TN6HKwSBwF7mv/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -59659,7 +59724,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Visitor $140; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Visitor $140; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-519444",
@@ -67690,7 +67759,7 @@
       "name": "🍹 Barrilito Mixology Experience + San Juan at Leisure",
       "description": "Create signature cocktails with aged Ron del Barrilito, fresh island ingredients, and expert techniques. Then relax in Old San Juan’s charming streets, shopping, or enjoying a café con leche by El Morro.",
       "location": "Luquillo",
-      "price": 195,
+      "price": 205,
       "bookingUrl": "https://fareharbor.com/embeds/book/dragonflyadventuresglobal/items/672502/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/9yfmuUeR766kyXLQPoRY/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
@@ -67731,7 +67800,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $195; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Hyatt Regency - Shared Tour $195; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "pr-701387",
