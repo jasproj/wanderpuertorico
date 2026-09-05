@@ -246,6 +246,12 @@
                 font-size: 28px;
             }
         }
+    
+        /* This page does not load styles.css, so it never got the img reset the
+           rest of the site has. The header logo is 689px wide natively and was
+           rendering at that size inside a 342px flex row, pushing the page to
+           757px on a 390px screen. */
+        img { max-width: 100%; height: auto; }
     </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
