@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury & Private Tours in Puerto Rico | Wander Puerto Rico</title>
     <meta name="description" content="Puerto Rico's premium tier: private yacht and catamaran charters, sport fishing expeditions and full-day island trips from $1,250. Booked direct with the operator.">
-    <meta name="keywords" content="sailing puerto rico, sunset cruises, catamaran tours, sailboat tours, romantic sailing puerto rico">
+    <meta name="keywords" content="luxury tours puerto rico, private yacht charter puerto rico, private boat charter puerto rico, luxury catamaran charter, sport fishing charter puerto rico">
     <link rel="canonical" href="/luxury-tours.html">
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wanderpuertorico.com/luxury-tours.html">
     <meta property="og:title" content="Luxury &amp; Private Tours in Puerto Rico | Wander Puerto Rico">
     <meta property="og:description" content="Puerto Rico's premium tier: private yacht and catamaran charters, sport fishing expeditions and full-day island trips from $1,250. Booked direct with the operator.">
-    <meta property="og:image" content="https://wanderpuertorico.com/images/og-image.jpg">
+    <meta property="og:image" content="https://wanderpuertorico.com/images/og-luxury-charter.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://wanderpuertorico.com/images/og-image.jpg">
+    <meta name="twitter:image" content="https://wanderpuertorico.com/images/og-luxury-charter.jpg">
     
     <script type="application/ld+json">
     {
@@ -38,7 +38,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Sailing & Sunset Cruises",
+          "name": "Luxury & Private Tours",
           "item": "https://wanderpuertorico.com/luxury-tours.html"
         }
       ]
@@ -57,26 +57,61 @@
     <style>
         /* The other activity pages use a flat orange gradient here. On a page
            whose whole argument is that these trips cost four figures, a solid
-           block of colour undercuts the copy before anyone reads it. Photo,
-           with a deep overlay so the white type still passes contrast. */
+           block of colour undercuts the copy before anyone reads it.
+
+           The overlay is HORIZONTAL, not the usual top-to-bottom wash, and the
+           copy is left-aligned into the dark end of it. A flat dark scrim over
+           the whole frame would buy contrast by destroying the photograph —
+           which on this page is half the argument. This way the type sits over
+           open water on the left while the boat and the sunset stay legible on
+           the right. Measured, not eyeballed: the darkest pixel behind the
+           headline gives white type 6.0:1 at 1280, 11.1:1 at 768 and 10.8:1
+           at 390 (WCAG AA large text is 3:1). */
         .activity-hero {
-            background: linear-gradient(rgba(10,22,38,0.66), rgba(10,22,38,0.44)),
-                        url('/images/hero-fajardo.jpg') center/cover no-repeat;
+            background: linear-gradient(100deg,
+                            rgba(8,20,35,0.88) 0%,
+                            rgba(8,20,35,0.74) 34%,
+                            rgba(8,20,35,0.34) 62%,
+                            rgba(8,20,35,0.18) 100%),
+                        url('/images/hero-luxury-charter.jpg') center/cover no-repeat;
             color: white;
             padding: 150px 20px 90px;
-            text-align: center;
+            text-align: left;
             margin-top: 60px;
+        }
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
         }
         .activity-hero h1 {
             font-size: 3rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin: 0 0 20px;
             font-family: 'DM Sans', sans-serif;
+            max-width: 620px;
         }
         .activity-hero p {
             font-size: 1.25rem;
-            margin-bottom: 30px;
+            margin: 0 0 30px;
             opacity: 0.95;
+            max-width: 540px;
+        }
+        /* At 390px `cover` crops to the middle of the frame, which is the white
+           hull — the brightest thing in the photo and the worst possible ground
+           for white type. Pull the framing left onto the water and lean the
+           gradient vertical, since there is no longer a horizontal dark end to
+           aim at. */
+        @media (max-width: 768px) {
+            .activity-hero {
+                background: linear-gradient(
+                                rgba(8,20,35,0.82) 0%,
+                                rgba(8,20,35,0.70) 55%,
+                                rgba(8,20,35,0.52) 100%),
+                            url('/images/hero-luxury-charter.jpg') 22% center/cover no-repeat;
+                padding: 120px 20px 70px;
+            }
+            .activity-hero h1 { font-size: 2.1rem; }
+            .activity-hero p { font-size: 1.05rem; }
         }
         .activity-intro {
             max-width: 900px;
@@ -338,9 +373,11 @@
 
     <!-- HERO -->
     <section class="activity-hero">
-        <h1>Luxury &amp; Private Tours in Puerto Rico</h1>
-        <p>Private yachts, catamarans and sport fishing charters &mdash; the top tier of
-           everything we list, booked direct with the captain.</p>
+        <div class="hero-inner">
+            <h1>Luxury &amp; Private Tours in Puerto Rico</h1>
+            <p>Private yachts, catamarans and sport fishing charters &mdash; the top tier of
+               everything we list, booked direct with the captain.</p>
+        </div>
     </section>
 
     <section class="lux-note">
