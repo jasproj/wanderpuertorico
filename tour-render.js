@@ -23,7 +23,12 @@ function escapeHtml(str) {
 function formatPrice(price, confidence) {
     if (!Number.isFinite(price) || price <= 0) return 'Price on request';
     if (confidence === 'low') return 'Price on request';
-    return `From $${price}`;
+    // Display only — the number itself is untouched, and generateTourSchema()
+    // still emits the raw tour.price. Bare interpolation was rendering
+    // "From $1499.99" and "From $7600": cents nobody quoted, and no thousands
+    // separator on exactly the four-figure listings where the number is the
+    // whole argument. Same fix as wandernewzealand #155.
+    return `From $${Math.round(price).toLocaleString('en-US')}`;
 }
 
 // Pricing unit for the card badge — "per group", "whole boat · up to 4 people".
