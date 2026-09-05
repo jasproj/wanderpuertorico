@@ -1614,3 +1614,28 @@
 @media (max-width: 768px) {
     .logo-link img { height: 60px; }
 }
+
+/* ============================================
+   HEADER CLEARANCE
+   ============================================ */
+
+/* .header is position:fixed, so it is out of flow and whatever follows it
+   starts at y=0, underneath it. On 70 pages the element right after the header
+   is the article (or container / quiz / hero div) that holds the h1, so the
+   headline rendered behind the header -- partly on most, entirely on some.
+
+   Fixed clearance by pixel value is not possible here: this repo renders the
+   same .header markup at nine different heights (65, 73, 84, 85, 105, 109,
+   110, 129 and 148px, measured across 390px and 1280px), because the logo and
+   nav differ per template. sticky reserves the header's own height in flow
+   whatever that height is, and still pins to the top on scroll -- visually
+   identical, no magic number. Seven pages in this repo already use sticky.
+
+   :has() keeps this off the pages where the header is meant to overlay: the 18
+   .blog-hero, 6 .activity-hero and 6 .hero pages whose photo runs up under the
+   header by design, and the .breadcrumb pages that carry their own clearance.
+   Those keep position:fixed and do not move. */
+header.header:has(+ article),
+header.header:has(+ div.container),
+header.header:has(+ div.quiz-wrap),
+header.header:has(+ div.hero) { position: sticky; }
