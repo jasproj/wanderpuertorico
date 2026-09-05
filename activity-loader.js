@@ -20,7 +20,12 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
         const allTours = Array.isArray(_raw) ? _raw : _raw.tours;
 
         // The live pool: everything bookable, regardless of tags.
-        const live = allTours.filter(tour => tour.status !== 'inactive' && !tour.bookingDead);
+        // hidden:true is the human-ruled hide. app.js already honoured it; this
+        // file did not, so a hidden row stayed visible on every activity page
+        // while disappearing from the homepage grid — the ruling only half
+        // applied, which is worse than not applying at all.
+        const live = allTours.filter(tour => tour.status !== 'inactive' && !tour.bookingDead
+            && !tour.hidden);
         // The tag-filtered subset feeds the UNPINNED remainder only.
         const filtered = live.filter(tour => (tour.tags || []).some(tag => filterTags.includes(tag)));
 
@@ -33,16 +38,34 @@ async function loadActivityTours(filterTags, containerId = 'tours-grid', limit =
         // A pin that matches no record at all is still skipped rather than rendered, but it
         // now warns. The silent skip is what kept this class of defect invisible: a typo'd or
         // retired pk looked indistinguishable from a working roster.
+        const gridEl = document.getElementById(containerId);
+        const floor = gridEl ? parseFloat(gridEl.dataset.minPrice) : NaN;
+
         const pinnedPks = JSON.parse(document.getElementById('activity-pinned-pks')?.textContent || '[]');
+        // A pin is editorial, but it does not get to break the page's own
+        // contract: on a price-floor page a pinned row still has to clear the
+        // floor, or the page promises "$1,250 and up" and opens with a $70
+        // snorkel trip.
+        const pinnable = floor > 0 ? live.filter(t => Number(t.price) >= floor) : live;
         const pinnedTours = pinnedPks.map(pk => {
-            const tour = live.find(t => t.pk === pk);
+            const tour = pinnable.find(t => t.pk === pk);
             if (!tour) {
                 console.warn('[activity-loader] pinned pk ' + pk + ' matched no live record '
                     + '(missing, inactive, or bookingDead) — skipped.');
             }
             return tour;
         }).filter(Boolean);
-        const rest = filtered.filter(t => !pinnedPks.includes(t.pk));
+        // A page can select on price instead of tags:
+        //   <div id="tours-grid" data-min-price="1250">
+        // The luxury page uses this because the premium tier is not a subject,
+        // it is a threshold — and 869 of the records here carry `tags: []`, so a
+        // tag-based selection would miss most of the expensive inventory
+        // outright. Price is a field every row actually has.
+        const pool = floor > 0
+            ? live.filter(t => Number(t.price) >= floor)
+            : filtered;
+
+        const rest = pool.filter(t => !pinnedPks.includes(t.pk));
         const filteredTours = [...pinnedTours, ...shuffleArray(rest)].slice(0, limit);
         
         const container = document.getElementById(containerId);
@@ -113,8 +136,12 @@ function trackBookingClick(tourName, tourId, region = '') {
 // Load tours when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
     const filterTagsElement = document.getElementById('activity-filter-tags');
-    if (filterTagsElement) {
-        const tags = JSON.parse(filterTagsElement.textContent);
+    const grid = document.getElementById('tours-grid');
+    const hasFloor = grid && parseFloat(grid.dataset.minPrice) > 0;
+    // A price-floor page carries no tag list, so it has to be able to start
+    // without one.
+    if (filterTagsElement || hasFloor) {
+        const tags = filterTagsElement ? JSON.parse(filterTagsElement.textContent) : [];
         const limit = document.getElementById('tour-limit')?.textContent || '12';
         loadActivityTours(tags, 'tours-grid', parseInt(limit));
     }

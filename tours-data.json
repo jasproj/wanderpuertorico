@@ -17672,6 +17672,9 @@
     {
       "id": "pr-542101",
       "pk": 542101,
+      "hidden": true,
+      "hiddenReason": "s57 duplicate hide 2026-09-05: exact duplicate of the unsuffixed row from the same operator (aquazultours) at the same price. That operator runs a Dominican Republic and a Puerto Rico business on one FareHarbor account and both were scraped; these '- DR' rows are the second copy. Only exact-price twins are hidden here. The rows whose '- DR' copy is priced differently, and the two with no twin at all, are left alone pending a ruling.",
+      "hiddenAt": "2026-09-05",
       "name": "Scuba Charter - DR",
       "company": "Aquazul Tours",
       "bookingUrl": "https://fareharbor.com/embeds/book/aquazultours/items/542101/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -17741,6 +17744,9 @@
     {
       "id": "pr-542105",
       "pk": 542105,
+      "hidden": true,
+      "hiddenReason": "s57 duplicate hide 2026-09-05: exact duplicate of the unsuffixed row from the same operator (aquazultours) at the same price. That operator runs a Dominican Republic and a Puerto Rico business on one FareHarbor account and both were scraped; these '- DR' rows are the second copy. Only exact-price twins are hidden here. The rows whose '- DR' copy is priced differently, and the two with no twin at all, are left alone pending a ruling.",
+      "hiddenAt": "2026-09-05",
       "name": "Fishing Charter - DR",
       "company": "Aquazul Tours",
       "bookingUrl": "https://fareharbor.com/embeds/book/aquazultours/items/542105/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -45126,6 +45132,9 @@
     {
       "id": "pr-542108",
       "pk": 542108,
+      "hidden": true,
+      "hiddenReason": "s57 duplicate hide 2026-09-05: exact duplicate of the unsuffixed row from the same operator (aquazultours) at the same price. That operator runs a Dominican Republic and a Puerto Rico business on one FareHarbor account and both were scraped; these '- DR' rows are the second copy. Only exact-price twins are hidden here. The rows whose '- DR' copy is priced differently, and the two with no twin at all, are left alone pending a ruling.",
+      "hiddenAt": "2026-09-05",
       "name": "Private Charter from Palmas Del Mar to Vieques - DR",
       "description": "Set sail from Palmas Del Mar for a lively 6-hour cruise to Vieques. Snorkel, swim, relax on a floating carpet, enjoy a BBQ lunch, and sip unlimited rum punch—an island adventure packed with fun and flavor.",
       "location": "Fajardo",
@@ -45184,6 +45193,9 @@
     {
       "id": "pr-542109",
       "pk": 542109,
+      "hidden": true,
+      "hiddenReason": "s57 duplicate hide 2026-09-05: exact duplicate of the unsuffixed row from the same operator (aquazultours) at the same price. That operator runs a Dominican Republic and a Puerto Rico business on one FareHarbor account and both were scraped; these '- DR' rows are the second copy. Only exact-price twins are hidden here. The rows whose '- DR' copy is priced differently, and the two with no twin at all, are left alone pending a ruling.",
+      "hiddenAt": "2026-09-05",
       "name": "Private Charter from Palmas Del Mar to Culebra - DR",
       "description": "Set sail from Palmas Del Mar for a lively 6-hour cruise to Vieques. Swim, snorkel, relax on a floating carpet, enjoy a BBQ lunch, and sip unlimited rum punch—all in a fun, all-inclusive water adventure.",
       "location": "Fajardo",

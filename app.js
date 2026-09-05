@@ -266,6 +266,18 @@ async function loadTours() {
         // with hiddenReason/hiddenAt so the ruling survives a re-scrape and can
         // be reversed by clearing one flag, rather than being re-litigated.
         toursData = allRecords.filter(t => t.status !== 'inactive' && !t.bookingDead && !t.hidden);
+
+        // A page can declare a price floor on its grid:
+        //   <div id="tours-grid" data-min-price="1250">
+        // The luxury page uses it so it draws the premium tier from this same
+        // file and this same card renderer, rather than a hand-written list
+        // that goes stale the moment an operator repositions. Read in the
+        // row's own currency; this repo is USD throughout.
+        const _grid = document.getElementById('tours-grid');
+        const _floor = _grid ? parseFloat(_grid.dataset.minPrice) : NaN;
+        if (_floor > 0) {
+            toursData = toursData.filter(t => Number(t.price) >= _floor);
+        }
         updateVerifiedToursCount(toursData.length);
 
         // A curated page declares an explicit pk roster. When one is present we
