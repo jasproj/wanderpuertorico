@@ -44991,7 +44991,10 @@
       "_unknownFields": {
         "priceUnit": "Private Charter"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-25",
+      "hidden": true,
+      "hiddenReason": "s57 geo hide 2026-09-05: Isla Saona and Isla Catalina are in the Dominican Republic. Operator aquazultours runs a DR and a PR operation on one FareHarbor account and both were scraped; location says Fajardo for all of them.",
+      "hiddenAt": "2026-09-05"
     },
     {
       "id": "pr-542103",
@@ -59927,7 +59930,10 @@
       "_unknownFields": {
         "priceUnit": "Private Charter"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-25",
+      "hidden": true,
+      "hiddenReason": "s57 geo hide 2026-09-05: Isla Saona and Isla Catalina are in the Dominican Republic. Operator aquazultours runs a DR and a PR operation on one FareHarbor account and both were scraped; location says Fajardo for all of them.",
+      "hiddenAt": "2026-09-05"
     },
     {
       "id": "pr-548253",
