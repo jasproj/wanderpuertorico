@@ -261,7 +261,11 @@ async function loadTours() {
         const response = await fetch('/tours-data.json');
         const _raw = await response.json();
         const allRecords = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = allRecords.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        // hidden:true is the human-ruled hide, same convention as the
+        // keywestsandbartours and wanderusvi repos: the row stays in the file
+        // with hiddenReason/hiddenAt so the ruling survives a re-scrape and can
+        // be reversed by clearing one flag, rather than being re-litigated.
+        toursData = allRecords.filter(t => t.status !== 'inactive' && !t.bookingDead && !t.hidden);
         updateVerifiedToursCount(toursData.length);
 
         // A curated page declares an explicit pk roster. When one is present we
