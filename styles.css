@@ -1484,7 +1484,7 @@
 
 /* Footer badge sizing — caps the natural 1254x1254px asset. Matches WHAW/WUSVI/WNZ/WAMS/WENG canonical pattern. */
 .footer-logo-img {
-    height: 120px;
+    height: 68px;
     width: auto;
 }
 
@@ -1553,16 +1553,16 @@
     }
 
     .footer-logo-img {
-        height: 90px;
+        height: 54px;
     }
 }
 
-/* Footer badge — light pill background for contrast on dark footer */
+/* Footer logo — the header mark. No panel: this footer is light, so the mark
+   reads directly on it. The old circular white pill was drawn for the 1:1
+   badge and would render a wide wordmark as an ellipse. */
 .footer-logo-img {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    padding: 10px;
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+    background: none;
+    padding: 0;
 }
 
 /* ========== SITE HEADER (blog article template) ==========
