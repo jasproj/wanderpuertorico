@@ -1422,30 +1422,6 @@
     color: #E65100;
 }
 
-/* ============================================
-   STICKY MOBILE CTA BAR
-   ============================================ */
-.sticky-cta-bar {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 48px;
-    background: var(--primary);
-    border-top: 1px solid rgba(91, 33, 182, 0.2);
-    z-index: 999;
-    padding: 0 var(--space-md, 1rem);
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
-    animation: slideUp 300ms ease-out;
-}
-
-.sticky-cta-bar.visible {
-    display: flex;
-}
-
 @keyframes slideUp {
     from {
         transform: translateY(100%);
@@ -1457,27 +1433,7 @@
     }
 }
 
-.sticky-cta-bar button {
-    background: white;
-    color: var(--primary);
-    padding: 12px 24px;
-    border-radius: 9999px;
-    font-weight: 600;
-    font-size: 14px;
-    width: 100%;
-    max-width: 300px;
-    transition: all 150ms ease;
-}
-
-.sticky-cta-bar button:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
 @media (min-width: 769px) {
-    .sticky-cta-bar {
-        display: none !important;
-    }
 }
 
 .blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
