@@ -1483,9 +1483,11 @@
 .blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
 
 /* Footer badge sizing — caps the natural 1254x1254px asset. Matches WHAW/WUSVI/WNZ/WAMS/WENG canonical pattern. */
+.footer .footer-logo-img,
 .footer-logo-img {
-    height: 68px;
+    height: 160px;
     width: auto;
+    max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -1552,18 +1554,16 @@
         padding: 0.5rem 1rem;
     }
 
+    .footer .footer-logo-img,
     .footer-logo-img {
-        height: 54px;
+        height: 160px;
     }
 }
 
 /* Footer logo — the header mark. No panel: this footer is light, so the mark
    reads directly on it. The old circular white pill was drawn for the 1:1
    badge and would render a wide wordmark as an ellipse. */
-.footer-logo-img {
-    background: none;
-    padding: 0;
-}
+
 
 /* ========== SITE HEADER (blog article template) ==========
    The .site-header markup had no rules at all, so its logo fell back to the
