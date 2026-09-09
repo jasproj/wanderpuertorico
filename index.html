@@ -346,6 +346,8 @@
                 <form class="guide-form" id="guide-form" action="https://formspree.io/f/xgopgblr" method="POST">
                     <input type="hidden" name="source" value="puerto-rico-trip-planner">
                     <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+                    <!-- Honeypot spam protection - bots fill this, humans don't see it -->
+                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
                     <button type="submit">Send Me the Free Guide</button>
                 </form>
                 <p class="guide-disclaimer">🔒 No spam, ever. Unsubscribe anytime.</p>
