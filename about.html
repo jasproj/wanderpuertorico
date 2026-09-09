@@ -214,6 +214,8 @@ input:focus,textarea:focus{outline:none;border-color:#4ade80}
     <input type="text" name="name" placeholder="Your name" required>
     <input type="email" name="email" placeholder="Your email address" required>
     <input type="hidden" name="_subject" value="New email signup — WanderPuertoRico">
+    <!-- Honeypot spam protection - bots fill this, humans don't see it -->
+    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
     <button type="submit" style="background:#4ade80;color:#0d1a0d;padding:14px;border:none;border-radius:6px;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit">Get Insider Tips</button>
   </form>
 </div>
