@@ -1444,6 +1444,7 @@
     height: 160px;
     width: auto;
     max-width: 100%;
+    object-fit: contain;
 }
 
 @media (max-width: 768px) {
