@@ -67,6 +67,13 @@
 .navmobile a{padding:14px var(--pad);min-height:48px;display:flex;align-items:center;font-size:14px;font-weight:700;color:var(--white);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.08)}
 .navmobile a:last-child{border-bottom:0}
 .navmobile a:hover,.navmobile a:focus-visible{background:rgba(255,255,255,.06)}
+
+    /* s60: new-moon booking windows table */
+    .bay-table{width:100%;border-collapse:collapse;margin:18px 0;font-size:.95rem}
+    .bay-table th,.bay-table td{border:1px solid #e5e5e5;padding:.6rem .75rem;text-align:left;vertical-align:top}
+    .bay-table thead th{background:#15264a;color:#fff;font-weight:600}
+    .bay-table tbody tr:nth-child(even){background:#f5f7fb}
+    @media (max-width:480px){.bay-table{font-size:.82rem}.bay-table th,.bay-table td{padding:.4rem .5rem}}
 </style>
 <script type="application/ld+json">
 {
@@ -475,7 +482,19 @@
       <div class="mcard"><div class="k">Most active</div><div class="v">July through October, when the water is warmest</div></div>
     </div>
     <div class="warn"><strong>Worth knowing:</strong> tours at Mosquito Bay are prohibited during the three nights surrounding each full moon. If your dates land there, Fajardo or La Parguera are your options.</div>
-    <a class="buy ghost" href="/bio-bay-moon-phase-puerto-rico.html" style="margin-top:16px"><span>See the 2026 new-moon dates</span><span>→</span></a>
+    <table class="bay-table" style="margin-top:18px">
+      <thead><tr><th>New moon</th><th>Best nights to book</th></tr></thead>
+      <tbody>
+        <tr><td>Sat, Oct 10, 2026</td><td>Oct 5 – Oct 15</td></tr>
+        <tr><td>Mon, Nov 9, 2026</td><td>Nov 4 – Nov 14</td></tr>
+        <tr><td>Tue, Dec 8, 2026</td><td>Dec 3 – Dec 13</td></tr>
+        <tr><td>Thu, Jan 7, 2027</td><td>Jan 2 – Jan 12</td></tr>
+        <tr><td>Sat, Feb 6, 2027</td><td>Feb 1 – Feb 11</td></tr>
+        <tr><td>Mon, Mar 8, 2027</td><td>Mar 3 – Mar 13</td></tr>
+      </tbody>
+    </table>
+    <a class="buy ghost" href="/bio-bay-moon-phase-puerto-rico.html" style="margin-top:16px"><span>Every new-moon window through 2027</span><span>→</span></a>
+    <a class="buy ghost" href="/bio-bay-quiz.html" style="margin-top:16px"><span>Not sure which bay? Answer 5 questions</span><span>→</span></a>
   </div>
 </section>
 
