@@ -3122,7 +3122,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-451146",
@@ -4299,7 +4304,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-456020",
@@ -4714,7 +4724,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-286798",
@@ -7518,7 +7533,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-423947",
@@ -9222,7 +9242,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-334203",
@@ -11596,7 +11621,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-106116",
@@ -12281,16 +12311,17 @@
       "capacity": 2,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-3730",
@@ -13465,7 +13496,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-3482",
@@ -13512,7 +13548,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-191576",
@@ -14036,7 +14077,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-482443",
@@ -14083,7 +14129,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-557592",
@@ -14138,7 +14189,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-564467",
@@ -14245,7 +14301,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-567604",
@@ -14936,7 +14997,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-73065",
@@ -15481,16 +15547,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-630890",
@@ -15721,7 +15788,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-365550",
@@ -15833,7 +15905,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-295642",
@@ -15868,16 +15945,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-519245",
@@ -16731,7 +16809,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-39083",
@@ -17014,7 +17097,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-400971",
@@ -17059,7 +17147,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-493405",
@@ -17180,7 +17273,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-595108",
@@ -17220,16 +17318,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-9142",
@@ -17340,7 +17439,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-449023",
@@ -17378,16 +17482,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-471870",
@@ -17667,7 +17772,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-542101",
@@ -18063,7 +18173,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-37548",
@@ -18110,7 +18225,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-448978",
@@ -18293,7 +18413,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-486767",
@@ -19009,7 +19134,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-619276",
@@ -19058,7 +19188,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-672772",
@@ -19315,16 +19450,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-327098",
@@ -19363,16 +19499,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-489225",
@@ -19412,16 +19549,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-580026",
@@ -19466,7 +19604,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-619274",
@@ -19516,7 +19659,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-39093",
@@ -19900,16 +20048,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-611976",
@@ -20284,7 +20433,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-250891",
@@ -20536,7 +20690,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-422219",
@@ -20581,7 +20740,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-540719",
@@ -21216,7 +21380,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-552005",
@@ -21477,7 +21646,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-156696",
@@ -22664,7 +22838,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-566226",
@@ -23068,16 +23247,17 @@
       "capacity": null,
       "enrichmentSource": "",
       "status": "active",
-      "statusReason": null,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-14",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true
     },
     {
       "id": "pr-223990",
@@ -23121,7 +23301,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-224863",
@@ -23165,7 +23350,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-267670",
@@ -23277,7 +23467,12 @@
       "priceEnrichmentStatus": "unsampled",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-8752",
@@ -25514,7 +25709,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-230165",
@@ -28500,7 +28700,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-520924",
@@ -29146,7 +29351,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-36895",
@@ -36711,7 +36919,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-612733",
@@ -37236,7 +37449,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-267780",
@@ -39713,7 +39931,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-384898",
@@ -45765,7 +45988,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-194415",
@@ -45802,7 +46030,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-230182",
@@ -46434,7 +46667,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-551207",
@@ -47533,7 +47771,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-646045",
@@ -50191,7 +50434,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-712746",
@@ -50270,7 +50518,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-2242",
@@ -50401,7 +50654,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-24365",
@@ -50549,7 +50807,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-333780",
@@ -50806,7 +51069,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-497003",
@@ -51467,7 +51735,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-615988",
@@ -51505,7 +51778,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-641082",
@@ -52366,7 +52644,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-562888",
@@ -52520,7 +52803,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-582801",
@@ -52717,7 +53005,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-591261",
@@ -54295,7 +54588,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-245289",
@@ -56325,7 +56623,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-339985",
@@ -56557,7 +56860,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-381576",
@@ -57391,7 +57699,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-452571",
@@ -58760,7 +59073,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-472549",
@@ -59884,7 +60202,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-541188",
@@ -61243,7 +61566,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-369328",
@@ -61274,7 +61602,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-397836",
@@ -61378,7 +61711,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-484269",
@@ -61414,7 +61752,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-485023",
@@ -61448,7 +61791,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-485725",
@@ -61477,7 +61825,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-487072",
@@ -61643,7 +61996,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-547806",
@@ -61746,7 +62104,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-589134",
@@ -61780,7 +62143,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-627785",
@@ -61874,7 +62242,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-612447",
@@ -61969,7 +62342,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-692397",
@@ -62002,7 +62380,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API reports is_archived, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-717343",
@@ -62178,7 +62559,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-203935",
@@ -62210,7 +62596,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-296583",
@@ -62303,7 +62694,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-368915",
@@ -62478,7 +62874,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-211937",
@@ -62675,7 +63076,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-267751",
@@ -62707,7 +63113,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-281475",
@@ -63142,7 +63553,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-357779",
@@ -63821,7 +64237,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-421036",
@@ -63853,7 +64274,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-427346",
@@ -64643,7 +65069,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-457478",
@@ -64679,7 +65110,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-460889",
@@ -64711,7 +65147,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-484521",
@@ -64745,7 +65186,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-485024",
@@ -64777,7 +65221,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-485743",
@@ -64805,7 +65254,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-487037",
@@ -64844,7 +65298,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-416374",
@@ -64910,7 +65369,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-495062",
@@ -64944,7 +65408,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-495069",
@@ -64979,7 +65448,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-502880",
@@ -65019,7 +65493,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-580877",
@@ -65049,7 +65526,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-660806",
@@ -65083,7 +65565,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-587749",
@@ -65112,7 +65599,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-687262",
@@ -65139,7 +65631,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-19746",
@@ -65174,7 +65671,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-59699",
@@ -65904,7 +66406,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-158296",
@@ -66003,7 +66510,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-283316",
@@ -66040,7 +66552,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-337275",
@@ -66070,7 +66587,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-340077",
@@ -66108,7 +66630,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-343131",
@@ -66146,7 +66673,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-343132",
@@ -66186,7 +66718,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-346240",
@@ -66227,7 +66764,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-378420",
@@ -66261,7 +66803,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-423707",
@@ -66300,7 +66847,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-424059",
@@ -66388,7 +66940,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-497498",
@@ -66424,7 +66981,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-507901",
@@ -66462,7 +67024,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-562911",
@@ -66501,7 +67068,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-610304",
@@ -66529,7 +67101,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-726494",
@@ -66563,7 +67140,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-178084",
@@ -66658,7 +67240,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-385744",
@@ -66781,7 +67368,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-517503",
@@ -66820,7 +67412,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-517531",
@@ -66859,7 +67456,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-519492",
@@ -66898,7 +67500,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-532390",
@@ -66937,7 +67544,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-532395",
@@ -66976,7 +67588,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-532397",
@@ -67015,7 +67632,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-555926",
@@ -67176,7 +67798,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-674321",
@@ -67205,7 +67832,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-677253",
@@ -67232,7 +67864,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-43881",
@@ -67265,7 +67902,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-203932",
@@ -67295,7 +67937,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-325006",
@@ -67342,7 +67989,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-342725",
@@ -67459,7 +68111,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-499590",
@@ -67496,7 +68153,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-530210",
@@ -67529,7 +68191,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-555919",
@@ -67567,7 +68234,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-646489",
@@ -67652,7 +68324,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-683827",
@@ -67684,7 +68361,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-698836",
@@ -67715,7 +68397,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-637225",
@@ -67769,7 +68456,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-672502",
@@ -67894,7 +68586,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-49018",
@@ -67925,7 +68622,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-209612",
@@ -67989,7 +68691,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-363718",
@@ -68025,7 +68732,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-375766",
@@ -68059,7 +68771,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-507513",
@@ -68094,7 +68811,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-507518",
@@ -68129,7 +68851,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-522823",
@@ -68177,7 +68904,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-577957",
@@ -68213,7 +68945,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-639202",
@@ -68377,7 +69114,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-341892",
@@ -68473,7 +69215,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-562017",
@@ -68571,7 +69318,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-610301",
@@ -68599,7 +69351,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-640901",
@@ -68685,7 +69442,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-662983",
@@ -68712,7 +69474,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-682180",
@@ -68739,7 +69506,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724990",
@@ -68833,7 +69605,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-28789",
@@ -68865,7 +69642,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-60006",
@@ -68896,7 +69678,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-111855",
@@ -68924,7 +69711,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-117087",
@@ -68990,7 +69782,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-169766",
@@ -69022,7 +69817,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-204006",
@@ -69051,7 +69849,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-255294",
@@ -69090,7 +69893,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261634",
@@ -69120,7 +69928,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261706",
@@ -69150,7 +69963,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261728",
@@ -69180,7 +69998,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261736",
@@ -69210,7 +70033,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261744",
@@ -69240,7 +70068,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261747",
@@ -69270,7 +70103,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-261844",
@@ -69300,7 +70138,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-280256",
@@ -69331,7 +70174,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-281668",
@@ -69361,7 +70209,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-284207",
@@ -69392,7 +70245,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-290233",
@@ -69428,7 +70286,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-342718",
@@ -69502,7 +70365,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382000",
@@ -69532,7 +70400,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382732",
@@ -69562,7 +70435,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382736",
@@ -69592,7 +70470,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382745",
@@ -69622,7 +70505,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382753",
@@ -69652,7 +70540,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382755",
@@ -69682,7 +70575,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-383009",
@@ -69712,7 +70610,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-383020",
@@ -69805,7 +70708,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-383041",
@@ -69835,7 +70743,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-383050",
@@ -69865,7 +70778,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-579976",
@@ -70014,7 +70932,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-692709",
@@ -70105,7 +71028,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-699027",
@@ -70136,7 +71064,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-699031",
@@ -70167,7 +71100,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-704729",
@@ -70198,7 +71136,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-731589",
@@ -70319,7 +71262,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-321449",
@@ -70367,7 +71315,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-343122",
@@ -70404,7 +71357,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-494607",
@@ -70451,7 +71409,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-507516",
@@ -70485,7 +71448,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-715092",
@@ -70654,7 +71622,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-667242",
@@ -70683,7 +71656,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-125134",
@@ -70714,7 +71690,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-412341",
@@ -70745,7 +71726,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-553335",
@@ -70777,7 +71763,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-596825",
@@ -70815,7 +71806,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-651601",
@@ -70848,7 +71844,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-665533",
@@ -70935,7 +71936,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-39518",
@@ -71040,7 +72046,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-382777",
@@ -71070,7 +72081,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-389718",
@@ -71099,7 +72115,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-416623",
@@ -71173,7 +72194,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-468193",
@@ -71207,7 +72233,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-483232",
@@ -71241,7 +72270,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-483233",
@@ -71275,7 +72309,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-500377",
@@ -71309,7 +72348,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 0/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19), 4 probe error(s); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-508692",
@@ -71338,7 +72380,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-551275",
@@ -71370,7 +72417,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-589474",
@@ -71400,7 +72452,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-60676",
@@ -71446,7 +72503,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-84137",
@@ -71493,7 +72555,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-93225",
@@ -71539,7 +72606,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-118848",
@@ -71585,7 +72657,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-122042",
@@ -71613,7 +72690,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-298162",
@@ -71659,7 +72741,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-321717",
@@ -71706,7 +72793,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-321720",
@@ -71752,7 +72844,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-322560",
@@ -71798,7 +72895,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-375777",
@@ -71829,7 +72931,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-540447",
@@ -71876,7 +72983,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-567569",
@@ -71923,7 +73035,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-574975",
@@ -71970,7 +73087,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-645674",
@@ -72006,7 +73128,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-702725",
@@ -72038,7 +73165,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-386722",
@@ -72068,7 +73200,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-487312",
@@ -72098,7 +73235,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-501529",
@@ -72144,7 +73286,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-580028",
@@ -72177,7 +73324,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-596221",
@@ -72209,7 +73361,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-688714",
@@ -72239,7 +73396,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-709075",
@@ -72268,7 +73430,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API reports is_archived, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-29154",
@@ -72296,7 +73461,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-59694",
@@ -72341,7 +73511,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-73055",
@@ -72372,7 +73547,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-73059",
@@ -72403,7 +73583,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-163284",
@@ -72431,7 +73616,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-163695",
@@ -72459,7 +73649,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-189838",
@@ -72487,7 +73682,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-189840",
@@ -72597,7 +73797,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-310746",
@@ -72642,7 +73847,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-344702",
@@ -72743,7 +73953,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-363656",
@@ -72848,7 +74063,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-387908",
@@ -72915,7 +74135,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-387917",
@@ -72947,7 +74172,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-435284",
@@ -72983,7 +74213,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-435296",
@@ -73019,7 +74254,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-435303",
@@ -73055,7 +74295,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-435305",
@@ -73091,7 +74336,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-435317",
@@ -73127,7 +74377,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-452544",
@@ -73172,7 +74427,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-452552",
@@ -73217,7 +74477,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-479117",
@@ -73262,7 +74527,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-514001",
@@ -73289,7 +74559,10 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "bookingDead": true,
+      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
+      "lastUpdated": "2026-09-14"
     },
     {
       "id": "pr-558447",
@@ -73322,7 +74595,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-558454",
@@ -73410,7 +74688,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-566241",
@@ -73444,7 +74727,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-566242",
@@ -73478,7 +74766,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-566243",
@@ -73512,7 +74805,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-566244",
@@ -73546,7 +74844,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-593957",
@@ -73577,7 +74880,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-593962",
@@ -73608,7 +74916,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-598438",
@@ -73680,7 +74993,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-731849",
@@ -73744,7 +75062,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-45125",
@@ -73775,7 +75098,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-60660",
@@ -73820,7 +75148,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-85556",
@@ -73850,7 +75183,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-87547",
@@ -73878,7 +75216,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-122047",
@@ -73905,7 +75248,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-123752",
@@ -73932,7 +75280,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": "some",
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-509391",
@@ -73977,7 +75330,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-723996",
@@ -74009,7 +75367,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-723997",
@@ -74070,7 +75433,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724000",
@@ -74099,7 +75467,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724001",
@@ -74126,7 +75499,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724004",
@@ -74153,7 +75531,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724005",
@@ -74182,7 +75565,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724006",
@@ -74209,7 +75597,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724007",
@@ -74236,7 +75629,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724008",
@@ -74266,7 +75664,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724009",
@@ -74296,7 +75699,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724010",
@@ -74327,7 +75735,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724011",
@@ -74357,7 +75770,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-724012",
@@ -74386,7 +75804,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-563341",
@@ -74419,7 +75842,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-34479",
@@ -74447,7 +75875,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-88646",
@@ -74475,7 +75908,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-160105",
@@ -74503,7 +75941,12 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "_unknownFields": {
+        "availabilityCheckedOn": "2026-09-14",
+        "availabilitySlots120d": 0,
+        "publicPriceAvailable": false
+      }
     },
     {
       "id": "pr-734116",
