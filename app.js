@@ -3,6 +3,32 @@
 
 let toursData = [];
 
+// ---- City picker (s61) ------------------------------------------------------
+// This site had no location filter at all: 1,100+ tours in 40 towns and no way
+// to ask for the one you are staying in. /city-picker.js builds the list from
+// the catalogue (every town with 2+ live tours, with its count). ?city=<town>
+// links to one town.
+const CITY_PICKER = window.CityPicker ? window.CityPicker.create({
+    cityOf: t => {
+        const n = window.CityPicker.lastSegment(t.location);
+        return /^puerto rico$/i.test(n) ? '' : n;
+    },
+    legacyMatch: (t, v) => window.CityPicker.lastSegment(t.location).toLowerCase() === v,
+    minCount: 2,
+    allLabel: 'All of Puerto Rico'
+}) : null;
+
+function initCityPicker() {
+    const sel = document.getElementById('location-filter');
+    if (!CITY_PICKER || !sel) return;
+    CITY_PICKER.fill(sel, toursData);
+    const want = (new URLSearchParams(window.location.search).get('city') || '').trim().toLowerCase();
+    if (want && [...sel.options].some(o => o.value === 'city:' + want)) {
+        sel.value = 'city:' + want;
+        filterTours();
+    }
+}
+
 // Wire the homepage "Verified Tours" stat to the live (non-dead) catalog
 // size, replacing the hardcoded value. No-op on pages without the element.
 function updateVerifiedToursCount(n) {
@@ -323,6 +349,7 @@ async function loadTours() {
 
         grid.innerHTML = shuffled.map(tour => createTourCard(tour)).join('');
         attachBookingHandler(grid);
+        initCityPicker();
     } catch (error) {
         console.error('Error loading tours:', error);
     }
@@ -332,11 +359,13 @@ async function loadTours() {
 function filterTours() {
     const searchTerm = document.getElementById('search-input')?.value.toLowerCase() || '';
     const activityFilter = document.getElementById('activity-filter')?.value || 'all';
+    const locationFilter = document.getElementById('location-filter')?.value || '';
     const sortBy = document.getElementById('sort-filter')?.value || 'featured';
     
     // Track filter usage
     if (searchTerm) trackSearchUsed(searchTerm);
     if (activityFilter !== 'all') trackFilterChange('activity', activityFilter);
+    if (locationFilter) trackFilterChange('location', locationFilter);
     if (sortBy !== 'featured') trackFilterChange('sort', sortBy);
     
     let filtered = toursData;
@@ -344,6 +373,7 @@ function filterTours() {
     if (searchTerm) {
         filtered = filtered.filter(t => 
             t.name.toLowerCase().includes(searchTerm) ||
+            (t.location || '').toLowerCase().includes(searchTerm) ||
             (t.description || '').toLowerCase().includes(searchTerm) ||
             (t.tags || []).some(tag => tag.toLowerCase().includes(searchTerm))
         );
@@ -353,6 +383,10 @@ function filterTours() {
         filtered = filtered.filter(t => 
             (t.tags || []).includes(activityFilter)
         );
+    }
+
+    if (locationFilter && CITY_PICKER) {
+        filtered = filtered.filter(t => CITY_PICKER.matches(t, locationFilter));
     }
     
     if (sortBy === 'price-low') {
@@ -377,6 +411,7 @@ function filterTours() {
 document.addEventListener('DOMContentLoaded', () => {
     loadTours();
     
+    document.getElementById('location-filter')?.addEventListener('change', filterTours);
     document.getElementById('activity-filter')?.addEventListener('change', filterTours);
     document.getElementById('sort-filter')?.addEventListener('change', filterTours);
     
