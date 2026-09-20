@@ -66034,7 +66034,7 @@
       "name": "Private Boat Day Trip",
       "description": "Sail along Puerto Rico’s stunning east coast on a private 31 ft. boat, snorkel in crystal-clear waters, relax on white sand beaches, and enjoy snacks and drinks—all in a carefree, family-friendly adventure.",
       "location": "Dorado",
-      "price": 150,
+      "price": 650,
       "bookingUrl": "https://fareharbor.com/embeds/book/endlessadventures/items/60064/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/imUnjM7kQ2eH6vFyCzSo/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -66062,7 +66062,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Deposit (1 to 4 people)",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1273834,
@@ -66123,7 +66123,13 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (no adult/base tier): live ladder Deposit (1 to 4 people) $150 / Deposit (5 people) $250 / Deposit (6 people) $400 has no standalone adult/base per-person tier; floor $150 (Deposit (1 to 4 people)) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "HELD (no adult/base tier): live ladder Deposit (1 to 4 people) $150 / Deposit (5 people) $250 / Deposit (6 people) $400 has no standalone adult/base per-person tier; floor $150 (Deposit (1 to 4 people)) stamped unpublished pending priceUnit port; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceUnit": "Private boat, up to 4 people",
+        "depositOnline": 150,
+        "priceFixNote": "s61: the $150 customer type is a deposit; its own note says balance $500 on the day, total $650 for 1-4 people ($750 for 5, $900 for 6). Was \"Price on request\"."
+      },
+      "lastUpdated": "2026-09-19"
     },
     {
       "id": "pr-86204",
