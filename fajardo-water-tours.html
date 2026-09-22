@@ -100,7 +100,25 @@
            rendering at that size inside a 342px flex row, pushing the page to
            757px on a 390px screen. */
         img { max-width: 100%; height: auto; }
-    </style>
+    
+        .tours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+        .tour-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .tour-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
 <script>
@@ -136,6 +154,228 @@
     }
 }
     </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Public Culebra Power Boat Snorkeling &  Beach Tour",
+      "description": "Embark on a journey to Culebra’s pristine reefs and beaches aboard our sleek and spacious 46-foot Newton powerboat. Dive into crystal-clear waters teeming with vibrant marine life, where you’ll snorkel over thriving coral reefs alongside tropical fish and graceful sea turtles. Experience the exclusivity of Culebra’s tranquil charm, aboard less crowded boats, as you relax on some of the world’s most beaches.\n\nYour adventure includes a visit to the iconic Flamenco Beach or equally alternatives, carefully chosen to ensure the best experience based on sea conditions. This is more than just a trip – it’s an escape to.\n\nWhat's included\nDeli-style buffet lunch (Deli Style Buffet Lunch, Assorted Cold Cut, Assorted Cheeses. Gourmet Tuna, Chicken, Bean and Pasta Salads. Fresh Seasonal Fruit & Vegetable Trays. Fresh Local Bread and Chips.)\nUnlimited water, soda, & fruit juices ALL DAY! Tropical Rum Beverages are served during & after lunch.\nQuality snorkeling gear & flotation devices. We disinfect all snorkel",
+      "touristType": "Boat Tour, Snorkel",
+      "offers": {
+        "@type": "Offer",
+        "price": 165,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/sailgetaway/items/34807/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Sail Getaways"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Icacos sailing & snorkeling tour",
+      "description": "Experience Fajardo’s #1 Rated sailing and beach Excursion\nEmbark on a 6-hour adventure exploring the captivating underwater world landscapes of Puerto Rico's east coast. Experience the thrill of snorkeling in crystal-clear waters, the fun of a waterslide, and the awe of underwater windows on this family-friendly tour.\n\nSnorkel in the mesmerizing waters around Icacos Island\nEnjoy views of El Yunque National Forest and Puerto Rico's east coast\nHave fun with a waterslide and underwater windows for non-swimmers\nDelight in a delicious deli-style lunch buffet and refreshing beverages\n\nAdditional Information\n\nPrivate charter options and various boat options available\nRoundtrip transportation available from select locations for an additional fee\nSnorkeling equipment is included, but guests can bring their own or purchase new equipment at the East Island Excursions Store\nWhat's included\n\nDeli-style lunch buffet\n\nBeverages, including rum drinks\n\nSnorkeling equipment and swimming fins\n\nFloating devices and splash",
+      "touristType": "Boat Tour, Catamaran, Sailing, Snorkel",
+      "offers": {
+        "@type": "Offer",
+        "price": 135,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/eastislandpr/items/4287/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "East Island Excursions"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito",
+      "description": "See the beautiful El Conquistador Hotel, the Yunque mountains and more!\nDuration\n\n4 - 7 hrs\n\nAbout\n\nEmbark on an interpretive tour of Fajardo Bay aboard a 22-foot Spider boat, designed for agile navigation and a close-to-nature experience. This experience focuses on discovering the coastal treasures of north-eastern Puerto Rico from a unique vantage point.\nDuring the trip, we’ll take a scenic tour where you can admire the majesty of the Hotel El Conquistador from the sea, the silhouette of the Yunque mountain range and the historic Las Cabezas de San Juan lighthouse. We will sail through the channels of the Cordillera, spotting the silhouettes of the islands of Culebra and Vieques on the horizon, as well as various protected islets that make up this unique ecosystem.\nOur main stop will be near the Nature Reserve, in an area selected for its marine biodiversity (such as the reef area near Cayo Tortuga), where we will go on a guided snorkelling excursion. For approximately 45 minutes, we will observe the biodiversity of the seabed, including possible sightings o",
+      "touristType": "Boat Tour, Snorkel",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Navea PR Adventure"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Full Day Private Boat Tour Culebra or Vieques",
+      "description": "Sail to secluded beaches and vibrant reefs only accessible by boat. Snorkel with sea turtles, relax on pristine sands, and enjoy snacks and drinks on a private, customizable day in paradise.",
+      "touristType": "",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": 1250,
+          "priceCurrency": "USD",
+          "unitText": "Private Boat Tour"
+        },
+        "url": "https://fareharbor.com/embeds/book/culebravipeastpr/items/333614/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"
+      },
+      "provider": {
+        "@type": "LocalBusiness"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Vieques Bio Bay Kayak Tour — from mainland Puerto Rico",
+      "description": "Five-hour guided trip from mainland Puerto Rico to Mosquito Bay, Vieques — the brightest bioluminescent bay in the world — with kayaking on the bay.",
+      "touristType": "Kayak",
+      "offers": {
+        "@type": "Offer",
+        "price": 195,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/funcatpr/items/433259/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Fun Cat PR"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Bio Bay Kayak Tour",
+      "description": "Embark on a magical two-hour nighttime kayak tour through Fajardo's Bio Bay, one of the few bioluminescent lagoons in the world. Paddle through a mangrove channel in the Laguna Grande Nature Reserve and witness the glow of bioluminescent waters under a starry sky. Led by expert guides, this tour offers an exploration of Puerto Rico’s unique ecosystems.\n\nWhat's included\n\nKayak, paddles, and life jacket\n\nPre-tour safety training\n\nLow-intensity navigation lights\n\nBug repellent and snacks (water and granola bars)\n\nEco-interpretive guide\n\nFirst aid and towing equipment\n\nWhat's not included\n\nGratuities\n\nTransportation\n\nValuables (should not be brought along as they may get wet)\n\nItinerary\nCheck-in & Pre-Tour Training: Meet at Las Croabas, Fajardo for a brief check-in and kayaking safety instructions.\nEntering the Bio Bay: Paddle through a red mangrove channel into Laguna Grande.\nBioluminescence: Marvel at the glowing waters as you explore the Bio Bay at night.\nStargazing: Learn abo",
+      "touristType": "Eco Tour, Kayak",
+      "offers": {
+        "@type": "Offer",
+        "price": 70,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/kayakingpuertorico/items/3728/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Kayaking Puerto Rico"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Full Day Snorkeling and Boat Experience",
+      "description": "Set sail on a private 7-hour snorkeling and beach escape aboard a Boston Whaler 270 Outrage for you and up to five friends or family. Explore vibrant coral reefs at Icacos, Palominos, or Piñero Island with a knowledgeable guide, then relax on soft sand, float on a water mat, or play beach games. Enjoy a freshly prepared lunch, a charcuterie board, reef-safe sunscreen, quality snorkeling gear, and refreshing non-alcoholic drinks while the crew handles logistics and safety for a worry-free day on the water.\n\nWhat's included\n\nUSCG-approved captain, boat, and life jackets\n\nPrivate charter on a Boston Whaler 270 Outrage for up to 6 guests\n\nA full 7-hour boating and snorkeling trip, including check-in time\n\nQuality snorkeling gear: silicone mask, snorkel, fins, and life vest\n\nA knowledgeable guide to show the best spots and marine life\n\nFloating water mat, beach games, music, and a marine-life ID card\n\nCharcuterie",
+      "touristType": "Boat Rental, Boat Tour, Eco Tour, Jet Ski Rental, Private, Rentals, Snorkel",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": 1050,
+          "priceCurrency": "USD",
+          "unitText": "Private charter"
+        },
+        "url": "https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6350/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Pirate Snorkeling Shack"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Glowing Bio Bay Kayak Adventure",
+      "description": "Join Island Kayaking Adventure for a bioluminescent tour. Paddle through an enchanted mangrove forest to Laguna Grande for the Glowing Bio Bay Kayak Adventure. Witness the mesmerizing bioluminescence phenomenon caused by pyrodinium bahamense plankton.\nWhat's included\nTandem kayak with backrest, paddles, navigation lights and lifejackets\nKayak 101 Lesson\nInterpretative Guide\nBug Repellent\nSnacks\nWhat's not included\nTransportation to and from the tour location.\nGratuities for the guides (optional but appreciated).\nItinerary\n\nCheck-in: Meet us at Kayak Village to complete your check-in and get fitted with a life jacket.\n\nBriefing: A short safety orientation and explanation about the bioluminescent bay.\n\nPaddle out: Head out in double kayaks through a mangrove canal and into the bay. We'll be paddling for 1 mile!\n\nBioluminescence",
+      "touristType": "Kayak",
+      "offers": {
+        "@type": "Offer",
+        "price": 65,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/ikapr/items/168561/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Island Kayaking Adventure"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R.",
+      "description": "KAYAK LIKE YOU NEVER HAVE BEFORE!\nCome and join us in this amazing guided glowing bay kayaking night tour to Laguna Grande. Kayak through an amazing red mangroves channel that intertwined with the beauty of the night sky. An adventure where the water around you will become full of sparkling spots with every paddle stroke you make.\n\nWhat's included\n\nTwo persons sit-on-top Kayak and paddles.\n\nPersonal floating device (life vest) approved by US Coast Guard.\n\nFrontal and back low intensity night lights on kayaks.\n\nMosquito repellent.\n\nKayaking basic training and safety instructions.\n\nExperienced bilingual (English/Spanish) tour guides.\n\nSnacks: granola bars, potatoes chips, and cold bottled water (After the tour).\n\nFree parking (First come first serve basis)\n\nWhat's not included\n\nYOU MUST BRING YOUR OWN\n\nTowels\nChange of clothes\nTips for tour guides\nPersonal waterproof electronics\nWaterproof cases for phones\nHighlights\n\nLaguna Grande Bio Bay Tour Highlights\n\nMagical Bioluminescent Display: Witness the mesmerizing glow of bioluminescent organisms as they light up the water with their ethereal blue-green luminescence. Experience the enchantment",
+      "touristType": "Kayak",
+      "offers": {
+        "@type": "Offer",
+        "price": 58,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/ecoactiontours/items/215093/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Eco Action Tours"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "All Inclusive Culebra Snorkeling Excursion",
+      "description": "Explore the underwater world off Culebra Island in the company of professional guides. After check-in at the meeting point, receive your snorkeling gear and hop on the boat.\n\nThen, head out toward Culebra Island on an approximately 1-hour boat trip. Once there, jump into the water with your guides and take a guided snorkeling tour of the reef. Discover all the cool spots and admire the marine life in the crystal clear waters.\n\nAfter snorkeling, stop at the selected beach for the day for some fun in the sun and time to relax. Here lunch is served with some complimentary drinks. Enjoy the ocean, reefs, and beautiful scenery before returning to Puerto Rico.\n\nWhat's included\n\nBoat tour and ride shade, sun deck and bathroom.\nSnorkel Guided tour and snorkel lessons\nScuba Pro Snorkeling gear\nWaters, sodas and juice\nSnacks\nSandwiches and a cold pasta salad\nRum drinks and Pina Colada\n\nWhat's not included\n\nGratuities and towels.\n\nItinerary\n\nCheck in at 8am at our store. From here get fitted for your snorkeling",
+      "touristType": "Boat Tour, Marina, Snorkel",
+      "offers": {
+        "@type": "Offer",
+        "price": 145,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/divepuertorico/items/11151/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Sea Ventures Pro Dive Center"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "All Inclusive Beach & Snorkel Tour to Icacos Island",
+      "description": "At Caribe Bliss we offer you the best all inclusive snorkel and beach tour experience to Icacos Island off the coast of Fajardo. Arrive 30 minutes prior to departure time for check in and be greeted by our crew and Captain who will brief you and the rest of our guests on all our safety protocols. Briefly after check-in we will depart our Marina and head over to an offshore reef (approximately 20 minute ride) along the beautiful coast of Fajardo. Upon arrival, dive off and enjoy the diverse marine life around the reef while snorkeling for about an hour. First timers need not worry, the captain will give a quick lesson to those who have never done it before or just wish to brush up on your snorkeling skills. If snorkeling is not your thing just relax on board and get pampered by our crew with tropical drinks while listening to some island music. After snorkeling we will head over to the beach to enjoy the rest of the tour time where our crew will serve a refreshing pre-packed lunch with complimentary tropical drinks for you to enjoy.\n\nAft",
+      "touristType": "Snorkel",
+      "offers": {
+        "@type": "Offer",
+        "price": 125,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/caribebliss/items/57279/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Caribe Bliss"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Bio Bay Bioluminescent Kayaking Tour in Fajardo, PR",
+      "description": "A truly experience as you kayak at night through our beautiful mangrove forest to then witness hundreds of tiny star-like bioluminescent plankton scintillating like a starry sky as you move through the bay.\n\nWhat's included\nGuides\nEquipment\nWater\nSnacks\nWhat's not included\n\nBug Spray is not included- We here at Eco Adventures try to do our best inorder to preserve the Lagunas Eco system so we do not offer any procudutcs using harmeful chemicals. However if you believe you will need repllant please try to purchase a \"Deet free\" one. the laguna would thank you:)",
+      "touristType": "Kayak",
+      "offers": {
+        "@type": "Offer",
+        "price": 63,
+        "priceCurrency": "USD",
+        "url": "https://fareharbor.com/embeds/book/ecoadventurespr/items/72460/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Eco Adventures"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <header class="header">
@@ -156,7 +396,159 @@
             <a href="/#tours-section">Browse All Tours →</a>
         </div>
 
-        <h2>Snorkeling Tours</h2>
+        
+<section class="tours" id="tours">
+  <div class="container">
+    <h2>Book Fajardo Water Tours (12 available)</h2>
+    <div class="tours-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/CkqpyaKR6uK8YKtOpshg" alt="Public Culebra Power Boat Snorkeling &amp;  Beach Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $165</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Sail Getaways</div>
+        <h3 class="tour-title">Public Culebra Power Boat Snorkeling &amp;  Beach Tour</h3>
+        <p class="tour-desc">Embark on a journey to Culebra’s pristine reefs and beaches aboard our sleek and spacious 46-foot Newton powerboat. Dive into…</p>
+        <a href="https://fareharbor.com/embeds/book/sailgetaway/items/34807/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-34807" data-tour-name="Public Culebra Power Boat Snorkeling &amp;  Beach Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/YNVKgTY4S2a5nNPIE1bg" alt="Icacos sailing &amp; snorkeling tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $135</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">East Island Excursions</div>
+        <h3 class="tour-title">Icacos sailing &amp; snorkeling tour</h3>
+        <p class="tour-desc">Experience Fajardo’s #1 Rated sailing and beach Excursion Embark on a 6-hour adventure exploring the captivating underwater world…</p>
+        <a href="https://fareharbor.com/embeds/book/eastislandpr/items/4287/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-4287" data-tour-name="Icacos sailing &amp; snorkeling tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/7IpZfLIvTBSOiCcnZdBB" alt="All-Inclusive 22ft Spider Boat to Icacos, Palomino &amp; Palominito" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $549.99 All-Inclusive 22ft Spider Boat to Icacos, Palomino &amp; Palominito</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Navea PR Adventure</div>
+        <h3 class="tour-title">All-Inclusive 22ft Spider Boat to Icacos, Palomino &amp; Palominito</h3>
+        <p class="tour-desc">See the beautiful El Conquistador Hotel, the Yunque mountains and more! Duration 4 - 7 hrs About Embark on an interpretive tour of…</p>
+        <a href="https://fareharbor.com/embeds/book/naveapradventure/items/519855/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-519855" data-tour-name="All-Inclusive 22ft Spider Boat to Icacos, Palomino &amp; Palominito">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/idatCKVOSVGkDI4YfCzX/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Full Day Private Boat Tour Culebra or Vieques" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $1250 Private Boat Tour</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company"></div>
+        <h3 class="tour-title">Full Day Private Boat Tour Culebra or Vieques</h3>
+        <p class="tour-desc">Sail to secluded beaches and vibrant reefs only accessible by boat. Snorkel with sea turtles, relax on pristine sands, and enjoy snacks…</p>
+        <a href="https://fareharbor.com/embeds/book/culebravipeastpr/items/333614/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-333614" data-tour-name="Full Day Private Boat Tour Culebra or Vieques">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/W3Qv4B0SwOFNIpdoGdwQ" alt="Vieques Bio Bay Kayak Tour — from mainland Puerto Rico" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $195</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Fun Cat PR</div>
+        <h3 class="tour-title">Vieques Bio Bay Kayak Tour — from mainland Puerto Rico</h3>
+        <p class="tour-desc">Five-hour guided trip from mainland Puerto Rico to Mosquito Bay, Vieques — the brightest bioluminescent bay in the world — with kayaking…</p>
+        <a href="https://fareharbor.com/embeds/book/funcatpr/items/433259/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-433259" data-tour-name="Vieques Bio Bay Kayak Tour — from mainland Puerto Rico">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/VZvOJtd4T5KSmRBW1QcF" alt="Bio Bay Kayak Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $70</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Kayaking Puerto Rico</div>
+        <h3 class="tour-title">Bio Bay Kayak Tour</h3>
+        <p class="tour-desc">Embark on a magical two-hour nighttime kayak tour through Fajardo&#x27;s Bio Bay, one of the few bioluminescent lagoons in the world. Paddle…</p>
+        <a href="https://fareharbor.com/embeds/book/kayakingpuertorico/items/3728/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-3728" data-tour-name="Bio Bay Kayak Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/NutEjuOtRjOJH4utsyN8" alt="Full Day Snorkeling and Boat Experience" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $1050 Private charter</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pirate Snorkeling Shack</div>
+        <h3 class="tour-title">Full Day Snorkeling and Boat Experience</h3>
+        <p class="tour-desc">Set sail on a private 7-hour snorkeling and beach escape aboard a Boston Whaler 270 Outrage for you and up to five friends or family.…</p>
+        <a href="https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6350/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-6350" data-tour-name="Full Day Snorkeling and Boat Experience">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/MqeMOMmTRepXPCn9STBE" alt="Glowing Bio Bay Kayak Adventure" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $65</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Island Kayaking Adventure</div>
+        <h3 class="tour-title">Glowing Bio Bay Kayak Adventure</h3>
+        <p class="tour-desc">Join Island Kayaking Adventure for a bioluminescent tour. Paddle through an enchanted mangrove forest to Laguna Grande for the Glowing…</p>
+        <a href="https://fareharbor.com/embeds/book/ikapr/items/168561/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-168561" data-tour-name="Glowing Bio Bay Kayak Adventure">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/UoZMMyENTzGj1ku2gg6s" alt="Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R." loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $58</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Eco Action Tours</div>
+        <h3 class="tour-title">Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R.</h3>
+        <p class="tour-desc">KAYAK LIKE YOU NEVER HAVE BEFORE! Come and join us in this amazing guided glowing bay kayaking night tour to Laguna Grande. Kayak…</p>
+        <a href="https://fareharbor.com/embeds/book/ecoactiontours/items/215093/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-215093" data-tour-name="Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R.">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/8mKuHgcjQWyDC9qHSh49" alt="All Inclusive Culebra Snorkeling Excursion" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $145</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Sea Ventures Pro Dive Center</div>
+        <h3 class="tour-title">All Inclusive Culebra Snorkeling Excursion</h3>
+        <p class="tour-desc">Explore the underwater world off Culebra Island in the company of professional guides. After check-in at the meeting point, receive your…</p>
+        <a href="https://fareharbor.com/embeds/book/divepuertorico/items/11151/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-11151" data-tour-name="All Inclusive Culebra Snorkeling Excursion">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/dvwt5AWQImiV8k0B2dFs" alt="All Inclusive Beach &amp; Snorkel Tour to Icacos Island" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $125</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Caribe Bliss</div>
+        <h3 class="tour-title">All Inclusive Beach &amp; Snorkel Tour to Icacos Island</h3>
+        <p class="tour-desc">At Caribe Bliss we offer you the best all inclusive snorkel and beach tour experience to Icacos Island off the coast of Fajardo. Arrive…</p>
+        <a href="https://fareharbor.com/embeds/book/caribebliss/items/57279/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-57279" data-tour-name="All Inclusive Beach &amp; Snorkel Tour to Icacos Island">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/LTajbi1PTjyQgWitVAVf" alt="Bio Bay Bioluminescent Kayaking Tour in Fajardo, PR" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $63</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Eco Adventures</div>
+        <h3 class="tour-title">Bio Bay Bioluminescent Kayaking Tour in Fajardo, PR</h3>
+        <p class="tour-desc">A truly experience as you kayak at night through our beautiful mangrove forest to then witness hundreds of tiny star-like bioluminescent…</p>
+        <a href="https://fareharbor.com/embeds/book/ecoadventurespr/items/72460/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-72460" data-tour-name="Bio Bay Bioluminescent Kayaking Tour in Fajardo, PR">Check Availability →</a>
+    </div>
+</article>
+    </div>
+  </div>
+</section>
+<h2>Snorkeling Tours</h2>
         
         <h3>Full Day Snorkeling and Boat Experience</h3>
         <p><strong>Operator:</strong> Pirate Snorkeling Shack | <strong>Quality Score:</strong> 100</p>
