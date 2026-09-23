@@ -3112,11 +3112,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -3860,11 +3860,11 @@
       "timeOfDay": "",
       "capacity": 6,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -4294,11 +4294,11 @@
       "timeOfDay": "",
       "capacity": 40,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -4713,11 +4713,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -7523,11 +7523,11 @@
       "timeOfDay": "",
       "capacity": 6,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -7686,11 +7686,11 @@
       "timeOfDay": "",
       "capacity": 6,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceBreakdown": [
         {
@@ -9231,11 +9231,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -11611,11 +11611,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -12310,11 +12310,11 @@
       "timeOfDay": "",
       "capacity": 2,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -12647,11 +12647,11 @@
       "timeOfDay": "",
       "capacity": 12,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
@@ -13485,11 +13485,11 @@
       "timeOfDay": "",
       "capacity": 25,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -13537,11 +13537,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -13597,11 +13597,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
       },
@@ -14067,11 +14067,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -14179,11 +14179,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -14291,11 +14291,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -14986,11 +14986,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -15305,11 +15305,11 @@
       "timeOfDay": "",
       "capacity": 19,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
@@ -15353,11 +15353,11 @@
       "timeOfDay": "",
       "capacity": 20,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -15429,11 +15429,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
@@ -15546,11 +15546,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -15894,11 +15894,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -15944,11 +15944,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -16799,11 +16799,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -17032,11 +17032,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
       "priceEnrichmentStatus": "unsampled",
@@ -17195,11 +17195,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
       },
@@ -17263,11 +17263,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -17317,11 +17317,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -17481,11 +17481,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -17762,11 +17762,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -18163,11 +18163,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -18215,11 +18215,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -18402,11 +18402,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -19124,11 +19124,11 @@
       "timeOfDay": "",
       "capacity": 1,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -19178,11 +19178,11 @@
       "timeOfDay": "",
       "capacity": 2,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -19449,11 +19449,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -19498,11 +19498,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -19548,11 +19548,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -19648,11 +19648,11 @@
       "timeOfDay": "",
       "capacity": 2,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -20047,11 +20047,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -20679,11 +20679,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -20729,11 +20729,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -20783,11 +20783,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
       "priceEnrichmentStatus": "probe_error",
@@ -20903,11 +20903,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
       },
@@ -21321,11 +21321,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
@@ -21370,11 +21370,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -21487,11 +21487,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 1006390,
@@ -21636,11 +21636,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -21690,11 +21690,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceSource": "s51-wpr-unstamped",
       "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
       "priceEnrichmentStatus": "unsampled",
@@ -22769,11 +22769,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -22827,11 +22827,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
@@ -23246,11 +23246,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": "FareHarbor item API returns 404 — item no longer exists, checked 2026-09-14",
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-09-14",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "probe_error",
@@ -23291,11 +23291,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -23340,11 +23340,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -23457,11 +23457,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
       "priceEnrichmentStatus": "unsampled",
@@ -25714,7 +25714,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-230165",
@@ -26031,7 +26035,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $40; not anchoring: Youth $30 [never], Senior $36 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $40; not anchoring: Youth $30 [never], Senior $36 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-625268",
@@ -28705,7 +28713,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-520924",
@@ -29713,7 +29725,11 @@
           "price": 999,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-333618",
@@ -29967,7 +29983,11 @@
           "price": 120,
           "minPartySize": 2
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-569549",
@@ -32900,7 +32920,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $99; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $99; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-592306",
@@ -36288,7 +36312,11 @@
           "price": 999,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-710141",
@@ -37454,7 +37482,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-267780",
@@ -39936,7 +39968,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-384898",
@@ -41929,7 +41965,11 @@
           "price": 2400,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-698804",
@@ -44946,7 +44986,11 @@
           "price": 75,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-497512",
@@ -45993,7 +46037,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-194415",
@@ -46035,7 +46083,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-230182",
@@ -46672,7 +46724,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-551207",
@@ -47776,7 +47832,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-646045",
@@ -48069,7 +48129,11 @@
       "_unknownFields": {
         "priceSource": "s57-fh-price-preview",
         "priceVerifiedAt": "2026-09-04"
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-730828",
@@ -50439,7 +50503,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-712746",
@@ -50523,7 +50591,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-2242",
@@ -51074,7 +51146,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-497003",
@@ -51740,7 +51816,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-615988",
@@ -51783,7 +51863,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-641082",
@@ -52192,7 +52276,11 @@
           "price": 5,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-718572",
@@ -52649,7 +52737,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-562888",
@@ -52808,7 +52900,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-582801",
@@ -53010,7 +53106,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-591261",
@@ -54593,7 +54693,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-245289",
@@ -56628,7 +56732,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-339985",
@@ -56865,7 +56973,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-381576",
@@ -59078,7 +59190,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-472549",
@@ -59406,7 +59522,11 @@
           "price": 1200,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-497508",
@@ -59459,7 +59579,11 @@
           "price": 1000,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-501300",
@@ -60207,7 +60331,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-541188",
@@ -61716,7 +61844,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-484269",
@@ -61757,7 +61889,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-485023",
@@ -61796,7 +61932,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-485725",
@@ -61892,7 +62032,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Five Hour Tour $145; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Five Hour Tour $145; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-490396",
@@ -62001,7 +62145,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-547806",
@@ -62109,7 +62257,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-589134",
@@ -62148,7 +62300,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-627785",
@@ -62247,7 +62403,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-612447",
@@ -62514,7 +62674,11 @@
       "_unknownFields": {
         "priceUnit": "Private Earthship Room • 1 Night"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-23309",
@@ -62564,7 +62728,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-203935",
@@ -62601,7 +62769,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-296583",
@@ -62699,7 +62871,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-368915",
@@ -62734,7 +62910,11 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-384654",
@@ -62879,7 +63059,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-211937",
@@ -63081,7 +63265,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-267751",
@@ -63118,7 +63306,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-281475",
@@ -63558,7 +63750,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-357779",
@@ -64242,7 +64438,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-421036",
@@ -64279,7 +64479,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-427346",
@@ -65074,7 +65278,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-457478",
@@ -65115,7 +65323,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-460889",
@@ -65226,7 +65438,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-485743",
@@ -65303,7 +65519,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-416374",
@@ -65374,7 +65594,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-495062",
@@ -65413,7 +65637,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-495069",
@@ -65453,7 +65681,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-502880",
@@ -65604,7 +65836,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-687262",
@@ -66521,7 +66757,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-283316",
@@ -66598,7 +66838,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-340077",
@@ -66641,7 +66885,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-343131",
@@ -66992,7 +67240,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-507901",
@@ -67035,7 +67287,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-562911",
@@ -67251,7 +67507,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-385744",
@@ -67379,7 +67639,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-517503",
@@ -67423,7 +67687,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-517531",
@@ -67467,7 +67735,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-519492",
@@ -67511,7 +67783,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-532390",
@@ -67555,7 +67831,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-532395",
@@ -67599,7 +67879,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-532397",
@@ -67643,7 +67927,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-555926",
@@ -67809,7 +68097,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-674321",
@@ -67843,7 +68135,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-677253",
@@ -67913,7 +68209,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-203932",
@@ -67948,7 +68248,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-325006",
@@ -68000,7 +68304,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-342725",
@@ -68164,7 +68472,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-530210",
@@ -68202,7 +68514,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-555919",
@@ -68372,7 +68688,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-698836",
@@ -68660,7 +68980,11 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-343133",
@@ -69226,7 +69550,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-562017",
@@ -69517,7 +69845,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-724990",
@@ -69616,7 +69948,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-28789",
@@ -69653,7 +69989,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-60006",
@@ -69689,7 +70029,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-111855",
@@ -69722,7 +70066,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-117087",
@@ -69860,7 +70208,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-255294",
@@ -69904,7 +70256,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261634",
@@ -69939,7 +70295,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261706",
@@ -69974,7 +70334,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261728",
@@ -70009,7 +70373,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261736",
@@ -70044,7 +70412,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261744",
@@ -70079,7 +70451,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261747",
@@ -70114,7 +70490,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-261844",
@@ -70149,7 +70529,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-280256",
@@ -70185,7 +70569,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-281668",
@@ -70220,7 +70608,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-284207",
@@ -70256,7 +70648,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-290233",
@@ -70297,7 +70693,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-342718",
@@ -70376,7 +70776,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382000",
@@ -70411,7 +70815,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382732",
@@ -70446,7 +70854,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382736",
@@ -70481,7 +70893,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382745",
@@ -70516,7 +70932,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382753",
@@ -70551,7 +70971,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382755",
@@ -70586,7 +71010,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-383009",
@@ -70621,7 +71049,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-383020",
@@ -70651,7 +71083,11 @@
       "priceConfidence": "low",
       "priceSource": "s49-wpr-refresh",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored null retained unpublished pending a live reading",
-      "priceTiers": []
+      "priceTiers": [],
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-383022",
@@ -70719,7 +71155,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-383041",
@@ -70754,7 +71194,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-383050",
@@ -70789,7 +71233,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-579976",
@@ -70943,7 +71391,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-692709",
@@ -71003,7 +71455,11 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $75; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $75; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-698848",
@@ -71147,7 +71603,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-731589",
@@ -71701,7 +72161,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-412341",
@@ -71737,7 +72201,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-553335",
@@ -71817,7 +72285,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-651601",
@@ -71947,7 +72419,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-39518",
@@ -72057,7 +72533,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-382777",
@@ -72092,7 +72572,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-389718",
@@ -72126,7 +72610,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-416623",
@@ -72205,7 +72693,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-468193",
@@ -72281,7 +72773,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-483233",
@@ -72320,7 +72816,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-500377",
@@ -72463,7 +72963,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-60676",
@@ -73211,7 +73715,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-487312",
@@ -73246,7 +73754,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-501529",
@@ -73297,7 +73809,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-580028",
@@ -73407,7 +73923,11 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "id": "pr-709075",
