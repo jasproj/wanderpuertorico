@@ -1,0 +1,267 @@
+{
+ "generated": "2026-10-02",
+ "site": "wpr",
+ "source": "fareharbor price-preview asn=fhdn, 4 dates",
+ "rule": "price := exact priceLabel tier price; label unchanged unless newLabel differs",
+ "auto": [
+  {
+   "co": "bluewaveadventures",
+   "pk": "702861",
+   "name": "PRIVATE FULL-DAY BOAT CHARTER TO CULEBRA OR PALOMI",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "703902",
+   "name": "PRIVATE FULL-DAY island escape - Icacos or palomin",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "702794",
+   "name": "SUNSET HALF-DAY BOAT CHARTER \u2013 ICACO OR PALOMINO |",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "702796",
+   "name": "FAJARDO HIGH-SPEED JETSKI FREESTYLE SESSION",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "702798",
+   "name": "BIOLUMINESCENT BAY NIGHT ADVENTURE \u2013 KAYAK TOUR 9 ",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "702860",
+   "name": "BLUE WAVE \ud83c\udf0a CAN-AM OFF-ROAD GUIDED ADVENTURE \u2013 3 G",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "702795",
+   "name": "MORNING HALF-DAY BOAT CHARTER \u2013 ICACO OR PALOMINO ",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "bluewaveadventures",
+   "pk": "702797",
+   "name": "JETSKI ISLAND HOPPING TOUR \u2013 ICACO \u2022 LOBO \u2022 PALOMI",
+   "oldPrice": 549.0,
+   "newPrice": 499.0,
+   "oldLabel": "Four Hour Charter",
+   "newLabel": "Four Hour Charter",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "caribbeanchiliboatspuertorico",
+   "pk": "286798",
+   "name": "La Parguera Adventure Tour Chiliboats Water Bike",
+   "oldPrice": 75.0,
+   "newPrice": 69.0,
+   "oldLabel": "Participant",
+   "newLabel": "Participant",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "caribbeanchiliboatspuertorico",
+   "pk": "286814",
+   "name": "Condado Lagoon Night Water Bike Tour \u2013 Chiliboats",
+   "oldPrice": 69.0,
+   "newPrice": 65.0,
+   "oldLabel": "Participant",
+   "newLabel": "Participant",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "divepuertorico",
+   "pk": "712331",
+   "name": "Vieques  All Inclusive Snorkeling Excursion",
+   "oldPrice": 130.0,
+   "newPrice": 115.0,
+   "oldLabel": "Adult Snorkeler",
+   "newLabel": "Adult Snorkeler",
+   "cls": "WRONG_TIER",
+   "note": "card held the Gold Package price under the Adult Snorkeler label"
+  },
+  {
+   "co": "haciendacarey",
+   "pk": "755971",
+   "name": "Beginner & Family Horseback Ride",
+   "oldPrice": 100.0,
+   "newPrice": 60.0,
+   "oldLabel": "Rider",
+   "newLabel": "Rider",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "jet-snorkel",
+   "pk": "168223",
+   "name": "Snorkel Tour",
+   "oldPrice": 45.0,
+   "newPrice": 40.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kayakingparguera",
+   "pk": "123311",
+   "name": "BIOBAY KAYAK ADVENTURE",
+   "oldPrice": 59.99,
+   "newPrice": 59.0,
+   "oldLabel": "People",
+   "newLabel": "People",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "naveapradventure",
+   "pk": "519855",
+   "name": "All-Inclusive 22ft Spider Boat to Icacos, Palomino",
+   "oldPrice": 549.99,
+   "newPrice": 549.0,
+   "oldLabel": "Four Hours",
+   "newLabel": "Four Hours",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "naveapradventure",
+   "pk": "520134",
+   "name": "All-Inclusive: Mako 29ft Boat Tour Eco-Tour Nautic",
+   "oldPrice": 709.99,
+   "newPrice": 709.0,
+   "oldLabel": "Four Hours",
+   "newLabel": "Four Hours",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "rocanortepr",
+   "pk": "581595",
+   "name": "Rock Climbing Birthday Party",
+   "oldPrice": 90.0,
+   "newPrice": 55.0,
+   "oldLabel": "Climber",
+   "newLabel": "Climber",
+   "cls": "DUPLICATE_LABEL",
+   "note": "two tiers share this name; cheaper is the real climber rate"
+  },
+  {
+   "co": "saltoursllc",
+   "pk": "568580",
+   "name": "El Conquistador Mini Boat Aquafari",
+   "oldPrice": 255.0,
+   "newPrice": 195.0,
+   "oldLabel": "Mini Boat",
+   "newLabel": "Mini Boat",
+   "cls": "DUPLICATE_LABEL",
+   "note": "two tiers share this name; cheaper per-boat rate"
+  },
+  {
+   "co": "sanjuanscenehopper",
+   "pk": "611878",
+   "name": "Historic Tours",
+   "oldPrice": 95.0,
+   "newPrice": 85.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "sharepuertorico",
+   "pk": "695667",
+   "name": "Rainforest Adventures Tour",
+   "oldPrice": 59.0,
+   "newPrice": 49.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  }
+ ],
+ "flag": [
+  {
+   "co": "divepuertorico",
+   "pk": "236627",
+   "name": "Beach and Snorkel  Private Charters ( Must check i",
+   "card": 4000.0,
+   "label": "Private Charter 4hrs",
+   "tiers": [
+    [
+     "Private Charters",
+     4000.0
+    ]
+   ],
+   "reason": "no exact-label match"
+  },
+  {
+   "co": "endlessadventures",
+   "pk": "60064",
+   "name": "Private Boat Day Trip",
+   "card": 650.0,
+   "label": "Deposit (1 to 4 people)",
+   "tiers": [
+    [
+     "Deposit (1 to 4 people)",
+     150.0
+    ],
+    [
+     "Deposit (5 people)",
+     250.0
+    ],
+    [
+     "Deposit (6 people)",
+     400.0
+    ]
+   ],
+   "reason": "every tier on this product is a deposit (150/250/400 by group size); card shows 650, which matches no tier. Setting it to 150 would advertise a deposit as the trip price."
+  }
+ ],
+ "delist": []
+}

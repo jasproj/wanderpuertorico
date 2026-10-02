@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.8",
-  "lastNormalized": "2026-05-28T15:23:28.174Z",
+  "lastNormalized": "2026-10-02T20:23:26Z",
   "tours": [
     {
       "id": "pr-3727",
@@ -4740,7 +4740,7 @@
       "category": "",
       "location": "Lajas",
       "island": "",
-      "price": 75,
+      "price": 69,
       "priceLabel": "Participant",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -4792,9 +4792,9 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Participant",
@@ -4803,7 +4803,7 @@
           "minPartySize": 2
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Participant $75; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-wpr-price-refresh: Participant $75.00 -> $69.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-343915",
@@ -5201,7 +5201,7 @@
       "category": "",
       "location": "Fajardo",
       "island": "",
-      "price": 549.99,
+      "price": 549,
       "priceLabel": "Four Hours",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -5279,8 +5279,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
-      "priceSource": "s51-wpr-unstamped",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Four Hours",
@@ -5311,7 +5311,7 @@
       "_unknownFields": {
         "priceUnit": "All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito"
       },
-      "priceBasis": "D-621 published with unit \"All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito\" (rule: product name quoted); live ladder Four Hours $549.99 / Five Hours $649.99 / Six Hours $749.99 / Seven Hours $849.99 has no standalone adult/base per-person tier; whole-party floor $549.99 (Four Hours); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-wpr-price-refresh: Four Hours $549.99 -> $549.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-14861",
@@ -19031,7 +19031,7 @@
       "category": "",
       "location": "San Juan",
       "island": "",
-      "price": 45,
+      "price": 40,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 46,
@@ -19074,9 +19074,9 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Person",
@@ -19085,7 +19085,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $45; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-wpr-price-refresh: Person $45.00 -> $40.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-619270",
@@ -19348,7 +19348,7 @@
       "category": "",
       "location": "Lajas",
       "island": "",
-      "price": 59.99,
+      "price": 59,
       "priceLabel": "People",
       "priceConfidence": "high",
       "qualityScore": 45,
@@ -19404,8 +19404,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentAt": "2026-08-26T15:06:14.649Z",
-      "priceSource": "s51-wpr-unstamped",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "People",
@@ -19415,7 +19415,7 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier People $59.99; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-wpr-price-refresh: People $59.99 -> $59.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-218088",
@@ -24867,7 +24867,7 @@
       "name": "Rock Climbing Birthday Party",
       "description": "Celebrate your birthday with an unforgettable private rock climbing party! Enjoy exclusive access for up to 30 guests, complete with a safety orientation and gear. Arrive early to decorate and create lasting memories as everyone climbs together in a unique and exhilarating setting. Make your special day truly remarkable!",
       "location": "Vega Baja",
-      "price": 90,
+      "price": 55,
       "bookingUrl": "https://fareharbor.com/embeds/book/rocanortepr/items/581595/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/zpXyUZwFR86saYTDZGva/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -24924,14 +24924,14 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/zpXyUZwFR86saYTDZGva/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:03:02.264Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/rocanortepr/items/581595/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-unittag",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Climber",
@@ -24952,7 +24952,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "KEPT per-person (ruling 2026-08-25, not D-621): \"Climber\" $90 is a per-person climb package (ladder Climber $90 / Climber $55 / Non-Climber $10); no unit; live ladder Climber $90 / Climber $55 / Non-Climber $10 has no standalone adult/base per-person tier; stored Climber $90 re-verified live and kept visible; whole-party floor $55 (Climber); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "priceBasis": "s62-wpr-price-refresh: Climber $90.00 -> $55.00 (duplicate_label); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time",
       "priceSourceAt": "2026-08-25"
     },
     {
@@ -30070,7 +30070,7 @@
       "name": "Historic Tours",
       "description": "Embark on a captivating guided tour through San Juan's rich history in just 60-70 minutes. Explore iconic landmarks like the Casa de Espana, the Capitol, and the majestic Castillo de San Cristobal. Experience the vibrant culture and stunning architecture that make this journey unforgettable.",
       "location": "San Juan",
-      "price": 95,
+      "price": 85,
       "bookingUrl": "https://fareharbor.com/embeds/book/sanjuanscenehopper/items/611878/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/1hB10zeQQFy9tzkkl1zY/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
@@ -30112,14 +30112,14 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/1hB10zeQQFy9tzkkl1zY/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:14:53.339Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/sanjuanscenehopper/items/611878/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s52-wpr-drift",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Adult",
@@ -30134,7 +30134,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 tier \"Adult\" $95 re-read live 2026-08-27 (s52-wpr-drift): stored $85 was stale — wall-clock operator reprice, not seasonal; live \"Adult\" $95 on 2026-09-20 and 2026-11-22 (and on 2026-10-25 in the s52 census); confidence high; live USD. Prior basis: D-624 cheapest adult/base per-person tier Adult $85; not anchoring: Child $85 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceBasis": "s62-wpr-price-refresh: Adult $95.00 -> $85.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time",
       "priceVerifiedAt": "2026-08-27"
     },
     {
@@ -31200,7 +31200,7 @@
       "name": "Vieques  All Inclusive Snorkeling Excursion",
       "description": "Sail to secluded islands for vibrant reef snorkeling, swim with sea turtles, relax on pristine beaches, and enjoy drinks, snacks, and fun onboard activities—an unforgettable day of marine adventure and leisure.",
       "location": "Fajardo",
-      "price": 130,
+      "price": 115,
       "bookingUrl": "https://fareharbor.com/embeds/book/divepuertorico/items/712331/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/DNhcXtmS8GKivfF5euRt/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -31255,14 +31255,14 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/DNhcXtmS8GKivfF5euRt/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:17:16.074Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/divepuertorico/items/712331/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Adult Snorkeler",
@@ -31283,7 +31283,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult Snorkeler $130; not anchoring: Child Snorkeler $125 [never], Gold Snorkel Package $160 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-wpr-price-refresh: Adult Snorkeler $130.00 -> $115.00 (wrong_tier); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-723937",
@@ -33808,7 +33808,7 @@
       "name": "Rainforest Adventures Tour",
       "description": "Slide down untouched natural waterslides, swim in crystal-clear mountain pools, and explore hidden waterfalls surrounded by lush rainforest. Capture every moment with professional photos on this exclusive, all-inclusive adventure.",
       "location": "San Juan",
-      "price": 59,
+      "price": 49,
       "bookingUrl": "https://fareharbor.com/embeds/book/sharepuertorico/items/695667/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/50HpjXauTumClkQtplu9/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -33855,14 +33855,14 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/50HpjXauTumClkQtplu9/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:23:35.593Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/sharepuertorico/items/695667/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s52-wpr-drift",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Adult",
@@ -33883,7 +33883,7 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 tier \"Adult\" $59 re-read live 2026-08-27 (s52-wpr-drift): stored $49 was stale — wall-clock operator reprice, not seasonal; live \"Adult\" $59 on 2026-09-20 and 2026-11-22 (and on 2026-10-25 in the s52 census); confidence high; live USD. Prior basis: D-624 cheapest adult/base per-person tier Adult $49; not anchoring: Senior $39 [never], Child $39 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceBasis": "s62-wpr-price-refresh: Adult $59.00 -> $49.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time",
       "priceVerifiedAt": "2026-08-27"
     },
     {
@@ -55419,7 +55419,7 @@
       "name": "Condado Lagoon Night Water Bike Tour – Chiliboats",
       "description": "Glide over calm lagoon waters on stable, glow-lit Chiliboats, passing under iconic bridges and near historic Fort San Jerónimo. Enjoy a peaceful, illuminated night tour with city lights, starry skies, and possible marine sightings.",
       "location": "San Juan",
-      "price": 69,
+      "price": 65,
       "bookingUrl": "https://fareharbor.com/embeds/book/caribbeanchiliboatspuertorico/items/286814/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/I2Hb4J1OT52nmjTocCQF/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -55459,14 +55459,14 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-25T17:01:03.301Z",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/I2Hb4J1OT52nmjTocCQF/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:17:29.539Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/caribbeanchiliboatspuertorico/items/286814/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "priceSource": "s49-wpr-refresh",
+      "priceSource": "s62-wpr-price-refresh",
       "priceTiers": [
         {
           "name": "Participant",
@@ -55475,7 +55475,7 @@
           "minPartySize": 2
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Participant $69; 4/4 dated readings (2 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-wpr-price-refresh: Participant $69.00 -> $65.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-290234",
@@ -77645,7 +77645,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/naveapradventure/items/520134/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Fajardo",
-      "price": 709.99,
+      "price": 709,
       "priceLabel": "Four Hours",
       "priceConfidence": "high",
       "qualityScore": 91,
@@ -77686,7 +77686,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 61
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hours $709.99 -> $709.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-520135",
@@ -80969,7 +80972,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/saltoursllc/items/568580/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Fajardo",
-      "price": 255,
+      "price": 195,
       "priceLabel": "Mini Boat",
       "priceConfidence": "high",
       "qualityScore": 55,
@@ -81008,7 +81011,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 93
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Mini Boat $255.00 -> $195.00 (duplicate_label); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-444688",
@@ -81407,7 +81413,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702861/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "high",
       "qualityScore": 51,
@@ -81445,7 +81451,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-703902",
@@ -81455,7 +81464,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/703902/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "high",
       "qualityScore": 51,
@@ -81493,7 +81502,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-741587",
@@ -81791,7 +81803,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702794/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -81829,7 +81841,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-702796",
@@ -81839,7 +81854,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702796/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "low",
       "qualityScore": 49,
@@ -81877,7 +81892,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-702798",
@@ -81887,7 +81905,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702798/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "low",
       "qualityScore": 49,
@@ -81925,7 +81943,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 30
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-702860",
@@ -81935,7 +81956,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702860/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "low",
       "qualityScore": 49,
@@ -81973,7 +81994,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-250752",
@@ -82176,7 +82200,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702795/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "high",
       "qualityScore": 48,
@@ -82214,7 +82238,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-702797",
@@ -82224,7 +82251,7 @@
       "bookingUrl": "https://fareharbor.com/embeds/book/bluewaveadventures/items/702797/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "Las Croabas",
-      "price": 549,
+      "price": 499,
       "priceLabel": "Four Hour Charter",
       "priceConfidence": "low",
       "qualityScore": 48,
@@ -82262,7 +82289,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 31
-      }
+      },
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Four Hour Charter $549.00 -> $499.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "pr-35252",
@@ -83544,7 +83574,7 @@
       "category": "",
       "location": "Puerto Rico/Isabela/Isabela",
       "island": "puerto rico/isabela/isabela",
-      "price": 100,
+      "price": 60,
       "priceLabel": "Rider",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -83598,7 +83628,10 @@
           "price": 100,
           "minPartySize": 1
         }
-      ]
+      ],
+      "priceSource": "s62-wpr-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T20:23:26Z",
+      "priceBasis": "s62-wpr-price-refresh: Rider $100.00 -> $60.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "390395",
