@@ -24276,7 +24276,9 @@
           "price": 89.25,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-156678",
@@ -29366,7 +29368,8 @@
       "priceTiers": [],
       "bookingDead": true,
       "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "lastUpdated": "2026-09-14"
+      "lastUpdated": "2026-09-14",
+      "status": "inactive"
     },
     {
       "id": "pr-36895",
@@ -35150,7 +35153,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Participant for Boat Tour $219 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Participant for Boat Tour $219 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-679654",
@@ -36188,7 +36193,9 @@
       "_unknownFields": {
         "priceUnit": "Viques Boat Tour"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-705385",
@@ -36841,7 +36848,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $85; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $85; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-457489",
@@ -36910,7 +36919,9 @@
           "minPartySize": 2
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $250; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $250; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-588176",
@@ -37383,7 +37394,9 @@
           "price": 250,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-36464",
@@ -39253,7 +39266,9 @@
           "price": 25,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-700599",
@@ -39305,7 +39320,9 @@
           "price": 25,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-703699",
@@ -41910,7 +41927,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Tropical Adventure $450; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Tropical Adventure $450; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-696755",
@@ -47089,7 +47108,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $20; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $20; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-608360",
@@ -47580,7 +47601,9 @@
           "price": 550,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-730813",
@@ -47899,7 +47922,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $95; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $95; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-676029",
@@ -55537,7 +55562,9 @@
       "_unknownFields": {
         "priceUnit": "Seven-Hour Rental"
       },
-      "priceSourceAt": "2026-08-25"
+      "priceSourceAt": "2026-08-25",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-290380",
@@ -56876,7 +56903,9 @@
           "price": 120,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-371460",
@@ -57132,7 +57161,9 @@
           "price": 75,
           "minPartySize": 4
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-402812",
@@ -62362,7 +62393,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $35; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $35; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-475708",
@@ -62543,7 +62576,8 @@
       "priceTiers": [],
       "bookingDead": true,
       "statusReason": "FareHarbor item API reports is_archived, checked 2026-09-14",
-      "lastUpdated": "2026-09-14"
+      "lastUpdated": "2026-09-14",
+      "status": "inactive"
     },
     {
       "id": "pr-717343",
@@ -65728,7 +65762,8 @@
       "priceTiers": [],
       "bookingDead": true,
       "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "lastUpdated": "2026-09-14"
+      "lastUpdated": "2026-09-14",
+      "status": "inactive"
     },
     {
       "id": "pr-580877",
@@ -67199,7 +67234,9 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-497498",
@@ -67992,7 +68029,9 @@
           "price": 30,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-558442",
@@ -68430,7 +68469,9 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": "some",
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-499590",
@@ -68561,7 +68602,9 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-646489",
@@ -68619,7 +68662,9 @@
       "currency": "USD",
       "priceLabel": "Person",
       "priceConfidence": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier Person $25; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $25; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-675680",
@@ -69619,7 +69664,9 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $125; not anchoring: Child $99 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $125; not anchoring: Child $99 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-580007",
@@ -71300,7 +71347,9 @@
           "price": 3950,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-628683",
@@ -72125,7 +72174,8 @@
       "priceTiers": [],
       "bookingDead": true,
       "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "lastUpdated": "2026-09-14"
+      "lastUpdated": "2026-09-14",
+      "status": "inactive"
     },
     {
       "id": "pr-125134",
@@ -73959,7 +74009,8 @@
       "priceTiers": [],
       "bookingDead": true,
       "statusReason": "FareHarbor item API reports is_archived, checked 2026-09-14",
-      "lastUpdated": "2026-09-14"
+      "lastUpdated": "2026-09-14",
+      "status": "inactive"
     },
     {
       "id": "pr-29154",
@@ -75088,7 +75139,8 @@
       "priceTiers": [],
       "bookingDead": true,
       "statusReason": "FareHarbor item API reports is_private — not publicly bookable, checked 2026-09-14",
-      "lastUpdated": "2026-09-14"
+      "lastUpdated": "2026-09-14",
+      "status": "inactive"
     },
     {
       "id": "pr-558447",
@@ -75629,7 +75681,9 @@
         "availabilityCheckedOn": "2026-09-14",
         "availabilitySlots120d": 0,
         "publicPriceAvailable": false
-      }
+      },
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-60660",
@@ -76521,7 +76575,9 @@
           "price": 129.99,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-734120",
@@ -76570,7 +76626,9 @@
           "price": 159.99,
           "minPartySize": 1
         }
-      ]
+      ],
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "id": "pr-44643",
