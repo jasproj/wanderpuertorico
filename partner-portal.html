@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Portal | Wander Puerto Rico</title>
+<meta name="description" content="Approve your Coquí Awards spotlight page, send us your photos and crew, and tell us where the award badge will live.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://wanderpuertorico.com/partner-portal.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wanderpuertorico.com/partner-portal.html">
+<meta property="og:title" content="Partner Portal | Wander Puerto Rico">
+<meta property="og:description" content="Approve your Coquí Awards spotlight page, send us your photos and crew, and tell us where the award badge will live.">
+<meta property="og:image" content="https://wanderpuertorico.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://wanderpuertorico.com/og-image.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBNZZ0D7VD"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MBNZZ0D7VD');</script>
+<link rel="stylesheet" href="/styles.css">
+<script src="/tracking.js" defer></script>
+<script src="https://upload-widget.cloudinary.com/global/all.js" defer></script>
+<style>
+  .pp-wrap{max-width:860px;margin:0 auto;padding:48px 20px 72px}
+  .pp-hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+  .pp-hero img{width:120px;height:120px;flex:none}
+  .pp-hero h1{font-size:2rem;margin:0 0 8px;line-height:1.2}
+  .pp-hero p{margin:0;font-size:1.05rem;line-height:1.7;max-width:58ch;color:#374553}
+  .pp-draft{background:#f8f8f8;border-left:4px solid #A25C1D;border-radius:8px;
+            padding:16px 20px;margin:0 0 36px;line-height:1.7}
+  .pp-draft strong{color:#1a3a4a}
+  .pp-draft a{color:#A25C1D;font-weight:600;word-break:break-all}
+  .pp-draft.is-hidden{display:none}
+
+  .pp-form fieldset{border:1px solid #dbe1e8;border-radius:10px;padding:22px 22px 10px;
+                    margin:0 0 26px;background:#fff}
+  .pp-form legend{font-weight:700;color:#1a3a4a;font-size:1.05rem;padding:0 10px;
+                  display:flex;align-items:center;gap:10px}
+  .pp-form legend .n{width:26px;height:26px;border-radius:50%;background:#1a3a4a;color:#fff;
+                     font-size:.82rem;display:inline-flex;align-items:center;justify-content:center;flex:none}
+  .pp-form .lead{margin:4px 0 16px;font-size:.93rem;color:#5c6b7a;line-height:1.6}
+  .pp-row{display:grid;gap:14px;grid-template-columns:1fr 1fr;margin-bottom:14px}
+  @media (max-width:640px){.pp-row{grid-template-columns:1fr}}
+  .pp-field{margin-bottom:14px}
+  .pp-field label,.pp-group>span{display:block;font-size:.9rem;font-weight:600;color:#1a3a4a;margin-bottom:6px}
+  .pp-field small{display:block;font-weight:400;color:#5c6b7a;margin-top:2px;line-height:1.5}
+  .pp-field input[type=text],.pp-field input[type=email],.pp-field input[type=tel],
+  .pp-field input[type=url],.pp-field select,.pp-field textarea{
+    width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #c9d2dc;border-radius:7px;
+    font:inherit;font-size:.95rem;background:#fff;color:#1f2a35}
+  .pp-field textarea{min-height:92px;resize:vertical}
+  .pp-field input:focus,.pp-field select:focus,.pp-field textarea:focus{outline:2px solid #A25C1D;outline-offset:1px;border-color:#A25C1D}
+  .pp-group{margin-bottom:16px}
+  .pp-checks{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+  .pp-checks label{display:flex;gap:9px;align-items:flex-start;font-size:.93rem;line-height:1.45;
+                   padding:9px 11px;border:1px solid #e3e8ee;border-radius:7px;cursor:pointer;background:#fbfcfd}
+  .pp-checks label:hover{border-color:#A25C1D}
+  .pp-checks input{margin-top:3px;flex:none;accent-color:#A25C1D}
+  .pp-up{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .pp-upbtn{padding:10px 16px;border:2px solid #1a3a4a;border-radius:7px;background:#1a3a4a;color:#fff;
+            font:inherit;font-size:.93rem;font-weight:600;cursor:pointer}
+  .pp-upbtn:hover{background:#122a37}
+  .pp-upbtn--alt{background:#fff;color:#1a3a4a}
+  .pp-upbtn--alt:hover{background:#f3f7f9}
+  .pp-upnote{font-size:.82rem;color:#5c6b7a}
+  .pp-thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .pp-thumbs:empty{display:none}
+  .pp-thumbs img{width:72px;height:72px;object-fit:cover;border-radius:6px;border:1px solid #dbe1e8;background:#f8f8f8}
+  .pp-signoff{background:#f3f7f9;border:1px solid #c9d8e0;border-radius:8px;padding:14px 16px;margin:4px 0 14px}
+  .pp-signoff label{display:flex;gap:10px;align-items:flex-start;font-size:.97rem;line-height:1.55;cursor:pointer}
+  .pp-signoff input{margin-top:4px;accent-color:#A25C1D;width:18px;height:18px;flex:none}
+  .pp-submit{display:block;width:100%;padding:15px 20px;border:0;border-radius:8px;background:#A25C1D;
+             color:#fff;font:inherit;font-size:1.05rem;font-weight:700;cursor:pointer}
+  .pp-submit:hover{background:#8a4d17}
+  .pp-submit[disabled]{opacity:.6;cursor:default}
+  .pp-fine{font-size:.85rem;color:#5c6b7a;text-align:center;margin:12px 0 0;line-height:1.6}
+  .pp-done{display:none;border:1px solid #c9d8e0;background:#f3f7f9;border-radius:10px;padding:26px;line-height:1.7}
+  .pp-done h2{margin:0 0 8px;color:#1a3a4a}
+  .pp-done.is-shown{display:block}
+  .pp-error{display:none;color:#8a1d1d;background:#fbeeee;border:1px solid #e6b8b8;border-radius:7px;padding:10px 12px;margin-bottom:12px;font-size:.93rem}
+  .pp-error.is-shown{display:block}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <picture>
+                        <source type="image/webp" sizes="(max-width: 768px) 149px, 197px" srcset="/images/logo-160.webp 160w, /images/logo-320.webp 320w, /images/logo-480.webp 480w">
+                        <img src="/images/logo.png" alt="Wander Puerto Rico" class="logo-img" width="800" height="321" fetchpriority="high" loading="eager" decoding="async">
+                    </picture>
+                </a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/coqui-awards.html">Coquí Awards</a>
+                <a href="/faq.html">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/coqui-awards.html">Coquí Awards</a>
+            <a href="/faq.html">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+    </header>
+
+  <div class="pp-wrap">
+    <div class="pp-hero">
+      <img src="/images/coqui-award-2026.png" alt="2026 Coquí Awards nominee badge" onerror="this.style.display='none'">
+      <div>
+        <h1>Partner Portal</h1>
+        <p>Check your spotlight page, send us what only you can, and sign off. Five minutes.</p>
+      </div>
+    </div>
+
+    <div class="pp-draft is-hidden" id="pp-draft">
+      <strong>Your draft page:</strong> <a id="pp-draft-link" href="#" target="_blank" rel="noopener"></a><br>
+      Open it in a new tab. It stays hidden until you approve it below.
+    </div>
+
+    <div class="pp-done" id="pp-done">
+      <h2>Got it — thank you.</h2>
+      <p>We'll update the page, add the badge, and send the final link within two business days.</p>
+      <p><a href="/coqui-awards.html">Back to the Coquí Awards</a></p>
+    </div>
+
+    <form class="pp-form" id="pp-form" action="https://formspree.io/f/xgopgblr" method="POST">
+      <input type="hidden" name="form_type" value="partner_signoff">
+      <input type="hidden" name="site" value="wanderpuertorico">
+      <input type="hidden" name="operator_slug" id="f-slug" value="">
+      <input type="hidden" name="draft_page" id="f-draft" value="">
+      <input type="hidden" name="_subject" id="f-subject" value="Partner sign-off — Wander Puerto Rico">
+      <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+
+      <!-- 1 · About you -->
+      <fieldset>
+        <legend><span class="n">1</span> About you</legend>
+                <div class="pp-row">
+          <div class="pp-field"><label for="f-name">Your name</label><input type="text" id="f-name" name="name" required autocomplete="name"></div>
+          <div class="pp-field"><label for="f-biz">Business name</label><input type="text" id="f-biz" name="business_name" required autocomplete="organization"></div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field"><label for="f-email">Email</label><input type="email" id="f-email" name="email" required autocomplete="email"></div>
+          <div class="pp-field"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel"></div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field"><label for="f-site">Your website</label><input type="url" id="f-site" name="website" placeholder="https://" autocomplete="url"></div>
+          <div class="pp-field"><label for="f-owner">Owner name for the page (optional)</label><input type="text" id="f-owner" name="owner_name"></div>
+        </div>
+      </fieldset>
+
+      <!-- 2 · Your page -->
+      <fieldset>
+        <legend><span class="n">2</span> Your page</legend>
+        <p class="lead">Skip anything that doesn't apply.</p>
+
+        <div class="pp-field">
+          <label for="f-fix">Anything wrong or out of date on the draft</label>
+          <textarea id="f-fix" name="corrections"></textarea>
+        </div>
+        <div class="pp-field">
+          <label for="f-quote">What makes you different? (2–3 sentences — we lead with this)</label>
+          <textarea id="f-quote" name="quote"></textarea>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-crew">Crew names and roles</label>
+            <textarea id="f-crew" name="crew"></textarea>
+          </div>
+          <div class="pp-field">
+            <label for="f-dock">Check-in point and dock</label>
+            <textarea id="f-dock" name="checkin"></textarea>
+          </div>
+        </div>
+
+        <div class="pp-group">
+          <span>Which ratings should we show?</span>
+          <div class="pp-checks">
+            <label><input type="checkbox" name="ratings[]" value="Tripadvisor"> Tripadvisor</label>
+            <label><input type="checkbox" name="ratings[]" value="Google"> Google</label>
+            <label><input type="checkbox" name="ratings[]" value="Yelp"> Yelp</label>
+          </div>
+        </div>
+
+        <div class="pp-group">
+          <span>Photos</span>
+          <div class="pp-checks" style="margin-bottom:10px">
+            <label><input type="checkbox" name="photo_permission" value="Use our FareHarbor photos" id="f-fhphotos"> Just use our FareHarbor photos</label>
+          </div>
+          <div class="pp-up">
+            <button type="button" class="pp-upbtn" id="up-photos">Upload 6–8 photos</button>
+            <button type="button" class="pp-upbtn pp-upbtn--alt" id="up-logo">Upload logo</button>
+            <span class="pp-upnote">JPG, PNG, HEIC, up to 15 MB each. Phone camera roll works.</span>
+          </div>
+          <div class="pp-thumbs" id="thumbs-photos"></div>
+          <div class="pp-thumbs" id="thumbs-logo"></div>
+          <div id="up-hidden"></div>
+        </div>
+        <div class="pp-field"><label for="f-photos">Or paste a link (Drive, Dropbox, WeTransfer)</label><input type="url" id="f-photos" name="photo_link" placeholder="https://"></div>
+      </fieldset>
+
+      <!-- 3 · Sign-off -->
+      <fieldset>
+        <legend><span class="n">3</span> Sign-off</legend>
+        <p class="lead">We publish with your badge. In return, one link from your site to the page.</p>
+
+        <div class="pp-signoff">
+          <label><input type="checkbox" name="approved" value="yes" required> I approve publishing the draft, with the corrections above.</label>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-linkwhere">Where will your link to the page live?</label>
+            <select id="f-linkwhere" name="backlink_location" required>
+              <option value="">Choose one</option>
+              <option>Footer</option>
+              <option>About page</option>
+              <option>Awards / Press / Featured-on page</option>
+              <option>Homepage</option>
+              <option>Blog post</option>
+              <option>Not sure — suggest one</option>
+            </select>
+          </div>
+          <div class="pp-field">
+            <label for="f-badge">Nominee badge for your site?</label>
+            <select id="f-badge" name="wants_badge">
+              <option>Yes, send it</option>
+              <option>No thanks</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- 4 · Help us get it right -->
+      <fieldset>
+        <legend><span class="n">4</span> Help us get it right</legend>
+        
+        <div class="pp-group">
+          <span>How do guests find you?</span>
+          <div class="pp-checks">
+            <label><input type="checkbox" name="guest_sources[]" value="Google search"> Google search</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Tripadvisor"> Tripadvisor</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Viator / GetYourGuide / Expedia"> Viator / GetYourGuide / Expedia</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Instagram / Facebook / TikTok"> Instagram / Facebook / TikTok</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Hotels & concierges"> Hotels &amp; concierges</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Word of mouth / repeat"> Word of mouth / repeat guests</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Paid ads"> Paid ads</label>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-webwho">Who runs your website?</label>
+            <select id="f-webwho" name="website_managed_by">
+              <option value="">Choose one</option>
+              <option>I do it myself</option>
+              <option>Someone on the team</option>
+              <option>An outside designer / agency</option>
+              <option>Nobody right now</option>
+              <option>FareHarbor built it</option>
+            </select>
+          </div>
+          <div class="pp-field">
+            <label for="f-ads">Do you run paid ads?</label>
+            <select id="f-ads" name="paid_ads">
+              <option value="">Choose one</option>
+              <option>Yes, Google</option>
+              <option>Yes, Meta (Facebook / Instagram)</option>
+              <option>Yes, both</option>
+              <option>Tried it, stopped</option>
+              <option>Never have</option>
+            </select>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-fill">Months you most want to fill</label>
+            <input type="text" id="f-fill" name="fill_months" placeholder="e.g. Aug–Oct">
+          </div>
+        </div>
+        <div class="pp-field">
+          <label for="f-challenge">Biggest thing between you and a fuller boat next season?</label>
+          <textarea id="f-challenge" name="biggest_challenge"></textarea>
+        </div>
+      </fieldset>
+
+      <!-- 5 · While we're here -->
+      <fieldset>
+        <legend><span class="n">5</span> While we're here</legend>
+        <p class="lead">Tick anything useful and Jay will reach out. No pitch otherwise.</p>
+
+        <div class="pp-group">
+          <span>I'd like to hear more about…</span>
+          <div class="pp-checks">
+            <label><input type="checkbox" name="interests[]" value="Website refresh or rebuild"> A website refresh or rebuild</label>
+            <label><input type="checkbox" name="interests[]" value="Ranking higher on Google"> Ranking higher on Google</label>
+            <label><input type="checkbox" name="interests[]" value="Google Ads management"> Google Ads run for me</label>
+            <label><input type="checkbox" name="interests[]" value="AI booking assistant / chat"> An AI assistant answering guest questions 24/7</label>
+            <label><input type="checkbox" name="interests[]" value="Social media content"> Social media content</label>
+            <label><input type="checkbox" name="interests[]" value="Photo / video shoot"> A photo or video shoot</label>
+            <label><input type="checkbox" name="interests[]" value="Email / text marketing to past guests"> Email or text marketing to past guests</label>
+            <label><input type="checkbox" name="interests[]" value="Featured placement on this site"> Featured placement across our tour sites</label>
+            <label><input type="checkbox" name="interests[]" value="Something else"> Something else (explain below)</label>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-reach">Best way to reach you</label>
+            <select id="f-reach" name="contact_preference">
+              <option>Email</option>
+              <option>Phone call</option>
+              <option>Text</option>
+            </select>
+          </div>
+        </div>
+        <div class="pp-field">
+          <label for="f-notes">Anything else</label>
+          <textarea id="f-notes" name="notes"></textarea>
+        </div>
+      </fieldset>
+
+      <div class="pp-error" id="pp-error">Something went wrong sending that. Try again, or just reply to our email with your answers.</div>
+      <button type="submit" class="pp-submit" id="pp-submit">Approve my page &amp; send</button>
+      <p class="pp-fine">No cost, no contract. We earn a standard referral commission on bookings through our links — that's why the page is free.</p>
+    </form>
+  </div>
+
+<script>
+(function(){
+  // Pre-fill from the link we send each operator:
+  //   /partner-portal.html?op=swim-with-manatees-homosassa&name=Swim%20With%20Manatees
+  var q=new URLSearchParams(location.search);
+  var op=(q.get('op')||'').replace(/[^a-z0-9-]/gi,'');
+  var name=q.get('name')||'';
+  if(op){
+    var url='https://wanderpuertorico.com/partners/'+op+'.html';
+    document.getElementById('f-slug').value=op;
+    document.getElementById('f-draft').value=url;
+    var a=document.getElementById('pp-draft-link');a.href=url;a.textContent=url;
+    document.getElementById('pp-draft').classList.remove('is-hidden');
+  }
+  if(name){document.getElementById('f-biz').value=name;}
+  var biz=document.getElementById('f-biz'),subj=document.getElementById('f-subject');
+  function setSubject(){subj.value='Partner sign-off — '+(biz.value||'Wander Puerto Rico');}
+  biz.addEventListener('input',setSubject);setSubject();
+
+  // Cloudinary unsigned uploads — URLs ride along in the Formspree email
+  var CLD={cloudName:'euufumgw',uploadPreset:'fst-partner-portal'};
+  function mkWidget(opts,thumbsId,fieldName,maxFiles){
+    var hidden=document.getElementById('up-hidden'),thumbs=document.getElementById(thumbsId);
+    var btn=document.getElementById(opts.btn);
+    btn.addEventListener('click',function(){
+      if(!window.cloudinary){alert('Uploader still loading — try again in a second, or paste a link below.');return;}
+      var w=window.cloudinary.createUploadWidget({
+        cloudName:CLD.cloudName,uploadPreset:CLD.uploadPreset,multiple:maxFiles>1,maxFiles:maxFiles,
+        sources:['local','camera','google_drive','dropbox','url'],resourceType:'image',
+        clientAllowedFormats:['jpg','jpeg','png','heic','webp','gif'],maxFileSize:15000000,
+        tags:['partner-portal',(op||'unknown')],context:{operator:op||'',business:biz.value||''},
+        styles:{palette:{window:'#FFFFFF',windowBorder:'#1a3a4a',tabIcon:'#A25C1D',link:'#A25C1D',action:'#A25C1D',
+                         menuIcons:'#1a3a4a',textDark:'#1a3a4a',textLight:'#FFFFFF',inactiveTabIcon:'#5c6b7a',
+                         error:'#8a1d1d',inProgress:'#A25C1D',complete:'#1a3a4a',sourceBg:'#f8f8f8'}}
+      },function(err,r){
+        if(err||!r||r.event!=='success')return;
+        var url=r.info.secure_url;
+        if(maxFiles===1){thumbs.innerHTML='';[].slice.call(hidden.querySelectorAll('[name="'+fieldName+'"]')).forEach(function(n){n.remove();});}
+        var i=document.createElement('input');i.type='hidden';i.name=fieldName;i.value=url;hidden.appendChild(i);
+        var im=document.createElement('img');im.src=url.replace('/upload/','/upload/c_fill,w_144,h_144,q_auto,f_auto/');im.alt='';thumbs.appendChild(im);
+        if(window.gtag)gtag('event','partner_upload',{kind:fieldName,operator:op||biz.value});
+      });
+      w.open();
+    });
+  }
+  mkWidget({btn:'up-photos'},'thumbs-photos','photo_urls[]',10);
+  mkWidget({btn:'up-logo'},'thumbs-logo','logo_url',1);
+
+  var form=document.getElementById('pp-form'),btn=document.getElementById('pp-submit'),err=document.getElementById('pp-error');
+  form.addEventListener('submit',function(e){
+    if(!window.fetch||!window.FormData)return; // fall back to a normal POST
+    e.preventDefault();btn.disabled=true;btn.textContent='Sending…';err.classList.remove('is-shown');
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){if(!r.ok)throw new Error(r.status);
+        form.style.display='none';document.getElementById('pp-draft').classList.add('is-hidden');
+        document.getElementById('pp-done').classList.add('is-shown');window.scrollTo(0,0);
+        if(window.gtag)gtag('event','partner_signoff',{operator:op||biz.value});})
+      .catch(function(){btn.disabled=false;btn.textContent='Approve my page & send';err.classList.add('is-shown');});
+  });
+})();
+</script>
+</body>
+</html>
