@@ -158,7 +158,12 @@ function scoreLabel(score) {
 
 // Applied at render time, not just via onerror: 16 records have no image
 // field, and `src="undefined"` costs a real 404 before onerror can rescue it.
-const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
+const FALLBACK_IMAGE = '/images/hero-photo-1-800.webp';
+// s65: ask Filestack for an 800px webp instead of the original (often 1-4 MB each).
+function cardImage(url) {
+    const m = /^https:\/\/cdn\.filestackcontent\.com\/([A-Za-z0-9]{15,25})(?:\/convert\?.*)?$/.exec(url || '');
+    return m ? `https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/${m[1]}` : url;
+}
 
 // Fisher-Yates shuffle (non-mutating)
 function shuffleArray(arr) {
@@ -206,7 +211,7 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${cardImage(tour.image) || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
@@ -409,7 +414,9 @@ function filterTours() {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    loadTours();
+    // s65: tours-data.json is 5.4 MB and the grid is prerendered; fetch after first paint.
+    const startTours = () => setTimeout(loadTours, 300);
+    if (document.readyState === 'complete') startTours(); else window.addEventListener('load', startTours, { once: true });
     
     document.getElementById('location-filter')?.addEventListener('change', filterTours);
     document.getElementById('activity-filter')?.addEventListener('change', filterTours);
