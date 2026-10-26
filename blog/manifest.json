@@ -1,8 +1,32 @@
 [
   {
+    "url": "/blog/things-to-do-aguadilla.html",
+    "title": "17 Best Things to Do in Aguadilla (2026)",
+    "description": "Things to do in Aguadilla, Puerto Rico: Crash Boat Beach and its clear-kayak tours, Survival Beach and the cliffs at Borinquen, Punta Borinquen lighthouse ruins, surfing Wilderness and Gas Chambers, snorkeling, scuba, ATV and jet-ski tours, Isabela's Jobos and Pozo de Jacinto, and Rincón next door. Prices and booking links.",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/things-to-do-luquillo.html",
+    "title": "16 Best Things to Do in Luquillo (2026)",
+    "description": "Things to do in Luquillo, Puerto Rico: the kiosks (kioskos), Luquillo Beach and La Monserrate, El Yunque waterslides and waterfalls, surf lessons at La Pared, horseback riding on the beach, jet skis, flyboarding, the Fajardo bio bay next door and where to eat. Prices and booking links.",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/things-to-do-old-san-juan.html",
+    "title": "18 Best Things to Do in Old San Juan (2026)",
+    "description": "Things to do in Old San Juan: El Morro and San Cristóbal, Paseo del Morro and La Perla, Calle Fortaleza and the blue cobblestones, Casa Bacardí across the bay, food and rum tours, the cathedral, Capilla del Cristo, La Factoría, and a harbor sunset sail. Prices and booking links.",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/things-to-do-culebra.html",
+    "title": "14 Best Things to Do in Culebra (2026)",
+    "description": "Things to do in Culebra, Puerto Rico: Flamenco Beach and its tanks, snorkeling Carlos Rosario and Tamarindo, Culebrita and its lighthouse, the ferry vs a day tour from Fajardo, Zoni, Melones, diving, kayaking, and where to eat in Dewey. Prices and booking links.",
+    "tag": "Guide"
+  },
+  {
     "url": "/blog/scuba-diving-puerto-rico.html",
     "title": "Scuba Diving in Puerto Rico: Beginner Dives, Boat Trips & Certification (2026)",
-    "description": "Scuba diving in Puerto Rico from $79 \u2014 beginner dives with no certification, shore and boat dives for certified divers, night dives, and PADI courses.",
+    "description": "Scuba diving in Puerto Rico from $79 — beginner dives with no certification, shore and boat dives for certified divers, night dives, and PADI courses.",
     "tag": "Tours",
     "image": "https://wanderpuertorico.com/images/og-image.jpg"
   },
@@ -95,7 +119,7 @@
   {
     "url": "/blog/culebra-island-tours.html",
     "title": "Culebra Island Tours: Flamenco Beach, Snorkeling & Day Trips (2025) | Wander Puerto Rico",
-    "description": "Day trips from Fajardo and Ceiba to Culebra Island\u2014snorkeling with sea turtles at Flamenco Beach, powerboat charters, and all-inclusive boat tours. Compare operators.",
+    "description": "Day trips from Fajardo and Ceiba to Culebra Island—snorkeling with sea turtles at Flamenco Beach, powerboat charters, and all-inclusive boat tours. Compare operators.",
     "tag": "Tours"
   },
   {
@@ -146,7 +170,7 @@
   {
     "url": "/blog/fajardo-boat-tours.html",
     "title": "Fajardo Boat Tours: Island Hopping, Snorkeling & Bio Bay (2025) | Wander Puerto Rico",
-    "description": "Fajardo is Puerto Rico's main boat tour hub\u2014catamaran trips to Icacos, powerboat charters to Culebra and Vieques, and bio bay kayaking all launch from here. Compare operators.",
+    "description": "Fajardo is Puerto Rico's main boat tour hub—catamaran trips to Icacos, powerboat charters to Culebra and Vieques, and bio bay kayaking all launch from here. Compare operators.",
     "tag": "Tours"
   },
   {
@@ -203,7 +227,7 @@
   {
     "url": "/blog/old-san-juan-walking-tours.html",
     "title": "Old San Juan Walking Tours: History, Forts & Street Food (2025) | Wander Puerto Rico",
-    "description": "Old San Juan walking tours cover 500 years of Spanish colonial history, El Morro and San Crist\u00f3bal forts, colorful cobblestone streets, and local food stops. What to see and how to book.",
+    "description": "Old San Juan walking tours cover 500 years of Spanish colonial history, El Morro and San Cristóbal forts, colorful cobblestone streets, and local food stops. What to see and how to book.",
     "tag": "Tours"
   },
   {
@@ -233,7 +257,7 @@
   {
     "url": "/blog/puerto-rico-bioluminescent-bay-tours.html",
     "title": "Puerto Rico Bioluminescent Bay Tours: Fajardo, Vieques & La Parguera (2025) | Wander Puerto Rico",
-    "description": "Compare all three Puerto Rico bio bays\u2014Laguna Grande in Fajardo, Mosquito Bay in Vieques, and La Parguera in Lajas. Best operators, moon timing, and booking tips.",
+    "description": "Compare all three Puerto Rico bio bays—Laguna Grande in Fajardo, Mosquito Bay in Vieques, and La Parguera in Lajas. Best operators, moon timing, and booking tips.",
     "tag": "Tours"
   },
   {
@@ -286,7 +310,7 @@
   {
     "url": "/blog/puerto-rico-kayak-tours.html",
     "title": "Puerto Rico Kayak Tours: Bio Bays, Mangroves & Clear-Bottom Adventures (2025) | Wander Puerto Rico",
-    "description": "Puerto Rico kayak tours include bio bay night paddling in Fajardo, clear-bottom kayaks at Condado Lagoon, mangrove paddle tours at Pi\u00f1ones, and more. All operators compared.",
+    "description": "Puerto Rico kayak tours include bio bay night paddling in Fajardo, clear-bottom kayaks at Condado Lagoon, mangrove paddle tours at Piñones, and more. All operators compared.",
     "tag": "Tours"
   },
   {
@@ -360,15 +384,15 @@
   },
   {
     "url": "/blog/rincon-surf-tours-lessons-beginners.html",
-    "title": "Rinc\u00f3n Surf Tours & Lessons for Beginners | Wander Puerto Rico Blog",
-    "description": "Rinc\u00f3n Surf Tours & Lessons for Beginners in Puerto Rico. Professional guides, instant booking, local experiences.",
+    "title": "Rincón Surf Tours & Lessons for Beginners | Wander Puerto Rico Blog",
+    "description": "Rincón Surf Tours & Lessons for Beginners in Puerto Rico. Professional guides, instant booking, local experiences.",
     "tag": "Tours",
     "image": "https://wanderpuertorico.com/images/og-image.jpg"
   },
   {
     "url": "/blog/rincon-surf-tours.html",
-    "title": "Rinc\u00f3n Surf Tours, Diving & Water Adventures (2025) | Wander Puerto Rico",
-    "description": "Rinc\u00f3n is Puerto Rico's surf capital with consistent Atlantic swells, plus scuba diving, snorkeling tours, and beginner lessons from local operators year-round.",
+    "title": "Rincón Surf Tours, Diving & Water Adventures (2025) | Wander Puerto Rico",
+    "description": "Rincón is Puerto Rico's surf capital with consistent Atlantic swells, plus scuba diving, snorkeling tours, and beginner lessons from local operators year-round.",
     "tag": "Tours"
   },
   {
@@ -398,7 +422,7 @@
   },
   {
     "url": "/blog/snorkeling-culebra-vs-vieques.html",
-    "title": "Snorkeling: Culebra vs Vieques\u2014Which Island Is Better? | Wander Puerto Rico",
+    "title": "Snorkeling: Culebra vs Vieques—Which Island Is Better? | Wander Puerto Rico",
     "description": "Compare snorkeling in Culebra vs Vieques: reef quality, fish diversity, ease of access, costs, and best snorkeling spots on each island for different travel styles.",
     "tag": "Compare"
   },
@@ -431,19 +455,19 @@
   {
     "url": "/blog/vieques-island-tours.html",
     "title": "Vieques Island Tours: Bio Bay, Beaches & Day Trips from Fajardo (2025) | Wander Puerto Rico",
-    "description": "How to get to Vieques and what tours to book once you arrive\u2014Mosquito Bay bio bay kayaking, snorkeling with turtles, and beach day trips departing from Fajardo.",
+    "description": "How to get to Vieques and what tours to book once you arrive—Mosquito Bay bio bay kayaking, snorkeling with turtles, and beach day trips departing from Fajardo.",
     "tag": "Tours"
   },
   {
     "url": "/blog/wanderpr-faq-section.html",
-    "title": "Puerto Rico Snorkeling &amp; Water Tours \u2014 FAQ",
-    "description": "WanderPuertoRico &nbsp;\u00b7&nbsp; Booking Guide",
+    "title": "Puerto Rico Snorkeling &amp; Water Tours — FAQ",
+    "description": "WanderPuertoRico &nbsp;·&nbsp; Booking Guide",
     "tag": "Guide"
   },
   {
     "url": "/blog/wanderpr-post-best-snorkeling-spots.html",
     "title": "Best Snorkeling Spots in Puerto Rico: Icacos, Culebra, Vieques & Bio Bay",
-    "description": "The best snorkeling spots in Puerto Rico \u2014 Icacos and Fajardo cays, Culebra Luis Pe\u00f1a Channel, Vieques, Rincon, and the bioluminescent bays.",
+    "description": "The best snorkeling spots in Puerto Rico — Icacos and Fajardo cays, Culebra Luis Peña Channel, Vieques, Rincon, and the bioluminescent bays.",
     "tag": "Snorkel"
   },
   {
@@ -461,13 +485,13 @@
   {
     "url": "/blog/wanderpr-post-san-juan-vs-fajardo-vs-vieques.html",
     "title": "San Juan vs Fajardo vs Vieques for Snorkeling Puerto Rico",
-    "description": "Compare snorkeling in San Juan, Fajardo, and Vieques Puerto Rico \u2014 best sites, how to get there, what marine life to expect, and which location fits your trip.",
+    "description": "Compare snorkeling in San Juan, Fajardo, and Vieques Puerto Rico — best sites, how to get there, what marine life to expect, and which location fits your trip.",
     "tag": "Compare"
   },
   {
     "url": "/blog/wanderpr-post-what-to-expect.html",
     "title": "What to Expect on a Puerto Rico Snorkeling Tour: First-Timer's Guide",
-    "description": "A complete first-timer's guide to Puerto Rico snorkeling tours \u2014 what happens from dock to dock, what to bring, marine life, and how to pick the right tour.",
+    "description": "A complete first-timer's guide to Puerto Rico snorkeling tours — what happens from dock to dock, what to bring, marine life, and how to pick the right tour.",
     "tag": "Guide"
   },
   {
