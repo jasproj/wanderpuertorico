@@ -343,6 +343,19 @@
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <!-- HEADER -->
@@ -380,6 +393,66 @@
                everything we list, booked direct with the captain.</p>
         </div>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/zxHjcpCS3ONHKp6JniGw" alt="Private Power Boat To SVI (Culebra o Vieques) Excursion" loading="eager" onerror="this.src='/images/hero-photo-1.jpg'">
+                </div>
+                <div class="tour-content">
+                    <h3>Private Power Boat To SVI (Culebra o Vieques) Excursion</h3>
+                    <p class="tour-company">Sail Getaways</p>
+                    <p class="tour-location">📍 Fajardo</p>
+                    <div class="tour-tags">
+                        <span class="tag">Boat Rental</span><span class="tag">Boat Tour</span><span class="tag">Private</span>
+                    </div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $4,125<small>Private Charter</small></div>
+                        <a href="https://fareharbor.com/embeds/book/sailgetaway/items/433832/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('Private Power Boat To SVI (Culebra o Vieques) Excursion', 'pr-433832')">Check Availability →</a>
+                    </div>
+                </div>
+            </div>
+<div class="tour-card">
+                <div class="tour-image">
+                    <img src="/images/hero-photo-1.jpg" alt="Full Day Culebra and Culebrita Island Adventure on Mako 29ft Boat – All-Inclusive" loading="lazy" onerror="this.src='/images/hero-photo-1.jpg'">
+                </div>
+                <div class="tour-content">
+                    <h3>Full Day Culebra and Culebrita Island Adventure on Mako 29ft Boat – All-Inclusive</h3>
+                    <p class="tour-company">Navea PR Adventure</p>
+                    <p class="tour-location">📍 Fajardo</p>
+                    <div class="tour-tags">
+                        <span class="tag">Boat Rental</span><span class="tag">Boat Tour</span><span class="tag">Water Activities</span>
+                    </div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $1,750<small>Private Group Cayo Luis Peña</small></div>
+                        <a href="https://fareharbor.com/embeds/book/naveapradventure/items/567810/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('Full Day Culebra and Culebrita Island Adventure on Mako 29ft Boat – All-Inclusive', 'pr-567810')">Check Availability →</a>
+                    </div>
+                </div>
+            </div>
+<div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/lOhUBBH9QGGoHYqhPqSq" alt="Party Boat Day Cruise &amp; Swim Big Groups 7-12" loading="lazy" onerror="this.src='/images/hero-photo-1.jpg'">
+                </div>
+                <div class="tour-content">
+                    <h3>Party Boat Day Cruise &amp; Swim Big Groups 7-12</h3>
+                    <p class="tour-company">PR Rentals</p>
+                    <p class="tour-location">📍 Puerto Rico/San Juan</p>
+                    <div class="tour-tags">
+                        <span class="tag">Boat Tour</span>
+                    </div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $2,100<small>whole boat</small></div>
+                        <a href="https://fareharbor.com/embeds/book/prrentals/items/749089/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('Party Boat Day Cruise &amp; Swim Big Groups 7-12', '749089')">Check Availability →</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <a class="top-picks-more" href="#tours-grid">See all tours ↓</a>
+  </div>
+</section>
+
 
     <section class="lux-note">
         <h2>What is on this page, and how it got here</h2>

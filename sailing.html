@@ -300,6 +300,19 @@
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <!-- HEADER -->
@@ -334,6 +347,60 @@
         <h1>Sailing & Sunset Cruises</h1>
         <p>Experience Puerto Rico's beauty from the sea</p>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/YEk48JmlTlSeqrDSgLIF" alt="Public Icacos Double Dip Power Catamaran Snorkeling and Beach Tour" loading="eager" onerror="this.src='/images/hero-photo-1.jpg'">
+                </div>
+                <div class="tour-content">
+                    <h3>Public Icacos Double Dip Power Catamaran Snorkeling and Beach Tour</h3>
+                    <p class="tour-company">Sail Getaways</p>
+                    <p class="tour-location">📍 Fajardo</p>
+                    <div class="tour-tags"><span class="tag">Catamaran</span><span class="tag">Snorkel</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $110</div>
+                        <a href="https://fareharbor.com/embeds/book/sailgetaway/items/45148/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('Public Icacos Double Dip Power Catamaran Snorkeling and Beach Tour', 'pr-45148')">Check Availability →</a>
+                    </div>
+                </div>
+            </div>
+<div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/D2P27L9hSQOxRkNbCOvy" alt="La Parguera Adventure Tour Chiliboats Water Bike" loading="lazy" onerror="this.src='/images/hero-photo-1.jpg'">
+                </div>
+                <div class="tour-content">
+                    <h3>La Parguera Adventure Tour Chiliboats Water Bike</h3>
+                    <p class="tour-company">Caribbean Chiliboats</p>
+                    <p class="tour-location">📍 Lajas</p>
+                    <div class="tour-tags"><span class="tag">Catamaran</span><span class="tag">Sailing</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $69</div>
+                        <a href="https://fareharbor.com/embeds/book/caribbeanchiliboatspuertorico/items/286798/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('La Parguera Adventure Tour Chiliboats Water Bike', 'pr-286798')">Check Availability →</a>
+                    </div>
+                </div>
+            </div>
+<div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/s023By67SPGmdX5etWEc" alt="Fajardo Afternoon  snorkeling boat tour check  in by 1:00pm" loading="lazy" onerror="this.src='/images/hero-photo-1.jpg'">
+                </div>
+                <div class="tour-content">
+                    <h3>Fajardo Afternoon  snorkeling boat tour check  in by 1:00pm</h3>
+                    <p class="tour-company">Sea Ventures Pro Dive Center</p>
+                    <p class="tour-location">📍 Fajardo</p>
+                    <div class="tour-tags"><span class="tag">Boat Tour</span><span class="tag">Food Tour</span><span class="tag">Scuba</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $99</div>
+                        <a href="https://fareharbor.com/embeds/book/divepuertorico/items/233090/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" onclick="trackBookingClick('Fajardo Afternoon  snorkeling boat tour check  in by 1:00pm', 'pr-233090')">Check Availability →</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <a class="top-picks-more" href="#tours-grid">See all tours ↓</a>
+  </div>
+</section>
+
 
     <!-- INTRO SECTION -->
     <section class="activity-intro">
