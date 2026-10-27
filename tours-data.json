@@ -96264,7 +96264,7 @@
       "statusConsecutiveRuns": 1,
       "lastUpdated": "2026-09-22",
       "_unknownFields": {
-        "priceUnit": "per group",
+        "priceUnit": "per bike",
         "priceCustomerType": "One Day Rentals",
         "priceCustomerTypeNote": "",
         "priceBasis": "private/charter customer type",
@@ -96380,7 +96380,7 @@
       "statusConsecutiveRuns": 1,
       "lastUpdated": "2026-09-22",
       "_unknownFields": {
-        "priceUnit": "per rental",
+        "priceUnit": "per bike",
         "priceCustomerType": "One Hour Rental",
         "priceCustomerTypeNote": "",
         "priceBasis": "rental/unit customer type",
