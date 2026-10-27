@@ -160,6 +160,8 @@
         }
         
         @media (max-width: 768px) {
+            /* mobile audit 2026-10-26: "Wander Puerto Rico" wordmark wrapped under the fixed header */
+            .header .logo span { display: none; }
             .nav-desktop { display: none; }
             .mobile-menu-btn { display: flex; }
             .logo-img { height: 60px; }
