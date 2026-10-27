@@ -193,6 +193,19 @@
   ]
 }
 </script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -229,6 +242,51 @@
     <p>Wild horses, empty beaches, slower pace</p>
   </div>
 </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/CMXqXkORZWws5d30QOlw" alt="Guided Clear Bottom Kayak Bio Bay Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $70</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Melaya&#x27;s Tours</div>
+        <h3 class="tour-title">Guided Clear Bottom Kayak Bio Bay Tour</h3>
+        <p class="tour-desc">Experience the magic of the brightest bioluminescent bay in the world, right here in Vieques. This incredible natural phenomenon can only be seen…</p>
+        <a href="https://fareharbor.com/embeds/book/melayastours/items/118202/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-118202" data-tour-name="Guided Clear Bottom Kayak Bio Bay Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/98nx5NXORHmEBKfXe0Nu" alt="Clear-Bottom Kayaking Bio Bay Tours" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $65</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Mosquito Bio Bay Tours</div>
+        <h3 class="tour-title">Clear-Bottom Kayaking Bio Bay Tours</h3>
+        <p class="tour-desc">Discover the enchanting beauty of Vieques&#x27; Mosquito Bay on our guided bioluminescent tours. Glide across the glowing waters, where millions of…</p>
+        <a href="https://fareharbor.com/embeds/book/mosquitobiobaytours/items/586640/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-586640" data-tour-name="Clear-Bottom Kayaking Bio Bay Tours">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/oZ64bPFlQQO0SZ5iCdpj" alt="Private Sea Turtle Snorkel (Doesn&#x27;t Include Transportation)" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $380</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Crystal Clear Vieques</div>
+        <h3 class="tour-title">Private Sea Turtle Snorkel (Doesn&#x27;t Include Transportation)</h3>
+        <p class="tour-desc">Exclusive shore-entry (no boat) snorkel with underwater photo package, light snacks, gear, sea turtle information, and optional lesson at the best…</p>
+        <a href="https://fareharbor.com/embeds/book/crystalclearvieques/items/594714/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-594714" data-tour-name="Private Sea Turtle Snorkel (Doesn&#x27;t Include Transportation)">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
+  </div>
+</section>
+
 
 <section class="intro">
   <div class="container">
@@ -494,7 +552,7 @@
 </script>
 <!-- WEATHER WIDGET END -->
 
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>Vieques tours (9 available)</h2>
     <div class="tours-grid">

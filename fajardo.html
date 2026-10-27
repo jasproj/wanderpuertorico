@@ -507,6 +507,19 @@
   ]
 }
 </script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -543,6 +556,51 @@
     <p>Marina town gateway to the islands</p>
   </div>
 </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/VZvOJtd4T5KSmRBW1QcF" alt="Bio Bay Kayak Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $70</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Kayaking Puerto Rico</div>
+        <h3 class="tour-title">Bio Bay Kayak Tour</h3>
+        <p class="tour-desc">Embark on a magical two-hour nighttime kayak tour through Fajardo&#x27;s Bio Bay, one of the few bioluminescent lagoons in the world. Paddle through a…</p>
+        <a href="https://fareharbor.com/embeds/book/kayakingpuertorico/items/3728/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-3728" data-tour-name="Bio Bay Kayak Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/NutEjuOtRjOJH4utsyN8" alt="Full Day Snorkeling and Boat Experience" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $1050</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pirate Snorkeling Shack</div>
+        <h3 class="tour-title">Full Day Snorkeling and Boat Experience</h3>
+        <p class="tour-desc">Set sail on a private 7-hour snorkeling and beach escape aboard a Boston Whaler 270 Outrage for you and up to five friends or family. Explore…</p>
+        <a href="https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6350/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-6350" data-tour-name="Full Day Snorkeling and Boat Experience">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/1v5jqK2iQ4ubBz58csTY" alt="Snorkeling Lessons &amp; Interactive Experience for kids and adults" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $40</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pirate Snorkeling Shack</div>
+        <h3 class="tour-title">Snorkeling Lessons &amp; Interactive Experience for kids and adults</h3>
+        <p class="tour-desc">Perfect for absolute beginners and non-swimmers, this Snorkeling 101 lesson at Cabezas de San Juan, Puerto Rico is a fun and easy way to learn. In…</p>
+        <a href="https://fareharbor.com/embeds/book/piratesnorkelingshack/items/6894/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="pr-6894" data-tour-name="Snorkeling Lessons &amp; Interactive Experience for kids and adults">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
+  </div>
+</section>
+
 
 <section class="intro">
   <div class="container">
@@ -809,7 +867,7 @@
 </script>
 <!-- WEATHER WIDGET END -->
 
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>Fajardo tours (111 available)</h2>
     <div class="tours-grid">
