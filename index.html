@@ -150,6 +150,15 @@
     </header>
 
     <!-- HERO -->
+        <style>
+      /* mobile audit 2026-10-26: hero text sat on a bright street photo with a 10–40% flat overlay */
+      .hero .hero-overlay{background:linear-gradient(180deg,rgba(20,10,40,.3) 0%,rgba(20,10,40,.5) 40%,rgba(20,10,40,.82) 100%)}
+      .hero .hero-tagline{color:#ffd166;opacity:1;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+      @media (max-width:768px){
+        .hero .hero-bay-subhead{font-size:.95rem;line-height:1.45;margin-bottom:16px}
+        .hero .hero-bay-h1{font-size:1.6rem}
+      }
+    </style>
     <section class="hero">
         <div class="hero-bg" id="heroBg">
             <div class="hero-slide"></div>
@@ -162,7 +171,7 @@
         <div class="hero-content">
             <p class="hero-tagline">Book Local. Live Boricua.</p>
             <h1 class="hero-bay-h1">Which Puerto Rico bio-bay should you book?</h1>
-            <p class="hero-bay-subhead">Fajardo is easiest. Vieques glows brightest. La Parguera lets you swim. Here's which fits your trip.</p>
+            <p class="hero-bay-subhead">Fajardo is easiest, Vieques glows brightest, La Parguera lets you swim.</p>
             <div class="hero-bay-cards">
                 <a class="bay-card" href="/fajardo.html">
                     <span class="bay-card__name">Fajardo</span>
