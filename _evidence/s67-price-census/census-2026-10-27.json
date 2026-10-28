@@ -1,0 +1,10935 @@
+[
+ {
+  "sn": "787yachts",
+  "pk": 673741,
+  "verdict": "MATCH",
+  "printed": [
+   2850.0
+  ],
+  "units": [
+   "From $2,850"
+  ],
+  "name": "Ferretti 70'",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   2850.0,
+   3750.0,
+   4850.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hours": 285000,
+   "Six Hours": 375000,
+   "Eight Hours": 485000
+  },
+  "ld": []
+ },
+ {
+  "sn": "787yachts",
+  "pk": 673750,
+  "verdict": "MATCH",
+  "printed": [
+   1600.0
+  ],
+  "units": [
+   "From $1,600"
+  ],
+  "name": "Sea Ray 65'",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1600.0,
+   2100.0,
+   2600.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hours": 160000,
+   "Six Hours": 210000,
+   "Eight Hours": 260000
+  },
+  "ld": []
+ },
+ {
+  "sn": "787yachts",
+  "pk": 673761,
+  "verdict": "MATCH",
+  "printed": [
+   1300.0
+  ],
+  "units": [
+   "From $1,300"
+  ],
+  "name": "Sea Ray 55'",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1300.0,
+   1500.0,
+   2000.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hours": 130000,
+   "Six Hours": 150000,
+   "Eight Hours": 200000
+  },
+  "ld": []
+ },
+ {
+  "sn": "787yachts",
+  "pk": 673762,
+  "verdict": "MATCH",
+  "printed": [
+   1200.0
+  ],
+  "units": [
+   "From $1,200"
+  ],
+  "name": "Intrepid 47'",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1200.0,
+   1450.0,
+   2000.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hours": 120000,
+   "Six Hours": 145000,
+   "Eight Hours": 200000
+  },
+  "ld": []
+ },
+ {
+  "sn": "accesstourspr",
+  "pk": 8754,
+  "verdict": "MATCH",
+  "printed": [
+   65.0
+  ],
+  "units": [
+   "From $65"
+  ],
+  "name": "Bioluminescent Bay",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   65.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Bio Bay Night Kayaking": 6500
+  },
+  "ld": []
+ },
+ {
+  "sn": "accesstourspr",
+  "pk": 211394,
+  "verdict": "MATCH",
+  "printed": [
+   115.0
+  ],
+  "units": [
+   "From $115"
+  ],
+  "name": "Bioluminescent Bay with Transportation from San Juan",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   115.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Bio Bay Night Kayaking with Transportation from San Juan area": 11500
+  },
+  "ld": []
+ },
+ {
+  "sn": "actionsportsmaui",
+  "pk": 5279,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Price on request"
+  ],
+  "name": "Stand-Up-Paddle Lesson",
+  "pages": [
+   "Whawaii/kayak.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   165.0,
+   295.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "SUP Semi-Private (1.5 hours)": 16500,
+   "SUP Private (1.5 hours)": 29500
+  },
+  "ld": []
+ },
+ {
+  "sn": "activeoahutours",
+  "pk": 491549,
+  "verdict": "MATCH",
+  "printed": [
+   145.0
+  ],
+  "units": [
+   "From $145",
+   "From $145 per person"
+  ],
+  "name": "Popoia Island & Kailua Bay Guided Kayak Tour",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/family-tours-oahu.html*",
+   "Whawaii/kayak.html",
+   "Whawaii/kayak.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   31.41,
+   125.0,
+   145.0,
+   199.0,
+   285.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Visitor": 14500,
+   "Child": 12500,
+   "Kama'aina or Military": 12500,
+   "Private Tour - 1-2 People": 28500,
+   "Private Tour - 3 or More People": 19900,
+   "Transportation": 3141
+  },
+  "ld": []
+ },
+ {
+  "sn": "adventureandwatersports-patillas",
+  "pk": 261847,
+  "verdict": "MATCH",
+  "printed": [
+   115.0
+  ],
+  "units": [
+   "From $115 Half Hour Rental"
+  ],
+  "name": "Jetski Rental",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   115.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Half Hour Rental": 11500
+  },
+  "ld": [
+   "115"
+  ]
+ },
+ {
+  "sn": "adventuremark",
+  "pk": 304244,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [
+   49.0
+  ],
+  "units": [
+   "From $49"
+  ],
+  "name": "Clear SUP - Morning Tour",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "adventurespuertorico",
+  "pk": 36895,
+  "verdict": "MATCH",
+  "printed": [
+   20.0
+  ],
+  "units": [
+   "From $20"
+  ],
+  "name": "Bike Rental",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   20.0,
+   30.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Participant": 2000,
+   "5 Hours Rental": 3000
+  },
+  "ld": [
+   "20"
+  ]
+ },
+ {
+  "sn": "adventurespuertorico",
+  "pk": 36900,
+  "verdict": "MATCH",
+  "printed": [
+   50.0
+  ],
+  "units": [
+   "From $50"
+  ],
+  "name": "Snorkeling Guided Tour Experience",
+  "pages": [
+   "Wpuertorico/san-juan.html",
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   50.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guided Tour": 5000
+  },
+  "ld": []
+ },
+ {
+  "sn": "adventurespuertorico",
+  "pk": 290742,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Reservaciones Cumplea\u00f1os 1:00pm a 5:00pm",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   249.5,
+   349.5,
+   449.5,
+   549.5
+  ],
+  "tier_variants": 1,
+  "named": {
+   "10 participantes \u200bDep\u00f3sito 1:00 PM - 5:00 PM": 24950,
+   "15 participantes \u200bDep\u00f3sito 1:00 PM - 5:00 PM": 34950,
+   "20 participantes \u200bDep\u00f3sito 1:00 PM - 5:00 PM": 44950,
+   "25 participantes \u200bDep\u00f3sito 1:00 PM - 5:00 PM": 54950
+  },
+  "ld": []
+ },
+ {
+  "sn": "adventurespuertorico",
+  "pk": 299005,
+  "verdict": "MATCH",
+  "printed": [
+   50.0
+  ],
+  "units": [
+   "From $50"
+  ],
+  "name": "Old San Juan Bike Guided Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   50.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Participant": 5000
+  },
+  "ld": [
+   "50"
+  ]
+ },
+ {
+  "sn": "adventurespuertorico",
+  "pk": 443704,
+  "verdict": "MATCH",
+  "printed": [
+   35.0
+  ],
+  "units": [
+   "From $35"
+  ],
+  "name": "Snorkeling Gear Rental",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   35.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Snorkeling (solo equipo)": 3500
+  },
+  "ld": []
+ },
+ {
+  "sn": "adventurex",
+  "pk": 1078,
+  "verdict": "STALE",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125",
+   "From $125 per adult"
+  ],
+  "name": "ULTIMATE #1 BIG ISLAND WHALE WATCH",
+  "pages": [
+   "Whawaii/kauai.html",
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   95.0,
+   129.0,
+   2500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 12900,
+   "Child": 9500,
+   "UPSCALE Private Charter": 250000
+  },
+  "ld": []
+ },
+ {
+  "sn": "adventurex",
+  "pk": 62800,
+  "verdict": "MATCH",
+  "printed": [
+   175.0
+  ],
+  "units": [
+   "From $175 per adult"
+  ],
+  "name": "Combination Whale Watch & Snorkel",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   150.0,
+   175.0,
+   3100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17500,
+   "Child": 15000,
+   "UPSCALE Private Charter": 310000
+  },
+  "ld": []
+ },
+ {
+  "sn": "aguadillawatersports",
+  "pk": 684098,
+  "verdict": "VARIES",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Borinquen CanAm Tryke Adventure",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   150.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Bike": 12500
+  },
+  "ld": []
+ },
+ {
+  "sn": "airportleigreeting",
+  "pk": 35233,
+  "verdict": "MATCH",
+  "printed": [
+   275.0
+  ],
+  "units": [
+   "From $275"
+  ],
+  "name": "Airport Lei Greeting Maui, Kahului $85.00",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   85.0,
+   275.0,
+   320.0,
+   340.0,
+   360.0,
+   380.0,
+   400.0,
+   500.0,
+   550.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group Rate 7 up Sonia": 8500,
+   "Group Rate 7 up Kukui": 8500,
+   "Standard Lei": 27500,
+   "Standard Upgrade Lei": 32000,
+   "Superior Lei": 34000,
+   "Adult Deluxe Lei": 36000,
+   "Adult Special Lei": 38000,
+   "VIP": 40000,
+   "Celebrity Lei": 50000,
+   "Bride and Groom Lei": 55000
+  },
+  "ld": [
+   "275"
+  ]
+ },
+ {
+  "sn": "aliikayaks",
+  "pk": 109242,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125"
+  ],
+  "name": "Secret Falls Kayak & Hike Tour",
+  "pages": [
+   "Whawaii/kayak.html",
+   "Whawaii/kayak.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   125.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 12500
+  },
+  "ld": []
+ },
+ {
+  "sn": "alohaainatourshawaii",
+  "pk": 645155,
+  "verdict": "MATCH",
+  "printed": [
+   229.0
+  ],
+  "units": [
+   "From $229"
+  ],
+  "name": "Fissure 8 Lava Flow Tour \u2013 Ahu\u2018Ail\u0101\u2018au - Hilo Discovery and Volcanoes National Park Explorer",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   199.0,
+   229.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 22900,
+   "Child": 19900
+  },
+  "ld": []
+ },
+ {
+  "sn": "alohahawaiitours",
+  "pk": 141477,
+  "verdict": "MATCH",
+  "printed": [
+   149.0
+  ],
+  "units": [
+   "From $149",
+   "From $149 per adult"
+  ],
+  "name": "Sights & Bites Circle Island Tour",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   99.0,
+   149.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 14900,
+   "Child": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "alohahawaiitours",
+  "pk": 163820,
+  "verdict": "MATCH",
+  "printed": [
+   69.0
+  ],
+  "units": [
+   "From $69 per adult"
+  ],
+  "name": "Pearl Harbor City Tour / USS Arizona Memorial",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   45.0,
+   69.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 6900,
+   "Child": 4500
+  },
+  "ld": []
+ },
+ {
+  "sn": "alohasailswaikiki",
+  "pk": 577314,
+  "verdict": "MATCH",
+  "printed": [
+   65.0
+  ],
+  "units": [
+   "From $65"
+  ],
+  "name": "Sunset Swim & Sail",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   65.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 6500,
+   "Toddler": 0
+  },
+  "ld": [
+   "65"
+  ]
+ },
+ {
+  "sn": "alohascubadiving",
+  "pk": 104326,
+  "verdict": "MATCH",
+  "printed": [
+   189.0
+  ],
+  "units": [
+   "From $189"
+  ],
+  "name": "Advanced Boat Dive",
+  "pages": [
+   "Whawaii/oahu.html",
+   "Whawaii/oahu.html*"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   189.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Two Tank Certified Dive": 18900
+  },
+  "ld": []
+ },
+ {
+  "sn": "alohasunshinetours",
+  "pk": 316297,
+  "verdict": "MATCH",
+  "printed": [
+   499.99
+  ],
+  "units": [
+   "From $499.99"
+  ],
+  "name": "2H - Complete Pearl Harbor Experience Departing from the Big Island",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   489.99,
+   499.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 49999,
+   "Child": 48999,
+   "Infant": 0
+  },
+  "ld": [
+   "499.99"
+  ]
+ },
+ {
+  "sn": "alohasunshinetours",
+  "pk": 441795,
+  "verdict": "ROUNDING",
+  "printed": [
+   1200.0
+  ],
+  "units": [
+   "From $1200"
+  ],
+  "name": "13AP - Private Oahu Grand Circle Island Tour Departing from Waikiki Area",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1199.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group of 1-12": 119999
+  },
+  "ld": []
+ },
+ {
+  "sn": "amahawaii",
+  "pk": 720427,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "Haleakal\u0101 Sunrise Experience \u2013 Private Luxury SUV & Sprinter Tour",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   2170.0,
+   2575.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Luxury SUV": 217000,
+   "Luxury Sprinter": 257500
+  },
+  "ld": []
+ },
+ {
+  "sn": "andyoucreations",
+  "pk": 141714,
+  "verdict": "MATCH",
+  "printed": [
+   189.0
+  ],
+  "units": [
+   "From $189 per adult"
+  ],
+  "name": "Dolphins and You",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   146.0,
+   189.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 18900,
+   "Child": 14600
+  },
+  "ld": []
+ },
+ {
+  "sn": "andyoucreations",
+  "pk": 201636,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Ocean and You",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   79.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "andyoucreations",
+  "pk": 334772,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99 per adult"
+  ],
+  "name": "Whales and You",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/whale-watching.html",
+   "Whawaii/whale-watching.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   69.0,
+   99.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 9900,
+   "Child": 6900,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "andyoucreations",
+  "pk": 368817,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125",
+   "From $125 per adult"
+  ],
+  "name": "Turtles and You",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   99.0,
+   125.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 12500,
+   "Child": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "apexkauai",
+  "pk": 173903,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Private Luxury Fishing Charter on 47ft Vessel 'KU'ULA KAI. Bathrooms & A/C",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1000.0,
+   1450.0,
+   1900.0,
+   2300.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Four Hour Private Charter": 100000,
+   "Six Hour Private Charter": 145000
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaexperiencespr",
+  "pk": 456020,
+  "verdict": "MATCH",
+  "printed": [
+   160.0
+  ],
+  "units": [
+   "From $160"
+  ],
+  "name": "Build Your Own Aqua Deck Experience at Condado Lagoon",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   160.0,
+   220.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One Hour Rental": 16000,
+   "Two Hour Rental": 22000
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaexperiencespr",
+  "pk": 456048,
+  "verdict": "MATCH",
+  "printed": [
+   45.0
+  ],
+  "units": [
+   "From $45"
+  ],
+  "name": "Double Kayak Rental",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   45.0,
+   70.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One Hour Rental": 4500,
+   "Two Hour Rental": 7000
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaexperiencespr",
+  "pk": 461485,
+  "verdict": "MATCH",
+  "printed": [
+   229.0
+  ],
+  "units": [
+   "From $229"
+  ],
+  "name": "Aqua Brunch Experience",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   229.0,
+   320.0,
+   400.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Two Persons": 22900,
+   "Three Persons": 32000,
+   "Four Persons": 40000
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaexperiencespr",
+  "pk": 468043,
+  "verdict": "MATCH",
+  "printed": [
+   55.0
+  ],
+  "units": [
+   "From $55"
+  ],
+  "name": "Clear Kayak Tour - Condado Lagoon",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/kayaking.html",
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   55.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person - Kayak": 5500
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaexperiencespr",
+  "pk": 519875,
+  "verdict": "MATCH",
+  "printed": [
+   269.0
+  ],
+  "units": [
+   "From $269"
+  ],
+  "name": "Exclusive Floating Dinner at Condado Lagoon",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   269.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Two Persons": 26900
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaexperiencespr",
+  "pk": 649014,
+  "verdict": "MATCH",
+  "printed": [
+   300.0
+  ],
+  "units": [
+   "From $300 Group 6"
+  ],
+  "name": "HangOut 360",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   300.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group 6": 30000
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquaticlifedivers",
+  "pk": 115578,
+  "verdict": "MATCH",
+  "printed": [
+   155.0
+  ],
+  "units": [
+   "From $155"
+  ],
+  "name": "The Kona Manta Ray Night Experience: One Tank Dive or Snorkel Charter",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   135.0,
+   155.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 15500,
+   "Snorkeler": 13500,
+   "Ride Along": 13500
+  },
+  "ld": []
+ },
+ {
+  "sn": "aquavidavip",
+  "pk": 555389,
+  "verdict": "MATCH",
+  "printed": [
+   1200.0
+  ],
+  "units": [
+   "From $1,200 whole boat, up to 6 people"
+  ],
+  "name": "Half Day Charters",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   1200.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 120000
+  },
+  "ld": [
+   "1200"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 448978,
+  "verdict": "MATCH",
+  "printed": [
+   1495.0
+  ],
+  "units": [
+   "From $1,495 Private Charter"
+  ],
+  "name": "Scuba Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1495.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 149500
+  },
+  "ld": [
+   "1495"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 449012,
+  "verdict": "MATCH",
+  "printed": [
+   1895.0
+  ],
+  "units": [
+   "From $1,895 Private Charter"
+  ],
+  "name": "Fishing Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1895.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 189500
+  },
+  "ld": [
+   "1895"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 471811,
+  "verdict": "MATCH",
+  "printed": [
+   2200.0
+  ],
+  "units": [
+   "From $2,200 Private Charter"
+  ],
+  "name": "Private Charter from Palmas Del Mar to Vieques",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   2200.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 220000
+  },
+  "ld": [
+   "2200"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 471854,
+  "verdict": "MATCH",
+  "printed": [
+   3200.0
+  ],
+  "units": [
+   "From $3,200 whole boat, up to 12 people"
+  ],
+  "name": "Private Charter from Palmas Del Mar to Vieques (Day Trip + Bio Bay)",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   3200.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 320000
+  },
+  "ld": [
+   "3200"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 471862,
+  "verdict": "MATCH",
+  "printed": [
+   4900.0
+  ],
+  "units": [
+   "From $4,900 Private Charter"
+  ],
+  "name": "Luxury 65' Yacht Private Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   4900.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 490000
+  },
+  "ld": [
+   "4900"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 542104,
+  "verdict": "MATCH",
+  "printed": [
+   1995.0
+  ],
+  "units": [
+   "From $1,995 Private Charter"
+  ],
+  "name": "Full Day to Culebra - DR",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1995.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 199500
+  },
+  "ld": [
+   "1995"
+  ]
+ },
+ {
+  "sn": "aquazultours",
+  "pk": 569986,
+  "verdict": "MATCH",
+  "printed": [
+   149.0
+  ],
+  "units": [
+   "From $149"
+  ],
+  "name": "VIEQUES Bioluminescence Bay",
+  "pages": [
+   "Wpuertorico/vieques.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   149.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 14900,
+   "Child": 14900
+  },
+  "ld": []
+ },
+ {
+  "sn": "archiejetski",
+  "pk": 711080,
+  "verdict": "ROUNDING",
+  "printed": [
+   222.0
+  ],
+  "units": [
+   "From $222 Private UTV Cabin"
+  ],
+  "name": "Pi\u00f1ones Beach & Mangrove Safari: Private 2026 UTV Adventure (2H)",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   221.88
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private UTV Cabin": 22188
+  },
+  "ld": [
+   "221.88"
+  ]
+ },
+ {
+  "sn": "aventureagroup",
+  "pk": 398523,
+  "verdict": "ITEM-API-404",
+  "printed": [
+   2400.0
+  ],
+  "units": [
+   "From $2,400 Sea Ray 51\u2019 Private Charter"
+  ],
+  "name": "Icacos Island Half Day",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": [
+   "2400"
+  ]
+ },
+ {
+  "sn": "aventureagroup",
+  "pk": 398526,
+  "verdict": "ITEM-API-404",
+  "printed": [
+   2400.0
+  ],
+  "units": [
+   "From $2,400 Sea Ray 51\u2019 Private Charter"
+  ],
+  "name": "Palomino Island Half Day",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": [
+   "2400"
+  ]
+ },
+ {
+  "sn": "bathingsuitsandrainboots",
+  "pk": 527309,
+  "verdict": "MATCH",
+  "printed": [
+   149.0
+  ],
+  "units": [
+   "From $149"
+  ],
+  "name": "Madam Pele\u2019s Volcano Hike",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   99.0,
+   149.0,
+   800.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 14900,
+   "Child": 9900,
+   "Private Group": 80000
+  },
+  "ld": [
+   "149"
+  ]
+ },
+ {
+  "sn": "bellaventuras",
+  "pk": 14828,
+  "verdict": "MATCH",
+  "printed": [
+   1440.0
+  ],
+  "units": [
+   "From $1,440 Dolphin Package"
+  ],
+  "name": "Luxury Sailing Charter (up to 6 passengers)",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 11,
+  "modal_tiers": [
+   1440.0,
+   1800.0,
+   2160.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Dolphin Package": 144000,
+   "Jellyfish Package": 180000,
+   "Black Pearl Package": 216000
+  },
+  "ld": [
+   "1440"
+  ]
+ },
+ {
+  "sn": "bespokeconcierge",
+  "pk": 10555,
+  "verdict": "MATCH",
+  "printed": [
+   165.0
+  ],
+  "units": [
+   "From $165"
+  ],
+  "name": "El Yunque & BioBay Combo Tour",
+  "pages": [
+   "Wpuertorico/el-yunque.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   155.0,
+   165.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult El Yunque Rainforest and BioBay Combo Tour": 16500,
+   "Child El Yunque Rainforest and BioBay Combo Tour": 15500
+  },
+  "ld": []
+ },
+ {
+  "sn": "bigislanddivers",
+  "pk": 74099,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "Private Charter Online Booking",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "bigislandghosttours",
+  "pk": 321447,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "Volcano Vortex Hike \ud83c\udf0b",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   165.0,
+   200.0,
+   265.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 26500,
+   "Youth / Kama'aina": 20000,
+   "Child": 16500
+  },
+  "ld": []
+ },
+ {
+  "sn": "bigislandvip",
+  "pk": 601313,
+  "verdict": "STALE",
+  "printed": [
+   1345.0
+  ],
+  "units": [
+   "From $1345"
+  ],
+  "name": "Private Shore Excursion up to 11 Passengers",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1445.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Group": 144500
+  },
+  "ld": []
+ },
+ {
+  "sn": "bikeit",
+  "pk": 460121,
+  "verdict": "MATCH",
+  "printed": [
+   149.0
+  ],
+  "units": [
+   "From $149"
+  ],
+  "name": "Poipu & Koloa E-Bike Scenic Tour",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   149.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Biker": 14900
+  },
+  "ld": []
+ },
+ {
+  "sn": "bkmaui",
+  "pk": 348481,
+  "verdict": "MATCH",
+  "printed": [
+   599.0
+  ],
+  "units": [
+   "From $599 per person"
+  ],
+  "name": "Pelagic Kayak Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html",
+   "Whawaii/fishing.html*"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   599.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Fisherman": 59900
+  },
+  "ld": []
+ },
+ {
+  "sn": "bkmaui",
+  "pk": 348483,
+  "verdict": "MATCH",
+  "printed": [
+   275.0
+  ],
+  "units": [
+   "From $275 per person"
+  ],
+  "name": "Group Bottom Fishing Tour",
+  "pages": [
+   "Whawaii/fishing.html",
+   "Whawaii/fishing.html*"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   275.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Fisherman": 27500
+  },
+  "ld": []
+ },
+ {
+  "sn": "bluekingspr",
+  "pk": 391768,
+  "verdict": "MATCH",
+  "printed": [
+   198.0
+  ],
+  "units": [
+   "From $198 per person"
+  ],
+  "name": "Puerto Rico Nurse Sharks Seafari",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   198.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 19800
+  },
+  "ld": [
+   "198"
+  ]
+ },
+ {
+  "sn": "blueplanetadventure",
+  "pk": 359131,
+  "verdict": "VARIES",
+  "printed": [
+   600.0
+  ],
+  "units": [
+   "From $600"
+  ],
+  "name": "Private Event",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   600.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Private Event": 49900
+  },
+  "ld": []
+ },
+ {
+  "sn": "blueseassurfingschool",
+  "pk": 613701,
+  "verdict": "MATCH",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Private Lesson",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   150.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 15000
+  },
+  "ld": []
+ },
+ {
+  "sn": "bluewaterrafting",
+  "pk": 273557,
+  "verdict": "VARIES",
+  "printed": [
+   85.0
+  ],
+  "units": [
+   "From $85"
+  ],
+  "name": "Maui Whale Watching Tour",
+  "pages": [
+   "Whawaii/maui.html",
+   "Whawaii/maui.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   70.0,
+   85.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 8500,
+   "Child": 7000
+  },
+  "ld": []
+ },
+ {
+  "sn": "boatingpuertoricotours",
+  "pk": 476445,
+  "verdict": "ITEM-API-404",
+  "printed": [
+   1800.0
+  ],
+  "units": [
+   "From $1,800 Private Yacht 4 Hours"
+  ],
+  "name": "Tiara Yacht 45 Foot",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": [
+   "1800"
+  ]
+ },
+ {
+  "sn": "boatingpuertoricotours",
+  "pk": 699246,
+  "verdict": "ITEM-API-404",
+  "printed": [
+   4500.0
+  ],
+  "units": [
+   "From $4,500 Private Yacht 4 Hours"
+  ],
+  "name": "Sport Fishing Charter Puerto Rico",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": [
+   "4500"
+  ]
+ },
+ {
+  "sn": "bodyglove",
+  "pk": 409,
+  "verdict": "VARIES",
+  "printed": [
+   149.99
+  ],
+  "units": [
+   "From $149.99 per adult"
+  ],
+  "name": "Deluxe Snorkel & Dolphin Watch",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   49.99,
+   99.99,
+   149.99
+  ],
+  "tier_variants": 4,
+  "named": {
+   "Adult": 14999,
+   "Child": 9999,
+   "Infant": 4999
+  },
+  "ld": []
+ },
+ {
+  "sn": "bodyglove",
+  "pk": 497,
+  "verdict": "MATCH",
+  "printed": [
+   139.99
+  ],
+  "units": [
+   "From $139.99 per adult"
+  ],
+  "name": "Whale Watch",
+  "pages": [
+   "Whawaii/whale-watching.html",
+   "Whawaii/whale-watching.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   49.99,
+   119.99,
+   139.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 13999,
+   "Child": 11999,
+   "Infant": 4999
+  },
+  "ld": []
+ },
+ {
+  "sn": "bodyglove",
+  "pk": 397613,
+  "verdict": "VARIES",
+  "printed": [
+   130.0
+  ],
+  "units": [
+   "From $130 per adult"
+  ],
+  "name": "Super-Raft Snorkel - AM",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 11,
+  "modal_tiers": [
+   66.0,
+   78.0,
+   2800.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 13000,
+   "Child": 11000,
+   "Private Charter": 280000
+  },
+  "ld": []
+ },
+ {
+  "sn": "bodyglove",
+  "pk": 397615,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125 per adult"
+  ],
+  "name": "Super-Raft Whale Watch",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   105.0,
+   125.0,
+   2600.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 12500,
+   "Child": 10500,
+   "Private Charter": 260000
+  },
+  "ld": []
+ },
+ {
+  "sn": "borikuatourspr",
+  "pk": 675098,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [
+   250.0
+  ],
+  "units": [
+   "From $250"
+  ],
+  "name": "Harvest + Cook",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "bucketlisttours",
+  "pk": 334320,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Ocean's Edge to Jungle's Heart: Private 5-Hour Adventure with Beach Bliss, Rock Formation Hike, and Rainforest Waterfalls",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "bucketlisttours",
+  "pk": 521000,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Enchanting La Parguera Private Boat Tour: Snorkeling, Sunset and Bioluminiscense Swim from Ponce",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1499.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour": 0,
+   "Private Group of 2": 149999
+  },
+  "ld": []
+ },
+ {
+  "sn": "bwa",
+  "pk": 368,
+  "verdict": "MATCH",
+  "printed": [
+   227.0
+  ],
+  "units": [
+   "From $227"
+  ],
+  "name": "Zip Line at Botanical World Adventures (Approximately 2.5 Hours)",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   197.0,
+   227.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Zipper 13 years and older": 22700,
+   "Child Zipper": 19700,
+   "Tandem Child": 19700
+  },
+  "ld": []
+ },
+ {
+  "sn": "captainchads",
+  "pk": 153709,
+  "verdict": "MATCH",
+  "printed": [
+   850.0
+  ],
+  "units": [
+   "From $850"
+  ],
+  "name": "Seasonal Whale Watching Private Boat",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   850.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Boat": 85000
+  },
+  "ld": []
+ },
+ {
+  "sn": "captainchads",
+  "pk": 277531,
+  "verdict": "MATCH",
+  "printed": [
+   1050.0
+  ],
+  "units": [
+   "From $1050"
+  ],
+  "name": "Wildlife Encounter Snorkel",
+  "pages": [
+   "Whawaii/kauai.html",
+   "Whawaii/kauai.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1050.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Boat": 105000
+  },
+  "ld": []
+ },
+ {
+  "sn": "captainchads",
+  "pk": 415636,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Custom Private Charter",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   999.99,
+   1250.0,
+   1550.0,
+   1850.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Three-Hours  Private Charters": 99999,
+   "Four Hours  Private Charters": 125000,
+   "Five Hours Private Charters": 155000,
+   "Six-Hour Private Charter": 185000
+  },
+  "ld": []
+ },
+ {
+  "sn": "captainmaxboattours",
+  "pk": 313227,
+  "verdict": "MATCH",
+  "printed": [
+   115.0
+  ],
+  "units": [
+   "From $115"
+  ],
+  "name": "Turtle Canyon Snorkel (Semi|Private Boat Tour)",
+  "pages": [
+   "Whawaii/oahu.html",
+   "Whawaii/oahu.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   115.0,
+   580.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Per Person": 11500,
+   "Private Tour (Maximum 6 people)": 58000
+  },
+  "ld": []
+ },
+ {
+  "sn": "caribbeanbookings",
+  "pk": 625268,
+  "verdict": "MATCH",
+  "printed": [
+   1679.0
+  ],
+  "units": [
+   "From $1,679 CHARTER"
+  ],
+  "name": "CULEBRA ISLAND: PRIVATE DAY CHARTER",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1679.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "CHARTER": 167900
+  },
+  "ld": [
+   "1679"
+  ]
+ },
+ {
+  "sn": "caribbeanbookings",
+  "pk": 689787,
+  "verdict": "MATCH",
+  "printed": [
+   2259.0
+  ],
+  "units": [
+   "From $2,259 Up to 6 people"
+  ],
+  "name": "47FT CATAMARAN PRIVATE CHARTER",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   2259.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Catamaran Experience": 225900
+  },
+  "ld": [
+   "2259"
+  ]
+ },
+ {
+  "sn": "caribbeanbookings",
+  "pk": 705169,
+  "verdict": "MATCH",
+  "printed": [
+   2799.0
+  ],
+  "units": [
+   "From $2,799 Boat charter experience"
+  ],
+  "name": "ULTIMATE ISLAND CHARTER",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   2799.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Boat charter experience": 279900
+  },
+  "ld": [
+   "2799"
+  ]
+ },
+ {
+  "sn": "caribbeanbookings",
+  "pk": 754265,
+  "verdict": "MATCH",
+  "printed": [
+   1980.0
+  ],
+  "units": [
+   "From $1,980 whole boat"
+  ],
+  "name": "THE REEL CARIBBEAN\u2122 | Private Sportfishing Experience",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1980.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Boat charter experience": 198000
+  },
+  "ld": [
+   "1980"
+  ]
+ },
+ {
+  "sn": "caribbeanchiliboatspuertorico",
+  "pk": 286798,
+  "verdict": "MATCH",
+  "printed": [
+   69.0
+  ],
+  "units": [
+   "From $69"
+  ],
+  "name": "La Parguera Adventure Tour Chiliboats Water Bike",
+  "pages": [
+   "Wpuertorico/sailing.html",
+   "Wpuertorico/sailing.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 11,
+  "modal_tiers": [
+   69.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Participant": 6900
+  },
+  "ld": []
+ },
+ {
+  "sn": "caribbeanrentalspr",
+  "pk": 561043,
+  "verdict": "MATCH",
+  "printed": [
+   3200.0
+  ],
+  "units": [
+   "From $3,200 whole boat, up to 13 people"
+  ],
+  "name": "Fairline 65' Luxurious Sport Yacht Rental",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   3200.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Yacht": 320000
+  },
+  "ld": [
+   "3200"
+  ]
+ },
+ {
+  "sn": "caribbeanrentalspr",
+  "pk": 561054,
+  "verdict": "MATCH",
+  "printed": [
+   1800.0
+  ],
+  "units": [
+   "From $1,800 whole boat, up to 10 people"
+  ],
+  "name": "Grady White 38FT Premium Boat Charter Puerto Rico",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1800.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Yacht": 180000
+  },
+  "ld": [
+   "1800"
+  ]
+ },
+ {
+  "sn": "caribebliss",
+  "pk": 57279,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125"
+  ],
+  "name": "All Inclusive Beach & Snorkel Tour to Icacos Island",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   99.0,
+   125.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 12500,
+   "Child": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "caribebliss",
+  "pk": 490276,
+  "verdict": "MATCH",
+  "printed": [
+   1250.0
+  ],
+  "units": [
+   "From $1,250 Private Tour: Icacos or Palomino Half-Day"
+  ],
+  "name": "Grady White Private Boat  Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1250.0,
+   1500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour: Icacos or Palomino Half-Day": 150000
+  },
+  "ld": [
+   "1250"
+  ]
+ },
+ {
+  "sn": "coralreef",
+  "pk": 204214,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99 per person"
+  ],
+  "name": "Kealakekua Bay / Captain Cook Monument Snorkel",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   50.0,
+   99.0,
+   1299.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 9900,
+   "Private Charter": 129900,
+   "GoPro Hero 9 Black - Camera Rental": 5000
+  },
+  "ld": []
+ },
+ {
+  "sn": "cruzneathawaii",
+  "pk": 394415,
+  "verdict": "MATCH",
+  "printed": [
+   75.0
+  ],
+  "units": [
+   "From $75"
+  ],
+  "name": "Local Kine Brunch",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   75.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 7500
+  },
+  "ld": [
+   "75"
+  ]
+ },
+ {
+  "sn": "crystalclearvieques",
+  "pk": 594708,
+  "verdict": "MATCH",
+  "printed": [
+   440.0
+  ],
+  "units": [
+   "From $440"
+  ],
+  "name": "Private Sea Turtle Snorkel (includes Transportation)",
+  "pages": [
+   "Wpuertorico/vieques.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   440.0,
+   540.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "60-Minute Private Snorkel": 44000,
+   "90-Minute Private Snorkel": 54000
+  },
+  "ld": []
+ },
+ {
+  "sn": "crystalclearvieques",
+  "pk": 594714,
+  "verdict": "MATCH",
+  "printed": [
+   380.0
+  ],
+  "units": [
+   "From $380"
+  ],
+  "name": "Private Sea Turtle Snorkel (Doesn't Include Transportation)",
+  "pages": [
+   "Wpuertorico/vieques.html",
+   "Wpuertorico/vieques.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   380.0,
+   480.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "60-Minute Private Snorkel": 38000,
+   "90-Minute Private Snorkel": 48000
+  },
+  "ld": []
+ },
+ {
+  "sn": "culebravipeastpr",
+  "pk": 333614,
+  "verdict": "MATCH",
+  "printed": [
+   1250.0
+  ],
+  "units": [
+   "From $1250 Private Boat Tour"
+  ],
+  "name": "Full Day Private Boat Tour Culebra or Vieques",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1250.0,
+   1295.0,
+   2550.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Boat Tour": 129500,
+   "Private Boat Tour - 7 to 12 Guests": 255000
+  },
+  "ld": []
+ },
+ {
+  "sn": "culebravipeastpr",
+  "pk": 333618,
+  "verdict": "MATCH",
+  "printed": [
+   950.0
+  ],
+  "units": [
+   "From $950 Private Boat Tour"
+  ],
+  "name": "Full Day Private Boat Tour Fajardo Local Keys",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   950.0,
+   995.0,
+   1790.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Boat Tour": 99500,
+   "Private Boat Tour - 7 to 12 Guests": 179000
+  },
+  "ld": [
+   "950"
+  ]
+ },
+ {
+  "sn": "culebravipeastpr",
+  "pk": 333661,
+  "verdict": "MATCH",
+  "printed": [
+   3500.0
+  ],
+  "units": [
+   "From $3,500 Private Boat Tour"
+  ],
+  "name": "3 Day Private Boat Tour + 2 Night Guesthouse",
+  "pages": [
+   "Wpuertorico/index.html",
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   3500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Boat Tour": 350000
+  },
+  "ld": [
+   "3500"
+  ]
+ },
+ {
+  "sn": "customislandtours",
+  "pk": 468515,
+  "verdict": "MATCH",
+  "printed": [
+   250.0
+  ],
+  "units": [
+   "From $250"
+  ],
+  "name": "Jungle Hike",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   250.0,
+   400.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group of 1 to 4 people": 25000,
+   "Group of 5 to 11 people": 40000
+  },
+  "ld": []
+ },
+ {
+  "sn": "dancingmeditation",
+  "pk": 656457,
+  "verdict": "MATCH",
+  "printed": [
+   55.0
+  ],
+  "units": [
+   "From $55"
+  ],
+  "name": "Westin Maui Resort & Spa",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   55.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 5500
+  },
+  "ld": []
+ },
+ {
+  "sn": "divealohascuba",
+  "pk": 90647,
+  "verdict": "MATCH",
+  "printed": [
+   35.0
+  ],
+  "units": [
+   "From $35"
+  ],
+  "name": "Gear Rentals",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   35.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Mask/Fin/Snorkel Set": 3500
+  },
+  "ld": []
+ },
+ {
+  "sn": "divealohascuba",
+  "pk": 663537,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Divemaster",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1999.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Divemaster": 199900
+  },
+  "ld": []
+ },
+ {
+  "sn": "divekauai",
+  "pk": 490321,
+  "verdict": "MATCH",
+  "printed": [
+   169.0
+  ],
+  "units": [
+   "From $169"
+  ],
+  "name": "Discover Scuba Dive - 2 TANK DIVE OCEAN EXPERIENCE",
+  "pages": [
+   "Whawaii/kauai.html",
+   "Whawaii/kauai.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   169.0,
+   209.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Non-Certified Diver": 20900,
+   "Certified Diver": 16900
+  },
+  "ld": []
+ },
+ {
+  "sn": "diveoahu",
+  "pk": 3108,
+  "verdict": "MATCH",
+  "printed": [
+   231.0
+  ],
+  "units": [
+   "From $231 per person"
+  ],
+  "name": "Night Dives",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   99.0,
+   231.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 23100,
+   "Rider": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "diveoahu",
+  "pk": 8984,
+  "verdict": "MATCH",
+  "printed": [
+   131.0
+  ],
+  "units": [
+   "From $131 per person"
+  ],
+  "name": "Shallow Reefs Tour",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   79.0,
+   99.0,
+   101.0,
+   131.0,
+   231.0,
+   251.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 23100,
+   "Discovery Scuba Diver/Intro Diver": 25100,
+   "Snorkeler": 13100,
+   "Rider": 9900,
+   "Snorkeler, (Child)": 10100,
+   "Rider Youth": 7900
+  },
+  "ld": []
+ },
+ {
+  "sn": "diveoahu",
+  "pk": 9120,
+  "verdict": "MATCH",
+  "printed": [
+   231.0
+  ],
+  "units": [
+   "From $231",
+   "From $231 per person"
+  ],
+  "name": "Wreck & Reef Tour",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   99.0,
+   231.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 23100,
+   "Rider": 9900
+  },
+  "ld": [
+   "231"
+  ]
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 2228,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99"
+  ],
+  "name": "Fajardo Reefs Morning Dive Excursion",
+  "pages": [
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 11,
+  "modal_tiers": [
+   99.0,
+   130.0,
+   185.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 13000,
+   "Discover Scuba Diver/Open Water Referral Diver/Advanced Student": 18500,
+   "Adult Snorkeler": 9900,
+   "Bubble Watcher": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 11151,
+  "verdict": "MATCH",
+  "printed": [
+   145.0
+  ],
+  "units": [
+   "From $145"
+  ],
+  "name": "All Inclusive Culebra Snorkeling Excursion",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   125.0,
+   145.0,
+   157.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult Snorkeler": 14500,
+   "Child Snorkeler": 12500,
+   "Gold Snorkel Package": 15700
+  },
+  "ld": []
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 233090,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99"
+  ],
+  "name": "Fajardo Afternoon  snorkeling boat tour check  in by 1:00pm",
+  "pages": [
+   "Wpuertorico/sailing.html",
+   "Wpuertorico/sailing.html*",
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   89.0,
+   99.0,
+   114.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult Snorkeler": 9900,
+   "Child Snorkeler": 8900,
+   "Baby": 0,
+   "Gold Snorkel Package": 11400
+  },
+  "ld": []
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 233231,
+  "verdict": "MATCH",
+  "printed": [
+   625.0
+  ],
+  "units": [
+   "From $625"
+  ],
+  "name": "PADI Open Water Certification E-Learning Course",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   625.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Student": 62500
+  },
+  "ld": [
+   "625"
+  ]
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 236627,
+  "verdict": "VARIES",
+  "printed": [
+   3400.0
+  ],
+  "units": [
+   "From $3400"
+  ],
+  "name": "Beach and Snorkel Private Charters ( Must check in 1 hour before departure time)",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   3400.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Private Charter 4hrs": 340000
+  },
+  "ld": []
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 378841,
+  "verdict": "MATCH",
+  "printed": [
+   120.0
+  ],
+  "units": [
+   "From $120"
+  ],
+  "name": "Fajardo Morning Snorkeling Tour - Check in by 7:15 AM",
+  "pages": [
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/sailing.html",
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   99.0,
+   120.0,
+   135.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult Snorkeler": 12000,
+   "Child Snorkeler": 9900,
+   "Gold Snorkel Package": 13500
+  },
+  "ld": []
+ },
+ {
+  "sn": "divepuertorico",
+  "pk": 712331,
+  "verdict": "MATCH",
+  "printed": [
+   115.0
+  ],
+  "units": [
+   "From $115"
+  ],
+  "name": "Vieques  All Inclusive Snorkeling Excursion",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   115.0,
+   130.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult Snorkeler": 11500,
+   "Child Snorkeler": 11500,
+   "Gold Snorkel Package": 13000
+  },
+  "ld": [
+   "115"
+  ]
+ },
+ {
+  "sn": "dolphindiscoveries",
+  "pk": 716,
+  "verdict": "ROUNDING",
+  "printed": [
+   119.99,
+   120.0
+  ],
+  "units": [
+   "From $119.99 per person",
+   "From $120"
+  ],
+  "name": "Deluxe Kona Snorkel Adventure (2 snorkel spots)",
+  "pages": [
+   "Whawaii/big-island.html",
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   119.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 11999
+  },
+  "ld": []
+ },
+ {
+  "sn": "dragonflyadventuresglobal",
+  "pk": 677329,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [
+   5500.0
+  ],
+  "units": [
+   "From $5,500 Half Day Charter"
+  ],
+  "name": "Private Charters: Vessel #2",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": [
+   "5500"
+  ]
+ },
+ {
+  "sn": "eastislandpr",
+  "pk": 4287,
+  "verdict": "VARIES",
+  "printed": [
+   135.0
+  ],
+  "units": [
+   "From $135"
+  ],
+  "name": "Icacos sailing & snorkeling tour",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   115.0,
+   135.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Infant": 0,
+   "Adult": 13500,
+   "Child": 11500
+  },
+  "ld": []
+ },
+ {
+  "sn": "eastislandpr",
+  "pk": 64400,
+  "verdict": "ROUNDING",
+  "printed": [
+   1934.0
+  ],
+  "units": [
+   "From $1,934 Wave package"
+  ],
+  "name": "Zatara Sailing Catamaran",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   1934.16,
+   2098.77,
+   2263.37,
+   2427.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Sting Ray package": 242799,
+   "Mermaid package": 226337,
+   "Star Fish package": 209877,
+   "Wave package": 193416
+  },
+  "ld": [
+   "1934.16"
+  ]
+ },
+ {
+  "sn": "eastislandpr",
+  "pk": 271047,
+  "verdict": "VARIES",
+  "printed": [
+   170.0
+  ],
+  "units": [
+   "From $170"
+  ],
+  "name": "Culebra Blue Paradise Experience",
+  "pages": [
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   150.0,
+   170.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 17000,
+   "Child": 15000
+  },
+  "ld": []
+ },
+ {
+  "sn": "eastislandpr",
+  "pk": 516315,
+  "verdict": "ROUNDING",
+  "printed": [
+   2099.0
+  ],
+  "units": [
+   "From $2,099 Private Icacos"
+  ],
+  "name": "Ocean Ray Private Power Catamaran",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   2098.77,
+   2510.29
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Culebra option": 251029,
+   "Private Icacos": 209877,
+   "Vieques option": 251029
+  },
+  "ld": [
+   "2098.77"
+  ]
+ },
+ {
+  "sn": "ecoactiontours",
+  "pk": 215093,
+  "verdict": "VARIES",
+  "printed": [
+   58.0,
+   64.0
+  ],
+  "units": [
+   "$64",
+   "From $58"
+  ],
+  "name": "Bio Bay Night Kayaking Tour Laguna Grande, Fajardo, P.R.",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/bio-bay.html*",
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/kayaking.html",
+   "Wpuertorico/kayaking.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   64.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Guests": 5800
+  },
+  "ld": []
+ },
+ {
+  "sn": "ecoadventurespr",
+  "pk": 72460,
+  "verdict": "VARIES",
+  "printed": [
+   63.0
+  ],
+  "units": [
+   "From $63"
+  ],
+  "name": "Bio Bay Bioluminescent Kayaking Tour in Fajardo, PR",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   63.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Person": 6300
+  },
+  "ld": []
+ },
+ {
+  "sn": "ecotourspuertorico",
+  "pk": 5924,
+  "verdict": "MATCH",
+  "printed": [
+   68.0
+  ],
+  "units": [
+   "From $68"
+  ],
+  "name": "Bioluminescent Bay Kayak Adventure",
+  "pages": [
+   "Wpuertorico/bio-bay.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   63.0,
+   68.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 6800,
+   "Child": 6800,
+   "Group (Use only for 10+ Participants)": 6300
+  },
+  "ld": []
+ },
+ {
+  "sn": "ehukaifishing",
+  "pk": 411446,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   1100.0,
+   1700.0,
+   2400.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "2 Hour Private Charter": 60000,
+   "4 Hour Private Charter": 110000
+  },
+  "ld": []
+ },
+ {
+  "sn": "endlessadventures",
+  "pk": 305227,
+  "verdict": "MATCH",
+  "printed": [
+   105.0
+  ],
+  "units": [
+   "From $105"
+  ],
+  "name": "Rum Mixology Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   105.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 10500
+  },
+  "ld": [
+   "105"
+  ]
+ },
+ {
+  "sn": "endlesssummersurfschoolkauai",
+  "pk": 112441,
+  "verdict": "STALE",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Semi|Private Surf Lesson",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   175.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17500
+  },
+  "ld": []
+ },
+ {
+  "sn": "enoatours",
+  "pk": 42966,
+  "verdict": "MATCH",
+  "printed": [
+   69.0
+  ],
+  "units": [
+   "From $69 per adult"
+  ],
+  "name": "Pearl Harbor City - from Waikiki",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   39.0,
+   69.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 6900,
+   "Child": 3900,
+   "Lap Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "enoatours",
+  "pk": 664423,
+  "verdict": "MATCH",
+  "printed": [
+   23.5
+  ],
+  "units": [
+   "From $23.5"
+  ],
+  "name": "Cruise Ship Pier to Airport",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   23.5
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 2350
+  },
+  "ld": [
+   "23.5"
+  ]
+ },
+ {
+  "sn": "escapetoparadisepr",
+  "pk": 605837,
+  "verdict": "MATCH",
+  "printed": [
+   1325.0
+  ],
+  "units": [
+   "From $1,325 Full Day Charter Vieques"
+  ],
+  "name": "Full Day Charters Vieques \u2022 27' Stama",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1325.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Charter Vieques": 132500
+  },
+  "ld": [
+   "1325"
+  ]
+ },
+ {
+  "sn": "escapetoparadisepr",
+  "pk": 606001,
+  "verdict": "MATCH",
+  "printed": [
+   1538.0
+  ],
+  "units": [
+   "From $1,538 Full Day Charter Culebrita"
+  ],
+  "name": "Full-Day Culebrita Charter Tour \u2022 27' Stama",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1538.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Charter Culebrita": 153800
+  },
+  "ld": [
+   "1538"
+  ]
+ },
+ {
+  "sn": "escapetoparadisepr",
+  "pk": 606026,
+  "verdict": "MATCH",
+  "printed": [
+   1482.0
+  ],
+  "units": [
+   "From $1,482 Full Day Charter Vieques"
+  ],
+  "name": "Full Day Charters Vieques \u2022  30'  Whaler",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1482.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Charter Vieques": 148200
+  },
+  "ld": [
+   "1482"
+  ]
+ },
+ {
+  "sn": "escapetoparadisepr",
+  "pk": 606028,
+  "verdict": "MATCH",
+  "printed": [
+   1482.0
+  ],
+  "units": [
+   "From $1,482 Full Day Charter Culebra"
+  ],
+  "name": "Full Day Charter Culebra \u2022 30'  Whaler",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1482.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Charter Culebra": 148200
+  },
+  "ld": [
+   "1482"
+  ]
+ },
+ {
+  "sn": "escapetoparadisepr",
+  "pk": 606029,
+  "verdict": "MATCH",
+  "printed": [
+   1699.0
+  ],
+  "units": [
+   "From $1,699 Full Day Charter Culebrita"
+  ],
+  "name": "Full-Day Culebrita Charter Tour \u2022 30'  Whaler",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1699.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Charter Culebrita": 169900
+  },
+  "ld": [
+   "1699"
+  ]
+ },
+ {
+  "sn": "escapetoparadisepr",
+  "pk": 606031,
+  "verdict": "MATCH",
+  "printed": [
+   1315.0
+  ],
+  "units": [
+   "From $1,315 Full Day Charter Icacos and Palomino"
+  ],
+  "name": "Full-Day Icacos and Palomino Charter Tour \u2022 30'  Whaler",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1315.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Charter Icacos and Palomino": 131500
+  },
+  "ld": [
+   "1315"
+  ]
+ },
+ {
+  "sn": "exclusivemauiexperiences",
+  "pk": 476998,
+  "verdict": "MATCH",
+  "printed": [
+   1299.0
+  ],
+  "units": [
+   "From $1299"
+  ],
+  "name": "Half Day Waterfall Plunge",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1299.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Half Day Waterfall Plunge": 129900
+  },
+  "ld": []
+ },
+ {
+  "sn": "fathomfishingcharters",
+  "pk": 151927,
+  "verdict": "MATCH",
+  "printed": [
+   1425.0
+  ],
+  "units": [
+   "From $1,425 Full Day Private Charter"
+  ],
+  "name": "Full Day Private Deep Sea Fishing Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1425.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Private Charter": 142500
+  },
+  "ld": [
+   "1425"
+  ]
+ },
+ {
+  "sn": "fincaneojibairo",
+  "pk": 588179,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125"
+  ],
+  "name": "From Leaf to Cigar: Puerto Rican Cigar Rolling Experience",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   125.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Participant": 12500
+  },
+  "ld": [
+   "125"
+  ]
+ },
+ {
+  "sn": "fishingcharterskauai",
+  "pk": 1321,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Ohana Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   215.0,
+   250.0,
+   320.0,
+   900.0,
+   1200.0,
+   1700.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hour Share Trip - Passenger": 21500,
+   "Four Hour Deluxe Share Trip - Passenger": 25000,
+   "Four Hour Private Charter": 90000,
+   "Six Hour Share Trip - Passenger": 25000,
+   "Six Hour Deluxe Share Trip - Passenger": 32000,
+   "Six Hour Private Charter": 120000,
+   "Eight Hour Private Charter": 170000
+  },
+  "ld": []
+ },
+ {
+  "sn": "flightofaloha",
+  "pk": 581469,
+  "verdict": "ROUNDING",
+  "printed": [
+   35.0
+  ],
+  "units": [
+   "From $35"
+  ],
+  "name": "NAUPAKA",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   29.99,
+   34.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "General Admission - Adult": 3499,
+   "General Admission - Child": 2999
+  },
+  "ld": []
+ },
+ {
+  "sn": "fondodecristal-3",
+  "pk": 290400,
+  "verdict": "MATCH",
+  "printed": [
+   35.0
+  ],
+  "units": [
+   "From $35"
+  ],
+  "name": "Glassbottom Kayak Rental",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   35.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 3500
+  },
+  "ld": [
+   "35"
+  ]
+ },
+ {
+  "sn": "funcatpr",
+  "pk": 423947,
+  "verdict": "VARIES",
+  "printed": [
+   105.0
+  ],
+  "units": [
+   "From $105"
+  ],
+  "name": "Snorkel & Slide Boat Tours",
+  "pages": [
+   "Wpuertorico/sailing.html",
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   105.0,
+   145.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 10500,
+   "Child": 10500,
+   "Tour + Transportation": 14500
+  },
+  "ld": []
+ },
+ {
+  "sn": "funcatpr",
+  "pk": 433259,
+  "verdict": "MATCH",
+  "printed": [
+   195.0
+  ],
+  "units": [
+   "From $195"
+  ],
+  "name": "Vieques Bio Bay Kayak Tour \u2014 from mainland Puerto Rico",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   195.0,
+   245.0,
+   3700.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Person": 19500,
+   "Tour + Transportation": 24500,
+   "Private Charter Bio Bay": 370000
+  },
+  "ld": []
+ },
+ {
+  "sn": "gabrielsohana",
+  "pk": 367278,
+  "verdict": "MATCH",
+  "printed": [
+   129.0
+  ],
+  "units": [
+   "From $129"
+  ],
+  "name": "Ocean Kayak and Reef Snorkeling Tour - Olowalu",
+  "pages": [
+   "Whawaii/kayak.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   89.0,
+   129.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 12900,
+   "Child": 8900
+  },
+  "ld": []
+ },
+ {
+  "sn": "gofishkauai",
+  "pk": 186807,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Private Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1198.8,
+   1558.8,
+   1918.8,
+   2398.8
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Four hour private charter": 119880,
+   "Six hour private charter": 155880,
+   "Eight hour private charter": 191880,
+   "Ten hour private charter": 239880
+  },
+  "ld": []
+ },
+ {
+  "sn": "gofishkauai",
+  "pk": 186808,
+  "verdict": "VARIES",
+  "printed": [
+   238.8
+  ],
+  "units": [
+   "From $238.8 per person"
+  ],
+  "name": "Shared Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html",
+   "Whawaii/fishing.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   358.8
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Person": 23880
+  },
+  "ld": []
+ },
+ {
+  "sn": "gohawaii-watersports",
+  "pk": 476798,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Parasailing",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   45.0,
+   80.0,
+   90.0,
+   115.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Parasailing Experience (600ft)": 8000,
+   "Standard Ride (800ft)": 9000,
+   "Ultimate Ride (1000ft)": 11500,
+   "Observer": 4500
+  },
+  "ld": []
+ },
+ {
+  "sn": "greatescapepr",
+  "pk": 465354,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Price on request Full Day Deep Sea Fishing Private Charter"
+  ],
+  "name": "Fishing & Sailing Charters",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   900.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Half Day Deep Sea Fishing Private Charter": 90000
+  },
+  "ld": []
+ },
+ {
+  "sn": "greatescapepr",
+  "pk": 671586,
+  "verdict": "MATCH",
+  "printed": [
+   750.0
+  ],
+  "units": [
+   "From $750 Sailing Charter"
+  ],
+  "name": "Sailing Charter 1/2 Day",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   750.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Sailing Charter": 75000
+  },
+  "ld": [
+   "750"
+  ]
+ },
+ {
+  "sn": "grovefarm",
+  "pk": 728026,
+  "verdict": "MATCH",
+  "printed": [
+   20.0
+  ],
+  "units": [
+   "From $20"
+  ],
+  "name": "Grove Farm Museum Tour",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   5.0,
+   10.0,
+   20.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 2000,
+   "Child": 1000,
+   "Kama\u02bb\u0101ina - Adult": 1000,
+   "Kama\u02bb\u0101ina - Child": 500
+  },
+  "ld": []
+ },
+ {
+  "sn": "h2osports",
+  "pk": 340194,
+  "verdict": "MATCH",
+  "printed": [
+   50.0
+  ],
+  "units": [
+   "From $50"
+  ],
+  "name": "Packages",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   15.0,
+   50.0,
+   53.0,
+   160.0,
+   190.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "600' Parasail + Tandem Jet Ski": 16000,
+   "600' Parasail + Banana Boat or Bumper Tube": 16000,
+   "Tandem Jet Ski + Bumper Tube or Banana Boat": 16000,
+   "600' Parasail + Tandem Jet Ski + Bumper Tube or Banana Boat": 19000,
+   "Tandem Jet Ski + Banana Boat + Bumper Tube": 19000,
+   "600' Parasail + Banana Boat + Bumper Tube": 19000,
+   "Observer": 5000,
+   "UPGRADE - Solo Jet Ski": 5300,
+   "UPGRADE - Higher Flyer": 1500,
+   "Observer - Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "hanaleicharters",
+  "pk": 437141,
+  "verdict": "MATCH",
+  "printed": [
+   299.0
+  ],
+  "units": [
+   "From $299 per adult"
+  ],
+  "name": "Morning N\u0101 Pali Adventure Tour",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   299.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 29900,
+   "Child": 29900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hanaleicharters",
+  "pk": 437221,
+  "verdict": "MATCH",
+  "printed": [
+   299.0
+  ],
+  "units": [
+   "From $299 per adult"
+  ],
+  "name": "Afternoon N\u0101 Pali Adventure Tour",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 3,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   299.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 29900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hanaleitrading",
+  "pk": 377497,
+  "verdict": "ROUNDING",
+  "printed": [
+   19.0
+  ],
+  "units": [
+   "From $19"
+  ],
+  "name": "Kids Dry Snorkel + Mask",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   14.97,
+   19.96,
+   21.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Three Day Rental": 1497,
+   "Four Day Rental": 1996,
+   "Five Day Rental": 2199,
+   "Six Day Rental": 2199,
+   "Weekly Rental": 2199
+  },
+  "ld": []
+ },
+ {
+  "sn": "hannahkealohaadventuretours",
+  "pk": 710651,
+  "verdict": "MATCH",
+  "printed": [
+   250.0
+  ],
+  "units": [
+   "From $250"
+  ],
+  "name": "\ud83c\udf0b Hilo Waterfalls & Volcano National Park Adventure",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 25000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiianadventureskona",
+  "pk": 266579,
+  "verdict": "VARIES",
+  "printed": [
+   109.0
+  ],
+  "units": [
+   "From $109 per adult"
+  ],
+  "name": "Pelagic Whale Watch",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   129.0,
+   3000.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 12900,
+   "Child": 12900,
+   "Private Charter - 4 Hour": 300000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiianshuttles",
+  "pk": 62862,
+  "verdict": "MATCH",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Waimea Falls & Valley & North Shore day",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   50.0,
+   75.0,
+   150.0,
+   500.0,
+   700.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Adult": 15000,
+   "Full Day Child": 7500,
+   "Young Child": 5000,
+   "Private Small Tour": 50000,
+   "Private Large Tour": 70000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiiapexcharters",
+  "pk": 565894,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99"
+  ],
+  "name": "Turtle Canyon Snorkel Tour",
+  "pages": [
+   "Whawaii/oahu.html",
+   "Whawaii/oahu.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   99.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiiforestandtrail",
+  "pk": 17262,
+  "verdict": "MATCH",
+  "printed": [
+   315.0
+  ],
+  "units": [
+   "From $315"
+  ],
+  "name": "Maunakea Summit & Stars Adventure",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   315.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 31500
+  },
+  "ld": [
+   "315"
+  ]
+ },
+ {
+  "sn": "hawaiiforestandtrail",
+  "pk": 17270,
+  "verdict": "MATCH",
+  "printed": [
+   190.0
+  ],
+  "units": [
+   "From $190"
+  ],
+  "name": "Hidden Craters Hike",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   165.0,
+   190.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 19000,
+   "Child": 16500
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiiislandandoceantours",
+  "pk": 159432,
+  "verdict": "STALE",
+  "printed": [
+   110.0
+  ],
+  "units": [
+   "From $110"
+  ],
+  "name": "Whale / Dolphin Watch, Sea Cave & Captain Cook Kealakekua Bay Reef Snorkel Speed Boat Adventure!",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   79.0,
+   100.0,
+   118.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 11800,
+   "12 or younger": 7900,
+   "Not snorkeling, Only Boat Ride": 10000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiiislandprivatecharters",
+  "pk": 508787,
+  "verdict": "MATCH",
+  "printed": [
+   2499.0
+  ],
+  "units": [
+   "From $2499 whole boat \u00b7 up to 6 people"
+  ],
+  "name": "Bespoke Private Charter",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   199.0,
+   499.0,
+   999.0,
+   2499.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hour Private Charter": 249900,
+   "Additional Hours": 49900,
+   "SCUBA Package Add-On": 99900,
+   "TRANSPORTATION Add-On": 49900,
+   "CATERED MENU Add-On": 19900
+  },
+  "ld": [
+   "2499"
+  ]
+ },
+ {
+  "sn": "hawaiiislandprivatecharters",
+  "pk": 508793,
+  "verdict": "MATCH",
+  "printed": [
+   3499.0
+  ],
+  "units": [
+   "From $3499"
+  ],
+  "name": "Epic Waterfalls and Valleys Adventure",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   199.0,
+   499.0,
+   999.0,
+   3499.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full Day Private Charter": 349900,
+   "SCUBA Package Add-On": 99900,
+   "TRANSPORTATION Add-On": 49900,
+   "CATERED MENU Add-On": 19900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiimarinelifecharters",
+  "pk": 506725,
+  "verdict": "MATCH",
+  "printed": [
+   130.0
+  ],
+  "units": [
+   "From $130"
+  ],
+  "name": "Sunset Manta Ray Snorkel",
+  "pages": [
+   "Whawaii/big-island.html",
+   "Whawaii/big-island.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   95.0,
+   120.0,
+   130.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 13000,
+   "Child": 12000,
+   "Ride Along": 9500
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiimarinelifecharters",
+  "pk": 690798,
+  "verdict": "MATCH",
+  "printed": [
+   700.0
+  ],
+  "units": [
+   "From $700"
+  ],
+  "name": "Private Kealakekua Bay Snorkel (Captain Cook Monument) & Dolphin Watch Tour",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   700.0,
+   950.0,
+   1350.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group: 1-5 Passengers": 70000,
+   "Group: 6-8 Passengers": 95000,
+   "Group: 9-10 Passengers": 135000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiinautical-kona",
+  "pk": 648190,
+  "verdict": "MATCH",
+  "printed": [
+   99.95
+  ],
+  "units": [
+   "From $99.95"
+  ],
+  "name": "Mauna Kea Deluxe Whale Watch Cruise",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   79.95,
+   99.95
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 9995,
+   "Child": 7995,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiioceancharters",
+  "pk": 203410,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Private Catamaran Cruise & Snorkeling Keanuenue",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   649.0,
+   950.0,
+   1199.0,
+   1498.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Two Hour Private Charter": 64900,
+   "Three Hour Private Charter": 95000,
+   "Four Hour Private Charter": 119900,
+   "Five Hour Private Charter": 149800
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiioceancharters",
+  "pk": 527283,
+  "verdict": "MATCH",
+  "printed": [
+   109.0
+  ],
+  "units": [
+   "From $109 per person"
+  ],
+  "name": "Semi|Private Turtle Snorkel & Catamaran Cruise",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   109.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 10900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiioceanrafting",
+  "pk": 377165,
+  "verdict": "MATCH",
+  "printed": [
+   189.0
+  ],
+  "units": [
+   "From $189 per adult"
+  ],
+  "name": "Eco-Raft:  Lanai Snorkel & Dolphin Watch (Semi|Private)",
+  "pages": [
+   "Whawaii/snorkeling.html",
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   149.0,
+   169.0,
+   189.0,
+   3875.0,
+   5500.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 18900,
+   "Child": 16900,
+   "Kama\u02bb\u0101ina - Adult": 16900,
+   "Kama\u02bb\u0101ina - Child": 14900,
+   "Private Charter Raft - 18 Passenger": 387500
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiioceanrafting",
+  "pk": 377167,
+  "verdict": "MATCH",
+  "printed": [
+   179.0
+  ],
+  "units": [
+   "From $179 per adult"
+  ],
+  "name": "Eco-Raft: 2n1 Turtle Snorkel & Whale Watch Tour (Semi|Private)",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   135.0,
+   153.0,
+   159.0,
+   179.0,
+   3100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17900,
+   "Child": 15900,
+   "Kama\u02bb\u0101ina - Adult": 15300,
+   "Kama\u02bb\u0101ina - Child": 13500,
+   "Private Charter Raft - 18 Passenger (4 HR)": 310000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiioceanrafting",
+  "pk": 377199,
+  "verdict": "VARIES",
+  "printed": [
+   97.0
+  ],
+  "units": [
+   "From $97",
+   "From $97 per adult"
+  ],
+  "name": "Eco-Raft: Eye-Level Whale Watch Tour",
+  "pages": [
+   "Whawaii/index.html",
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   73.5,
+   79.5,
+   89.0,
+   97.0,
+   2200.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 9700,
+   "Child": 8900,
+   "Kama\u02bb\u0101ina - Adult": 7950,
+   "Kama\u02bb\u0101ina - Child": 7350,
+   "Private Charter Raft \"Kai\" - 26 Passenger": 220000
+  },
+  "ld": [
+   "97"
+  ]
+ },
+ {
+  "sn": "hawaiioceansports",
+  "pk": 479992,
+  "verdict": "MATCH",
+  "printed": [
+   50.0
+  ],
+  "units": [
+   "From $50"
+  ],
+  "name": "Glass Bottom Boat Cruises",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   25.0,
+   50.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 5000,
+   "Child": 2500,
+   "Infant/Toddler": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiireisetipps",
+  "pk": 447557,
+  "verdict": "MATCH",
+  "printed": [
+   299.0
+  ],
+  "units": [
+   "From $299"
+  ],
+  "name": "Luau Transportation Private Group Oahu",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   299.0,
+   399.0,
+   699.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One to six people": 29900,
+   "Seven to fourteen people": 39900,
+   "Fifteen to twenty-six people": 69900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hawaiitourboat",
+  "pk": 497012,
+  "verdict": "MATCH",
+  "printed": [
+   1500.0
+  ],
+  "units": [
+   "From $1500"
+  ],
+  "name": "Private Manta Ray Night Adventure",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1500.0,
+   2500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Small Private Charter": 150000,
+   "Large Private Charter": 250000
+  },
+  "ld": []
+ },
+ {
+  "sn": "heavenlyhawaiian",
+  "pk": 368126,
+  "verdict": "MATCH",
+  "printed": [
+   100.0
+  ],
+  "units": [
+   "From $100"
+  ],
+  "name": "Paint & Sip Painting class with great coffee & a view!",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 11,
+  "modal_tiers": [
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 10000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hhsurf",
+  "pk": 991,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Surf Lessons",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   100.0,
+   140.0,
+   175.0,
+   400.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Group Lesson": 10000,
+   "Semi Private Lesson": 14000,
+   "Private Lesson": 17500,
+   "Surf with a Pro": 40000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hikemaui",
+  "pk": 69005,
+  "verdict": "MATCH",
+  "printed": [
+   249.0
+  ],
+  "units": [
+   "From $249"
+  ],
+  "name": "Kayak, Snorkel & Waterfall Combo Tour",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   249.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Hiker - Online": 24900
+  },
+  "ld": [
+   "249"
+  ]
+ },
+ {
+  "sn": "hilooceanadventures",
+  "pk": 182740,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Private Big Game Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   799.0,
+   999.0,
+   1199.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hour Charter": 79900,
+   "Six Hour Charter": 99900,
+   "Eight Hour Charter": 119900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hilooceanadventures",
+  "pk": 423893,
+  "verdict": "MATCH",
+  "printed": [
+   269.0
+  ],
+  "units": [
+   "From $269"
+  ],
+  "name": "2 Tank Boat Dive - Hilo Horizons",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   269.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 26900,
+   "Hilo Dive Club Diver": 26900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hilooceanadventures",
+  "pk": 425699,
+  "verdict": "MATCH",
+  "printed": [
+   139.0
+  ],
+  "units": [
+   "From $139"
+  ],
+  "name": "1 Tank Boat Dive - Hilo Horizons",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   139.0,
+   189.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 18900,
+   "Snorkeler": 13900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hilooceanadventures",
+  "pk": 425709,
+  "verdict": "MATCH",
+  "printed": [
+   139.0
+  ],
+  "units": [
+   "From $139 per person"
+  ],
+  "name": "Royal Humpback Whale Experience",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   139.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adventurer": 13900
+  },
+  "ld": []
+ },
+ {
+  "sn": "hokuwatersports",
+  "pk": 22559,
+  "verdict": "MATCH",
+  "printed": [
+   89.0
+  ],
+  "units": [
+   "From $89"
+  ],
+  "name": "Group Surfing Lesson",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8900,
+   "Child (8 yrs. minimum)": 8900
+  },
+  "ld": []
+ },
+ {
+  "sn": "holoholo",
+  "pk": 1804,
+  "verdict": "VARIES",
+  "printed": [
+   235.0
+  ],
+  "units": [
+   "From $235 per adult"
+  ],
+  "name": "Napali Snorkel Sail",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   215.0,
+   235.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Adult": 23500,
+   "Child": 21500
+  },
+  "ld": []
+ },
+ {
+  "sn": "hookdonadventureparguera",
+  "pk": 215903,
+  "verdict": "VARIES",
+  "printed": [
+   70.0
+  ],
+  "units": [
+   "From $70"
+  ],
+  "name": "Sunset + Swim the Bioluminescent Bay Tour",
+  "pages": [
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   55.0,
+   70.0,
+   450.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Person": 7000,
+   "Infant": 5500,
+   "Private Charter": 45000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hookdonadventureparguera",
+  "pk": 215908,
+  "verdict": "MATCH",
+  "printed": [
+   350.0
+  ],
+  "units": [
+   "From $350 Private Charter"
+  ],
+  "name": "Private: Snorkeling Boat Day Charter",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   350.0,
+   450.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Private Charter": 35000,
+   "Twin Vee Boat Upgrade": 45000,
+   "Starcraft Boat Upgrade": 45000
+  },
+  "ld": [
+   "350"
+  ]
+ },
+ {
+  "sn": "hookedonkauai",
+  "pk": 274871,
+  "verdict": "MATCH",
+  "printed": [
+   250.0
+  ],
+  "units": [
+   "From $250 per adult"
+  ],
+  "name": "Four Hour Shoreline Fishing Adventure",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 11,
+  "modal_tiers": [
+   150.0,
+   250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 25000,
+   "Child": 15000
+  },
+  "ld": []
+ },
+ {
+  "sn": "horizonoceancharters",
+  "pk": 515141,
+  "verdict": "MATCH",
+  "printed": [
+   1500.0
+  ],
+  "units": [
+   "From $1500"
+  ],
+  "name": "Private Waikiki Sunset Cruise",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "1.5 Hour Charter": 150000
+  },
+  "ld": []
+ },
+ {
+  "sn": "hulakaisurfco",
+  "pk": 37420,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125"
+  ],
+  "name": "SUP Adventure",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   125.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "2 or more people": 12500
+  },
+  "ld": []
+ },
+ {
+  "sn": "hulakaisurfco",
+  "pk": 576870,
+  "verdict": "MATCH",
+  "printed": [
+   15.0
+  ],
+  "units": [
+   "From $15 per group"
+  ],
+  "name": "Beach Chair Rentals",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   15.0,
+   35.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Beach Chair - Day": 1500,
+   "Beach Chair - Week": 3500
+  },
+  "ld": [
+   "15"
+  ]
+ },
+ {
+  "sn": "ikapr",
+  "pk": 168561,
+  "verdict": "VARIES",
+  "printed": [
+   65.0
+  ],
+  "units": [
+   "From $65"
+  ],
+  "name": "Glowing Bio Bay Kayak Adventure",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   65.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 6500,
+   "Minor": 6500
+  },
+  "ld": []
+ },
+ {
+  "sn": "irukajapan",
+  "pk": 587829,
+  "verdict": "MATCH",
+  "printed": [
+   80.0
+  ],
+  "units": [
+   "From $80"
+  ],
+  "name": "Waikiki Whale Watch",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   80.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8000,
+   "Child": 8000,
+   "Infant": 0
+  },
+  "ld": [
+   "80"
+  ]
+ },
+ {
+  "sn": "irukakona",
+  "pk": 580134,
+  "verdict": "MATCH",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Kealakekua Bay: Ocean Safari Snorkel, + Dolphin & Whale Watch",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   125.0,
+   150.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 15000,
+   "Child": 12500,
+   "Infant": 0,
+   "Ride along ticket": 12500
+  },
+  "ld": []
+ },
+ {
+  "sn": "islacaribetours",
+  "pk": 744620,
+  "verdict": "ARCHIVED/PRIVATE",
+  "printed": [
+   129.0
+  ],
+  "units": [
+   "From $129 per person"
+  ],
+  "name": "Lo\u00edza: Historia Cultura y Tradici\u00f3n",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": [
+   "129"
+  ]
+ },
+ {
+  "sn": "islandjourneys",
+  "pk": 170688,
+  "verdict": "MATCH",
+  "printed": [
+   165.0
+  ],
+  "units": [
+   "From $165"
+  ],
+  "name": "El Yunque Rainforest & Bio Bay Combo Tour",
+  "pages": [
+   "Wpuertorico/el-yunque.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   165.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 16500
+  },
+  "ld": []
+ },
+ {
+  "sn": "islandreeftours",
+  "pk": 250873,
+  "verdict": "MATCH",
+  "printed": [
+   1495.0
+  ],
+  "units": [
+   "From $1,495 Private charter"
+  ],
+  "name": "Scuba Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1495.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 149500
+  },
+  "ld": [
+   "1495"
+  ]
+ },
+ {
+  "sn": "islandreeftours",
+  "pk": 250880,
+  "verdict": "MATCH",
+  "printed": [
+   1895.0
+  ],
+  "units": [
+   "From $1,895 Private charter"
+  ],
+  "name": "Fishing Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1895.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 189500
+  },
+  "ld": [
+   "1895"
+  ]
+ },
+ {
+  "sn": "islandreeftours",
+  "pk": 250891,
+  "verdict": "MATCH",
+  "printed": [
+   1995.0
+  ],
+  "units": [
+   "From $1,995 Private charter"
+  ],
+  "name": "Full Day To Culebra",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1995.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 199500
+  },
+  "ld": [
+   "1995"
+  ]
+ },
+ {
+  "sn": "islandstylediving",
+  "pk": 480022,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [
+   279.0
+  ],
+  "units": [
+   "From $279"
+  ],
+  "name": "2 Tank Holo Holo Drift Day",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "jmadventuretourspr",
+  "pk": 452538,
+  "verdict": "ROUNDING",
+  "printed": [
+   79.0
+  ],
+  "units": [
+   "From $79"
+  ],
+  "name": "Rainforest Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   80.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 8000
+  },
+  "ld": [
+   "79"
+  ]
+ },
+ {
+  "sn": "jomacallc",
+  "pk": 628541,
+  "verdict": "MATCH",
+  "printed": [
+   80.0
+  ],
+  "units": [
+   "From $80 per person"
+  ],
+  "name": "Harvest Coffee Experience (September-October)",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 9,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   50.0,
+   80.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8000,
+   "Youth": 5000,
+   "Senior": 8000
+  },
+  "ld": [
+   "80"
+  ]
+ },
+ {
+  "sn": "kaanapalioceanadventures",
+  "pk": 9495,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Morning Lana\u2018i Snorkel Tour",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   129.0,
+   179.0,
+   229.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17900,
+   "Adult + Snorkel Sea Scooter": 22900,
+   "Child": 12900,
+   "Child + Snorkel Sea Scooter": 17900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kailuasailboards",
+  "pk": 323,
+  "verdict": "MATCH",
+  "printed": [
+   179.0
+  ],
+  "units": [
+   "From $179 per adult"
+  ],
+  "name": "2-Hour Guided Kayak + Beach Time",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   159.0,
+   179.0,
+   239.0,
+   339.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17900,
+   "Child": 15900,
+   "Adult or Child \u2013 Private Tour": 33900,
+   "Adult or Child - Private Group Tour": 23900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kailuasailboards",
+  "pk": 327,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99"
+  ],
+  "name": "Self|Guided Kayaking Discovery",
+  "pages": [
+   "Whawaii/kayak.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   89.0,
+   99.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 9900,
+   "Child": 8900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kailuasailboards",
+  "pk": 504,
+  "verdict": "VARIES",
+  "printed": [
+   249.0
+  ],
+  "units": [
+   "From $249 per adult"
+  ],
+  "name": "Twin Islands Guided Kayak Tour",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   249.0,
+   339.0,
+   439.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 24900,
+   "Adult or Child \u2013 Private Tour": 43900,
+   "Adult or Child - Private Group Tour": 33900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kamoanaluau",
+  "pk": 727558,
+  "verdict": "MATCH",
+  "printed": [
+   275.0
+  ],
+  "units": [
+   "From $275"
+  ],
+  "name": "Standard Diamond Head Feast",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 3,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   175.0,
+   275.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Aloha Standard Adult w/ Transportation": 27500,
+   "Aloha Standard Child w/ Transportation": 17500
+  },
+  "ld": []
+ },
+ {
+  "sn": "kapohokine",
+  "pk": 118617,
+  "verdict": "MATCH",
+  "printed": [
+   209.0
+  ],
+  "units": [
+   "From $209"
+  ],
+  "name": "Ultimate Circle Island Explorer (Kona Pick Up)",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   199.0,
+   209.0,
+   1599.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 20900,
+   "Child": 19900,
+   "GO PRIVATE UP TO 12 GUESTS": 159900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauai-ebikes",
+  "pk": 417334,
+  "verdict": "MATCH",
+  "printed": [
+   431.0
+  ],
+  "units": [
+   "From $431"
+  ],
+  "name": "7-Day Ebike Rental",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   431.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Aventon Level Small E-Bike": 43100,
+   "Aventon Pace 500 Medium E-Bike": 43100,
+   "Aventon Pace 500 Large E-Bike": 43100,
+   "Aventon Pace 350 Medium E-Bike": 43100,
+   "Aventon Pace 350 Small E-Bike": 43100,
+   "Aventon Aventure fat tire": 43100,
+   "Aventon Level ebike Small": 43100,
+   "Aventon Level ebike M/L": 43100
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauai-ebikes",
+  "pk": 435792,
+  "verdict": "MATCH",
+  "printed": [
+   217.0
+  ],
+  "units": [
+   "From $217"
+  ],
+  "name": "2-Day Ebike Rental",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   217.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Aventon Level Small E-Bike": 21700,
+   "Aventon Pace 500 Medium E-Bike": 21700,
+   "Aventon Pace 500 Large E-Bike": 21700,
+   "Aventon Pace 350 Medium E-Bike": 21700,
+   "Aventon Pace 350 Small E-Bike": 21700,
+   "Aventon Aventure fat tire": 21700,
+   "Aventon Level ebike Small": 21700,
+   "Aventon Level ebike M/L": 21700
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauai-ebikes",
+  "pk": 439960,
+  "verdict": "MATCH",
+  "printed": [
+   132.0
+  ],
+  "units": [
+   "From $132"
+  ],
+  "name": "5-Day single-speed bike",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   132.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Sole Nine \"O\" single-speed bike": 13200,
+   "Sole Harambe sngle-speed bike": 13200
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauaiadventurefitness",
+  "pk": 82556,
+  "verdict": "MATCH",
+  "printed": [
+   100.0
+  ],
+  "units": [
+   "From $100"
+  ],
+  "name": "Stand Up Paddle Rentals at Anini Beach",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   100.0,
+   150.0,
+   200.0,
+   250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One Day Rental": 0,
+   "Two Days Rental": 10000,
+   "Three Days Rental": 15000,
+   "Four Days Rental": 20000,
+   "Five Days Rental": 25000,
+   "Private Group": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauaibeachboys",
+  "pk": 140356,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [
+   247.0
+  ],
+  "units": [
+   "From $247"
+  ],
+  "name": "Waterfall Rappel",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "kauaiplantationrailway",
+  "pk": 4027,
+  "verdict": "ROUNDING",
+  "printed": [
+   24.0
+  ],
+  "units": [
+   "From $24"
+  ],
+  "name": "Signature Train Tour",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   12.0,
+   16.5,
+   17.0,
+   20.0,
+   23.5
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 2350,
+   "Senior": 2000,
+   "Child": 1650,
+   "Infant": 0,
+   "Kama'aina Adult": 1700,
+   "Kama'aina Child": 1200
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauaiztours",
+  "pk": 34579,
+  "verdict": "MATCH",
+  "printed": [
+   135.5
+  ],
+  "units": [
+   "From $135.5 per adult"
+  ],
+  "name": "Kauai\u2019s SOUTH SIDE Zodiac Boat Snorkel Adventure",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   115.5,
+   135.5,
+   1599.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 13550,
+   "Child": 11550,
+   "Private Snorkel Boat Charter (3 Hours)": 159900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kauaiztours",
+  "pk": 34580,
+  "verdict": "MATCH",
+  "printed": [
+   115.5
+  ],
+  "units": [
+   "From $115.5 per adult"
+  ],
+  "name": "Kauai\u2019s Ultimate SOUTH SIDE Whale & Dolphin Zodiac Boat Adventure",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   105.5,
+   115.5,
+   1350.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 11550,
+   "Child": 10550,
+   "Private Whale & Dolphin Adventure": 135000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kayakingpuertorico",
+  "pk": 3727,
+  "verdict": "MATCH",
+  "printed": [
+   109.0
+  ],
+  "units": [
+   "From $109"
+  ],
+  "name": "Culebra Island Aquafari (with Ferry Tickets)",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   109.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 10900,
+   "Child": 10900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kayakingpuertorico",
+  "pk": 3728,
+  "verdict": "MATCH",
+  "printed": [
+   70.0
+  ],
+  "units": [
+   "From $70"
+  ],
+  "name": "Bio Bay Kayak Tour",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/bio-bay.html*",
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/fajardo.html*",
+   "Wpuertorico/kayaking.html",
+   "Wpuertorico/kayaking.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   70.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 7000,
+   "Child": 7000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kayakingpuertorico",
+  "pk": 3729,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Mini Boat Snorkel Adventure",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [],
+  "tier_variants": 1,
+  "named": {
+   "Mini Boat": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "kayakingpuertorico",
+  "pk": 94000,
+  "verdict": "MATCH",
+  "printed": [
+   165.0
+  ],
+  "units": [
+   "From $165"
+  ],
+  "name": "Bio Bay & Rainforest Combo Tour",
+  "pages": [
+   "Wpuertorico/el-yunque.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   165.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 16500,
+   "Child": 16500
+  },
+  "ld": []
+ },
+ {
+  "sn": "kayakolowalu",
+  "pk": 47100,
+  "verdict": "MATCH",
+  "printed": [
+   80.0
+  ],
+  "units": [
+   "From $80"
+  ],
+  "name": "Kayak Tours",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 7,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   60.0,
+   80.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8000,
+   "Child": 6000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kbaysnorkel",
+  "pk": 644012,
+  "verdict": "MATCH",
+  "printed": [
+   1500.0
+  ],
+  "units": [
+   "From $1500"
+  ],
+  "name": "Private Charter",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1500.0,
+   2000.0,
+   4000.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Small Private Charter": 150000,
+   "Large Private Charter": 200000,
+   "XL Private Charter": 400000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kekokauai",
+  "pk": 424538,
+  "verdict": "MATCH",
+  "printed": [
+   29.0
+  ],
+  "units": [
+   "From $29"
+  ],
+  "name": "Kauai Bike Explorer",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 15,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   29.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 2900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kitepuertorico",
+  "pk": 245324,
+  "verdict": "MATCH",
+  "printed": [
+   1500.0
+  ],
+  "units": [
+   "From $1,500"
+  ],
+  "name": "12 Hour Private Kiteboarding Lesson Package",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Twelve Hour Lesson Package": 150000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kitepuertorico",
+  "pk": 449138,
+  "verdict": "MATCH",
+  "printed": [
+   2149.0
+  ],
+  "units": [
+   "From $2,149"
+  ],
+  "name": "The Ultimate Kitecation",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   2149.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Kite Package": 214900
+  },
+  "ld": []
+ },
+ {
+  "sn": "kndchiliboatsadventure",
+  "pk": 421942,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Jet Ski Rental Freestyle 1h",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   180.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Jetski": 18000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kndchiliboatsadventure",
+  "pk": 428431,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Jet Ski Rental Freestyle 30 mim",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   90.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Jetski": 9000
+  },
+  "ld": []
+ },
+ {
+  "sn": "kohaladivers",
+  "pk": 780,
+  "verdict": "STALE",
+  "printed": [
+   149.0
+  ],
+  "units": [
+   "Check live price",
+   "From $149"
+  ],
+  "name": "Whale Watch and Sunset Cruise",
+  "pages": [
+   "Whawaii/big-island.html",
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   119.0,
+   159.0,
+   2700.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Whale Watch": 15900,
+   "Child Whale Watch": 11900,
+   "Private Charter": 270000,
+   "Club hop on Whale Watcher": 15900
+  },
+  "ld": []
+ },
+ {
+  "sn": "konacoastexpeditions",
+  "pk": 732631,
+  "verdict": "MATCH",
+  "printed": [
+   3000.0
+  ],
+  "units": [
+   "From $3000"
+  ],
+  "name": "Private Charter",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   3000.0,
+   4000.0,
+   5000.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "3 Hours Private Charter": 300000,
+   "4 Hours Private Charter": 400000,
+   "5 Hours Private Charter": 500000
+  },
+  "ld": []
+ },
+ {
+  "sn": "konadivingcompany",
+  "pk": 451345,
+  "verdict": "MATCH",
+  "printed": [
+   140.0
+  ],
+  "units": [
+   "From $140"
+  ],
+  "name": "Imi Kai Snorkel Adventure",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   140.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Snorkeler": 14000
+  },
+  "ld": []
+ },
+ {
+  "sn": "konahonudivers",
+  "pk": 1470,
+  "verdict": "VARIES",
+  "printed": [
+   199.0
+  ],
+  "units": [
+   "From $199"
+  ],
+  "name": "2-Tank Local Morning Dive Charter",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   99.0,
+   199.0,
+   299.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Certified Diver": 19900,
+   "Refresher Dive": 29900,
+   "Observer": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "konahonudivers",
+  "pk": 273080,
+  "verdict": "MATCH",
+  "printed": [
+   1099.0
+  ],
+  "units": [
+   "From $1099"
+  ],
+  "name": "Advanced Open Water Diver Course",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 5,
+  "modal_tiers": [
+   1099.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Advanced Open Water": 109900
+  },
+  "ld": []
+ },
+ {
+  "sn": "konahonudivers",
+  "pk": 467491,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "PADI Underwater Navigation Specialty",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 15,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   499.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Specialty Student": 49900
+  },
+  "ld": []
+ },
+ {
+  "sn": "konaoffshoreadventures",
+  "pk": 567354,
+  "verdict": "MATCH",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Sunset Cruise",
+  "pages": [
+   "Whawaii/big-island.html",
+   "Whawaii/big-island.html*"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   150.0,
+   900.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 15000,
+   "Private Charter": 90000
+  },
+  "ld": []
+ },
+ {
+  "sn": "konashoredivers",
+  "pk": 668107,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "Influencer Photo Package",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 11,
+  "modal_tiers": [],
+  "tier_variants": 1,
+  "named": {
+   "Influencer Photo Package": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "konasnorkeltrips",
+  "pk": 13712,
+  "verdict": "VARIES",
+  "printed": [
+   139.0
+  ],
+  "units": [
+   "From $139",
+   "From $139 per person"
+  ],
+  "name": "Captain Cook Monument Kealakekua Bay Snorkeling Tour",
+  "pages": [
+   "Whawaii/big-island.html",
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   129.0,
+   149.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Person: Refundable: Up To 48 Hours Before Trip": 14900,
+   "Person:  Non-Refundable \u2022 All Sales are Final": 12900
+  },
+  "ld": []
+ },
+ {
+  "sn": "konasnorkeltrips",
+  "pk": 13713,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Night Manta Ray Snorkeling Tour",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   139.0,
+   159.0
+  ],
+  "tier_variants": 4,
+  "named": {
+   "Person: Refundable: Up To 48 Hours Before Trip": 16900,
+   "Person:  Non-Refundable \u2022 All Sales are Final": 14900
+  },
+  "ld": []
+ },
+ {
+  "sn": "konasnorkeltrips",
+  "pk": 139321,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99 per person"
+  ],
+  "name": "Kona Snorkeling in Pawai Bay",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   99.0,
+   117.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person: Refundable: Up To 48 Hours Before Trip": 11700,
+   "Person:  Non-Refundable \u2022 All Sales are Final": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "koolinaoceanadventures",
+  "pk": 323959,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Catamaran Snorkel Sail - Sunrise",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   45.0,
+   55.0,
+   136.0,
+   146.0,
+   165.0,
+   166.0,
+   176.0,
+   195.0,
+   225.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult (With Transportation)": 22500,
+   "Adult (No Transportation)": 19500,
+   "Child (With Transportation)": 19500,
+   "Child (No Transportation)": 16500,
+   "Infant (With Transportation)": 5500,
+   "Infant (No Transportation)": 4500,
+   "Kama'aina/Military Adult (with Transportation)": 17600,
+   "Kama'aina/Military Adult (No Transportation)": 14600,
+   "Kama'aina/Military Child (with Transportation)": 16600,
+   "Kama'aina/Military Child (No Transportation)": 13600,
+   "BOGO | Adult (With Transportation)": 11250,
+   "BOGO | Adult (No transportation)": 9750,
+   "BOGO | Child (With Transportation)": 9750,
+   "BOGO | Child (No Transportation)": 8250,
+   "BOGO | Infant (With Transportation)": 2750,
+   "BOGO | Infant (No Transportation)": 2250
+  },
+  "ld": []
+ },
+ {
+  "sn": "lagosdeplataresidences",
+  "pk": 483249,
+  "verdict": "STALE",
+  "printed": [
+   25.0
+  ],
+  "units": [
+   "From $25 Gazebo Rental"
+  ],
+  "name": "Pavilion/Gazebo Rental/Park",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   10.0,
+   20.0,
+   30.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "1 Hour": 1000,
+   "2 Hours": 2000,
+   "3 Hours": 3000
+  },
+  "ld": [
+   "25"
+  ]
+ },
+ {
+  "sn": "lanaisnorkelsafari",
+  "pk": 713164,
+  "verdict": "MATCH",
+  "printed": [
+   3700.0
+  ],
+  "units": [
+   "From $3700"
+  ],
+  "name": "Private Charter Lanai Snorkel Safari  Tour",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   3700.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Snorkeler": 370000
+  },
+  "ld": []
+ },
+ {
+  "sn": "lapaseadora",
+  "pk": 633899,
+  "verdict": "MATCH",
+  "printed": [
+   25.0
+  ],
+  "units": [
+   "From $25"
+  ],
+  "name": "La Paseadora del R\u00edo Esp\u00edritu Santo Original Boat Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   20.0,
+   25.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 2500,
+   "Child": 2000,
+   "Infant": 0
+  },
+  "ld": [
+   "25"
+  ]
+ },
+ {
+  "sn": "learntosurfkona",
+  "pk": 39954,
+  "verdict": "MATCH",
+  "printed": [
+   139.0
+  ],
+  "units": [
+   "From $139"
+  ],
+  "name": "Group Surf Lesson",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   139.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Surfer": 13900
+  },
+  "ld": []
+ },
+ {
+  "sn": "leigreeting",
+  "pk": 69207,
+  "verdict": "MATCH",
+  "printed": [
+   39.0
+  ],
+  "units": [
+   "From $39"
+  ],
+  "name": "Large Group Greeting (8 or more) -  L\u012bhu\u02bbe Kaua'i Airport",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   39.0,
+   80.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Classic Orchid Lei": 3900,
+   "Deluxe Orchid Lei": 8000
+  },
+  "ld": []
+ },
+ {
+  "sn": "leilanifarmsanctuary",
+  "pk": 306442,
+  "verdict": "MATCH",
+  "printed": [
+   50.0
+  ],
+  "units": [
+   "From $50"
+  ],
+  "name": "Leilani Farm Sanctuary Tour",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   35.0,
+   50.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 5000,
+   "Child": 5000,
+   "Kama\u02bb\u0101ina Resident - Adult (Hawaii Residents)": 3500,
+   "Kama\u02bb\u0101ina Resident - Child (Hawaii Residents)": 3500
+  },
+  "ld": []
+ },
+ {
+  "sn": "leisureboatexperience",
+  "pk": 421037,
+  "verdict": "MATCH",
+  "printed": [
+   2200.0
+  ],
+  "units": [
+   "From $2,200 Essential Trip \u2022 5-6 Guests"
+  ],
+  "name": "Vieques Island",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   2200.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Essential Trip \u2022 5-6 Guests": 220000
+  },
+  "ld": [
+   "2200"
+  ]
+ },
+ {
+  "sn": "leisureboatexperience",
+  "pk": 691907,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Price on request"
+  ],
+  "name": "Sunset Experience at Fajardo Keys: Palomino or Icacos",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   1250.0,
+   1290.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Essential Trip \u2022 1-4 Guests": 125000,
+   "Essential Trip \u2022 5-6 Guests": 129000
+  },
+  "ld": []
+ },
+ {
+  "sn": "lifebelowthesurface",
+  "pk": 554738,
+  "verdict": "MATCH",
+  "printed": [
+   7000.0
+  ],
+  "units": [
+   "From $7,000"
+  ],
+  "name": "South Coast Wahoo Expeditions",
+  "pages": [
+   "Wpuertorico/index.html",
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 15,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   7000.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "South Coast Wahoo Expedition": 700000
+  },
+  "ld": []
+ },
+ {
+  "sn": "livingoceanscuba",
+  "pk": 284519,
+  "verdict": "MATCH",
+  "printed": [
+   79.0
+  ],
+  "units": [
+   "From $79 per person"
+  ],
+  "name": "Turtle Canyons Snorkel Excursion",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/family-tours-oahu.html*",
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   79.0,
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Age 3+: Refundable \u2022 Up To 48 Hours Before Trip": 8900,
+   "Person Ages 3+:  Non-Refundable \u2022 All Sales are Final": 7900,
+   "Infant (Children Under 3 Not Permitted)": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "livingoceanscuba",
+  "pk": 323935,
+  "verdict": "MATCH",
+  "printed": [
+   59.0
+  ],
+  "units": [
+   "From $59 per person"
+  ],
+  "name": "Waikiki Sunset Cruise BYOB",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   59.0,
+   69.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Age 3+: Refundable \u2022 Up To 48 Hours Before Trip": 6900,
+   "Person Ages 3+:  Non-Refundable \u2022 All Sales are Final": 5900
+  },
+  "ld": []
+ },
+ {
+  "sn": "livingoceanscuba",
+  "pk": 494462,
+  "verdict": "MATCH",
+  "printed": [
+   79.0
+  ],
+  "units": [
+   "From $79 per person"
+  ],
+  "name": "Deluxe Snorkel and Wildlife Cruise",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   79.0,
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Age 3+: Refundable \u2022 Up To 48 Hours Before Trip": 8900,
+   "Person Ages 3+:  Non-Refundable \u2022 All Sales are Final": 7900
+  },
+  "ld": []
+ },
+ {
+  "sn": "lokahiphotographymaui",
+  "pk": 609429,
+  "verdict": "MATCH",
+  "printed": [
+   595.0
+  ],
+  "units": [
+   "From $595"
+  ],
+  "name": "60 Minute Photo Shoot - Maui",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   595.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Photoshoot": 59500
+  },
+  "ld": []
+ },
+ {
+  "sn": "loopexperience",
+  "pk": 679529,
+  "verdict": "MATCH",
+  "printed": [
+   89.0
+  ],
+  "units": [
+   "From $89 per person"
+  ],
+  "name": "Old San Juan Icons Experience",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   59.0,
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8900,
+   "Child Seat": 5900
+  },
+  "ld": [
+   "89"
+  ]
+ },
+ {
+  "sn": "luau-kalamaku",
+  "pk": 602743,
+  "verdict": "ROUNDING",
+  "printed": [
+   231.0
+  ],
+  "units": [
+   "From $231"
+  ],
+  "name": "Silver Package with Round-Trip Transportation",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 5,
+  "modal_tiers": [
+   94.34,
+   96.46,
+   153.7,
+   157.94,
+   231.08,
+   235.32
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Central Transport - Adult": 23108,
+   "Central Transport - Teen": 15370,
+   "Central Transport - Child": 9434,
+   "Central Transport - Infant": 0,
+   "North Transport - Adult": 23532,
+   "North Transport - Teen": 15794,
+   "North Transport - Child": 9646,
+   "North Transport - Infant": 0,
+   "Poipu Transport - Adult": 23108,
+   "Poipu Transport - Teen": 15370,
+   "Poipu Transport - Child": 9434,
+   "Poipu Transport - Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "luau-kalamaku",
+  "pk": 602744,
+  "verdict": "ROUNDING",
+  "printed": [
+   232.0
+  ],
+  "units": [
+   "From $232"
+  ],
+  "name": "Silver Package with Train Ride",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   100.7,
+   154.76,
+   232.14
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 23214,
+   "Teen": 15476,
+   "Child": 10070,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "luquilloflyboard",
+  "pk": 567616,
+  "verdict": "MATCH",
+  "printed": [
+   420.0
+  ],
+  "units": [
+   "From $420"
+  ],
+  "name": "Flyboard for 7 People",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   420.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Flyboard Session": 42000
+  },
+  "ld": []
+ },
+ {
+  "sn": "mahinahawaii",
+  "pk": 9791,
+  "verdict": "STALE",
+  "printed": [
+   295.0
+  ],
+  "units": [
+   "From $295"
+  ],
+  "name": "Stand Up Paddle / Kayak",
+  "pages": [
+   "Whawaii/kayak.html",
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   450.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Group": 45000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294536,
+  "verdict": "MATCH",
+  "printed": [
+   300.0
+  ],
+  "units": [
+   "From $300 per person"
+  ],
+  "name": "4 Hour DELUXE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   300.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Fishing": 30000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294831,
+  "verdict": "MATCH",
+  "printed": [
+   340.0
+  ],
+  "units": [
+   "From $340 per person"
+  ],
+  "name": "6 Hour DELUXE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   340.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Fishing": 34000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294832,
+  "verdict": "MATCH",
+  "printed": [
+   200.0
+  ],
+  "units": [
+   "From $200 per person"
+  ],
+  "name": "4 Hour SHARE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   200.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Fishing": 20000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294833,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "4 Hour PRIVATE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   850.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 85000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294834,
+  "verdict": "MATCH",
+  "printed": [
+   250.0
+  ],
+  "units": [
+   "From $250 per person"
+  ],
+  "name": "6 Hour SHARE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Fishing": 25000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294835,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "6 Hour PRIVATE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   1100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 110000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294837,
+  "verdict": "MATCH",
+  "printed": [
+   400.0
+  ],
+  "units": [
+   "From $400 per person"
+  ],
+  "name": "8 Hour DELUXE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   400.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person Fishing": 40000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294838,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "8 Hour PRIVATE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   1400.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 140000
+  },
+  "ld": []
+ },
+ {
+  "sn": "makaisportfishing",
+  "pk": 294839,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "10 Hour PRIVATE Kauai Sportfishing Tour",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   1700.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private charter": 170000
+  },
+  "ld": []
+ },
+ {
+  "sn": "malahinitours",
+  "pk": 138453,
+  "verdict": "MATCH",
+  "printed": [
+   172.49
+  ],
+  "units": [
+   "From $172.49"
+  ],
+  "name": "Majestic Waterfalls Tour",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   172.49,
+   189.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17249,
+   "Child": 18999
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauiadventuretours",
+  "pk": 587477,
+  "verdict": "MATCH",
+  "printed": [
+   119.0
+  ],
+  "units": [
+   "From $119"
+  ],
+  "name": "Shoreline Snorkel at Turtle Reef - Olowalu Beach",
+  "pages": [
+   "Whawaii/maui.html",
+   "Whawaii/maui.html*"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   99.0,
+   109.0,
+   119.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 11900,
+   "Youth": 10900,
+   "Child": 9900,
+   "Senior": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauialpaca",
+  "pk": 390836,
+  "verdict": "MATCH",
+  "printed": [
+   199.0
+  ],
+  "units": [
+   "From $199"
+  ],
+  "name": "Maui Alpaca Trekking",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   175.0,
+   199.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 19900,
+   "Youth": 17500
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauidreamsdiveco",
+  "pk": 95024,
+  "verdict": "MATCH",
+  "printed": [
+   239.0
+  ],
+  "units": [
+   "From $239"
+  ],
+  "name": "Carthaginian",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   189.0,
+   239.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver": 23900,
+   "Passenger": 18900
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauiecotours",
+  "pk": 448,
+  "verdict": "MATCH",
+  "printed": [
+   139.0
+  ],
+  "units": [
+   "From $139"
+  ],
+  "name": "South Maui Premier Kayak & Snorkel",
+  "pages": [
+   "Whawaii/kayak.html",
+   "Whawaii/kayak.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   139.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 13900
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauiforge",
+  "pk": 539606,
+  "verdict": "MATCH",
+  "printed": [
+   279.0
+  ],
+  "units": [
+   "From $279"
+  ],
+  "name": "Bubble Wand Blacksmith Experience : Beginner Level",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   279.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 27900
+  },
+  "ld": [
+   "279"
+  ]
+ },
+ {
+  "sn": "mauiislandsurfsnorkel",
+  "pk": 354129,
+  "verdict": "MATCH",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "Private Snorkel Lessons",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   150.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Snorkeler": 15000
+  },
+  "ld": [
+   "150"
+  ]
+ },
+ {
+  "sn": "mauimermaidschool",
+  "pk": 341840,
+  "verdict": "MATCH",
+  "printed": [
+   289.0
+  ],
+  "units": [
+   "From $289"
+  ],
+  "name": "Mermaid Ocean Swimming Lesson in Maui",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   289.0,
+   338.0,
+   507.0,
+   676.0,
+   845.0,
+   1014.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One Person Private Lesson": 28900,
+   "Two Person Private Lesson": 33800,
+   "Three Person Private Lesson": 50700,
+   "Four Person Private Lesson": 67600,
+   "Five Person Private Lesson": 84500,
+   "Group Private Lesson of 6": 101400
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauimomentsphoto",
+  "pk": 633065,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Oahu Professional Photographer Couples and Families",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group": 10000
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauipacificdivers",
+  "pk": 565598,
+  "verdict": "ROUNDING",
+  "printed": [
+   4148.0
+  ],
+  "units": [
+   "From $4148"
+  ],
+  "name": "SCUBA: 2 Tank Mokuho'oniki *Private Charter*",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   4147.5
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 414750
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauiphotographytours",
+  "pk": 322038,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "Iao Valley Hike",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 8,
+  "modal_tiers": [],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauisnorkelcharters",
+  "pk": 551675,
+  "verdict": "MATCH",
+  "printed": [
+   3250.0
+  ],
+  "units": [
+   "From $3250"
+  ],
+  "name": "Private Snorkel Charter",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   3250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 325000
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauisurfandsup",
+  "pk": 75445,
+  "verdict": "MATCH",
+  "printed": [
+   125.0
+  ],
+  "units": [
+   "From $125"
+  ],
+  "name": "Private Maui Surf Lessons",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   125.0,
+   145.0,
+   155.0,
+   185.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "1 on 1 Private Lesson": 18500,
+   "Private Small Group Lesson (ages 7+)": 14500,
+   "Private Small Group Lesson (all ages 3+)": 15500,
+   "Private Group Lesson": 12500
+  },
+  "ld": []
+ },
+ {
+  "sn": "mauitourshawaii",
+  "pk": 206245,
+  "verdict": "ROUNDING",
+  "printed": [
+   1000.0
+  ],
+  "units": [
+   "From $1000"
+  ],
+  "name": "Maui Island Tour (8 hours)",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   999.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Maui Island Tour": 99999
+  },
+  "ld": []
+ },
+ {
+  "sn": "maukawarriorsluau",
+  "pk": 428537,
+  "verdict": "VARIES",
+  "printed": [
+   179.0
+  ],
+  "units": [
+   "From $179"
+  ],
+  "name": "Ali\u2019i Premium Package: Midsection Seating",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   103.99,
+   132.61,
+   161.23
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 16123,
+   "Youth": 13261,
+   "Child": 10399,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "melayastours",
+  "pk": 118202,
+  "verdict": "MATCH",
+  "printed": [
+   70.0
+  ],
+  "units": [
+   "From $70"
+  ],
+  "name": "Guided Clear Bottom Kayak Bio Bay Tour",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/bio-bay.html*",
+   "Wpuertorico/kayaking.html",
+   "Wpuertorico/kayaking.html*",
+   "Wpuertorico/vieques.html",
+   "Wpuertorico/vieques.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   70.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person High season credit": 7000
+  },
+  "ld": []
+ },
+ {
+  "sn": "mitchbrownphotofreediving",
+  "pk": 462795,
+  "verdict": "MATCH",
+  "printed": [
+   275.0
+  ],
+  "units": [
+   "From $275"
+  ],
+  "name": "AIDA 1",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   275.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One Day Freediving Course": 27500
+  },
+  "ld": [
+   "275"
+  ]
+ },
+ {
+  "sn": "molokaioutdoors",
+  "pk": 421678,
+  "verdict": "MATCH",
+  "printed": [
+   325.0
+  ],
+  "units": [
+   "From $325 Double Kayak \u00b7 Beach Gear - WEEK RENTAL"
+  ],
+  "name": "Beach Gear - WEEK RENTAL",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   15.0,
+   20.0,
+   40.0,
+   60.0,
+   70.0,
+   100.0,
+   325.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Double Kayak": 32500,
+   "Stand Up Paddle Board": 32500,
+   "Snorkel Gear": 4000,
+   "Beach Chair": 6000,
+   "Beach Umbrella": 2000,
+   "Cooler": 1500,
+   "Body Board Weekly": 7000,
+   "Jerry Lopez Soft Surfboard Weekly": 10000
+  },
+  "ld": [
+   "325"
+  ]
+ },
+ {
+  "sn": "mosquitobiobaytours",
+  "pk": 586640,
+  "verdict": "MATCH",
+  "printed": [
+   65.0
+  ],
+  "units": [
+   "From $65"
+  ],
+  "name": "Clear-Bottom Kayaking Bio Bay Tours",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/index.html",
+   "Wpuertorico/vieques.html",
+   "Wpuertorico/vieques.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   60.0,
+   65.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 6500,
+   "Child": 6000
+  },
+  "ld": [
+   "65"
+  ]
+ },
+ {
+  "sn": "mountainriders",
+  "pk": 275207,
+  "verdict": "MATCH",
+  "printed": [
+   145.0
+  ],
+  "units": [
+   "From $145"
+  ],
+  "name": "Maui Pre Dawn Bike Tour",
+  "pages": [
+   "Whawaii/maui.html",
+   "Whawaii/maui.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   145.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 14500
+  },
+  "ld": []
+ },
+ {
+  "sn": "nahokufeastluau",
+  "pk": 716414,
+  "verdict": "STALE",
+  "printed": [
+   198.3
+  ],
+  "units": [
+   "From $198.3 per adult"
+  ],
+  "name": "Huaka'i Luau Maui General Admission",
+  "pages": [
+   "Whawaii/luau-maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 5,
+  "modal_tiers": [
+   81.15,
+   202.86
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 20286,
+   "Child": 8115,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "nahokufeastluau",
+  "pk": 728370,
+  "verdict": "MATCH",
+  "printed": [
+   236.67
+  ],
+  "units": [
+   "From $236.67 per adult"
+  ],
+  "name": "Huaka'i Luau Maui VIP Seating",
+  "pages": [
+   "Whawaii/luau-maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 5,
+  "modal_tiers": [
+   94.67,
+   236.67
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 23667,
+   "Child": 9467,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "napaliexperience",
+  "pk": 584304,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Private Whale Watch Charter",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   1999.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 199900
+  },
+  "ld": []
+ },
+ {
+  "sn": "napalihawaii",
+  "pk": 316332,
+  "verdict": "MATCH",
+  "printed": [
+   197.0
+  ],
+  "units": [
+   "From $197 per adult"
+  ],
+  "name": "Morning NaPali Coast Snorkel Tour- Super Raft Adventure",
+  "pages": [
+   "Whawaii/snorkeling.html",
+   "Whawaii/snorkeling.html*",
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   177.0,
+   197.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 19700,
+   "Child": 17700
+  },
+  "ld": []
+ },
+ {
+  "sn": "napalitours",
+  "pk": 4377,
+  "verdict": "VARIES",
+  "printed": [
+   299.0
+  ],
+  "units": [
+   "From $299 per person"
+  ],
+  "name": "Na Pali Snorkel Adventure",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   269.0,
+   299.0,
+   5000.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 21900,
+   "Child": 21900,
+   "Private Charter": 500000
+  },
+  "ld": []
+ },
+ {
+  "sn": "naveapradventure",
+  "pk": 519855,
+  "verdict": "VARIES",
+  "printed": [
+   549.99
+  ],
+  "units": [
+   "From $549.99 All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito"
+  ],
+  "name": "All-Inclusive 22ft Spider Boat to Icacos, Palomino & Palominito",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   509.0,
+   609.0,
+   709.99,
+   809.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Four Hours": 54999,
+   "Five Hours": 64999,
+   "Six Hours": 74999,
+   "Seven Hours": 84999
+  },
+  "ld": []
+ },
+ {
+  "sn": "naveapradventure",
+  "pk": 567810,
+  "verdict": "MATCH",
+  "printed": [
+   1750.0
+  ],
+  "units": [
+   "From $1,750 Private Group Cayo Luis Pe\u00f1a"
+  ],
+  "name": "Full Day Culebra and Culebrita Island Adventure on Mako 29ft Boat \u2013 All-Inclusive",
+  "pages": [
+   "Wpuertorico/luxury-tours.html",
+   "Wpuertorico/luxury-tours.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1750.0,
+   1850.0,
+   1950.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Group Culebrita": 195000,
+   "Private Group Punta Arena Vieques": 185000,
+   "Private Group Cayo Luis Pe\u00f1a": 175000
+  },
+  "ld": [
+   "1750"
+  ]
+ },
+ {
+  "sn": "nomadatourspr",
+  "pk": 652161,
+  "verdict": "MATCH",
+  "printed": [
+   105.0
+  ],
+  "units": [
+   "From $105 per person"
+  ],
+  "name": "Mixology Rum Class",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   105.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 10500
+  },
+  "ld": [
+   "105"
+  ]
+ },
+ {
+  "sn": "nomadatourspr",
+  "pk": 673119,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99"
+  ],
+  "name": "Guided Surfing Adventure",
+  "pages": [
+   "Wpuertorico/san-juan.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   99.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 9900,
+   "Child": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "nsohanasurfschool",
+  "pk": 375073,
+  "verdict": "MATCH",
+  "printed": [
+   95.0
+  ],
+  "units": [
+   "From $95"
+  ],
+  "name": "9+ Surfers. Private \"Ohana\" Package",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   95.0,
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "9 surfers": 10000,
+   "10-13 surfers": 9500
+  },
+  "ld": []
+ },
+ {
+  "sn": "oahubroncotours",
+  "pk": 716091,
+  "verdict": "MATCH",
+  "printed": [
+   20.0
+  ],
+  "units": [
+   "From $20"
+  ],
+  "name": "Hawaii Relief Gift Card",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   20.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Our \u02bbohana": 2000
+  },
+  "ld": []
+ },
+ {
+  "sn": "oceaniawatersports",
+  "pk": 413543,
+  "verdict": "MATCH",
+  "printed": [
+   450.0
+  ],
+  "units": [
+   "From $450 whole boat"
+  ],
+  "name": "Scenic Sightseeing Guided Boat Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   100.0,
+   450.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 10000,
+   "Private Charter": 45000
+  },
+  "ld": [
+   "450"
+  ]
+ },
+ {
+  "sn": "ohanaoceanconnections",
+  "pk": 743463,
+  "verdict": "MATCH",
+  "printed": [
+   600.0
+  ],
+  "units": [
+   "From $600 per group \u00b7 up to 6 people"
+  ],
+  "name": "Kona Whale Watch",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   125.0,
+   600.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 12500,
+   "Child": 12500,
+   "Private Charter": 60000
+  },
+  "ld": [
+   "600"
+  ]
+ },
+ {
+  "sn": "ohanaranch",
+  "pk": 631170,
+  "verdict": "STALE",
+  "printed": [
+   109.0
+  ],
+  "units": [
+   "From $109"
+  ],
+  "name": "Ohana Ranch ATV Tour",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   119.0,
+   129.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Single Rider ATV": 12900,
+   "Multi Rider ATV (Side-by-Side)": 11900,
+   "Multi Rider ATV \u2022 Ride Along": 11900
+  },
+  "ld": []
+ },
+ {
+  "sn": "ohanasurfproject",
+  "pk": 7571,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Surf Lessons!",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   120.0,
+   145.0,
+   150.0,
+   160.0,
+   200.0,
+   205.0,
+   290.0,
+   300.0,
+   450.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Private Lesson (2HR)": 20500,
+   "Open Group Lesson (2HR)": 12000,
+   "Semi-Private Lesson (2HR)": 16000,
+   "Exclusive Group (2HR)": 15000,
+   "Family Lesson (2HR)": 14500,
+   "Private Professional Coaching Level 3 (2HR)": 30000,
+   "Semi-Private Professional Coaching Level 3 (2HR)": 20000,
+   "Private Professional Coaching Level 4 (2.5 Hours)": 45000,
+   "Semi-Private Professional Coaching Level 4 (2.5HR)": 29000
+  },
+  "ld": []
+ },
+ {
+  "sn": "ohanasurfproject",
+  "pk": 7572,
+  "verdict": "VARIES",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150"
+  ],
+  "name": "SUP Lessons!",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   145.0,
+   150.0,
+   160.0,
+   205.0,
+   450.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Private Lesson (2HR)": 20500,
+   "Semi-Private Lesson (2HR)": 16000,
+   "Exclusive Group (2HR)": 15000,
+   "Family Lesson (2HR)": 14500,
+   "Private Professional Coaching Level 4 (2.5 Hours)": 45000
+  },
+  "ld": []
+ },
+ {
+  "sn": "olaparadive",
+  "pk": 202936,
+  "verdict": "ROUNDING",
+  "printed": [
+   375.0
+  ],
+  "units": [
+   "From $375"
+  ],
+  "name": "Open Water Certification Checkout Dives",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   374.99
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Beginner Scuba Diver": 37499
+  },
+  "ld": []
+ },
+ {
+  "sn": "pacific-whale",
+  "pk": 410237,
+  "verdict": "ROUNDING",
+  "printed": [
+   160.0
+  ],
+  "units": [
+   "From $160"
+  ],
+  "name": "Exclusive Whale Watch with the Experts \u2022 Ma'alaea",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   117.95,
+   159.95
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 15995,
+   "Child": 11795
+  },
+  "ld": []
+ },
+ {
+  "sn": "patriatourspuertorico",
+  "pk": 106812,
+  "verdict": "ROUNDING",
+  "printed": [
+   46.0
+  ],
+  "units": [
+   "From $46"
+  ],
+  "name": "Old San Juan: Inside El Morro Castle Walking Tour",
+  "pages": [
+   "Wpuertorico/old-san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   16.17,
+   33.19,
+   45.95
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 4595,
+   "Child": 3319,
+   "Infant": 1617
+  },
+  "ld": []
+ },
+ {
+  "sn": "patriatourspuertorico",
+  "pk": 209168,
+  "verdict": "ROUNDING",
+  "printed": [
+   33.0
+  ],
+  "units": [
+   "From $33"
+  ],
+  "name": "Old San Juan: Sunset Walking Tour",
+  "pages": [
+   "Wpuertorico/old-san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   16.17,
+   24.68,
+   33.19
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 3319,
+   "Youth": 2468,
+   "Infant": 1617
+  },
+  "ld": []
+ },
+ {
+  "sn": "patriatourspuertorico",
+  "pk": 543763,
+  "verdict": "ROUNDING",
+  "printed": [
+   42.0
+  ],
+  "units": [
+   "From $42"
+  ],
+  "name": "Old San Juan: San Cristobal Castle and Old Town Walking Tour",
+  "pages": [
+   "Wpuertorico/old-san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   16.17,
+   33.19,
+   41.7
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 4170,
+   "Youth": 3319,
+   "Infant": 1617
+  },
+  "ld": []
+ },
+ {
+  "sn": "pickleballattheritz",
+  "pk": 645070,
+  "verdict": "MATCH",
+  "printed": [
+   60.0
+  ],
+  "units": [
+   "From $60"
+  ],
+  "name": "Hot Shot Kids Clinic",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   60.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Hot Shots": 6000
+  },
+  "ld": []
+ },
+ {
+  "sn": "pinksailswaikiki",
+  "pk": 80660,
+  "verdict": "MATCH",
+  "printed": [
+   56.0
+  ],
+  "units": [
+   "From $56 per person"
+  ],
+  "name": "Sunset Splash Adventure",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   56.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 5600,
+   "Toddler": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "pinksailswaikiki",
+  "pk": 110203,
+  "verdict": "MATCH",
+  "printed": [
+   79.0
+  ],
+  "units": [
+   "From $79 per person"
+  ],
+  "name": "Turtle Snorkeling Adventure + Guaranteed Sightings",
+  "pages": [
+   "Whawaii/family-tours-oahu.html",
+   "Whawaii/family-tours-oahu.html*",
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 14,
+  "distinct_slots": 5,
+  "modal_tiers": [
+   79.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 7900,
+   "Toddler": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "pinksailswaikiki",
+  "pk": 114877,
+  "verdict": "MATCH",
+  "printed": [
+   49.0
+  ],
+  "units": [
+   "From $49 per person"
+  ],
+  "name": "Whale Watching (Dec 15-April 15)",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   49.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 4900,
+   "Toddler": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 6350,
+  "verdict": "MATCH",
+  "printed": [
+   1050.0
+  ],
+  "units": [
+   "From $1050",
+   "From $1050 Private charter"
+  ],
+  "name": "Full Day Snorkeling and Boat Experience",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/fajardo.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   1050.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Pi\u00f1ero Island": 105000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 6352,
+  "verdict": "VARIES",
+  "printed": [
+   45.0
+  ],
+  "units": [
+   "From $45"
+  ],
+  "name": "Kayak Rental",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   60.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Full-Day Kayak Rental": 6000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 6894,
+  "verdict": "MATCH",
+  "printed": [
+   40.0
+  ],
+  "units": [
+   "From $40"
+  ],
+  "name": "Snorkeling Lessons & Interactive Experience for kids and adults",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/fajardo.html*",
+   "Wpuertorico/snorkeling.html",
+   "Wpuertorico/snorkeling.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   40.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Fajardo Snorkeling Lesson Guest \u2013 Ages 13+": 4000,
+   "Fajardo Snorkeling Lesson- Child-Ages 5-12": 4000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 7609,
+  "verdict": "VARIES",
+  "printed": [
+   25.0
+  ],
+  "units": [
+   "From $25"
+  ],
+  "name": "Paddle board Rental",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   25.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "2-Hour Paddleboard Rental": 4500
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 15829,
+  "verdict": "MATCH",
+  "printed": [
+   40.0
+  ],
+  "units": [
+   "From $40"
+  ],
+  "name": "GoPro Camera Rental",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   40.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Full-Day Action Camera Rental": 4000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 15832,
+  "verdict": "VARIES",
+  "printed": [
+   85.0
+  ],
+  "units": [
+   "From $85"
+  ],
+  "name": "Snorkeling Gear Rental",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   25.0
+  ],
+  "tier_variants": 6,
+  "named": {
+   "Full-day Snorkeling Gear Set": 2500
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 46006,
+  "verdict": "MATCH",
+  "printed": [
+   550.0
+  ],
+  "units": [
+   "From $550"
+  ],
+  "name": "Nite Snorkeling and Boat Experience",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   550.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Night Snorkeling Adventure \u2013 Up to 6 Guests": 55000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 57220,
+  "verdict": "MATCH",
+  "printed": [
+   50.0
+  ],
+  "units": [
+   "From $50"
+  ],
+  "name": "Snorkeling & Kayak Eco-Experience",
+  "pages": [
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/kayaking.html",
+   "Wpuertorico/snorkeling.html",
+   "Wpuertorico/snorkeling.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   50.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Fajardo Snorkeling & Kayak Eco-Adventure: Guest-Age 13+": 5000,
+   "Fajardo Snorkeling & Kayak Eco-Adventure Child-Age 5-12": 5000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 276931,
+  "verdict": "STALE",
+  "printed": [
+   60.0,
+   280.0
+  ],
+  "units": [
+   "From $280",
+   "From $60"
+  ],
+  "name": "Weekly Rentals",
+  "pages": [
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/index.html",
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   108.0
+  ],
+  "tier_variants": 5,
+  "named": {
+   "3-Day Beach Combo \u2013 2 Chairs + 1 Umbrella": 6600
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 296512,
+  "verdict": "MATCH",
+  "printed": [
+   650.0
+  ],
+  "units": [
+   "From $650"
+  ],
+  "name": "Half Day Snorkeling and Boat Experience",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   650.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Half Day Icacos and Palomino Island: Morning Option": 65000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 451146,
+  "verdict": "MATCH",
+  "printed": [
+   100.0
+  ],
+  "units": [
+   "From $100 Overnight kayak Rental"
+  ],
+  "name": "Overnight Kayak Rental",
+  "pages": [
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Overnight kayak Rental": 10000
+  },
+  "ld": []
+ },
+ {
+  "sn": "piratesnorkelingshack",
+  "pk": 563467,
+  "verdict": "MATCH",
+  "printed": [
+   450.0
+  ],
+  "units": [
+   "From $450 Boat & Snorkeling Experience for two"
+  ],
+  "name": "Boat & Snorkeling Experience for Two",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   450.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Boat & Snorkeling Experience for two": 45000
+  },
+  "ld": []
+ },
+ {
+  "sn": "poipukauaisurfacademy",
+  "pk": 508075,
+  "verdict": "MATCH",
+  "printed": [
+   250.0
+  ],
+  "units": [
+   "From $250"
+  ],
+  "name": "Private Surf Lesson",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 25000,
+   "Child": 25000
+  },
+  "ld": []
+ },
+ {
+  "sn": "poipuoffshoreadventures",
+  "pk": 429367,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   850.0,
+   1198.0,
+   1598.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "4 Hour Private Charter": 85000,
+   "6 Hour Private Charter": 119800,
+   "8 Hour Private Charter": 159800
+  },
+  "ld": []
+ },
+ {
+  "sn": "poipuoffshoreadventures",
+  "pk": 475922,
+  "verdict": "MATCH",
+  "printed": [
+   1998.0
+  ],
+  "units": [
+   "From $1998"
+  ],
+  "name": "Napali Coast Adventure *April-September",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 4,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   1998.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "8 Hour Private Charter": 199800
+  },
+  "ld": []
+ },
+ {
+  "sn": "poipuoffshoreadventures",
+  "pk": 537900,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "\u200b\u200bFish & Snorkel Combo Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   1250.0,
+   1650.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "6 Hour Private Charter": 125000,
+   "8 Hour Private Charter": 165000
+  },
+  "ld": []
+ },
+ {
+  "sn": "polyad-activities",
+  "pk": 280999,
+  "verdict": "MATCH",
+  "printed": [
+   213.0
+  ],
+  "units": [
+   "From $213"
+  ],
+  "name": "Hawai'i Island Volcano Adventure Tour (from Hilo) H2",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   140.0,
+   213.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 21300,
+   "Child 3-11 yrs": 14000,
+   "Infant 2 yrs and under": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "prcaytrip",
+  "pk": 472761,
+  "verdict": "STALE",
+  "printed": [
+   3000.0
+  ],
+  "units": [
+   "From $3,000 whole boat, up to 6 people"
+  ],
+  "name": "Elegant Yacht Fajardo or Culebra Island",
+  "pages": [
+   "Wpuertorico/index.html",
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   2500.0,
+   2800.0,
+   4500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "6 Hours up to 6 passengers": 280000,
+   "Culebra Island": 450000,
+   "4 Hours": 250000
+  },
+  "ld": [
+   "3000"
+  ]
+ },
+ {
+  "sn": "prcaytrip",
+  "pk": 530335,
+  "verdict": "MATCH",
+  "printed": [
+   2500.0
+  ],
+  "units": [
+   "From $2,500 up to 12 passengers"
+  ],
+  "name": "Luxury Open Space Yacht Ocean Alexander 45ft",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   2500.0,
+   2900.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "4 Hours": 250000,
+   "6 Hours": 290000
+  },
+  "ld": [
+   "2500"
+  ]
+ },
+ {
+  "sn": "prestigeluxurytransport",
+  "pk": 409381,
+  "verdict": "MATCH",
+  "printed": [
+   160.0
+  ],
+  "units": [
+   "From $160 Night Transport \u2022 1 - 4 People"
+  ],
+  "name": "Transfers:  San Juan (Ports, Hotels) TO or FROM  Humacao / Ceiba (Ferry to Vieques and Culebra)",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   160.0,
+   180.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Night Transport \u2022 1 - 4 People": 16000,
+   "Night Transport \u2022 5 - 6 People": 18000
+  },
+  "ld": [
+   "160"
+  ]
+ },
+ {
+  "sn": "profenat",
+  "pk": 365552,
+  "verdict": "MATCH",
+  "printed": [
+   138.0
+  ],
+  "units": [
+   "From $138"
+  ],
+  "name": "Full Day Rainforest Mega Tour:El Yunque hike/water slide/beach/Pi\u00f1ones/Loiza",
+  "pages": [
+   "Wpuertorico/el-yunque.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   138.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 13800
+  },
+  "ld": []
+ },
+ {
+  "sn": "prrentals",
+  "pk": 749089,
+  "verdict": "MATCH",
+  "printed": [
+   2100.0
+  ],
+  "units": [
+   "From $2,100 whole boat"
+  ],
+  "name": "Party Boat Day Cruise & Swim Big Groups 7-12",
+  "pages": [
+   "Wpuertorico/luxury-tours.html",
+   "Wpuertorico/luxury-tours.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   175.0,
+   2100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 17500,
+   "Private Charter": 210000
+  },
+  "ld": [
+   "2100"
+  ]
+ },
+ {
+  "sn": "prrentals",
+  "pk": 749091,
+  "verdict": "MATCH",
+  "printed": [
+   1750.0
+  ],
+  "units": [
+   "From $1,750 whole boat"
+  ],
+  "name": "Day Yacht Tour Cruise & Swim - Big Groups 7-10",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   175.0,
+   1750.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 17500,
+   "Private Charter": 175000
+  },
+  "ld": [
+   "1750"
+  ]
+ },
+ {
+  "sn": "prrentals",
+  "pk": 749093,
+  "verdict": "MATCH",
+  "printed": [
+   2100.0
+  ],
+  "units": [
+   "From $2,100 whole boat"
+  ],
+  "name": "Sunset Cruise & Swim San Juan Bay - Big Group 7-12",
+  "pages": [
+   "Wpuertorico/index.html",
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   175.0,
+   2100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Guest": 17500,
+   "Private Charter": 210000
+  },
+  "ld": [
+   "2100"
+  ]
+ },
+ {
+  "sn": "pureadventurepr",
+  "pk": 11821,
+  "verdict": "VARIES",
+  "printed": [
+   59.0
+  ],
+  "units": [
+   "From $59"
+  ],
+  "name": "Fajardo Bio Bay Kayak Tour",
+  "pages": [
+   "Wpuertorico/bio-bay.html",
+   "Wpuertorico/kayaking.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   44.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Passenger": 4400
+  },
+  "ld": []
+ },
+ {
+  "sn": "pureadventurepr",
+  "pk": 39989,
+  "verdict": "VARIES",
+  "printed": [
+   120.0
+  ],
+  "units": [
+   "From $120"
+  ],
+  "name": "Snorkel & Beach Vieques Island Tour",
+  "pages": [
+   "Wpuertorico/snorkeling.html",
+   "Wpuertorico/vieques.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   80.0,
+   105.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult - Snorkeler": 10500,
+   "Child - Snorkeler": 8000
+  },
+  "ld": []
+ },
+ {
+  "sn": "pureadventurepr",
+  "pk": 91370,
+  "verdict": "VARIES",
+  "printed": [
+   995.0
+  ],
+  "units": [
+   "From $995 Max of 6 Guests"
+  ],
+  "name": "Inshore Fishing Charter",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   995.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Half day Morning": 99500
+  },
+  "ld": [
+   "995"
+  ]
+ },
+ {
+  "sn": "quicksilvermaui",
+  "pk": 372577,
+  "verdict": "MATCH",
+  "printed": [
+   99.95
+  ],
+  "units": [
+   "From $99.95 per adult"
+  ],
+  "name": "From Ma'alaea Harbor: AM Turtle Town Snorkel Aboard the Quicksilver",
+  "pages": [
+   "Whawaii/snorkeling.html",
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 1,
+  "modal_tiers": [
+   59.95,
+   99.95
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 9995,
+   "Child": 5995,
+   "Small Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "quicksilvermaui",
+  "pk": 372622,
+  "verdict": "MATCH",
+  "printed": [
+   139.95
+  ],
+  "units": [
+   "From $139.95 per adult"
+  ],
+  "name": "From Ma'alaea Harbor: Sunset Dinner Cruise Aboard the Quicksilver",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   109.95,
+   139.95
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 13995,
+   "Child": 10995,
+   "Small Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "rainforestzipline",
+  "pk": 381060,
+  "verdict": "MATCH",
+  "printed": [
+   160.0
+  ],
+  "units": [
+   "From $160"
+  ],
+  "name": "Rainforest Zipline Experience plus Adventure Trail",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   140.0,
+   160.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 16000,
+   "Child": 14000
+  },
+  "ld": [
+   "160"
+  ]
+ },
+ {
+  "sn": "rincondiving",
+  "pk": 9020,
+  "verdict": "MATCH",
+  "printed": [
+   69.0
+  ],
+  "units": [
+   "From $69"
+  ],
+  "name": "Guided Snorkeling Tour",
+  "pages": [
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   50.0,
+   59.0,
+   69.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "1 Snorkeler": 6900,
+   "Group of 2 or more Snorkelers (same reservation)": 5900,
+   "2+ Snorkeler (1Guardian with children)": 5900,
+   "Child Snorkeler": 5000
+  },
+  "ld": []
+ },
+ {
+  "sn": "rincondiving",
+  "pk": 597127,
+  "verdict": "MATCH",
+  "printed": [
+   356.0
+  ],
+  "units": [
+   "From $356 Private Snorkel Tour"
+  ],
+  "name": "Adaptive Snorkeling Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   356.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Snorkel Tour": 35600
+  },
+  "ld": [
+   "356"
+  ]
+ },
+ {
+  "sn": "ritzcarltonmauiluau",
+  "pk": 600916,
+  "verdict": "ROUNDING",
+  "printed": [
+   140.0
+  ],
+  "units": [
+   "From $140"
+  ],
+  "name": "Guided Coastal Walk",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   139.92
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 13992
+  },
+  "ld": []
+ },
+ {
+  "sn": "roosterfarms",
+  "pk": 601928,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   ""
+  ],
+  "name": "Free tasting",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 0,
+   "Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "sail-maui",
+  "pk": 415714,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Full Day Snorkel & Sail \u2022 Monohull Nova",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   5040.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Monohull Full Day Charter": 504000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sail-maui",
+  "pk": 613752,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Private Bottom Fishing Charter",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   1900.0,
+   2375.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Four Hour Charter": 190000,
+   "Five Hour Charter": 237500
+  },
+  "ld": []
+ },
+ {
+  "sn": "sail-maui",
+  "pk": 613754,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Combo Fishing and Snorkeling",
+  "pages": [
+   "Whawaii/fishing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 5,
+  "modal_tiers": [
+   5400.0,
+   6300.0,
+   7200.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Six Hour Charter": 540000,
+   "Seven Hour Charter": 630000,
+   "Eight Hour Charter": 720000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sailgetaway",
+  "pk": 34807,
+  "verdict": "MATCH",
+  "printed": [
+   165.0
+  ],
+  "units": [
+   "Check availability",
+   "From $165"
+  ],
+  "name": "Public Culebra Power Boat Snorkeling &  Beach Tour",
+  "pages": [
+   "Wpuertorico/fajardo-water-tours.html",
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   165.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 16500
+  },
+  "ld": []
+ },
+ {
+  "sn": "sailgetaway",
+  "pk": 34808,
+  "verdict": "MATCH",
+  "printed": [
+   155.0,
+   7500.0
+  ],
+  "units": [
+   "$7500 whole boat",
+   "From $155",
+   "From $155 per person"
+  ],
+  "name": "Public Icacos Luxury Sailing Catamaran Beach Day",
+  "pages": [
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   155.0,
+   7500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 15500,
+   "Private Charter": 750000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sailgetaway",
+  "pk": 40377,
+  "verdict": "MATCH",
+  "printed": [
+   3300.0
+  ],
+  "units": [
+   "From $3300"
+  ],
+  "name": "Private Icacos Double Dip Power Catamaran Snorkeling and Beach Tour",
+  "pages": [
+   "Wpuertorico/fajardo.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   3300.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 330000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sailgetaway",
+  "pk": 45148,
+  "verdict": "MATCH",
+  "printed": [
+   110.0
+  ],
+  "units": [
+   "From $110",
+   "From $110 per person"
+  ],
+  "name": "Public Icacos Double Dip Power Catamaran Snorkeling and Beach Tour",
+  "pages": [
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/sailing.html",
+   "Wpuertorico/sailing.html*",
+   "Wpuertorico/snorkeling.html",
+   "Wpuertorico/snorkeling.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   110.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 11000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sailgetaway",
+  "pk": 433832,
+  "verdict": "MATCH",
+  "printed": [
+   4125.0
+  ],
+  "units": [
+   "From $4,125 Private Charter"
+  ],
+  "name": "Private Power Boat To SVI (Culebra o Vieques) Excursion",
+  "pages": [
+   "Wpuertorico/luxury-tours.html",
+   "Wpuertorico/luxury-tours.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   4125.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 412500
+  },
+  "ld": [
+   "4125"
+  ]
+ },
+ {
+  "sn": "sailgetaway",
+  "pk": 598183,
+  "verdict": "MATCH",
+  "printed": [
+   100.0
+  ],
+  "units": [
+   "From $100",
+   "From $100 per person"
+  ],
+  "name": "Public Icacos Luxury Sailing Catamaran Twilight Beach and Sunset Sail",
+  "pages": [
+   "Wpuertorico/fajardo.html",
+   "Wpuertorico/sailing.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 10000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sailmaui",
+  "pk": 678344,
+  "verdict": "STALE",
+  "printed": [
+   90.0
+  ],
+  "units": [
+   "From $90"
+  ],
+  "name": "Midmorning Whale Watch Lahaina",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   70.0,
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 10000,
+   "Child": 7000,
+   "Infant": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "saltyspiritllc",
+  "pk": 283543,
+  "verdict": "VARIES",
+  "printed": [
+   2000.0
+  ],
+  "units": [
+   "From $2,000 La Mu\u00f1eca - Private Snorkeling Boat Charter"
+  ],
+  "name": "Boat Charter | Silver",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1600.0
+  ],
+  "tier_variants": 3,
+  "named": {
+   "La Mu\u00f1eca - Private Snorkeling Boat Charter (Eight Hours)": 200000
+  },
+  "ld": [
+   "2000"
+  ]
+ },
+ {
+  "sn": "saltyspiritllc",
+  "pk": 402641,
+  "verdict": "MATCH",
+  "printed": [
+   1000.0
+  ],
+  "units": [
+   "From $1,000 La Mu\u00f1eca - Private Snorkeling Boat Charter"
+  ],
+  "name": "VIP Snorkeling - Private",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1000.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "La Mu\u00f1eca - Private Snorkeling Boat Charter": 100000
+  },
+  "ld": [
+   "1000"
+  ]
+ },
+ {
+  "sn": "saltyspiritllc",
+  "pk": 621738,
+  "verdict": "MATCH",
+  "printed": [
+   2400.0
+  ],
+  "units": [
+   "From $2,400 whole boat \u00b7 up to 6 people"
+  ],
+  "name": "Culebra Charter",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   2400.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Experience": 240000
+  },
+  "ld": [
+   "2400"
+  ]
+ },
+ {
+  "sn": "sanjuanfoodtours",
+  "pk": 339066,
+  "verdict": "ROUNDING",
+  "printed": [
+   40.0
+  ],
+  "units": [
+   "From $40"
+  ],
+  "name": "Old San Juan Historic Walking Tour",
+  "pages": [
+   "Wpuertorico/old-san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   34.99,
+   39.99
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 3999,
+   "Child": 3499
+  },
+  "ld": []
+ },
+ {
+  "sn": "sanjuantoursandtransfers",
+  "pk": 156684,
+  "verdict": "MATCH",
+  "printed": [
+   30.0
+  ],
+  "units": [
+   "From $30"
+  ],
+  "name": "Old San Juan Historical Walking Tour",
+  "pages": [
+   "Wpuertorico/old-san-juan.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   30.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Ticket": 3000
+  },
+  "ld": []
+ },
+ {
+  "sn": "sbshawaii",
+  "pk": 6957,
+  "verdict": "NO-AVAILABILITY-17d",
+  "printed": [
+   20.0
+  ],
+  "units": [
+   "From $20 One Hour Paddleboard Rental"
+  ],
+  "name": "Stand Up Paddleboard or Kayak Rentals",
+  "pages": [
+   "Whawaii/kayak.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "seamauicharter",
+  "pk": 156809,
+  "verdict": "VARIES",
+  "printed": [
+   131.9
+  ],
+  "units": [
+   "From $131.9 per adult"
+  ],
+  "name": "Xpress Snorkel",
+  "pages": [
+   "Whawaii/snorkeling.html",
+   "Whawaii/snorkeling.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   108.96,
+   120.43,
+   131.9
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Adult": 13190,
+   "Teen": 12043,
+   "Child": 10896,
+   "Young Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "seamauicharter",
+  "pk": 156818,
+  "verdict": "VARIES",
+  "printed": [
+   154.84
+  ],
+  "units": [
+   "From $154.84 per adult"
+  ],
+  "name": "Afternoon West Maui Snorkel",
+  "pages": [
+   "Whawaii/snorkeling.html",
+   "Whawaii/snorkeling.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   97.49,
+   131.9,
+   154.84
+  ],
+  "tier_variants": 4,
+  "named": {
+   "Adult": 15484,
+   "Teen": 13190,
+   "Child": 9749,
+   "Young Child": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "seamauicharter",
+  "pk": 384839,
+  "verdict": "VARIES",
+  "printed": [
+   104.37
+  ],
+  "units": [
+   "From $104.37 per adult"
+  ],
+  "name": "2 Hour Whale Watch",
+  "pages": [
+   "Whawaii/whale-watching.html",
+   "Whawaii/whale-watching.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 3,
+  "modal_tiers": [
+   81.43,
+   92.91,
+   104.37,
+   3670.4
+  ],
+  "tier_variants": 3,
+  "named": {
+   "Adult": 10437,
+   "Teen": 9291,
+   "Child": 8143,
+   "Infant": 0,
+   "Private Charter \u2022 Sea Maui II": 367040
+  },
+  "ld": []
+ },
+ {
+  "sn": "seascootersnorkeling",
+  "pk": 378184,
+  "verdict": "MATCH",
+  "printed": [
+   129.0
+  ],
+  "units": [
+   "From $129 per person"
+  ],
+  "name": "Turtle Town Snorkel with Underwater Photos",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   129.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 12900
+  },
+  "ld": []
+ },
+ {
+  "sn": "seasportdivers",
+  "pk": 11361,
+  "verdict": "MATCH",
+  "printed": [
+   145.0
+  ],
+  "units": [
+   "From $145"
+  ],
+  "name": "Shore Diving South Side Kauai",
+  "pages": [
+   "Whawaii/kauai.html",
+   "Whawaii/kauai.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   145.0,
+   165.0,
+   190.0,
+   225.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Certified Diver 1-Tank": 14500,
+   "Non-Certified Diver 1-Tank": 19000,
+   "Non-Certified Diver 2-Tank": 22500,
+   "Certified 2-Tank": 16500
+  },
+  "ld": []
+ },
+ {
+  "sn": "sharepuertorico",
+  "pk": 695666,
+  "verdict": "MATCH",
+  "printed": [
+   59.0
+  ],
+  "units": [
+   "From $59"
+  ],
+  "name": "El Yunque Waterslide Adventure",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   49.0,
+   59.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 5900,
+   "Child": 4900,
+   "Youth": 4900
+  },
+  "ld": [
+   "59"
+  ]
+ },
+ {
+  "sn": "shejarasportfishingcharters",
+  "pk": 697753,
+  "verdict": "MATCH",
+  "printed": [
+   1400.0
+  ],
+  "units": [
+   "From $1,400 Private Charter"
+  ],
+  "name": "OFFSHORE FISHING",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1400.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Charter": 140000
+  },
+  "ld": [
+   "1400"
+  ]
+ },
+ {
+  "sn": "signaturedives",
+  "pk": 647411,
+  "verdict": "MATCH",
+  "printed": [
+   525.0
+  ],
+  "units": [
+   "From $525 Private 3-Hour Sunset Charter"
+  ],
+  "name": "Private 3-Hour Sunset Charter",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   525.0,
+   650.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Snorkeling at Remote Beach": 52500,
+   "One-Tank Scuba Dive": 65000
+  },
+  "ld": [
+   "525"
+  ]
+ },
+ {
+  "sn": "snorkelandbeachtour",
+  "pk": 555512,
+  "verdict": "VARIES",
+  "printed": [
+   100.0
+  ],
+  "units": [
+   "From $100"
+  ],
+  "name": "Icacos Half Day Tours",
+  "pages": [
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   90.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 9000,
+   "Child": 9000
+  },
+  "ld": []
+ },
+ {
+  "sn": "snorkelbigisland",
+  "pk": 390947,
+  "verdict": "MATCH",
+  "printed": [
+   137.0
+  ],
+  "units": [
+   "From $137"
+  ],
+  "name": "Honokohau Manta Ray Night Snorkel",
+  "pages": [
+   "Whawaii/big-island.html",
+   "Whawaii/big-island.html*"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   137.0,
+   1600.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Passenger": 13700,
+   "Private Charter": 160000
+  },
+  "ld": []
+ },
+ {
+  "sn": "snorkelwithlocals",
+  "pk": 567574,
+  "verdict": "MATCH",
+  "printed": [
+   70.0
+  ],
+  "units": [
+   "From $70"
+  ],
+  "name": "Coral Reef Snorkeling Tour",
+  "pages": [
+   "Wpuertorico/culebra.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   70.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 7000
+  },
+  "ld": []
+ },
+ {
+  "sn": "snorkelwithlocals",
+  "pk": 567588,
+  "verdict": "MATCH",
+  "printed": [
+   135.0
+  ],
+  "units": [
+   "From $135"
+  ],
+  "name": "Coral Reef and Sea Turtle Snorkeling Tour",
+  "pages": [
+   "Wpuertorico/culebra.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   135.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 13500
+  },
+  "ld": []
+ },
+ {
+  "sn": "snorkelwithlocals",
+  "pk": 567594,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check availability"
+  ],
+  "name": "Coral Reef Kayaking Snorkeling Tour",
+  "pages": [
+   "Wpuertorico/culebra.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   135.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 13500
+  },
+  "ld": []
+ },
+ {
+  "sn": "snorkelwithlocals",
+  "pk": 567598,
+  "verdict": "MATCH",
+  "printed": [
+   140.0
+  ],
+  "units": [
+   "From $140"
+  ],
+  "name": "Scuba Diving Try Dive Tour",
+  "pages": [
+   "Wpuertorico/culebra.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   140.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 14000
+  },
+  "ld": []
+ },
+ {
+  "sn": "snorkelwithturtles",
+  "pk": 306423,
+  "verdict": "MATCH",
+  "printed": [
+   99.0
+  ],
+  "units": [
+   "From $99"
+  ],
+  "name": "Snorkel with Turtles",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   99.0,
+   169.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Passenger": 9900,
+   "Try Scuba": 16900,
+   "Child Snorkeler": 9900
+  },
+  "ld": []
+ },
+ {
+  "sn": "soulsurfingmaui",
+  "pk": 411522,
+  "verdict": "MATCH",
+  "printed": [
+   120.0
+  ],
+  "units": [
+   "From $120"
+  ],
+  "name": "Family Surf Lesson",
+  "pages": [
+   "Whawaii/maui.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   120.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 12000
+  },
+  "ld": []
+ },
+ {
+  "sn": "starbeachboys",
+  "pk": 28668,
+  "verdict": "MATCH",
+  "printed": [
+   75.0
+  ],
+  "units": [
+   "From $75"
+  ],
+  "name": "Group Surf Lessons",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   75.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 7500,
+   "Child": 7500
+  },
+  "ld": []
+ },
+ {
+  "sn": "tag",
+  "pk": 709630,
+  "verdict": "ROUNDING",
+  "printed": [
+   34.0
+  ],
+  "units": [
+   "From $34"
+  ],
+  "name": "Eureka Day",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 12,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   23.32,
+   28.62,
+   33.92
+  ],
+  "tier_variants": 1,
+  "named": {
+   "General Admission Ticket": 3392,
+   "Senior Ticket": 2862,
+   "Student Ticket": 2332,
+   "Military Ticket": 2332,
+   "Group Ticket": 0
+  },
+  "ld": []
+ },
+ {
+  "sn": "theadventureboat",
+  "pk": 108601,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Adventure / Snorkel Tour",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   625.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour \u2022 up to 6 people": 62500
+  },
+  "ld": []
+ },
+ {
+  "sn": "theadventureboat",
+  "pk": 125552,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "Whale Watching",
+  "pages": [
+   "Whawaii/whale-watching.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 2,
+  "modal_tiers": [
+   695.0,
+   995.0,
+   1295.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour \u2022 up to 6 people": 69500,
+   "Private Tour  \u2022 up to 9 people": 99500,
+   "Private Tour  \u2022 up to 12 people": 129500
+  },
+  "ld": []
+ },
+ {
+  "sn": "theadventureboat",
+  "pk": 441859,
+  "verdict": "ARCHIVED/PRIVATE",
+  "printed": [],
+  "units": [
+   "Check live price"
+  ],
+  "name": "4-Hour Custom Adventure Tour",
+  "pages": [
+   "Whawaii/snorkeling.html"
+  ],
+  "n_samples": 0,
+  "distinct_slots": 0,
+  "modal_tiers": [],
+  "tier_variants": 0,
+  "named": {},
+  "ld": []
+ },
+ {
+  "sn": "theblackanchorpr",
+  "pk": 647430,
+  "verdict": "MATCH",
+  "printed": [
+   375.0
+  ],
+  "units": [
+   "From $375"
+  ],
+  "name": "SSI Advance Adventure",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   375.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Diver": 37500
+  },
+  "ld": [
+   "375"
+  ]
+ },
+ {
+  "sn": "tradewindcharters",
+  "pk": 733458,
+  "verdict": "MATCH",
+  "printed": [
+   2450.0
+  ],
+  "units": [
+   "From $2450"
+  ],
+  "name": "Reef Fishing & Snorkeling Adventure Private Charter - Aloha Kai Catamaran",
+  "pages": [
+   "Whawaii/oahu.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   2450.0,
+   3200.0,
+   3950.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "3 Hours": 245000,
+   "4 Hours": 320000,
+   "5 Hours": 395000
+  },
+  "ld": []
+ },
+ {
+  "sn": "tropicalwateradventure",
+  "pk": 506795,
+  "verdict": "MATCH",
+  "printed": [
+   1500.0
+  ],
+  "units": [
+   "From $1,500 private boat"
+  ],
+  "name": "2 Private Boat For 12 people",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 16,
+  "modal_tiers": [
+   1500.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Tropical Adventure": 150000
+  },
+  "ld": [
+   "1500"
+  ]
+ },
+ {
+  "sn": "tropicalwateradventure",
+  "pk": 523164,
+  "verdict": "MATCH",
+  "printed": [
+   1300.0
+  ],
+  "units": [
+   "From $1,300"
+  ],
+  "name": "Full day Tour",
+  "pages": [
+   "Wpuertorico/luxury-tours.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   1300.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Tropical Adventure": 130000
+  },
+  "ld": []
+ },
+ {
+  "sn": "tryscuba-puertorico",
+  "pk": 34540,
+  "verdict": "MATCH",
+  "printed": [
+   89.0
+  ],
+  "units": [
+   "From $89"
+  ],
+  "name": "Try Scuba Diving Tour - San Juan",
+  "pages": [
+   "Wpuertorico/san-juan.html",
+   "Wpuertorico/san-juan.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8900,
+   "Youth": 8900
+  },
+  "ld": []
+ },
+ {
+  "sn": "tryscuba-puertorico",
+  "pk": 46134,
+  "verdict": "MATCH",
+  "printed": [
+   39.0
+  ],
+  "units": [
+   "From $39"
+  ],
+  "name": "Guided Snorkel Tour - San Juan",
+  "pages": [
+   "Wpuertorico/san-juan.html",
+   "Wpuertorico/san-juan.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   39.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 3900,
+   "Youth": 3900
+  },
+  "ld": []
+ },
+ {
+  "sn": "tryscuba-puertorico",
+  "pk": 92476,
+  "verdict": "MATCH",
+  "printed": [
+   89.0
+  ],
+  "units": [
+   "From $89"
+  ],
+  "name": "Mermaid Snorkel Tour and Photo Shoot - San Juan",
+  "pages": [
+   "Wpuertorico/san-juan.html",
+   "Wpuertorico/snorkeling.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 8900,
+   "Youth": 8900
+  },
+  "ld": []
+ },
+ {
+  "sn": "tryscuba-puertorico",
+  "pk": 240862,
+  "verdict": "MATCH",
+  "printed": [
+   199.0
+  ],
+  "units": [
+   "From $199"
+  ],
+  "name": "Private Try Scuba Diving Tour-San Juan",
+  "pages": [
+   "Wpuertorico/san-juan.html",
+   "Wpuertorico/san-juan.html*"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   199.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 19900
+  },
+  "ld": []
+ },
+ {
+  "sn": "uqtpr",
+  "pk": 521995,
+  "verdict": "MATCH",
+  "printed": [
+   425.0
+  ],
+  "units": [
+   "From $425"
+  ],
+  "name": "Loiza - African Roots Private Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   425.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour": 42500
+  },
+  "ld": []
+ },
+ {
+  "sn": "volcanoeshikingguides",
+  "pk": 568632,
+  "verdict": "MATCH",
+  "printed": [
+   120.0
+  ],
+  "units": [
+   "From $120"
+  ],
+  "name": "Guided Three-hour Hike in Volcanoes National Park",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   120.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 12000
+  },
+  "ld": []
+ },
+ {
+  "sn": "volcanoeshikingguides",
+  "pk": 575379,
+  "verdict": "MATCH",
+  "printed": [
+   1250.0
+  ],
+  "units": [
+   "From $1250 Private Tour"
+  ],
+  "name": "Volcanoes National Park Private Guided Hike",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 12,
+  "modal_tiers": [
+   1250.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour": 125000
+  },
+  "ld": [
+   "1250"
+  ]
+ },
+ {
+  "sn": "volcanoeshikingguides",
+  "pk": 744134,
+  "verdict": "MATCH",
+  "printed": [
+   89.0
+  ],
+  "units": [
+   "From $89 per group \u00b7 up to 2 people"
+  ],
+  "name": "Keiki to K\u016bpuna Tour",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   89.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Group": 8900
+  },
+  "ld": [
+   "89"
+  ]
+ },
+ {
+  "sn": "waiaina",
+  "pk": 697698,
+  "verdict": "VARIES",
+  "printed": [
+   104.0
+  ],
+  "units": [
+   "From $104"
+  ],
+  "name": "Kauai Private Baby Farm Animal Experience & Micro Dairy Immersion",
+  "pages": [
+   "Whawaii/kauai.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 17,
+  "modal_tiers": [
+   65.0,
+   103.5,
+   115.0
+  ],
+  "tier_variants": 2,
+  "named": {
+   "Adult": 11500,
+   "Child": 6500,
+   "Group discount - 6+ people (5%)": 10350
+  },
+  "ld": []
+ },
+ {
+  "sn": "waikikibeachservices",
+  "pk": 68062,
+  "verdict": "MATCH",
+  "printed": [
+   150.0
+  ],
+  "units": [
+   "From $150 per person"
+  ],
+  "name": "One-on-One Individual Surf Lesson",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   150.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "One-on-One Individual": 15000
+  },
+  "ld": []
+ },
+ {
+  "sn": "waikikibeachservices",
+  "pk": 68065,
+  "verdict": "MATCH",
+  "printed": [
+   48.0
+  ],
+  "units": [
+   "From $48 per person"
+  ],
+  "name": "Canoe Surfing",
+  "pages": [
+   "Whawaii/family-tours-oahu.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 8,
+  "modal_tiers": [
+   48.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Rider": 4800
+  },
+  "ld": []
+ },
+ {
+  "sn": "wailuawatersports",
+  "pk": 626752,
+  "verdict": "NO-PRINTED-PRICE",
+  "printed": [],
+  "units": [
+   "Price on request"
+  ],
+  "name": "Kayak And Stand Up Paddle Board Rentals",
+  "pages": [
+   "Whawaii/kayak.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 13,
+  "modal_tiers": [
+   30.0,
+   50.0,
+   100.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Double Kayak Rental": 10000,
+   "Single Kayak Rental": 5000,
+   "SUP Rental": 3000
+  },
+  "ld": []
+ },
+ {
+  "sn": "wanatourpr",
+  "pk": 448982,
+  "verdict": "MATCH",
+  "printed": [
+   90.0
+  ],
+  "units": [
+   "From $90"
+  ],
+  "name": "Rainforest Nature Escape: LGBTQ+ Cultural & Ecological Adventure in Puerto Rico",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 4,
+  "modal_tiers": [
+   90.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 9000
+  },
+  "ld": [
+   "90"
+  ]
+ },
+ {
+  "sn": "waterfallmgmt",
+  "pk": 345084,
+  "verdict": "MATCH",
+  "printed": [
+   149.0
+  ],
+  "units": [
+   "From $149"
+  ],
+  "name": "Farm to Table Cooking Class",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 7,
+  "modal_tiers": [
+   149.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Person": 14900
+  },
+  "ld": []
+ },
+ {
+  "sn": "waterlandadventure",
+  "pk": 178056,
+  "verdict": "MATCH",
+  "printed": [
+   55.0
+  ],
+  "units": [
+   "From $55"
+  ],
+  "name": "Beach & Sun Isla Cardona",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 14,
+  "modal_tiers": [
+   40.0,
+   55.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 5500,
+   "Child": 4000
+  },
+  "ld": [
+   "55"
+  ]
+ },
+ {
+  "sn": "welastransport",
+  "pk": 434725,
+  "verdict": "MATCH",
+  "printed": [
+   155.0
+  ],
+  "units": [
+   "From $155"
+  ],
+  "name": "Puerto Rico West Coast Tour",
+  "pages": [
+   "Wpuertorico/index.html"
+  ],
+  "n_samples": 16,
+  "distinct_slots": 9,
+  "modal_tiers": [
+   125.0,
+   155.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Participant": 15500,
+   "Child": 12500
+  },
+  "ld": [
+   "155"
+  ]
+ },
+ {
+  "sn": "wildhawaiitours",
+  "pk": 737792,
+  "verdict": "MATCH",
+  "printed": [
+   1900.0
+  ],
+  "units": [
+   "From $1900 per group \u00b7 up to 6 people"
+  ],
+  "name": "Wednesday and Saturday Market Tour",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   1900.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Private Tour - up to 6 people": 190000,
+   "Private Tour - up to 14 people": 0
+  },
+  "ld": [
+   "1900"
+  ]
+ },
+ {
+  "sn": "yuliamauiart",
+  "pk": 666222,
+  "verdict": "MATCH",
+  "printed": [
+   105.0
+  ],
+  "units": [
+   "From $105"
+  ],
+  "name": "UV Resin Jewelry Set",
+  "pages": [
+   "Whawaii/index.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 6,
+  "modal_tiers": [
+   75.0,
+   105.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 10500,
+   "Keiki": 7500
+  },
+  "ld": [
+   "105"
+  ]
+ },
+ {
+  "sn": "ziplinehawaii",
+  "pk": 8343,
+  "verdict": "MATCH",
+  "printed": [
+   249.0
+  ],
+  "units": [
+   "From $249"
+  ],
+  "name": "Umauma Falls 9-Line Zipline Tour",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 15,
+  "modal_tiers": [
+   239.0,
+   249.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult (9 Line Zipline)": 24900,
+   "Child (9 Line Zipline)": 23900
+  },
+  "ld": []
+ },
+ {
+  "sn": "ziplinetourshawaii",
+  "pk": 372871,
+  "verdict": "MATCH",
+  "printed": [
+   172.0
+  ],
+  "units": [
+   "From $172"
+  ],
+  "name": "Waterfall Hiking Tour",
+  "pages": [
+   "Whawaii/big-island.html"
+  ],
+  "n_samples": 17,
+  "distinct_slots": 10,
+  "modal_tiers": [
+   150.0,
+   172.0
+  ],
+  "tier_variants": 1,
+  "named": {
+   "Adult": 17200,
+   "Child": 15000
+  },
+  "ld": []
+ }
+]
