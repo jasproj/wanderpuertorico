@@ -32115,7 +32115,7 @@
     },
     {
       "id": "pr-699246",
-      "pk": 699246,
+      "pk": 699246, "hidden": true, "bookingDead": true,
       "name": "Sport Fishing Charter Puerto Rico",
       "description": "Set sail from San Juan Bay for a personalized offshore fishing adventure. Troll for mahi mahi, tuna, or marlin with expert guides, all gear included, in a safe, relaxed environment perfect for families and friends.",
       "location": "San Juan",
@@ -42564,7 +42564,7 @@
     },
     {
       "id": "pr-476445",
-      "pk": 476445,
+      "pk": 476445, "hidden": true, "bookingDead": true,
       "name": "Tiara Yacht 45 Foot",
       "description": "Experience the thrill of sailing aboard a beautifully designed boat, equipped with top-notch amenities for your comfort and safety. Perfect for exploring new destinations, this vessel offers a unique blend of elegance and adventure, ensuring an unforgettable journey on the water.",
       "location": "Fajardo",
@@ -44202,7 +44202,7 @@
     },
     {
       "id": "pr-398520",
-      "pk": 398520,
+      "pk": 398520, "hidden": true, "bookingDead": true,
       "name": "Icacos and Palomino Island's Full Day",
       "description": null,
       "location": "Fajardo",
@@ -44276,7 +44276,7 @@
     },
     {
       "id": "pr-398523",
-      "pk": 398523,
+      "pk": 398523, "hidden": true, "bookingDead": true,
       "name": "Icacos Island Half Day",
       "description": null,
       "location": "Fajardo",
@@ -44350,7 +44350,7 @@
     },
     {
       "id": "pr-398526",
-      "pk": 398526,
+      "pk": 398526, "hidden": true, "bookingDead": true,
       "name": "Palomino Island Half Day",
       "description": null,
       "location": "Fajardo",
@@ -44424,7 +44424,7 @@
     },
     {
       "id": "pr-398528",
-      "pk": 398528,
+      "pk": 398528, "hidden": true, "bookingDead": true,
       "name": "Culebrita Island Full Day",
       "description": null,
       "location": "Fajardo",
@@ -44498,7 +44498,7 @@
     },
     {
       "id": "pr-398533",
-      "pk": 398533,
+      "pk": 398533, "hidden": true, "bookingDead": true,
       "name": "Vieques Island Yayis Beach",
       "description": null,
       "location": "Fajardo",
@@ -46559,7 +46559,7 @@
     },
     {
       "id": "pr-417502",
-      "pk": 417502,
+      "pk": 417502, "hidden": true, "bookingDead": true,
       "name": "WELLCRAFT 30",
       "description": "Experience the breathtaking beauty of Icacos and Palomino Islands on a private boat ride with family or friends. Enjoy an unforgettable adventure complete with a knowledgeable captain, refreshing snacks, and drinks. Create lasting memories as you explore the stunning waters of Puerto Rico in style and comfort.",
       "location": "Fajardo",
@@ -49463,7 +49463,7 @@
     },
     {
       "id": "pr-545322",
-      "pk": 545322,
+      "pk": 545322, "hidden": true, "bookingDead": true,
       "name": "Sunseeker 60''",
       "description": "Experience the breathtaking beauty of Icacos and Palomino on a luxurious Sunseeker 60 yacht. Enjoy a memorable day with a dedicated crew, delicious snacks, refreshing drinks, and music. Choose from 4, 6, or 8-hour tours to soak up the sun, relax on a floating mattress, and create unforgettable memories.",
       "location": "Fajardo",
@@ -72751,7 +72751,7 @@
     },
     {
       "id": "pr-468193",
-      "pk": 468193,
+      "pk": 468193, "hidden": true,
       "name": "Grady White 35",
       "description": "Experience an intimate gathering with a capacity for up to 9 people, perfect for creating lasting memories. This unique setting fosters connection and engagement, making it an ideal choice for special occasions or quality time with friends and family. Enjoy a personalized atmosphere that enhances every moment shared together.",
       "location": "Fajardo",
