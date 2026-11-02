@@ -48,7 +48,7 @@ Ideal for families, groups, or couples celebrating a special occasion. The per-p
 
 ## All Inclusive Culebra Snorkeling Excursion
 
-**Operator:** Sea Ventures Pro Dive Center | **Duration:** Full day | **Quality Score:** 98
+**Operator:** Sea Ventures Dive and Snorkel | **Duration:** Full day | **Quality Score:** 98
 
 Sea Ventures brings dive-shop expertise to their snorkel trips. Guides are trained divemasters who know Culebra's reefs intimately—they'll find the sea turtles, point out spotted eagle rays, and identify the parrotfish munching on coral.
 
